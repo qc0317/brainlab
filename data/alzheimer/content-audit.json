@@ -20,7 +20,8 @@
         "S03",
         "S54",
         "S66",
-        "S72"
+        "S72",
+        "S103"
       ],
       "has_data_table": true,
       "pending_review_sections": [
@@ -76,7 +77,7 @@
         "S81",
         "S65"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [
         "本章的证据结论与待查事项"
       ],
@@ -104,7 +105,8 @@
         "S91",
         "S03",
         "S49",
-        "S50"
+        "S50",
+        "S104"
       ],
       "has_data_table": true,
       "pending_review_sections": [
@@ -223,7 +225,8 @@
       "title": "08｜预防、延缓与风险降低：先定义想改变什么",
       "source_ids": [
         "S03",
-        "S12"
+        "S12",
+        "S105"
       ],
       "has_data_table": true,
       "pending_review_sections": [],
@@ -428,7 +431,8 @@
       "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
       "source_ids": [
         "S45",
-        "S46"
+        "S46",
+        "S106"
       ],
       "has_data_table": true,
       "pending_review_sections": [],
@@ -504,7 +508,9 @@
         "S44",
         "S45",
         "S46",
-        "S03"
+        "S03",
+        "S108",
+        "S100"
       ],
       "has_data_table": true,
       "pending_review_sections": [],
@@ -656,7 +662,12 @@
       "title": "11｜睡眠与疾病：长期关联和双向关系",
       "source_ids": [
         "S94",
-        "S44"
+        "S44",
+        "S110",
+        "S111",
+        "S112",
+        "S113",
+        "S114"
       ],
       "has_data_table": true,
       "pending_review_sections": [
@@ -719,7 +730,8 @@
         "S93",
         "S94",
         "S52",
-        "S15"
+        "S15",
+        "S107"
       ],
       "has_data_table": true,
       "pending_review_sections": [
@@ -903,12 +915,18 @@
         "S78",
         "S81",
         "S10",
-        "S93"
+        "S93",
+        "S109",
+        "S100",
+        "S108",
+        "S43",
+        "S102"
       ],
       "has_data_table": true,
       "pending_review_sections": [
         "疾病终点层",
-        "机制层"
+        "机制层",
+        "为什么保留反证能让积极论证更具体"
       ],
       "review_status": "draft_not_expert_verified"
     }

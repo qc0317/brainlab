@@ -55,19 +55,20 @@ for k,c in C.items():
  b=crumb(p,title=c['title'])+intro(c['title'],c['description'],'Research Collection',str(len(ids))+' 个条目 · 更新 '+DB['updated'])
  if k in ['duolingo','keep']:
   b+='<div class="notice hub-note"><strong>观察范围：</strong>'+('官方资料与 2022 历史界面；未实测当前原生 App。' if k=='duolingo' else '官方开发者说明与公开 Web 目录/详情；未实测原生跟练、AI、付费和推送流程。')+'“体验分析”与“设计建议”是分析模型，未声称已验证黏性效果。</div>'
- elif k=='alzheimer':b+='<div class="notice hub-note"><strong>专题重建：</strong>这是一项正在推进的个人文献研究。先读已起草的概念与证据，再查看规划章节；新版正文按实际汉字计数，尚未达到十万字目标。</div>'
+ elif k=='alzheimer':b+='<div class="notice hub-note"><strong>专题重建：</strong>这是一项正在推进的个人文献研究。先读已起草的概念与证据，再查看规划章节；新版正文按实际汉字计数；字数达标与科学、阅读和页面审核分别记录。</div>'
  elif k=='brain':b+='<div class="notice hub-note">这些关联为多系统教学映射；没有本项目的游戏脑成像证据。历史“一游戏、一脑区、可预防”的强推断已纠正。</div>'
  elif k=='games':b+='<div class="actions"><a class="btn" href="matrix.html">查看游戏 × 能力矩阵</a><a class="btn secondary" href="'+href('abilities/index.html',p)+'">认知能力目录</a></div><div class="notice hub-note">任务需求依据明确规则判断；不是疗效排行榜。黑白翻转、堆叠水果采用暂定规则；密室逃脱仍需指定作品与关卡。</div>'
  if k=='alzheimer' and PROGRAM:
   b+='<div class="research-progress"><div><span class="eyebrow">个人研究 · 重建进行中</span><h2>脑部训练对于预防阿尔茨海默病，可能有效吗？</h2><p>按疾病、原因与表现、脑部变化、训练证据四条主线阅读。假设需要检验，支持、无差异和反对证据均保留。</p></div><div class="progress-count"><b>'+format(WORD_COUNT['counted_han_chars'],',')+'</b><span> / 100,000 正文汉字</span><small>'+str(WORD_COUNT['drafted_chapters'])+' / '+str(WORD_COUNT['planned_chapters'])+' 章已起草 · 尚未完成</small></div></div>'
-  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
+  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DELIVERY-AUDIT.md',p)+'">交付审核与剩余工作</a><a class="btn secondary" href="'+href('research/alzheimer/trials/index.html',p)+'">核心研究对照表</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
+  b+='<section class="section"><h2>这一专题怎样展开</h2><p>'+esc(PROGRAM.get('reading_logic',''))+'</p><p>第3部分解释大脑变化与认知受影响的联系，第4部分据此检验训练可能性。机制基础与临床效应分别记录，并通过具体研究连接。</p></section>'
   written=set(PROGRAM['drafted_record_ids'])
   for part in PROGRAM['parts']:
    available=[ch['id'] for ch in part['chapters'] if ch['id'] in written and ch['id'] in R]
    planned=[ch for ch in part['chapters'] if ch['id'] not in written]
-   b+='<section class="section" id="part-'+part['id']+'"><h2>'+esc(part['title'])+'</h2><p class="sub">'+esc(part['description'])+'</p>'+cards(available,p,'two')
+   b+='<section class="section" id="part-'+part['id']+'"><h2>'+esc(part['title'])+'</h2><p class="sub">'+esc(part['description'])+'</p><div class="notice"><strong>带着问题阅读：</strong>'+esc(part.get('reader_question',''))+'</div>'+cards(available,p,'two')
    if planned:b+='<details class="planned"><summary>后续章节 · '+str(len(planned))+' 章待撰写/重写</summary><ol>'+''.join('<li>'+esc(ch['title'])+' <span class="meta-line">尚未完成</span></li>' for ch in planned)+'</ol></details>'
-   b+='</section>'
+   b+='<p class="sub">'+esc(part.get('next_bridge',''))+'</p></section>'
   legacy=[i for i in ids if i not in written]
   if legacy:b+='<section class="section"><h2>机制旧稿与研究线索</h2><p class="sub">保留用于继续扩展与复盘；这些旧条目尚未按新专题要求重写，不计入十万字正文。</p>'+cards(legacy,p)+'</section>'
  else:b+=cards(ids,p,'two' if k in ['duolingo','keep'] else '')
@@ -115,6 +116,19 @@ for g in games:
  b+='<tr data-name="'+esc(g['title'])+'" data-main="'+esc(' '.join(d['ability_id'] for d in g['demands'] if d['level']==2))+'"><th scope="row">'+link(g['id'],p)+(' <span class="tag warn">暂定</span>' if g.get('needs_clarification') else '')+'</th>'+''.join('<td class="l'+str(d['level'])+'" aria-label="'+esc(R[d['ability_id']]['title'])+'：'+['未突出','次要或条件性','主要'][d['level']]+'">'+['—','◐','●'][d['level']]+'</td>' for d in g['demands'])+'</tr>'
 b+='</tbody></table></div><p id="matrix-empty" class="empty" hidden>没有匹配的游戏，请调整条件。</p><div class="notice"><strong>如何阅读：</strong>同名游戏因规则、限时、熟练程度和提示不同，会调用不同过程。等级 0 不表示完全没有该过程。历史“神经网络游戏”“四合一连连看”等名称不足以确定独立玩法，待补充规则后再纳入。逐游戏迁移证据审查尚未完成。</div><div class="actions"><a class="btn secondary" href="'+href('design/design-translation/index.html',p)+'">从矩阵进入产品设计 →</a></div>'
 render(p,'游戏能力需求矩阵',b,'games')
+# Structured trial browser: data remains independently downloadable.
+p='research/alzheimer/trials/index.html'
+EXTRACTS=json.loads((ROOT/'data/alzheimer/trial-extractions.json').read_text())
+b=crumb(p,title='核心训练研究对照')+intro('核心训练研究对照','逐项查看人群、对照和实际终点，再回到原文与详细解读。当前为第一批部分提取，完整数据与方法审核仍在进行。','Literature Comparison')
+b+='<div class="notice">同一试验的不同随访不是独立重复验证；综述与原始试验可能重叠。认知、任务、脑电及临床发生分别记录。</div><div class="actions"><a class="btn secondary" href="'+href('data/alzheimer/trial-extractions.json',p)+'" download>下载结构化数据 JSON</a><a class="btn secondary" href="'+href('research-programs/alzheimer/TRIALS.md',p)+'" download>下载研究对照表</a></div>'
+b+='<nav class="reading-parts" aria-label="按研究跳转">'+''.join('<a href="#trial-'+esc(x['id'])+'">'+esc(x['id'])+'</a>' for x in EXTRACTS['studies'])+'</nav>'
+for x in EXTRACTS['studies']:
+ assert x['source_id'] in S and x['record_id'] in R
+ b+='<section class="section" id="trial-'+esc(x['id'])+'"><span class="tag">部分提取 · 审核中</span><h2>'+esc(S[x['source_id']]['title'])+'</h2>'
+ b+=table([['提取字段','当前记录'],['人群',x['population']],['训练或干预',x['intervention']],['比较对象',x['comparator']],['实际终点',x['outcome']],['结果',x['effect_summary']],['同队列标识',x['cohort_key']],['读取范围',x['access_scope']],['限制与待核',x['limitations_and_pending']]])
+ b+='<div class="actions"><a class="btn" href="'+href(path(x['record_id']),p)+'">阅读详细章节</a><a class="btn secondary" href="'+esc(x['source_url'])+'" target="_blank" rel="noopener">查看原始文献 ↗</a></div>'+cite([x['source_id']],p)+'</section>'
+render(p,'核心训练研究对照',b,'alzheimer')
+
 # Search index embeds all authored text for offline browsing; URLs relative to root.
 search=[dict(id=r['id'],title=r['title'],summary=r['summary'],collection=r['collection'],category=C[r['collection']]['title'],status=r['status'],url=path(r['id']),text=' '.join([r['title'],r['summary'],*r.get('aliases',[]),json.dumps(r['sections'],ensure_ascii=False)])) for r in R.values()]
 search += [dict(id=s['id'],title=s['title'],summary=s['note'] or s['access'],collection='sources',category='来源',status=s['kind'],url='sources/index.html#'+s['id'],text=' '.join(map(str,s.values()))) for s in S.values()]

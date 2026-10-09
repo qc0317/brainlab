@@ -1,12 +1,12 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 91997,
-  "visible_chars": 105071,
+  "counted_han_chars": 100452,
+  "visible_chars": 115129,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
-  "target_met": false,
+  "target_met": true,
   "chapters": [
     {
       "id": "ad-foundations",
@@ -19,8 +19,8 @@
     {
       "id": "ad-biomarkers",
       "title": "07｜临床诊断与生物学定义：两个框架的分歧",
-      "han_chars": 2323,
-      "visible_chars": 2699,
+      "han_chars": 3054,
+      "visible_chars": 3618,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -43,8 +43,8 @@
     {
       "id": "ad-circuits",
       "title": "04｜海马与情景记忆回路：事件如何被区分和联系",
-      "han_chars": 2751,
-      "visible_chars": 2999,
+      "han_chars": 3658,
+      "visible_chars": 4081,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -59,8 +59,8 @@
     {
       "id": "ad-vascular",
       "title": "09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白",
-      "han_chars": 1176,
-      "visible_chars": 1345,
+      "han_chars": 2020,
+      "visible_chars": 2380,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -115,8 +115,8 @@
     {
       "id": "ad-outcome-language",
       "title": "08｜预防、延缓与风险降低：先定义想改变什么",
-      "han_chars": 1034,
-      "visible_chars": 1146,
+      "han_chars": 1882,
+      "visible_chars": 2158,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -243,8 +243,8 @@
     {
       "id": "ad-evidence-cochrane",
       "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
-      "han_chars": 1798,
-      "visible_chars": 2024,
+      "han_chars": 2588,
+      "visible_chars": 3000,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -291,8 +291,8 @@
     {
       "id": "ad-transfer",
       "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
-      "han_chars": 1373,
-      "visible_chars": 1496,
+      "han_chars": 2127,
+      "visible_chars": 2354,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -371,8 +371,8 @@
     {
       "id": "ad-sleep",
       "title": "11｜睡眠与疾病：长期关联和双向关系",
-      "han_chars": 787,
-      "visible_chars": 950,
+      "han_chars": 2028,
+      "visible_chars": 2380,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -403,8 +403,8 @@
     {
       "id": "ad-social-education",
       "title": "12｜教育、活动与社交：有价值的经历不自动等于预防证据",
-      "han_chars": 940,
-      "visible_chars": 1059,
+      "han_chars": 1689,
+      "visible_chars": 1913,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -483,8 +483,8 @@
     {
       "id": "ad-synthesis",
       "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
-      "han_chars": 1063,
-      "visible_chars": 1233,
+      "han_chars": 2654,
+      "visible_chars": 3125,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

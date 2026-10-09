@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-10",
+  "goal_complete": false,
+  "requirements": [
+    {
+      "requirement": "不少于十万实质性中文正文",
+      "status": "quantitative_pass_editorial_pending",
+      "evidence": "data/alzheimer/word-count.json；计数器只取新研究正文段落、列表及表格数据行；精确重复排除，不检测近义重复，仍需编辑审核"
+    },
+    {
+      "requirement": "四条主线、导读与分层章节",
+      "status": "structure_present_readability_pending",
+      "evidence": "program.json：8/14/14/24章；目录与生成页面存在；完整由浅入深阅读尚未审核"
+    },
+    {
+      "requirement": "逐篇证据提取、数据与方法评价",
+      "status": "incomplete",
+      "evidence": "章节存在原始数据与方法解释，但不是全部来源逐篇完成提取；关键补充材料仍待核对"
+    },
+    {
+      "requirement": "支持、无效与反向证据综合",
+      "status": "present_critical_review_pending",
+      "evidence": "ad-synthesis、ad-transfer及各试验；临床终点与任务收益区分；关键主张仍需逐项复核"
+    },
+    {
+      "requirement": "许可、版本、读取范围",
+      "status": "partially_audited",
+      "evidence": "来源与literature-audit记录存在；部分许可、正式版本与更正数据待核对"
+    },
+    {
+      "requirement": "多级导航、检索、关联、响应式",
+      "status": "static_pass_interaction_pending",
+      "evidence": "120页面5795链接校验；视觉、手机尺寸、检索实际交互仍待验证"
+    },
+    {
+      "requirement": "Git同步与公网最新发布",
+      "status": "incomplete",
+      "evidence": "本地d8abfb7；公网69f1b0e仅91997汉字，未发布最新100452版本"
+    },
+    {
+      "requirement": "可下载研究材料",
+      "status": "local_present_public_update_pending",
+      "evidence": "DRAFT.md与中文下载文件存在；公网仍旧版"
+    }
+  ],
+  "chapter_count": 60,
+  "chapters_without_tables": [
+    "01｜从一个生活例子理解阿尔茨海默病",
+    "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
+    "02｜选择性易损与分期：为什么不是整脑均匀衰退",
+    "01｜把“脑部训练可能有效”改写成可验证问题",
+    "01｜原因、机制与风险：为何不能写成单一病因",
+    "06｜ACTIVE 五年：没有发现痴呆发生率差异",
+    "05｜记忆型与非典型表型：不是每个人都先忘事"
+  ],
+  "sources_flagged_for_reading_audit": [
+    "S04",
+    "S06",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S14",
+    "S16",
+    "S17",
+    "S20",
+    "S34",
+    "S42",
+    "S43",
+    "S44",
+    "S45",
+    "S46",
+    "S47",
+    "S48",
+    "S49",
+    "S50",
+    "S51",
+    "S52",
+    "S53",
+    "S54",
+    "S55",
+    "S56",
+    "S57",
+    "S58",
+    "S59",
+    "S60",
+    "S61",
+    "S62",
+    "S63",
+    "S65",
+    "S66",
+    "S67",
+    "S68",
+    "S69",
+    "S70",
+    "S71",
+    "S72",
+    "S73",
+    "S74",
+    "S75",
+    "S76",
+    "S78",
+    "S79",
+    "S80",
+    "S81",
+    "S82",
+    "S83",
+    "S84",
+    "S86",
+    "S87",
+    "S88",
+    "S90",
+    "S93",
+    "S94",
+    "S95",
+    "S99",
+    "S100",
+    "S101",
+    "S102",
+    "S103",
+    "S104",
+    "S105",
+    "S106",
+    "S107",
+    "S108",
+    "S109",
+    "S110",
+    "S111",
+    "S113",
+    "S114"
+  ]
+}

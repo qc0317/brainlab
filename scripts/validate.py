@@ -49,4 +49,23 @@ for r in db['records']:
   assert len({d['ability_id'] for d in r['demands']})==9
   assert all(d['ability_id'] in ids and d['level'] in (0,1,2) for d in r['demands'])
  for rel in r['relationships']:assert rel['target_id'] in ids and rel['type'] in ['task-demand','research-context','see-also']
+# Validate structured evidence provenance, not scientific effect correctness.
+extract_path=ROOT/'data/alzheimer/trial-extractions.json'
+if extract_path.exists():
+ extracts=json.loads(extract_path.read_text())
+ record_map={x['id']:x for x in db['records']}
+ source_map={x['id']:x for x in db['sources']}
+ study_ids=set()
+ allowed_levels={'clinical_dementia_algorithm','claims_adrd','independent_cognition','task_and_transfer','task_and_eeg'}
+ for x in extracts['studies']:
+  assert x['id'] not in study_ids,('duplicate study extraction',x['id'])
+  study_ids.add(x['id'])
+  assert x['source_id'] in source_map and x['record_id'] in record_map
+  assert x['source_id'] in record_map[x['record_id']]['source_ids'],('uncited extraction source',x['id'])
+  assert x['source_url']==source_map[x['source_id']]['url'],('provenance URL mismatch',x['id'])
+  assert x['outcome_level'] in allowed_levels
+  for field in ['population','intervention','comparator','outcome','effect_summary','limitations_and_pending','access_scope','cohort_key','audit_status']:
+   assert isinstance(x[field],str) and x[field].strip(),('missing extraction field',x['id'],field)
+ assert not extracts['complete'] or all(x['audit_status']=='verified' for x in extracts['studies']), 'Incomplete study audits cannot be labelled complete'
+
 print(f'PASS: {len(pages)} pages; {checked} local links/assets/anchors; {len(index)} searchable records; all citations, relationships and demand IDs valid')
