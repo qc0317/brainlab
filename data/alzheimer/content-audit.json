@@ -23,7 +23,9 @@
         "S72"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "怎样影响训练研究入组"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {
@@ -246,7 +248,7 @@
         "S56",
         "S57"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     },
@@ -291,7 +293,9 @@
         "S43"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "旧定义与敏感性分析"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {
@@ -304,7 +308,9 @@
       "has_data_table": true,
       "pending_review_sections": [
         "原文内部数字差异：本次全文核验发现",
-        "怎样理解这种方法学分歧"
+        "怎样理解这种方法学分歧",
+        "模型检查与尚待核查",
+        "补充文件访问审核｜2026年10月10日"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -327,9 +333,10 @@
       "source_ids": [
         "S44"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [
-        "下一步需要做的全文工作"
+        "下一步需要做的全文工作",
+        "对项目设计应保留的推断"
       ],
       "review_status": "draft_not_expert_verified"
     },

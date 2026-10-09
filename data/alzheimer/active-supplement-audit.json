@@ -1,0 +1,35 @@
+{
+  "trial": "ACTIVE",
+  "paper_doi": "10.1002/trc2.70197",
+  "checked": "2026-10-10",
+  "status": "supplement_content_not_acquired",
+  "files": [
+    {
+      "name": "trc270197-sup-0001-SuppMat.docx",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Ftrc2.70197&file=trc270197-sup-0001-SuppMat.docx",
+      "access_result": "HTTP403"
+    },
+    {
+      "name": "trc270197-sup-0002-ICMJE.pdf",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Ftrc2.70197&file=trc270197-sup-0002-ICMJE.pdf",
+      "access_result": "not_attempted"
+    },
+    {
+      "name": "trc270197-sup-0003-SuppMat.docx",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Ftrc2.70197&file=trc270197-sup-0003-SuppMat.docx",
+      "access_result": "not_attempted"
+    },
+    {
+      "name": "trc270197-sup-0004-SuppMat.docx",
+      "url": "https://alz-journals.onlinelibrary.wiley.com/action/downloadSupplement?doi=10.1002%2Ftrc2.70197&file=trc270197-sup-0004-SuppMat.docx",
+      "access_result": "not_attempted"
+    }
+  ],
+  "pending": [
+    "Fine–Gray competing-risk estimates",
+    "booster eligibility/randomization sample flow",
+    "text versus table adjusted estimate discrepancy",
+    "subgroup sample count discrepancy",
+    "multiple-comparison sensitivity and correction notices"
+  ]
+}
