@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 34933,
-  "visible_chars": 39610,
+  "counted_han_chars": 45340,
+  "visible_chars": 51601,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 22,
+  "drafted_chapters": 28,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -41,10 +41,26 @@
       "status": "draft"
     },
     {
+      "id": "ad-circuits",
+      "title": "04｜海马与情景记忆回路：事件如何被区分和联系",
+      "han_chars": 2751,
+      "visible_chars": 2999,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
       "id": "ad-synapses",
       "title": "03｜突触、胶质细胞与炎症：连接为何会失效",
-      "han_chars": 2706,
-      "visible_chars": 3025,
+      "han_chars": 3214,
+      "visible_chars": 3708,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-navigation",
+      "title": "05｜空间导航：路线、地图与路径整合",
+      "han_chars": 1588,
+      "visible_chars": 1825,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -181,6 +197,38 @@
       "title": "06｜规划、注意与判断：怎样理解执行功能表现",
       "han_chars": 1860,
       "visible_chars": 2068,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-cochrane",
+      "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
+      "han_chars": 1798,
+      "visible_chars": 2024,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-finger",
+      "title": "11｜FINGER：综合生活方式方案的证据，不能拆成游戏疗效",
+      "han_chars": 1151,
+      "visible_chars": 1366,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-mapt",
+      "title": "13｜MAPT：总体结果与亚组假说怎样分开",
+      "han_chars": 1470,
+      "visible_chars": 1756,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-prediva",
+      "title": "14｜preDIVA：直接观察痴呆发生，主要结果未显著",
+      "han_chars": 1141,
+      "visible_chars": 1338,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

@@ -157,13 +157,13 @@
         },
         {
           "id": "ad-circuits",
-          "title": "海马、内嗅皮层与情景记忆回路",
-          "status": "planned"
+          "title": "04｜海马与情景记忆回路：事件如何被区分和联系",
+          "status": "draft"
         },
         {
           "id": "ad-navigation",
-          "title": "导航系统与环境表征",
-          "status": "planned"
+          "title": "05｜空间导航：路线、地图与路径整合",
+          "status": "draft"
         },
         {
           "id": "ad-control-network",
@@ -259,13 +259,13 @@
         },
         {
           "id": "ad-evidence-cochrane",
-          "title": "Cochrane：保持、MCI 和确诊痴呆分别看",
-          "status": "planned"
+          "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-finger",
-          "title": "FINGER：多领域干预的认知结果",
-          "status": "planned"
+          "title": "11｜FINGER：综合生活方式方案的证据，不能拆成游戏疗效",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-pointer",
@@ -274,13 +274,13 @@
         },
         {
           "id": "ad-evidence-mapt",
-          "title": "MAPT：总体结果与探索性亚组",
-          "status": "planned"
+          "title": "13｜MAPT：总体结果与亚组假说怎样分开",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-prediva",
-          "title": "preDIVA：全因痴呆发生率",
-          "status": "planned"
+          "title": "14｜preDIVA：直接观察痴呆发生，主要结果未显著",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-sprint",
@@ -357,6 +357,12 @@
     "ad-executive-symptoms",
     "ad-amyloid-tau",
     "ad-synapses",
-    "ad-vulnerability"
+    "ad-vulnerability",
+    "ad-circuits",
+    "ad-navigation",
+    "ad-evidence-cochrane",
+    "ad-evidence-finger",
+    "ad-evidence-mapt",
+    "ad-evidence-prediva"
   ]
 }
