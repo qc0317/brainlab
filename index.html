@@ -1,0 +1,316 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="BrainLab 认知游戏项目设计：科学边界、认知分类、游戏需求矩阵与研究路线图"><title>BrainLab｜认知游戏研究与设计</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:#f3f6fa;color:#18283d;font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif}a{color:#096b71}a:hover{color:#00444b}header{background:#102339;color:white;padding:20px 5%;position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:24px}header strong{font-size:22px;white-space:nowrap}nav{display:flex;gap:20px;overflow:auto}nav a{color:#c9d7e6;text-decoration:none;white-space:nowrap;font-size:14px}main{max-width:1200px;margin:auto;padding:0 32px}.hero{padding:72px 0 52px;display:grid;grid-template-columns:1.7fr 1fr;gap:48px}.eyebrow{font-size:13px;letter-spacing:3px;font-weight:700;color:#087a80}h1{font-size:clamp(36px,5vw,62px);line-height:1.3;letter-spacing:-2px;margin:18px 0}h2{font-size:30px;line-height:1.4;margin:0 0 14px}h3{font-size:20px;line-height:1.5;margin:0 0 12px}p{margin:8px 0 16px}.muted{color:#53667b}.hero p{max-width:660px}.panel{background:#102339;color:#d4e6ef;padding:30px;border-radius:18px;align-self:center}.panel b{color:#5fe0d2;font-size:30px}.flow{display:flex;justify-content:space-between;gap:8px;border-top:1px solid #355069;padding-top:18px;font-size:14px}.btn{display:inline-block;background:#087980;color:white;text-decoration:none;padding:10px 22px;border-radius:7px;margin-top:12px}section{padding:42px 0;border-top:1px solid #d2dce6}.section-title{display:flex;gap:20px;align-items:baseline}.num{font:700 15px ui-monospace,monospace;color:#087980}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:24px}.card{background:white;border:1px solid #d8e2ec;border-radius:12px;padding:24px}.card p{font-size:15px}.tag{font-size:12px;display:inline-block;padding:2px 9px;background:#e5f5f3;color:#075e62;border-radius:4px;margin-bottom:12px}.small{font-size:14px;color:#52657a}.notice{background:#e4f2f2;border-left:4px solid #087980;padding:22px 26px;border-radius:0 10px 10px 0;margin-top:22px}.two{grid-template-columns:repeat(2,minmax(0,1fr))}.table-wrap{overflow:auto;border:1px solid #d5dfe9;border-radius:10px;background:white;margin:24px 0}table{border-collapse:collapse;width:100%;font-size:14px}th,td{padding:14px;border-bottom:1px solid #e0e7ef;text-align:left}th{background:#eaf0f6;white-space:nowrap}td{min-width:85px}tbody th{background:white;position:sticky;left:0;z-index:1}td.level2{background:#d7f1ed;color:#056d65;font-weight:700}td.level1{background:#eff5f9;color:#61738a}td.level0{color:#8d99a7}.controls{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}input,select,button{font:inherit;padding:10px 14px;border:1px solid #bdccdb;border-radius:7px;background:white;color:#18283d}input{flex:1;min-width:180px}button{cursor:pointer}details{background:white;padding:18px 22px;border:1px solid #dae3ec;border-radius:8px;margin-top:12px}summary{cursor:pointer;font-weight:600}.road{counter-reset:step}.road .card{border-top:4px solid #087980}.road h3{font-size:18px}footer{padding:35px 0 50px;font-size:14px;color:#5c6e80}.legend{display:flex;gap:20px;flex-wrap:wrap;font-size:14px}.lead{font-size:18px}.empty{padding:24px;text-align:center}.skip{position:absolute;left:0;top:-100px;background:white;padding:10px;z-index:20}.skip:focus{top:0}:focus-visible{outline:3px solid #e8a742;outline-offset:3px}@media(max-width:800px){header{position:relative;display:block}nav{margin-top:12px;gap:16px}main{padding:0 20px}.hero{grid-template-columns:1fr;padding:40px 0;gap:20px}.grid,.two{grid-template-columns:1fr}section{padding:32px 0}.section-title{gap:12px}h2{font-size:25px}.panel{padding:24px}h1{letter-spacing:0}.card{padding:22px}}@media print{header{position:static}nav,.controls,.btn{display:none}body{background:white;font-size:12px}.hero{padding:20px 0}main{max-width:none}.grid{gap:10px}.card{break-inside:avoid}section{padding:20px 0}.table-wrap{overflow:visible}th,td{padding:6px}h1{font-size:32px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}</style></head><body><a class="skip" href="#vision">跳至正文</a><header><strong>BrainLab<span style="color:#64d8ce"> / </span>设计手册</strong><nav aria-label="章节导航"><a href="#vision">愿景</a><a href="#science">科学边界</a><a href="#abilities">认知能力</a><a href="#brain">脑区映射</a><a href="#games">游戏库</a><a href="#matrix">能力矩阵</a><a href="#roadmap">路线图</a></nav></header><main><div class="hero"><div><div class="eyebrow">PROJECT NOTEBOOK · V0.1 / 2026.10.09</div><h1>以游戏为入口，<br>理解认知的可能。</h1><p class="lead muted">从经典益智游戏出发，建立一套可解释、可测量、可持续迭代的认知游戏研究与产品设计框架。</p><a class="btn" href="#matrix">查看游戏 × 能力矩阵</a></div><aside class="panel"><span class="small" style="color:#c3d3df">当前项目基线</span><p><b>15</b> 个游戏任务　<b>9</b> 类能力</p><p>先明确任务需求，再检验训练收益。</p><div class="flow"><span>游戏规则</span><span>认知需求</span><span>独立评估</span></div><p class="small" style="color:#a8becf;margin-top:20px">研究与设计原型 · 尚未验证的训练体系</p></aside></div><section id="vision"><div class="section-title"><span class="num">01</span><h2>项目愿景</h2></div><p class="muted">将零散的“益智游戏推荐”发展为有明确假设、任务定义和验证标准的项目。</p><div class="grid"><article class="card"><h3>理解任务</h3><p>解释玩家在做什么、需要哪些认知过程，以及规则与难度如何改变这些需求。</p></article><article class="card"><h3>设计体验</h3><p>形成规则清晰、反馈适度、难度可调的游戏组合；兼顾兴趣、挫败感与可持续参与。</p></article><article class="card"><h3>验证收益</h3><p>用未练习过的测验检验变化。游戏成绩、主观体验与认知测验分别记录。</p></article></div><p class="small">首阶段面向研究与产品设计者；目标年龄、使用情境和儿童适配标准尚待确定。本页是项目设计文档，不包含可玩的游戏或已运行的评估系统。</p></section><section id="science"><div class="section-title"><span class="num">02</span><h2>参与 ≠ 已证实的迁移训练</h2></div><div class="grid"><div class="card"><span class="tag">任务层</span><h3>游戏内进步</h3><p>分数提高、步数减少或操作变熟练，首先说明对这款游戏的学习，不能单独证明一般认知能力提升。</p></div><div class="card"><span class="tag">相似任务层</span><h3>近迁移</h3><p>在未练习、但结构相似的任务上改善。需控制重复测验、熟悉度和期待效应。</p></div><div class="card"><span class="tag">跨情境层</span><h3>远迁移</h3><p>改善不同任务、学习表现或日常功能，证据要求更高。多项综合研究发现其效应较小或不稳定，不能预先承诺。<a href="#ref1">[1]</a></p></div></div><div class="notice"><strong>本项目的证据约定</strong><p>矩阵是依据规则作出的设计假设，表示认知需求；不表示效果大小、脑区激活强度或临床收益。尚未对这 15 款游戏逐一审查迁移研究。研究结论必须限定人群、游戏版本、训练剂量与测量结果。</p></div><details><summary>历史表述修正记录</summary><ul><li>“所有游戏都训练空间感知与问题解决”改为逐任务分析，避免泛化。</li><li>数独与扫雷默认不限时；反应速度不是它们的核心要求。2048 也不能仅凭操作推定速度训练。</li><li>“记忆力”拆分为工作记忆与记忆提取；记住公式、词汇和暂存局面并非同一过程。</li><li>不能将逻辑推理、记忆或注意力分配给单个脑叶；前额叶也不等于整个额叶。</li><li>脑区参与不意味着该游戏能选择性强化该区域；行为成绩无法直接推出神经变化。</li></ul></details></section><section id="abilities"><div class="section-title"><span class="num">03</span><h2>认知能力分类</h2></div><p class="muted">九个分析维度有重叠，属于产品设计的操作性分类，并非九种相互独立的脑功能。</p><div class="grid"><article class="card"><span class="tag">C01</span><h3>注意力</h3><p>选择目标、持续关注并抵抗干扰。</p><div class="small">测量提示：漏选率、干扰错误；区分持续与选择性注意</div></article><article class="card"><span class="tag">C02</span><h3>工作记忆</h3><p>暂时保持并更新当前任务信息。</p><div class="small">测量提示：更新准确率；可见棋盘不能直接当作记忆测验</div></article><article class="card"><span class="tag">C03</span><h3>记忆提取</h3><p>提取已学知识、词汇或位置线索。</p><div class="small">测量提示：延迟回忆、识别正确率；区别于工作记忆</div></article><article class="card"><span class="tag">C04</span><h3>逻辑推理</h3><p>依据约束推导结论并检验假设。</p><div class="small">测量提示：合法推理步数、猜测比例</div></article><article class="card"><span class="tag">C05</span><h3>空间认知</h3><p>理解位置、旋转与物体之间的关系。</p><div class="small">测量提示：旋转错误、路径效率</div></article><article class="card"><span class="tag">C06</span><h3>视觉加工</h3><p>识别图形、颜色和视觉模式。</p><div class="small">测量提示：匹配正确率、视觉搜索效率</div></article><article class="card"><span class="tag">C07</span><h3>规划求解</h3><p>分解目标、预测结果并安排动作。</p><div class="small">测量提示：步数、回退次数、提示依赖</div></article><article class="card"><span class="tag">C08</span><h3>认知灵活性</h3><p>在策略失效时切换规则或方案。</p><div class="small">测量提示：切换成本、重复无效操作</div></article><article class="card"><span class="tag">C09</span><h3>处理速度</h3><p>在准确前提下快速感知、判断与响应。</p><div class="small">测量提示：准确率与用时共同记录；不能只看速度</div></article></div></section><section id="brain"><div class="section-title"><span class="num">04</span><h2>脑区与能力：以协作为单位</h2></div><p class="muted">下表是功能关联的简化概览，不是游戏的脑成像结果。脑叶内部具有异质性，同一能力需要多个区域共同支持。<a href="#ref3">[3]</a></p><div class="table-wrap"><table><thead><tr><th>区域 / 系统</th><th>相关认知过程</th><th>设计解释与边界</th></tr></thead><tbody>
+<tr><th>前额叶及额顶控制网络</th><td>目标维持、工作记忆、策略控制与推理</td><td>规划与求解涉及多区协作；不能称为“逻辑中枢”。</td></tr>
+<tr><th>顶叶及相关注意网络</th><td>空间关系、注意分配、部分数量加工</td><td>空间游戏也依赖视觉与执行系统，不是顶叶单独工作。</td></tr>
+<tr><th>枕叶与延伸的视觉通路</th><td>视觉信息加工、物体识别与空间分析</td><td>“看见”与“识别、搜索”涉及不同层级；视觉能力不能全归给枕叶。</td></tr>
+<tr><th>颞叶及相关语言系统</th><td>听觉、语义知识、部分物体识别</td><td>填字中的语言提取依赖分布式系统；不能等同全部记忆。</td></tr>
+<tr><th>海马及内侧颞叶系统</th><td>新情景记忆形成、关系记忆</td><td>不是全部记忆的储存箱；工作记忆也不能简单归于海马。<a href="#ref4">[4]</a></td></tr>
+<tr><th>感觉运动系统、基底节与小脑</th><td>操作执行、技能学习与动作时序</td><td>限时操作同时受感知、决策、设备和运动速度影响。</td></tr>
+</tbody></table></div><div class="notice"><strong>从游戏到脑区，中间还需要证据。</strong><p>例如：推箱子 → 路径规划与空间表征 → 可能关联控制与空间加工系统。这是理论解释，不能写成“推箱子已证实训练前额叶”。如要研究神经机制，需要具体实验与神经测量。</p></div></section><section id="games"><div class="section-title"><span class="num">05</span><h2>游戏任务库</h2></div><p class="muted">保留历史讨论中的游戏；对歧义名称明确工作定义。密室逃脱暂按单关任务分析，其余按下述版本。规则是简述，正式实现需补充完整边界条件。</p><div class="controls"><input id="search" type="search" aria-label="搜索游戏" placeholder="搜索游戏名称、规则或说明"><select id="group" aria-label="游戏类别"><option value="">全部类别</option><option>逻辑</option><option>规划</option><option>搜索</option><option>空间</option><option>语言</option><option>记忆</option><option>物理</option><option>综合</option></select><button id="reset" type="button">重置筛选</button></div><p id="count" class="small" aria-live="polite"></p><div id="game-list" class="grid"></div><details><summary>待澄清的历史名称与收录标准</summary><p>“神经网络游戏”“变色龙”“点数连线”“四合一连连看”未提供足够规则，暂不作为独立任务加入矩阵。“四合一连连看”先归入常见连连看规则；若玩法不同再拆分。黑白翻转与堆叠水果的工作定义需确认；密室逃脱需指定作品及关卡。保留它们的讨论痕迹，不将模糊名称包装成已确定的经典游戏。</p></details></section><section id="matrix"><div class="section-title"><span class="num">06</span><h2>游戏 × 认知能力矩阵</h2></div><p class="muted">按上述默认规则判断任务需求，属于可修订的专家式分析。不限时版本不因记录用时而被标记为速度任务。</p><div class="legend"><span><strong style="color:#056d65">● 主要</strong>：规则核心需求</span><span>◐ 次要：策略 / 关卡相关</span><span>—：未列为突出需求，不代表完全不使用</span></div><p class="small">矩阵与游戏库使用相同筛选。手机可在表格内横向滑动；每个标记可查看文字说明。</p><div class="table-wrap"><table id="matrix-table"><caption style="text-align:left;padding:14px;font-weight:600">任务需求矩阵 · 非训练效果评级</caption><thead><tr><th scope="col">游戏</th><th scope="col">注意力</th><th scope="col">工作记忆</th><th scope="col">记忆提取</th><th scope="col">逻辑推理</th><th scope="col">空间认知</th><th scope="col">视觉加工</th><th scope="col">规划求解</th><th scope="col">认知灵活性</th><th scope="col">处理速度</th></tr></thead><tbody id="matrix-body"></tbody></table></div><p class="small">解释示例：记忆方块的序列复现直接要求工作记忆；填字更依赖知识提取。熟练魔方玩家可能转向公式调用，因此矩阵需随水平调整。全部条目的迁移证据状态：待逐项审查。</p></section><section id="roadmap"><div class="section-title"><span class="num">07</span><h2>训练体系设计路线图</h2></div><p class="muted">每一步用可检查的产出推进；先验证可用性，再检验迁移。以下是研发计划，不是已证实有效的训练处方。</p><div class="grid two road"><article class="card"><span class="tag">阶段 01 · 当前基础</span><h3>定义任务与假设</h3><p>确认目标人群与游戏版本；整理能力定义、映射依据和参考文献。</p><div class="small">完成标准：规则可复现，所有效果主张有来源或“待验证”标签。</div></article><article class="card"><span class="tag">阶段 02 · 原型设计</span><h3>组合与难度机制</h3><p>按逻辑、空间、搜索、记忆建立任务池。一次改变一个难度参数，避免速度与复杂度同时上升。</p><div class="small">完成标准：可记录正确率、用时、步数、提示、退出与主观负荷。</div></article><article class="card"><span class="tag">阶段 03 · 可用性试点</span><h3>检验体验与可行性</h3><p>以数独 / 推箱子 / 记忆方块 / 舒尔特方格构成示例轮换；时长与频率由试点和负荷反馈确定。</p><div class="small">完成标准：理解规则、依从性、疲劳与难度曲线可分析；不作效能结论。</div></article><article class="card"><span class="tag">阶段 04 · 效果验证</span><h3>区分练习与迁移</h3><p>预注册主要结果；使用随机分组、期待与时长匹配的主动对照、独立测验、延迟随访。</p><div class="small">完成标准：报告效应量、不确定性、退出与空结果；样本量由功效分析决定。</div></article></div><details><summary>训练组合的工作草案</summary><p>一次体验可围绕一个主要目标选择任务，配合另一类任务轮换。先熟悉规则，再以正确率和主观负荷调整难度。游戏内记录用于调节体验；训练前后独立测验用于研究迁移，两者分别保存。</p><p>尚未指定每天几分钟或持续几周，因为最佳剂量不能由这张矩阵推导。若面向儿童，应另行明确年龄适配、监护同意、最少数据收集与休息安排。</p></details></section><section id="questions"><div class="section-title"><span class="num">08</span><h2>下一轮需要回答的问题</h2></div><div class="grid two"><article class="card"><h3>对象与目标</h3><p>优先服务哪个年龄段？目标是兴趣、学习策略、某项认知测验，还是日常功能？哪些结果具有实际意义？</p></article><article class="card"><h3>版本与解释</h3><p>黑白翻转到底是哪种规则？如何选定密室关卡？同一游戏的新手与专家是否需要不同矩阵？</p></article><article class="card"><h3>评估与证据</h3><p>哪些游戏有随机对照研究？效果能持续多久？如何避免测验练习效应、期待效应及多重比较？</p></article><article class="card"><h3>体验与数据</h3><p>如何平衡难度与挫败感？怎样记录游戏版本、设备、提示和退出？哪些数据足够支持问题而无需过度收集？</p></article></div></section><section id="sources"><div class="section-title"><span class="num">09</span><h2>参考与维护</h2></div><p class="small">以下资料支持科学边界与基础功能说明，不为每个矩阵格子提供实证背书。检索日期：2026-10-09；此版本未进行系统综述。</p><ol class="small"><li id="ref1"><a href="https://doi.org/10.1525/collabra.203" target="_blank" rel="noopener">Sala 等（2019）· Near and Far Transfer in Cognitive Training</a>：二阶元分析，提示近迁移与远迁移应分开评估。</li><li id="ref2"><a href="https://www.nature.com/articles/nature09042" target="_blank" rel="noopener">Owen 等（2010）· Putting brain training to the test</a>：大型在线训练研究，游戏内进步不能替代独立迁移结果。</li><li id="ref3"><a href="https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822" target="_blank" rel="noopener">BrainFacts / Society for Neuroscience · Identifying Major Brain Landmarks</a>：基础脑区与解剖标志概览。</li><li id="ref4"><a href="https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory" target="_blank" rel="noopener">BrainFacts / Society for Neuroscience · Different Facets of Memory</a>：记忆类型与多个系统的协作。</li></ol><details><summary>如何继续编辑此项目</summary><p>本文件内嵌全部样式与脚本，离线可用。游戏库和矩阵由下方 <code>projectData.games</code> 统一生成；能力列由 <code>projectData.abilities</code> 定义。需求值：2 = 主要，1 = 次要，0 = 未突出。新增游戏需同步补全规则、版本说明与九项需求值。</p><p>下一版建议为各条目新增：目标年龄、难度参数、测量指标、来源、研究人群、剂量、对照、近迁移 / 远迁移结果、证据审查日期。每次修订保留版本号及变更记录。</p></details></section><footer>BrainLab / 认知游戏研究与设计　·　v0.1<br>由历史讨论整理；矩阵为规则分析假设，训练效果待研究。<a href="#">返回顶部</a></footer></main><script>
+// 编辑入口：修改此数据对象即可同时更新游戏库和能力矩阵。
+const projectData = {
+  "version": "0.1",
+  "updated": "2026-10-09",
+  "abilities": [
+    "注意力",
+    "工作记忆",
+    "记忆提取",
+    "逻辑推理",
+    "空间认知",
+    "视觉加工",
+    "规划求解",
+    "认知灵活性",
+    "处理速度"
+  ],
+  "games": [
+    {
+      "id": "g01",
+      "name": "数独",
+      "group": "逻辑",
+      "rule": "9×9 网格中填入 1–9，使每行、每列和每个 3×3 宫均不重复。",
+      "note": "用约束排除候选；记录提示次数与猜测。",
+      "demands": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g02",
+      "name": "扫雷",
+      "group": "逻辑",
+      "rule": "数字表示周围八格中的雷数；标记疑似雷，打开所有非雷格获胜。",
+      "note": "部分局面必须猜测；区分推理错误与概率风险。",
+      "demands": [
+        2,
+        1,
+        0,
+        2,
+        1,
+        2,
+        2,
+        1,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g03",
+      "name": "2048",
+      "group": "规划",
+      "rule": "滑动使整盘方块移动；同值方块相遇合并，每次移动后生成新块，目标得到 2048。",
+      "note": "默认不限时；规划空位和大数位置。",
+      "demands": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g04",
+      "name": "舒尔特方格",
+      "group": "搜索",
+      "rule": "在随机排列的 5×5 数字表中依次寻找并点选 1–25。",
+      "note": "固定规格并刷新布局；用时与误点一起统计。",
+      "demands": [
+        2,
+        1,
+        0,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g05",
+      "name": "俄罗斯方块",
+      "group": "空间",
+      "rule": "移动、旋转下落方块，填满横行使其消除；堆至顶部结束。",
+      "note": "下落速度决定时间压力；评估旋转与堆叠。",
+      "demands": [
+        2,
+        1,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g06",
+      "name": "推箱子",
+      "group": "规划",
+      "rule": "角色只能推、不能拉箱子；把所有箱子推到目标位置。",
+      "note": "识别死锁；增加箱子数或减少空间。",
+      "demands": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g07",
+      "name": "魔方",
+      "group": "空间",
+      "rule": "旋转三阶魔方各层，把六面恢复为各自的单一颜色。",
+      "note": "新手推理与熟练者公式记忆的需求不同。",
+      "demands": [
+        1,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g08",
+      "name": "华容道",
+      "group": "空间",
+      "rule": "滑动不同尺寸棋块，利用空位将最大棋块移至底部出口。",
+      "note": "固定棋盘版本；记录步数和重复局面。",
+      "demands": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g09",
+      "name": "填字游戏",
+      "group": "语言",
+      "rule": "根据横向、纵向提示填写词语，交叉位置共享同一个字或字母。",
+      "note": "难度受语言、文化知识与题库影响。",
+      "demands": [
+        1,
+        1,
+        2,
+        1,
+        0,
+        1,
+        2,
+        1,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g10",
+      "name": "连连看",
+      "group": "搜索",
+      "rule": "选择相同图案；若可通过不超过两次转弯的空路径相连，则消除。",
+      "note": "本页采用常见两转弯版本；限时需单独标注。",
+      "demands": [
+        2,
+        1,
+        1,
+        1,
+        2,
+        2,
+        1,
+        1,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g11",
+      "name": "记忆方块",
+      "group": "记忆",
+      "rule": "方块短暂点亮后隐藏，按顺序重现其位置；正确后增加序列长度。",
+      "note": "这里明确采用位置序列版本，区别于翻牌配对。",
+      "demands": [
+        2,
+        2,
+        1,
+        0,
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g12",
+      "name": "黑白翻转",
+      "group": "逻辑",
+      "rule": "本页暂定 Lights Out 版本：点击一格翻转它及上下左右邻格，目标变为全白。",
+      "note": "历史名称有歧义；此规则是工作定义，需确认原版本。",
+      "demands": [
+        1,
+        1,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g13",
+      "name": "切绳子",
+      "group": "物理",
+      "rule": "选择时机切断绳索，利用重力、摆动等机制让糖果进入角色口中。",
+      "note": "不同关卡要求不同；时机压力是条件性需求。",
+      "demands": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        2,
+        2,
+        1
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g14",
+      "name": "堆叠水果",
+      "group": "空间",
+      "rule": "本页暂定合成版本：投放水果，相同等级相碰合成更大水果，避免堆积越线。",
+      "note": "历史名称不足以确定产品；以此规则进行暂定分析。",
+      "demands": [
+        1,
+        1,
+        0,
+        1,
+        2,
+        2,
+        2,
+        1,
+        1
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    },
+    {
+      "id": "g15",
+      "name": "密室逃脱·单关",
+      "group": "综合",
+      "rule": "在一个封闭场景中寻找线索，组合道具并解谜，最终解锁出口。",
+      "note": "它是游戏类型；以单个关卡作任务单位，待指定作品。",
+      "demands": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        0
+      ],
+      "evidence": "未开展逐游戏迁移证据审查"
+    }
+  ]
+};
+const search=document.getElementById('search'),group=document.getElementById('group');
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function render(){const q=search.value.trim().toLowerCase();const filtered=projectData.games.filter(g=>(!group.value||g.group===group.value)&&[g.name,g.rule,g.note].join(' ').toLowerCase().includes(q));document.getElementById('count').textContent=`显示 ${filtered.length} / ${projectData.games.length} 个任务`;document.getElementById('game-list').innerHTML=filtered.length?filtered.map(g=>`<article class="card"><span class="tag">${escapeHtml(g.id.toUpperCase())} · ${escapeHtml(g.group)}</span><h3>${escapeHtml(g.name)}</h3><p>${escapeHtml(g.rule)}</p><div class="small">设计说明：${escapeHtml(g.note)}</div></article>`).join(''):'<p class="empty">没有匹配的游戏，请调整筛选。</p>';document.getElementById('matrix-body').innerHTML=filtered.length?filtered.map(g=>`<tr><th scope="row">${escapeHtml(g.name)}</th>${g.demands.map((n,i)=>`<td class="level${n}" title="${escapeHtml(g.name)} · ${projectData.abilities[i]}：${['未列为突出需求','次要或条件相关需求','主要任务需求'][n]}"><span aria-hidden="true">${['—','◐','●'][n]}</span> ${['','次要','主要'][n]}</td>`).join('')}</tr>`).join(''):'<tr><td colspan="10" class="empty">没有匹配的任务</td></tr>';}
+search.addEventListener('input',render);group.addEventListener('change',render);document.getElementById('reset').addEventListener('click',()=>{search.value='';group.value='';render();});render();
+</script><noscript><p style="padding:24px">游戏库和矩阵需要浏览器启用 JavaScript。游戏数据保存在本 HTML 文件的 projectData 中。</p></noscript></body></html>
