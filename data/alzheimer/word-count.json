@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 69301,
-  "visible_chars": 78720,
+  "counted_han_chars": 74870,
+  "visible_chars": 84906,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 49,
+  "drafted_chapters": 55,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -69,6 +69,14 @@
       "title": "05｜空间导航：路线、地图与路径整合",
       "han_chars": 1588,
       "visible_chars": 1825,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-activity",
+      "title": "10｜EEG、fMRI与兴奋性：更多活动未必更健康",
+      "han_chars": 836,
+      "visible_chars": 939,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -397,6 +405,46 @@
       "title": "14｜风险数字与群体归因：为什么不能把预防比例给个人",
       "han_chars": 977,
       "visible_chars": 1088,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-behavior-symptoms",
+      "title": "08｜情绪、动机与行为：不能只用记忆分数解释",
+      "han_chars": 962,
+      "visible_chars": 1076,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-neuropsychology",
+      "title": "11｜认知测验与日常功能：分数怎样解释",
+      "han_chars": 1057,
+      "visible_chars": 1158,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-control-network",
+      "title": "06｜注意与执行网络：规划不是一个脑区独自完成",
+      "han_chars": 970,
+      "visible_chars": 1075,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-pathology-cognition",
+      "title": "12｜病理、影像与行为不一致：先检查测量，再讨论机制",
+      "han_chars": 898,
+      "visible_chars": 1000,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-atypical-networks",
+      "title": "13｜不同表型与网络：不是所有AD都先表现为忘事",
+      "han_chars": 846,
+      "visible_chars": 938,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

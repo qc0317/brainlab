@@ -95,8 +95,8 @@
         },
         {
           "id": "ad-behavior-symptoms",
-          "title": "情绪、动机与行为：症状和混杂",
-          "status": "planned"
+          "title": "08｜情绪、动机与行为：不能只用记忆分数解释",
+          "status": "draft"
         },
         {
           "id": "ad-vascular",
@@ -167,8 +167,8 @@
         },
         {
           "id": "ad-control-network",
-          "title": "额顶控制、注意与执行网络",
-          "status": "planned"
+          "title": "06｜注意与执行网络：规划不是一个脑区独自完成",
+          "status": "draft"
         },
         {
           "id": "ad-mri",
@@ -187,23 +187,23 @@
         },
         {
           "id": "ad-activity",
-          "title": "EEG、fMRI 与兴奋性：为何更多激活未必更好",
-          "status": "planned"
+          "title": "10｜EEG、fMRI与兴奋性：更多活动未必更健康",
+          "status": "draft"
         },
         {
           "id": "ad-neuropsychology",
-          "title": "临床认知测验与日常功能测量",
-          "status": "planned"
+          "title": "11｜认知测验与日常功能：分数怎样解释",
+          "status": "draft"
         },
         {
           "id": "ad-pathology-cognition",
-          "title": "病理、成像与行为不一致时怎样判断",
-          "status": "planned"
+          "title": "12｜病理、影像与行为不一致：先检查测量，再讨论机制",
+          "status": "draft"
         },
         {
           "id": "ad-atypical-networks",
-          "title": "不同表型的网络与共病理",
-          "status": "planned"
+          "title": "13｜不同表型与网络：不是所有AD都先表现为忘事",
+          "status": "draft"
         }
       ]
     },
@@ -384,6 +384,12 @@
     "ad-evidence-synapse",
     "ad-social-education",
     "ad-spatial-symptoms",
-    "ad-risk-estimates"
+    "ad-risk-estimates",
+    "ad-behavior-symptoms",
+    "ad-neuropsychology",
+    "ad-control-network",
+    "ad-activity",
+    "ad-pathology-cognition",
+    "ad-atypical-networks"
   ]
 }

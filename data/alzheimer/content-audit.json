@@ -123,6 +123,21 @@
       "review_status": "draft_not_expert_verified"
     },
     {
+      "record_id": "ad-activity",
+      "title": "10｜EEG、fMRI与兴奋性：更多活动未必更健康",
+      "source_ids": [
+        "S06",
+        "S91",
+        "S93",
+        "S14",
+        "S13",
+        "S45"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
       "record_id": "ad-reserve",
       "title": "13｜储备、维持与补偿：同样病理为何表现不同",
       "source_ids": [
@@ -674,6 +689,96 @@
       "has_data_table": true,
       "pending_review_sections": [
         "如何用于项目路线"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-behavior-symptoms",
+      "title": "08｜情绪、动机与行为：不能只用记忆分数解释",
+      "source_ids": [
+        "S96",
+        "S51",
+        "S44",
+        "S46"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-neuropsychology",
+      "title": "11｜认知测验与日常功能：分数怎样解释",
+      "source_ids": [
+        "S03",
+        "S65",
+        "S73",
+        "S88",
+        "S46",
+        "S45",
+        "S51",
+        "S44"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "后续深入研究"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-control-network",
+      "title": "06｜注意与执行网络：规划不是一个脑区独自完成",
+      "source_ids": [
+        "S76",
+        "S51",
+        "S65",
+        "S44",
+        "S45",
+        "S93",
+        "S06"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "如何支持游戏研究"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-pathology-cognition",
+      "title": "12｜病理、影像与行为不一致：先检查测量，再讨论机制",
+      "source_ids": [
+        "S03",
+        "S91",
+        "S93",
+        "S82",
+        "S71",
+        "S06",
+        "S10",
+        "S51",
+        "S94",
+        "S45",
+        "S48",
+        "S34"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对本专题研究的作用"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-atypical-networks",
+      "title": "13｜不同表型与网络：不是所有AD都先表现为忘事",
+      "source_ids": [
+        "S03",
+        "S65",
+        "S73",
+        "S76",
+        "S88",
+        "S48"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对未来游戏研究的边界"
       ],
       "review_status": "draft_not_expert_verified"
     }
