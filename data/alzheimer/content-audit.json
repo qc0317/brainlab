@@ -118,10 +118,13 @@
       "title": "05｜空间导航：路线、地图与路径整合",
       "source_ids": [
         "S88",
-        "S11"
+        "S11",
+        "S97"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "AUC如何解释"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {

@@ -91,7 +91,7 @@ for r in R.values():
  if r.get('demands'):
   b+='<section id="demands"><h2>游戏 × 能力需求</h2><p class="sub">● 主要需求　◐ 次要/条件性需求　— 未突出；依据规则分析，非疗效强度。</p><div class="labelrow">'+''.join(link(d['ability_id'],p,('● ' if d['level']==2 else '◐ ' if d['level']==1 else '— ')+R[d['ability_id']]['title']) for d in r['demands'])+'</div></section>'
  if r.get('image'):
-  im=r['image'];b+='<section id="interface"><h2>界面样本与观察记录</h2><figure class="research-image"><img loading="lazy" width="1280" height="720" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+'</figcaption></figure></section>'
+  im=r['image'];b+='<section id="interface"><h2>'+esc(im.get('title','界面样本与观察记录'))+'</h2><figure class="research-image"><img loading="lazy" width="'+str(im.get('width',1280))+'" height="'+str(im.get('height',720))+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+'</figcaption></figure></section>'
  if r['source_ids']:
   b+='<section id="refs"><h2>引用来源与读取范围</h2><ul class="refs">'
   for sid in r['source_ids']:
