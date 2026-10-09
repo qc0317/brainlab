@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 85916,
-  "visible_chars": 98065,
+  "counted_han_chars": 91997,
+  "visible_chars": 105071,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -51,8 +51,8 @@
     {
       "id": "ad-synapses",
       "title": "03｜突触、胶质细胞与炎症：连接为何会失效",
-      "han_chars": 3214,
-      "visible_chars": 3708,
+      "han_chars": 3904,
+      "visible_chars": 4480,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -195,8 +195,8 @@
     {
       "id": "ad-genetics",
       "title": "02｜APP、PSEN 与 APOE：致病变异和风险变异",
-      "han_chars": 1607,
-      "visible_chars": 1826,
+      "han_chars": 3038,
+      "visible_chars": 3459,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -307,8 +307,8 @@
     {
       "id": "ad-evidence-pointer",
       "title": "12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效",
-      "han_chars": 855,
-      "visible_chars": 1038,
+      "han_chars": 1454,
+      "visible_chars": 1743,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -395,8 +395,8 @@
     {
       "id": "ad-evidence-synapse",
       "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
-      "han_chars": 948,
-      "visible_chars": 1063,
+      "han_chars": 2447,
+      "visible_chars": 2801,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -475,8 +475,8 @@
     {
       "id": "ad-evidence-games",
       "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
-      "han_chars": 984,
-      "visible_chars": 1101,
+      "han_chars": 2846,
+      "visible_chars": 3259,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

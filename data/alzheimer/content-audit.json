@@ -351,11 +351,14 @@
         "S63",
         "S68",
         "S69",
-        "S70"
+        "S70",
+        "S98",
+        "S99"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [
-        "“位点”为什么不等于“已经找到原因”"
+        "“位点”为什么不等于“已经找到原因”",
+        "研究到训练的分层假说"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -529,7 +532,9 @@
         "S15"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "事件、人数与因果归属"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {
@@ -701,7 +706,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "当前结论与下一步"
+        "当前结论与下一步",
+        "从现实新技能到手机游戏｜需要重新验证的成分"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -869,7 +875,10 @@
         "S16",
         "S44",
         "S45",
-        "S46"
+        "S46",
+        "S100",
+        "S101",
+        "S102"
       ],
       "has_data_table": true,
       "pending_review_sections": [
