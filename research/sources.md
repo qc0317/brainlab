@@ -23,3 +23,5 @@
 - [Dickens · ACTIVE 再分析（2026）](https://pubmed.ncbi.nlm.nih.gov/42339399/)
 - [Duolingo · What is a streak?](https://www.duolingo.com/help/what-is-a-streak)
 - [Keep · 2024 ESG 报告：个性化计划与动态调整](https://static1.keepcdn.com/infra-cms/2025/4/28/11/28/553246736447566b5831395439583047495539577966523244576244634d7667705541653066724f6d72343d/0x0_432e789973cb14d00d616965ecce583ed0fa33d4.pdf)
+
+多邻国专项资料与判读详见 [duolingo-analysis.md](duolingo-analysis.md)。

@@ -52,3 +52,20 @@
 - [Baker 等 · US POINTER（JAMA, 2025）](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
 - [Coe 等 · ACTIVE 20 年随访（2026）](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
 - [Dickens · ACTIVE 再分析（2026）](https://pubmed.ncbi.nlm.nih.gov/42339399/)
+
+## 正常老化、MCI 和诊断的补充资料
+
+- [NIA · Memory Problems, Forgetfulness, and Aging](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/do-memory-problems-always-mean-alzheimers-disease)：记忆变化可有多种原因；MCI 不必然进展。
+- [NIA · Assessing Cognitive Impairment in Older Patients](https://www.nia.nih.gov/health/health-care-professionals-information/assessing-cognitive-impairment-older-patients)：评估需考虑药物、抑郁、谵妄等因素与日常功能。
+
+## 如何判读证据
+
+随机试验较适合回答干预因果，但仍需看对照、失访、主要终点及多重比较。观察性研究中的认知活动与低痴呆风险关联，可能受教育、原有健康、社会资源及反向因果影响。指南是综合判断，不是单款产品认证。
+
+本轮明确核实的 WHO 2026 信息是出版与范围概览；推荐强度尚未逐条核验，因此没有标注“强推荐认知游戏”。ACTIVE 的训练方式、加强参与和理赔结局均限制外推；US POINTER 检验的是整体方案而非单一游戏。
+
+## 项目决策建议
+
+先把“日常认知健康习惯支持”作为可实现的产品目标，保留“降低痴呆风险”为长期研究目标。优先评估规则理解、持续参与和负荷，再开展独立认知与生活功能研究。不能用几周的留存改善证明长期疾病预防。
+
+本轮资料分析未对 15 款经典游戏逐一完成系统综述，也未确立通用的训练时长与频率。

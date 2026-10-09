@@ -40,3 +40,10 @@ GitHub Pages 从 `main` 分支根目录自动发布。更新 `index.html` 并提
 - 多邻国 × Keep 的适老体验流程及四步可点击演示。
 - `research/dementia-review.md`：专项研究草案。
 - `research/experience-design.md`：流程、适老原则与 MVP 范围。
+
+## 专项资料分析
+
+- [痴呆与认知训练专项](research/dementia-review.md)
+- [多邻国机制专项](research/duolingo-analysis.md)
+
+本轮聚焦资料与分析；企业增长指标、游戏内进步和痴呆预防证据分别处理。
