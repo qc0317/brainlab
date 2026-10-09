@@ -229,13 +229,13 @@
         },
         {
           "id": "ad-plasticity",
-          "title": "可塑性与疾病修饰：机制桥梁有多长",
-          "status": "planned"
+          "title": "04｜可塑性与疾病修饰：机制桥梁有多长",
+          "status": "draft"
         },
         {
           "id": "ad-intervention",
-          "title": "直接、间接与缺失证据：当前论证图",
-          "status": "planned"
+          "title": "05｜直接、间接与缺失证据：当前论证图",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-active5",
@@ -299,8 +299,8 @@
         },
         {
           "id": "ad-evidence-games",
-          "title": "经典游戏与商业产品：不能借用他人疗效",
-          "status": "planned"
+          "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
+          "status": "draft"
         },
         {
           "id": "ad-bias",
@@ -324,13 +324,13 @@
         },
         {
           "id": "ad-synthesis",
-          "title": "支持什么、不支持什么、什么仍未知",
-          "status": "planned"
+          "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
+          "status": "draft"
         },
         {
           "id": "ad-translation",
-          "title": "从证据到游戏：可检验的设计与研究计划",
-          "status": "planned"
+          "title": "24｜从证据到游戏：可检验的设计与研究计划",
+          "status": "draft"
         }
       ]
     }
@@ -390,6 +390,11 @@
     "ad-control-network",
     "ad-activity",
     "ad-pathology-cognition",
-    "ad-atypical-networks"
+    "ad-atypical-networks",
+    "ad-plasticity",
+    "ad-intervention",
+    "ad-evidence-games",
+    "ad-synthesis",
+    "ad-translation"
   ]
 }

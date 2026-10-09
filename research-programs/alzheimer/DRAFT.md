@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：74,870 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：80,132 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -3385,6 +3385,206 @@ Lampit 等正常老年人元分析纳入 52 项研究、4885 人，整体认知�
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 
+## 04｜可塑性与疾病修饰：机制桥梁有多长
+
+区分学习、回路变化、补偿及病程改变，建立训练预防假说的逐层证据需求。
+
+状态：起草完成，审核进行中。
+
+### 可塑性不是统一疗效
+
+可塑性描述系统随经验等条件发生改变的能力，具体改变可能涉及连接、策略或活动。这个概念不能被当作所有变化都健康的保证。
+
+一个人学会游戏，说明学习发生；要说明某种神经机制，还需对应测量。要说明疾病修饰，则需观察病程相关结局，不能仅从学习存在推导。
+
+依据：[S78](https://pubmed.ncbi.nlm.nih.gov/18568035/), [S81](https://pubmed.ncbi.nlm.nih.gov/36513730/), [S44](https://pubmed.ncbi.nlm.nih.gov/25405755/)
+
+### 实验可塑性与人的记忆
+
+长期增强等实验现象帮助研究突触对刺激历史的响应，它们是机制窗口，不等于完整的人类记忆能力。
+
+Shankar的人脑材料与动物实验支持特定条件下的突触影响，不能直接规定人类训练剂量。模型中的可塑性变化和日常生活中的收益，需要跨尺度验证。
+
+不同证据可以相互连接，但每一条连接都应说明对象和条件，不能因为都使用记忆这个词就视为同一个终点。
+
+依据：[S78](https://pubmed.ncbi.nlm.nih.gov/18568035/)
+
+### 补偿可以有价值，也不等于病理减少
+
+训练可能帮助更有效策略或外部工具使用，使功能更好。这类收益值得研究，即使没有改变蛋白病理。
+
+储备与补偿理论提供解释方向，不能把每个积极分数自动命名为储备增加。需要定义指标及独立验证。
+
+如果项目最终发现任务或生活收益，应按实际范围报告，不必升级为防病才能体现价值。
+
+依据：[S93](https://pubmed.ncbi.nlm.nih.gov/30222945/), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 疾病修饰需要怎样结果
+
+疾病相关标志物变化可以提供机制信息，但临床收益和疾病发生仍需分别测量。抗Aβ药物试验说明目标干预与临床终点可以建立研究链，却不能将药物结果借给游戏。
+
+对于预防，还需明确处于什么病理和临床阶段，以及目标是AD特异性、全因痴呆或认知下降。不同问题可能需要不同样本和时间。
+
+不能把短期成绩提高换算成未来少患病的比例，更不能按激活脑区分配已证实预防功效。
+
+依据：[S34](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 机制链可以被检验
+
+一种训练机制假说应写清：任务改变什么加工，怎样测到独立收益，候选神经指标是什么，最后连接哪种临床结局。
+
+每一步都可以出现支持、无差异或不确定结果。假说需要允许被削弱，而不是把任何变化都解释为成功。
+
+若行为改善但机制指标不变，应保留行为结果并重新考虑解释；若指标变化而功能未改善，也不能自行宣布临床效果。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 研究设计层级
+
+下表是本项目的假说构建建议。
+
+| 层级 | 直接证据需求 |
+| --- | --- |
+| 学习 | 任务表现和过程 |
+| 迁移 | 独立材料与任务 |
+| 保持 | 停止或减少练习后随访 |
+| 机制 | 可靠指标及合适对照 |
+| 功能 | 生活活动结局 |
+| 病程 | 病理或临床变化 |
+| 预防 | 明确疾病发生终点 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 训练测量中的中介解释
+
+随机试验能够支持方案总体比较，但不自动证明每个事后发现的指标就是中介。指标和结局之间还可能有共同原因或测量误差。
+
+若想研究作用路径，应提前安排测量时间和分析，并考虑替代解释。多个指标中选一个积极结果，会增加偶然故事的风险。
+
+机制研究的目标是缩小解释，而不是增加看起来科学的名词。
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 对日常游戏的实际方向
+
+可以设计具有明确加工要求和可接受负担的任务，再通过独立结局验证收益。体验支持提高参与机会，不能替代疗效测量。
+
+下一步将加入直接训练的神经机制原始研究，核对人群、时间、指标及临床关系。当前完成桥梁框架，不宣称所有神经可塑性都能预防AD。
+
+核心假说保持开放：脑训练是否可能有效，需要按具体任务、人群和终点回答，而不是只用可塑性理论获得肯定结论。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S93](https://pubmed.ncbi.nlm.nih.gov/30222945/)
+
+### 该章原文来源
+
+- [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
+- [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S34｜Lecanemab：早期阿尔茨海默病试验](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948) · 摘要与可访问正文。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+
+## 05｜直接、间接与缺失证据：当前论证图
+
+按干预、人群和终点整理证据路径，保留积极、无差异及未测量结果；这是待更新的研究地图。
+
+状态：起草完成，审核进行中。
+
+### 先定义直接证据
+
+对于脑训练预防AD，直接证据应当研究明确训练、合适人群和AD相关疾病终点。任务参与某脑区、动物突触实验或另一种健康干预，不直接回答这个问题。
+
+不同研究仍可提供重要帮助：机制形成假说，认知试验评价迁移，功能资料评价生活价值，疾病随访评价预防。它们应分层连接，而不是按支持票数相加。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 已有资料的层级表
+
+下表概括目前已收录研究，完整方法审核仍在进行。它不是系统综述的最终评级，也不表示已搜索所有文献。
+
+| 路径 | 例子 | 可讨论结局 | 不能直接推出 |
+| --- | --- | --- | --- |
+| 计算机训练综述 | Lampit/Cochrane | 限定人群认知变化及不确定性 | AD发生减少 |
+| 长期训练随访 | ACTIVE | 痴呆相关终点与分析信号 | 所有经典游戏防病 |
+| 新技能学习 | Synapse | 情景记忆 | 突触修复及AD预防 |
+| 综合生活方式 | FINGER/POINTER | 认知变化 | 游戏组分独立疗效 |
+| 其他健康干预 | preDIVA/SPRINT/ACHIEVE | 各自认知或痴呆结局 | 训练可借用疗效 |
+| 病理机制 | Aβ/Tau/胶质研究 | 具体实验与关联 | 任务练习改变病程 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/), [S52](https://pubmed.ncbi.nlm.nih.gov/24214244/), [S47](https://pubmed.ncbi.nlm.nih.gov/25771249/), [S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/), [S50](https://pubmed.ncbi.nlm.nih.gov/30688979/), [S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/), [S78](https://pubmed.ncbi.nlm.nih.gov/18568035/), [S81](https://pubmed.ncbi.nlm.nih.gov/36513730/)
+
+### ACTIVE为什么重要也为什么有限
+
+ACTIVE让训练与长期痴呆相关结局的讨论更接近核心问题，但不同年份的诊断方式、样本和分析不同。积极速度训练信号不能推广到记忆、推理或所有游戏。
+
+二十年资料还涉及理赔连接及加强训练资格，原文存在待核查样本和表述问题。应保留分析层级，不把探索或筛选后的比较改写成全部初始人群的统一效果。
+
+同一试验多个报告增加资料，不是多个独立复制。下一步需要补充审核与外部验证。
+
+依据：[S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 没有终点不等于已经证实无效
+
+MCI计算机训练综述没有提供痴呆发生数据，说明这一层问题未被回答。不能填入零效应，也不能从认知积极结果推定疾病终点必然积极。
+
+阴性主要结果则提供另一种信息，需要结合效应区间和设计解释。MAPT及preDIVA提醒我们合理方案未必在具体试验中达到主要目标。
+
+资料库将分别使用未测量、未显著、低确定性和积极信号等描述，避免全部压成有效或无效。
+
+依据：[S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 机制桥梁有哪些缺口
+
+训练是否影响独立认知，收益能否保持，是否改变病理或功能，以及最终疾病发生是否不同，是连续但不能互相替代的问题。
+
+即使某机制和认知相关，也需确认训练作用于该机制。某指标变化若临床未改善，应继续研究，而不自动称为预防。
+
+每一个桥梁都可以被直接检验，也允许结果削弱原假说。这使项目成为研究，而不是为预设宣传寻找资料。
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S93](https://pubmed.ncbi.nlm.nih.gov/30222945/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 研究地图怎样更新
+
+新论文进入时，先记录试验身份和人群，再登记干预、对照、时间、终点和效应。原始报告、二次分析与综述引用应关联，避免样本重复。
+
+若只有摘要，结论限于可核实范围；若全文不可访问，保留待核字段。后续更正应直接更新记录及版本，不保留已经错误的断言。
+
+当前章节将随深入提取修订，不作为专家审核已经完成的声明。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 对游戏设计的实际作用
+
+研究地图帮助决定下一步验证什么。若现有证据只有任务学习，应优先设计独立迁移研究；若迁移存在但没有保持，应安排随访；若生活功能未测，就不使用功能承诺。
+
+体验机制可提高实施机会，不能替代证据桥梁。未来产品路线将围绕可用性、学习、迁移、保持和功能逐级设计。
+
+核心结论保持开放：特定训练可能值得继续研究，但现有资料不能让任意游戏成为已证实AD预防方案。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
+- [S52｜Park 等：Synapse 新技能学习项目](https://pubmed.ncbi.nlm.nih.gov/24214244/) · 摘要与元数据。不是 AD 发病试验；全文尚未提取。
+- [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
+- [S15｜US POINTER：结构化多领域干预](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/) · 全文或正文。结构化与自主多领域方案比较，不能隔离游戏组分；两年认知终点。
+- [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
+- [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
+- [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
+- [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
+- [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
+- [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
+
 ## 06｜ACTIVE 五年：没有发现痴呆发生率差异
 
 先看同一试验较早的无差异结果，再读十年和二十年的积极线索。
@@ -4270,6 +4470,104 @@ Synapse支持继续研究老年新技能学习的认知作用，不能证明所�
 - [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 
+## 18｜经典游戏与产品：不能借用其他任务的疗效
+
+分析常见游戏的加工要求，明确这些是任务分析而不是AD预防证明。
+
+状态：起草完成，审核进行中。
+
+### 同样叫脑训练，不一定同一种干预
+
+数独、扫雷、2048和推箱子有不同规则、刺激及策略。它们可能要求逻辑、规划或空间加工，但参与某种能力不等于长期改善该能力。
+
+ACTIVE速度训练或计算机训练综述的结果，不能直接贴到一款规则不同的经典游戏。要推广必须说明任务之间的关系，并用直接研究检验。
+
+依据：[S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/), [S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 规则分析如何形成假说
+
+下面是对任务规则的原创分析，用于提出测量方向，不是文献证实的训练处方。任务内收益最直接，迁移与疾病终点都需要独立证据。
+
+| 游戏 | 可分析要求 | 需区分的熟练来源 |
+| --- | --- | --- |
+| 数独 | 候选排除与规则检查 | 固定解题策略 |
+| 扫雷 | 邻域约束与不确定选择 | 界面操作及模式熟悉 |
+| 2048 | 合并顺序和空间安排 | 常用策略 |
+| 推箱子 | 状态规划与不可逆动作 | 记住关卡答案 |
+| 俄罗斯方块 | 旋转与快速安排 | 速度与动作熟悉 |
+| 魔方 | 空间操作与步骤序列 | 公式记忆 |
+| 华容道 | 状态搜索与规划 | 固定步骤 |
+| 连连看 | 视觉搜索与配对 | 材料熟悉 |
+| 记忆配对 | 位置和项目关联 | 固定题库 |
+| 填字 | 知识提取与词汇 | 已有知识背景 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 难度变化不代表相同剂量
+
+扩大地图、缩短时间、增加相似材料和减少提示，增加的负担不同。如果全部汇为等级，研究难以知道变化来自哪种加工。
+
+游戏版本、算法和题库应记录。修改规则后旧数据可能不能直接比较，尤其评分本身也改变时。
+
+未来数据库可将规则、材料、反馈和难度独立存储，再关联能力假说与证据，避免一个yes矩阵承担全部科学含义。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 商业产品与研究任务
+
+一个品牌可能包含多种任务和版本，研究只评价其中某个方案。结果不能自动推广到全部产品，更不能从宣传或用户评价取得疾病疗效。
+
+产品研究的界面、操作和粘性可以为体验设计提供信息，认知及疾病作用需要原始试验。两类研究入口应互相连接但保持证据标签。
+
+本资料库按个人研究使用设计，不以防病营销语言替代说明。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 没有找到证据怎样呈现
+
+如果某款游戏没有已核查的疾病试验，标记未找到对应证据，而不是默认有效或断言绝对无效。检索范围也应登记，避免把有限检索说成全部世界都没有研究。
+
+若发现观察性关联，应与直接游戏干预分开。更爱玩游戏的人可能在健康、教育和活动上不同，不能仅凭关联给游戏计算保护率。
+
+若试验只显示任务内进步，就保留这个结论，不加上未经测量的生活或病理收益。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 逐款研究档案
+
+以下为项目建议字段。
+
+| 字段 | 目的 |
+| --- | --- |
+| 规则版本 | 明确研究对象 |
+| 目标人群 | 年龄与临床病理状态 |
+| 任务要求 | 可检验加工假说 |
+| 对照 | 时间、期待与活动 |
+| 剂量 | 计划及完成量 |
+| 独立结局 | 迁移与功能 |
+| 疾病结局 | 诊断定义及时间 |
+| 效应 | 区间及分析层级 |
+| 许可 | 材料和截图来源 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 从矩阵到研究
+
+能力矩阵可以作为导航和任务分析工具，不能被理解成每个勾选都已有提升证据。建议增加参与、任务学习、迁移、功能及疾病五层记录。
+
+未来优先选择规则清楚、可控制和适合使用者的任务开展可行性研究，再验证独立收益。是否预防AD仍是长期假说。
+
+本章没有为经典游戏分配防病效果；下一步将按明确检索协议逐款扩充原始证据，避免用其他任务的积极结果填补空白。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 该章原文来源
+
+- [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+
 ## 19｜期待、对照与选择性报告：训练研究怎样产生偏倚
 
 建立逐篇方法审核框架，区分研究限制与未经证实的否定，帮助综合支持和无效结果。
@@ -4657,6 +4955,227 @@ ACTIVE二十年报告需要区分初始训练分配、加强训练资格、加�
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
 
+## 23｜阶段性综合：哪些可能有效，哪些尚未证明
+
+按终点而非愿景整合现有资料；全文方法审核尚未完成，此结论需继续修订。
+
+状态：起草完成，审核进行中。
+
+### 核心问题保持开放
+
+脑部训练对于预防AD可能有效，是待检验的研究假说。机制合理、部分认知收益及长期信号可以支持继续研究，但不能使所有经典游戏成为已经验证的预防方案。
+
+本资料库当前仍是重建草稿，未完成所有原文、补充材料和独立复核。以下综合描述已收录证据的范围，不宣称穷尽全部文献。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 认知收益层
+
+计算机训练元分析报告限定人群中的认知收益，Cochrane综述则强调不同范围下确定性限制。两者纳入标准不同，不应只比较结论措辞判断矛盾。
+
+认知结果需要按任务、领域和时间解释。训练内进步、未训练任务、长期保持及生活功能不是可互换结局。
+
+因此当前支持研究特定任务的认知作用，不支持泛化为所有能力或AD发生减少。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 疾病终点层
+
+ACTIVE提供长期训练与痴呆相关结果，是重要研究入口；但年份间终点、分析及样本不同，积极信号需要保留具体范围。
+
+加强训练资格与理赔连接等条件会影响解释，原文不一致仍待核查。不能把同一试验多次报告当作独立复制，也不能用速度任务结果证明其他游戏。
+
+MCI综述未提供痴呆发生数据，属于终点缺口。未测量不能填成零效应，认知收益也不能填成防病成功。
+
+依据：[S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 综合方案层
+
+FINGER和POINTER支持各自条件下综合方案的认知比较；MAPT主要结果未显著，说明方案合理不保证试验达到目标。
+
+综合干预包含多个组成，不能隔离游戏的独立作用。不同对照也决定估计的是何种增量。
+
+这些资料适合指导研究组织、人群与结局设计，不能作为游戏产品借用的临床疗效。
+
+依据：[S47](https://pubmed.ncbi.nlm.nih.gov/25771249/), [S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/)
+
+### 其他健康干预层
+
+preDIVA直接观察全因痴呆主要结果未显著；SPRINT的MCI及可能痴呆结果不同；ACHIEVE总体与人群差异需要分开。这些例子说明终点和适用范围至关重要。
+
+它们提供脑健康与方法资料，却不是认知游戏试验。把每个积极结果合并成脑训练支持，会改变原研究问题。
+
+健康管理、感觉服务和认知活动可以同处生活方案，具体独立与综合效果仍需相应试验。
+
+依据：[S49](https://pubmed.ncbi.nlm.nih.gov/27474376/), [S50](https://pubmed.ncbi.nlm.nih.gov/30688979/), [S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 机制层
+
+Aβ、Tau、突触、胶质和血管研究帮助解释疾病的多层过程。人类观察、组织材料及动物操作各有范围，不能直接转化为游戏处方。
+
+任务参与某网络不等于训练改变其病理；影像或体液变化也不自动成为临床收益。储备理论提供候选解释，不替代直接证据。
+
+机制证据最有用的是形成可检验路径，明确下一步测量，而不是给预设结论增加名词。
+
+依据：[S78](https://pubmed.ncbi.nlm.nih.gov/18568035/), [S81](https://pubmed.ncbi.nlm.nih.gov/36513730/), [S10](https://www.nature.com/articles/s41586-020-2247-3), [S93](https://pubmed.ncbi.nlm.nih.gov/30222945/)
+
+### 当前结论表
+
+本表为阶段性综合，后续随原始审核更新。
+
+| 命题 | 当前范围 |
+| --- | --- |
+| 任务可以学习 | 需要按具体任务记录 |
+| 部分独立认知可能获益 | 存在限定证据和确定性问题 |
+| 生活收益 | 需独立功能结局 |
+| 训练降低痴呆风险 | ACTIVE等信号值得深入核查 |
+| 训练预防AD特异性发生 | 尚不能由当前资料定论 |
+| 任意经典游戏有效 | 不能跨任务借用结果 |
+| 某脑区游戏保护该区域 | 缺少直接机制与临床桥梁 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 优先研究缺口
+
+首先完成核心试验的方案、统计与补充材料核查，解决样本和表述问题；其次寻找独立复制及AD特异性结局；再比较任务、剂量、迁移、功能和保持。
+
+产品体验研究则优先验证可读、可理解、负担及可坚持。参与价值与疾病效果分开，避免粘性遮蔽测量缺口。
+
+十万字目标还要求实质性原始资料扩充，不以重复方法说明或计划标题充数。当前综合保留不确定性，继续研究直到交付要求得到核实。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
+- [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
+- [S15｜US POINTER：结构化多领域干预](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/) · 全文或正文。结构化与自主多领域方案比较，不能隔离游戏组分；两年认知终点。
+- [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
+- [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
+- [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
+- [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
+- [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
+- [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
+- [S10｜Montagne 等：APOE4 与血脑屏障失调](https://www.nature.com/articles/s41586-020-2247-3) · 出版商摘要、图题及公开参考文献；正文订阅预览。2026-10-10核查：不能声称全文已读；详细样本与模型待提取。
+- [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
+
+## 24｜从证据到游戏：可检验的设计与研究计划
+
+以个人研究资料库为基础，提出分阶段方案；以下为项目建议，尚未实际开展试验。
+
+状态：起草完成，审核进行中。
+
+### 先让研究问题决定设计
+
+项目愿景是以日常活动探索认知健康与AD预防可能性，但第一个原型不必声称已经防病。应选择一个具体加工、明确人群和可测目标。
+
+例如关系记忆任务可以改变项目配对和干扰，规划任务可以改变状态约束。选择这些只是设计假说，实际收益需要研究。
+
+页面将记录理论依据、直接证据和缺口，让每个功能都能回到可检查问题，而不是只连接一个脑区名称。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S86](https://pubmed.ncbi.nlm.nih.gov/18356518/)
+
+### 阶段一：可理解和可使用
+
+先观察规则能否理解、材料能否看清、操作是否顺畅以及负担是否可接受。采用小规模体验研究记录具体错误与反馈，不将它当作疗效试验。
+
+多邻国式进度和Keep式课程组织可以形成可测试原型，但不直接借用其品牌或粘性作为医学依据。支持方式应服务目标用户，避免默认所有人喜欢排行和连续压力。
+
+阶段产出包括任务档案、版本、界面需求和参与问题，结论限于实施可行性。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/), [S96](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and)
+
+### 阶段二：学习过程
+
+记录有效试次、准确率、速度、提示及难度，区分策略和材料熟悉。评分算法应透明，并避免更新后无法比较。
+
+这个阶段可以确认玩家是否学会任务，仍不能推定独立认知改善。任务内部难度或分数变化不应作为唯一验证。
+
+若发现操作负担主导成绩，应先修正界面和研究条件，再解释目标加工。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 阶段三：独立迁移与保持
+
+使用未训练材料及任务，设置合适对照，并预先定义主要结局。停止或减少练习后随访，记录继续活动和缺失。
+
+可行性样本通常不足以稳定估计疗效，正式研究需要依据目标效果和误差规划。不能用一个小样本积极P值宣称已完成验证。
+
+同时报告无差异及不确定结果，保存方案和分析版本，减少事后选择故事。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 阶段四：生活意义
+
+若独立收益有依据，再研究实际活动与功能，例如目标管理或导航任务。自评、观察和实际表现各自有范围，应预先安排。
+
+补偿收益值得保留，不必假定病理变化。若生活功能未改善，也应如实报告，继续检查任务与现实目标之间距离。
+
+研究可以逐级推进，但每级成功不会自动证明下一级。
+
+依据：[S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S88](https://pubmed.ncbi.nlm.nih.gov/31121601/)
+
+### 阶段五：机制与疾病
+
+机制测量需要可靠工具和明确假说，区分病理、结构、活动和行为。昂贵检查不自动提高结论质量，选择应回答实际问题。
+
+疾病预防研究还需清楚诊断、随访、事件来源和竞争风险，尤其区分AD与全因痴呆。这是更长期要求，不用短期成绩替代。
+
+当前阶段不设定已验证的预防剂量或保护比例，后续根据直接证据与研究条件修订。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 资料库与版本结构
+
+每款候选任务关联规则、能力假说、来源、版本、实验及结局；每项文献关联试验身份、数据和审核状态。这样能够追踪同一试验多报告和不同游戏版本。
+
+原文、允许的翻译、图表及原创解释应分开标明。来源入口和许可需要保留，截图应有图例及解释范围。
+
+Git记录研究更新与纠正，网页服务多端阅读。暂不在线编辑，可下载资料便于离线复盘。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### 阶段与交付卡
+
+以下为项目建议，不是已实施成果。
+
+| 阶段 | 主要交付 | 结论范围 |
+| --- | --- | --- |
+| 可用性 | 任务和体验问题 | 能否理解完成 |
+| 任务学习 | 过程日志 | 原任务熟练 |
+| 迁移保持 | 独立结局和随访 | 限定认知收益 |
+| 生活功能 | 实际目标测量 | 功能价值 |
+| 机制 | 可靠指标及模型 | 候选路径 |
+| 疾病 | 长期明确事件 | 预防问题 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 研究完成的门槛
+
+专题完成仍需不少于十万独立正文汉字、核心原文与补充资料审核、数据和结论对应、许可检查、Git同步及公网验证。章节全部有草稿，不等于这些要求已经实现。
+
+下一阶段重点扩充逐篇原始数据和机制细节，修正尚待核查内容，减少重复的泛化说明。
+
+路线图为持续研究提供顺序，核心假说保持开放。项目的目标是得到可复核结论并指导设计，而不是让所有资料支持一个预设产品承诺。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S86｜Bakker 等（2008）：人类海马 CA3 与齿状回的模式分离](https://pubmed.ncbi.nlm.nih.gov/18356518/) · 摘要与 PMC 原文入口。DOI 10.1126/science.1152882；影像联合区域CA3/DG不等于逐个细胞记录。
+- [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
+- [S96｜NIA：理解阿尔茨海默病人格与行为变化](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) · 官方页面。2026为访问年份；不是游戏干预效果研究。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+
 # 尚未完成的章节
 
 ## 第一部分｜先理解疾病
@@ -4670,8 +5189,3 @@ ACTIVE二十年报告需要区分初始训练分配、加强训练资格、加�
 
 ## 第四部分｜训练预防的可能性
 
-- 可塑性与疾病修饰：机制桥梁有多长
-- 直接、间接与缺失证据：当前论证图
-- 经典游戏与商业产品：不能借用他人疗效
-- 支持什么、不支持什么、什么仍未知
-- 从证据到游戏：可检验的设计与研究计划

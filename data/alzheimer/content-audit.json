@@ -154,6 +154,55 @@
       "review_status": "draft_not_expert_verified"
     },
     {
+      "record_id": "ad-intervention",
+      "title": "05｜直接、间接与缺失证据：当前论证图",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S16",
+        "S52",
+        "S47",
+        "S15",
+        "S49",
+        "S50",
+        "S51",
+        "S78",
+        "S81",
+        "S48",
+        "S82",
+        "S93"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "ACTIVE为什么重要也为什么有限",
+        "研究地图怎样更新",
+        "对游戏设计的实际作用"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-translation",
+      "title": "24｜从证据到游戏：可检验的设计与研究计划",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S86",
+        "S51",
+        "S96",
+        "S46",
+        "S88",
+        "S03",
+        "S16",
+        "S82"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "研究完成的门槛"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
       "record_id": "ad-terms",
       "title": "02｜正常老化、MCI、痴呆与 AD：四个词怎样区分",
       "source_ids": [
@@ -779,6 +828,68 @@
       "has_data_table": true,
       "pending_review_sections": [
         "对未来游戏研究的边界"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-plasticity",
+      "title": "04｜可塑性与疾病修饰：机制桥梁有多长",
+      "source_ids": [
+        "S78",
+        "S81",
+        "S44",
+        "S93",
+        "S46",
+        "S34",
+        "S03",
+        "S16",
+        "S45",
+        "S82"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对日常游戏的实际方向"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-games",
+      "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
+      "source_ids": [
+        "S16",
+        "S44",
+        "S45",
+        "S46"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "从矩阵到研究"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-synthesis",
+      "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S16",
+        "S47",
+        "S15",
+        "S48",
+        "S49",
+        "S50",
+        "S51",
+        "S78",
+        "S81",
+        "S10",
+        "S93"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "疾病终点层",
+        "机制层"
       ],
       "review_status": "draft_not_expert_verified"
     }
