@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 """Build BrainLab's static knowledge base from normalized JSON (stdlib only)."""
-import json,html,posixpath
+import json,html,posixpath,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 DB=json.loads((ROOT/'data/knowledge.json').read_text(encoding='utf-8'))
+ASSET_VERSION=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in ['assets/style.css','assets/app.js','data/knowledge.json'])).hexdigest()[:12]
 R={r['id']:r for r in DB['records']};S={s['id']:s for s in DB['sources']};C={c['id']:c for c in DB['collections']}
 assert len(R)==len(DB['records']) and len(S)==len(DB['sources']), 'Duplicate stable IDs'
 for r in R.values():
@@ -27,7 +28,7 @@ def cards(ids,page,cls=''):return '<div class="grid '+cls+'">'+''.join(card(R[i]
 manifest=[]
 def render(page,title,body,active='',description='BrainLab：阿尔茨海默病、认知游戏与产品体验研究知识库'):
  nav=[('alzheimer','阿尔茨海默病'),('duolingo','多邻国'),('keep','Keep'),('games','游戏'),('brain','脑网络'),('evidence','证据'),('design','设计')]
- head='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+esc(description)+'"><meta name="color-scheme" content="light"><title>'+esc(title)+'｜BrainLab</title><link rel="stylesheet" href="'+href('assets/style.css',page)+'"><script defer src="'+href('assets/search-data.js',page)+'"></script><script defer src="'+href('assets/app.js',page)+'"></script></head><body data-root="'+href('index.html',page)+'"><a class="skip" href="#main">跳至正文</a><header><div class="bar"><a class="brand" href="'+href('index.html',page)+'">BrainLab<span>研究知识库</span></a><nav class="topnav" aria-label="全站导航">'+''.join('<a'+(' class="active" aria-current="page"' if active==k else '')+' href="'+href(C[k]['path']+'/index.html',page)+'">'+v+'</a>' for k,v in nav)+'<a class="searchlink" href="'+href('search/index.html',page)+'">⌕ 检索</a></nav></div></header><main id="main">'
+ head='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+esc(description)+'"><meta name="color-scheme" content="light"><title>'+esc(title)+'｜BrainLab</title><link rel="stylesheet" href="'+href('assets/style.css',page)+'?v='+ASSET_VERSION+'"><script defer src="'+href('assets/search-data.js',page)+'?v='+ASSET_VERSION+'"></script><script defer src="'+href('assets/app.js',page)+'?v='+ASSET_VERSION+'"></script></head><body data-root="'+href('index.html',page)+'"><a class="skip" href="#main">跳至正文</a><header><div class="bar"><a class="brand" href="'+href('index.html',page)+'">BrainLab<span>研究知识库</span></a><nav class="topnav" aria-label="全站导航">'+''.join('<a'+(' class="active" aria-current="page"' if active==k else '')+' href="'+href(C[k]['path']+'/index.html',page)+'">'+v+'</a>' for k,v in nav)+'<a class="searchlink" href="'+href('search/index.html',page)+'">⌕ 检索</a></nav></div></header><main id="main">'
  foot='<footer class="pagefoot"><div>BrainLab · v'+DB['version']+' / '+DB['updated']+'<br>研究与设计基线 · 产品疗效尚未验证</div><div><a href="'+href('sources/index.html',page)+'">来源与读取范围</a><a href="'+href('design/design-schema/index.html',page)+'">编辑与扩展</a><a href="https://github.com/qc0317/brainlab">GitHub ↗</a></div></footer></main></body></html>'
  file=ROOT/page;file.parent.mkdir(parents=True,exist_ok=True);file.write_text(head+body+foot,encoding='utf-8');manifest.append(page)
 def crumb(page,c=None,title=None):return '<nav class="crumb" aria-label="面包屑"><a href="'+href('index.html',page)+'">首页</a>'+(' / <a href="'+href(C[c]['path']+'/index.html',page)+'">'+esc(C[c]['title'])+'</a>' if c else '')+(' / <span>'+esc(title)+'</span>' if title else '')+'</nav>'
