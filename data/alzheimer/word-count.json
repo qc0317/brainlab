@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 62602,
-  "visible_chars": 71190,
+  "counted_han_chars": 69301,
+  "visible_chars": 78720,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 42,
+  "drafted_chapters": 49,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -341,6 +341,62 @@
       "title": "10｜听力、视力与感觉输入：先确认信息被接收到",
       "han_chars": 1083,
       "visible_chars": 1191,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-sleep",
+      "title": "11｜睡眠与疾病：长期关联和双向关系",
+      "han_chars": 787,
+      "visible_chars": 950,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-dose-adherence",
+      "title": "21｜剂量、完成量与加强训练：做得多不自动等于因果收益",
+      "han_chars": 1020,
+      "visible_chars": 1132,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-preservation",
+      "title": "22｜保持、失访与竞争风险：长期结果怎样成立",
+      "han_chars": 1076,
+      "visible_chars": 1181,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-synapse",
+      "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
+      "han_chars": 948,
+      "visible_chars": 1063,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-social-education",
+      "title": "12｜教育、活动与社交：有价值的经历不自动等于预防证据",
+      "han_chars": 940,
+      "visible_chars": 1059,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-spatial-symptoms",
+      "title": "07｜定向与视觉空间表现：看见、定位和找路不同",
+      "han_chars": 951,
+      "visible_chars": 1057,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-risk-estimates",
+      "title": "14｜风险数字与群体归因：为什么不能把预防比例给个人",
+      "han_chars": 977,
+      "visible_chars": 1088,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

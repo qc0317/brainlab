@@ -571,6 +571,111 @@
       "has_data_table": true,
       "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-sleep",
+      "title": "11｜睡眠与疾病：长期关联和双向关系",
+      "source_ids": [
+        "S94",
+        "S44"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "后续审核与项目边界"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-dose-adherence",
+      "title": "21｜剂量、完成量与加强训练：做得多不自动等于因果收益",
+      "source_ids": [
+        "S16",
+        "S44",
+        "S45",
+        "S51"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "ACTIVE加强训练要保留分配链",
+        "后续核查与设计路线"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-preservation",
+      "title": "22｜保持、失访与竞争风险：长期结果怎样成立",
+      "source_ids": [
+        "S16",
+        "S45",
+        "S46",
+        "S49"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "失访不是随机消失",
+        "对日常游戏项目的应用"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-synapse",
+      "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
+      "source_ids": [
+        "S52",
+        "S82",
+        "S93"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "当前结论与下一步"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-social-education",
+      "title": "12｜教育、活动与社交：有价值的经历不自动等于预防证据",
+      "source_ids": [
+        "S95",
+        "S93",
+        "S94",
+        "S52",
+        "S15"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对本项目保留的结论"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-spatial-symptoms",
+      "title": "07｜定向与视觉空间表现：看见、定位和找路不同",
+      "source_ids": [
+        "S11",
+        "S88",
+        "S51",
+        "S03",
+        "S65"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-risk-estimates",
+      "title": "14｜风险数字与群体归因：为什么不能把预防比例给个人",
+      "source_ids": [
+        "S19",
+        "S03",
+        "S49",
+        "S51",
+        "S93"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "如何用于项目路线"
+      ],
+      "review_status": "draft_not_expert_verified"
     }
   ],
   "completion_gates": [

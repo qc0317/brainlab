@@ -90,8 +90,8 @@
         },
         {
           "id": "ad-spatial-symptoms",
-          "title": "定向、导航与视觉空间表现",
-          "status": "planned"
+          "title": "07｜定向与视觉空间表现：看见、定位和找路不同",
+          "status": "draft"
         },
         {
           "id": "ad-behavior-symptoms",
@@ -110,13 +110,13 @@
         },
         {
           "id": "ad-sleep",
-          "title": "睡眠、节律与双向关系",
-          "status": "planned"
+          "title": "11｜睡眠与疾病：长期关联和双向关系",
+          "status": "draft"
         },
         {
           "id": "ad-social-education",
-          "title": "教育、活动与社交：关联和因果",
-          "status": "planned"
+          "title": "12｜教育、活动与社交：有价值的经历不自动等于预防证据",
+          "status": "draft"
         },
         {
           "id": "ad-reserve",
@@ -125,8 +125,8 @@
         },
         {
           "id": "ad-risk-estimates",
-          "title": "怎样阅读风险数字与群体归因估计",
-          "status": "planned"
+          "title": "14｜风险数字与群体归因：为什么不能把预防比例给个人",
+          "status": "draft"
         }
       ]
     },
@@ -294,8 +294,8 @@
         },
         {
           "id": "ad-evidence-synapse",
-          "title": "新技能学习、参与和认知结果",
-          "status": "planned"
+          "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-games",
@@ -314,13 +314,13 @@
         },
         {
           "id": "ad-dose-adherence",
-          "title": "剂量、依从性与选择效应",
-          "status": "planned"
+          "title": "21｜剂量、完成量与加强训练：做得多不自动等于因果收益",
+          "status": "draft"
         },
         {
           "id": "ad-preservation",
-          "title": "长期保持、随访、失访与竞争风险",
-          "status": "planned"
+          "title": "22｜保持、失访与竞争风险：长期结果怎样成立",
+          "status": "draft"
         },
         {
           "id": "ad-synthesis",
@@ -377,6 +377,13 @@
     "ad-aging",
     "ad-reserve",
     "ad-senses",
-    "ad-vascular"
+    "ad-vascular",
+    "ad-sleep",
+    "ad-dose-adherence",
+    "ad-preservation",
+    "ad-evidence-synapse",
+    "ad-social-education",
+    "ad-spatial-symptoms",
+    "ad-risk-estimates"
   ]
 }
