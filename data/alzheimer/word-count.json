@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 45340,
-  "visible_chars": 51601,
+  "counted_han_chars": 50217,
+  "visible_chars": 57177,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 28,
+  "drafted_chapters": 32,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -229,6 +229,38 @@
       "title": "14｜preDIVA：直接观察痴呆发生，主要结果未显著",
       "han_chars": 1141,
       "visible_chars": 1338,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-sprint",
+      "title": "15｜SPRINT-MIND：MCI结果积极，痴呆主要终点仍不确定",
+      "han_chars": 1089,
+      "visible_chars": 1319,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-achieve",
+      "title": "16｜ACHIEVE：听力干预的总体结果与人群差异",
+      "han_chars": 1056,
+      "visible_chars": 1254,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-transfer",
+      "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
+      "han_chars": 1373,
+      "visible_chars": 1496,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-training-types",
+      "title": "02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同",
+      "han_chars": 1359,
+      "visible_chars": 1507,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

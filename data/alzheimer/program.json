@@ -219,13 +219,13 @@
         },
         {
           "id": "ad-training-types",
-          "title": "训练、刺激、康复、学习和游戏分别是什么",
-          "status": "planned"
+          "title": "02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同",
+          "status": "draft"
         },
         {
           "id": "ad-transfer",
-          "title": "任务学习、近迁移、远迁移与生活功能",
-          "status": "planned"
+          "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
+          "status": "draft"
         },
         {
           "id": "ad-plasticity",
@@ -284,13 +284,13 @@
         },
         {
           "id": "ad-evidence-sprint",
-          "title": "SPRINT-MIND：MCI 与痴呆终点差异",
-          "status": "planned"
+          "title": "15｜SPRINT-MIND：MCI结果积极，痴呆主要终点仍不确定",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-achieve",
-          "title": "ACHIEVE：感觉干预与人群异质性",
-          "status": "planned"
+          "title": "16｜ACHIEVE：听力干预的总体结果与人群差异",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-synapse",
@@ -363,6 +363,10 @@
     "ad-evidence-cochrane",
     "ad-evidence-finger",
     "ad-evidence-mapt",
-    "ad-evidence-prediva"
+    "ad-evidence-prediva",
+    "ad-evidence-sprint",
+    "ad-evidence-achieve",
+    "ad-transfer",
+    "ad-training-types"
   ]
 }

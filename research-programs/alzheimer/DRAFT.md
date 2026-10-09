@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：45,340 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：50,217 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -1633,6 +1633,186 @@ Lampit 等正常老年人元分析纳入 52 项研究、4885 人，整体认知�
 - [S43｜Edwards 等：ACTIVE 十年速度训练与痴呆](https://pubmed.ncbi.nlm.nih.gov/29201994/) · 原文 XML、摘要与数据表。CC BY-NC-ND 4.0；原文可非商业分发但不据此公开全文翻译。数据审核继续。
 - [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 
+## 02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同
+
+建立干预分类与方案记录方式，避免仅凭“益智”或“脑训练”名称混合不同证据。
+
+状态：起草完成，审核进行中。
+
+### 先看实际活动，后看名称
+
+研究中的认知训练通常使用相对标准化任务，针对明确加工过程安排重复练习。一个项目是否属于这种类型，应看任务规则、目标、剂量与实施，而不是看宣传中是否使用训练一词。
+
+计算机只是实施载体。纸笔、现实活动与屏幕任务都可能训练某种过程；使用手机也不自动意味着自适应、科学或有效。资料库需要记录任务本身，再记录设备和监督方式。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 认知刺激强调什么
+
+认知刺激常涉及较广的活动与参与，可以包含交流、讨论或多种认知内容。它与单一过程的标准化练习不完全相同。活动结构、社交接触和参与环境可能共同影响结果，因此不能仅把它归为某款小游戏的证据。
+
+这类活动可能具有参与和交流价值，但具体收益仍需相应研究。若测量的是情绪或生活质量，就按这些结局报告；不能因为活动含有思考，就自动扩展为AD预防。
+
+依据：[S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 认知康复以个人生活目标为中心
+
+认知康复更关注个体需要完成的实际活动，例如使用提示系统管理约定。它可以通过补偿策略、环境安排和技能练习帮助功能，不要求每个收益都表现为通用认知分数提高。
+
+一个人学会使用日历后漏约减少，是有意义的生活变化，却不必然说明病理被逆转。研究需要尊重这个目标，避免把补偿当作低等级收益，也避免把它包装成疾病修饰。
+
+如果未来BrainLab面向已有认知困难者，任务目标和负担应个体化。与正常老年人群的预防研究相比，这需要不同方案和结局，不能直接共享训练剂量。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 新技能学习与固定任务练习不同
+
+学习摄影、乐器或其他新技能，可能同时要求知识、动作、注意、计划和社交。它的复杂性接近日常学习，但也使作用归因更困难。若方案有效，仍需判断技能内容、持续参与和环境支持分别贡献什么。
+
+与固定题型相比，新技能可以持续引入新问题；但“新”本身不是疗效保证。活动难度、既有经验、兴趣和资源都会影响参与。研究需要记录这些条件，而不是只用活动名称推断刺激强度。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 游戏是体验形式，不是统一治疗类别
+
+数独、扫雷、推箱子和记忆配对共享游戏形式，却有不同规则和加工需求。一个游戏还可以有许多版本：提示、计时、地图、奖励与重复题库会改变玩家使用的策略。
+
+游戏可能提高参与意愿，使任务更容易坚持。但粘性与认知收益必须分别测量。每天打开应用可能只完成熟悉操作，停留很久也可能来自挫败或重复尝试；时间指标不能直接代表有效训练剂量。
+
+研究记录应把规则、难度和反馈具体化。若使用自适应算法，应说明调节依据和目标，不将自动变难当作已证实适合每个人的处方。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 怎样建立数据库分类
+
+下表是本项目的分类建议，允许同一方案具有多个标签。分类用于检索和比较，不能替代效果证据。
+
+| 维度 | 需要登记 |
+| --- | --- |
+| 主要目标 | 特定加工、广泛参与或生活功能 |
+| 活动结构 | 标准任务、新技能或综合活动 |
+| 实施载体 | 屏幕、纸笔、现实环境 |
+| 支持方式 | 独立、专业监督或团队 |
+| 剂量 | 频率、长度、持续周数及完成量 |
+| 适应机制 | 固定、自选或明确算法 |
+| 结局 | 任务、独立认知、功能或疾病 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 混合方案应保留组成
+
+一个方案可以同时包括游戏、运动和健康教育。数据库应分别登记组成，并标记原研究是否能够隔离某项的效果。没有拆分设计时，不把整个方案的收益归给最吸引人的部分。
+
+如果两种方案都含认知活动，只是支持强度不同，比较结果回答的可能是组织方式的增量价值。名称相同不表示内容相同，名称不同也不保证真正活动不同。
+
+后续证据综合将按实际干预和结局聚类，再决定是否适合合并。先建立这些字段，可以减少随着文献增多而出现的重复计数与概念混淆。
+
+依据：[S47](https://pubmed.ncbi.nlm.nih.gov/25771249/), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/)
+
+### 本项目当前应如何使用分类
+
+目前可以将游戏作为候选活动，建立任务档案和可用性研究；将训练收益作为待检验问题，逐步安排独立结局。不能根据某游戏属于逻辑或记忆类别就推定防病作用。
+
+对个人研究阅读而言，最有用的入口是“这项研究到底让人做了什么”。读者看到具体活动、对照和人群后，再判断结果能否用于自己的研究问题。分类页面应引导到原文，保留无法提取的字段。
+
+这一章完成的是术语与记录框架。每种干预的实际效果仍需逐篇审核，尤其是疾病终点和长期保持，不能由定义本身得出。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S47](https://pubmed.ncbi.nlm.nih.gov/25771249/), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
+- [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
+
+## 03｜任务学习、迁移与生活功能：怎样判断练习的收益
+
+建立从游戏成绩到独立认知及疾病结局的测量层级，避免把熟练度当成普遍能力。
+
+状态：起草完成，审核进行中。
+
+### 训练成绩先回答“这项任务学会了多少”
+
+重复一款游戏后，玩家可能熟悉规则、形成策略、记住材料、改善操作或更准确判断。这些都是学习的一部分，但原因不同。通关速度提高不能单独辨认是哪一种变化，更不能由速度变化推算疾病风险。
+
+任务内成绩适合用于调节难度和观察学习过程。若将它作为唯一研究结局，研究只能可靠讨论对该任务的改变。要讨论一般能力，需要独立材料和独立任务；要讨论生活价值，需要另外定义功能结局。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 近迁移需要说明“近”在哪里
+
+近迁移指收益出现在与训练共享较多要求的未训练任务。但共享什么必须具体说明：刺激类别、反应规则、认知过程还是策略。不能仅凭两个任务都叫记忆测验就认为它们接近。
+
+例如训练图片配对以后，用新的图片配对检查收益，可以减少固定题库记忆的解释；但同一种反应规则和策略仍可能共享。换成故事事件回忆则改变许多要求，结果也可能受语言理解影响。每一次任务变化都应记录，而不是只贴近迁移或远迁移标签。
+
+分类距离不是疗效等级。近迁移可以有明确价值，远迁移也可能因为测量不可靠而难以解释。研究应先判断结局是否可靠、是否对应目标，再讨论收益的范围。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 远迁移不能靠一个总分命名
+
+若项目声称改善广泛认知，应提前定义哪些领域、怎样测量以及主要终点是什么。多个测验中挑选一个显著结果，不足以证明普遍能力提升。综合分数也应说明组成，避免掩盖领域间不一致。
+
+独立测验仍可能有练习效应。训练和对照两组都接受重复测试，有助于比较额外变化；但如果训练内容与测验非常相似，也应将这种重叠明确标注。
+
+所谓远迁移应当是研究结果，不是产品描述中的预设承诺。只有合适对照、可靠测量和可重复结果支持时，才能逐步扩大结论范围。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 生活功能是另一种结局
+
+日常生活包括安排事务、处理钱款、记住约定和安全出行等活动。游戏成绩进步可能并不改变这些任务，也可能帮助某一具体活动。研究需要选择与用户实际目标相关的功能指标，不能把认知分数统一当作独立生活能力。
+
+自评、家属报告和实际任务表现各有信息，也各有局限。自评可能受到期待影响，家属报告受到观察机会影响，模拟任务未必覆盖真实环境。多类资料可以相互支持，但不能随意取其中最积极的一项作最终结论。
+
+对已经存在功能困难的人，学习外部提示或补偿策略可以有价值，即使它并未逆转病理。研究库应区分补偿收益与疾病修饰，尊重不同目标。
+
+依据：[S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### 保持不是训练结束那一天的成绩
+
+保持要求在停止或减少训练以后继续测量。研究还需记录参与者是否在随访中继续练习，是否接触类似活动。否则较长期成绩不能被明确归因于一次完成的训练。
+
+不同时间点的缺失人数也重要。如果只剩愿意坚持且表现好的参与者，平均结果可能偏向积极。原始随机人群分析、缺失说明与敏感性分析有助于判断结论稳定程度。
+
+未来页面应将训练结束、短期随访与长期随访分开展示。一个任务的长期保持不等于多领域能力长期保持，更不等于长期疾病预防。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 建议采用的研究记录层级
+
+下面是本项目的方法建议，用于设计研究和整理文献，不是已经验证的临床处方。每一层分别报告，避免跨层借用结论。
+
+| 层级 | 问题 | 需要的结局 |
+| --- | --- | --- |
+| 任务内学习 | 是否更熟练 | 原任务成绩与错误类型 |
+| 独立任务收益 | 是否迁移 | 未训练材料及任务 |
+| 保持 | 收益是否持续 | 明确随访时间与继续练习 |
+| 生活功能 | 是否改变日常活动 | 功能测量及真实目标 |
+| 疾病风险 | 是否减少疾病发生 | 明确诊断终点与长期随访 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 把一个假设变成可审查方案
+
+可以先定义目标人群、训练过程、主动对照和一个主要独立结局，再安排功能与探索性指标。若试验只为可行性设计，就报告完成率、负担和实施问题，不用小样本不稳定的疗效数字宣传预防。
+
+分析前应登记主要问题和比较，研究后同时报告积极、无差异及不确定结果。多个版本的游戏若改变刺激或反馈，应有版本记录，否则不同阶段数据难以比较。
+
+迁移章节为后续游戏矩阵提供新的列：参与的加工过程、已有任务学习资料、迁移资料、功能资料和疾病终点资料。空白表示没有找到对应证据，不应默认有益，也不应自动判为无效。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+
 ## 06｜ACTIVE 五年：没有发现痴呆发生率差异
 
 先看同一试验较早的无差异结果，再读十年和二十年的积极线索。
@@ -2232,6 +2412,151 @@ HR比较的是随访中事件发生的相对速率，并非简单事件人数比
 - [S90｜preDIVA原始论文：Amsterdam UMC机构记录](https://pure.amsterdamumc.nl/en/publications/effectiveness-of-a-6-year-multidomain-vascular-care-intervention-/) · 作者机构摘要。与S49为同一试验同一论文，不独立计数。
 - [S89｜WHO（2019）：痴呆风险降低指南中的多领域干预讨论](https://www.ncbi.nlm.nih.gov/books/NBK542796/) · 官方指南全文。讨论FINGER、MAPT和preDIVA；不是独立试验，不能与其引用研究重复计数。
 
+## 15｜SPRINT-MIND：MCI结果积极，痴呆主要终点仍不确定
+
+用同一试验的不同终点解释证据范围；血压干预不能借用为游戏疗效。
+
+状态：起草完成，审核进行中。
+
+### 先认清干预对象
+
+SPRINT-MIND比较强化与标准血压控制对认知相关结局的影响。它属于健康管理干预研究，并不是要求参与者玩认知游戏。因此本项目收录它，是为了理解认知健康及终点设计，而不是计算游戏有效率。
+
+不同干预可能影响脑健康的不同路径。血管风险管理与学习任务都值得研究，但它们不能共享一个未经验证的疗效数字。这里也不将试验中的血压目标转化为个人治疗建议；实际照护需要按个体情况判断。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 同一研究的两类结局
+
+2019年原始论文报告可能痴呆主要比较HR为0.83，区间0.67至1.04，P=.10；MCI结果HR为0.81，区间0.69至0.95，P=.007。两种结果不能合成一句“已经预防痴呆”。
+
+MCI是一种认知受损状态，痴呆涉及更明显的功能影响。二者可能处于病程联系之中，但MCI并非全部由AD造成，也并非所有MCI必然发展为痴呆。降低MCI发生与降低病理确认AD发生仍然是不同命题。
+
+| 2019年终点 | HR | 95%CI | P值 | 范围 |
+| --- | --- | --- | --- | --- |
+| 可能痴呆 | 0.83 | 0.67—1.04 | .10 | 主要比较未显著 |
+| MCI | 0.81 | 0.69—0.95 | .007 | 积极信号不能替代痴呆终点 |
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 为什么不能说没有显著就完全无效
+
+可能痴呆的区间同时包含具有潜在意义的降低和接近无差异的情况。它表明估计存在不确定性，而不是已经精确排除所有效果。要解释这种不确定性，需要事件数、随访和试验实施信息。
+
+反过来，点估计低于1也不能直接称为已证实降低。研究结论需要点估计与区间一起读，不依据项目期望选择其中一个数字。
+
+如果以后延长随访或出现新报告，应单独记录版本与时间，不能把后续数字悄悄替换进2019年结果。每次更新都应解释结局、参与者及分析条件有没有改变。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 人年、事件率与个人风险不同
+
+长期试验常用每千人年事件率，分母包含参与者贡献的随访时间。一个人贡献多年，会形成多个人年；这不是说发生率就是每个人在同样时间内的概率。事件率和累计风险需要不同解释。
+
+HR也不是简单人数比例。不同随访长度、删失和模型处理会影响正式比较。资料库应同时记录事件数、人数、人年及统计方法，避免只展示一个相对数字。
+
+对游戏研究而言，若随访短到几乎没有疾病事件，就算任务测验很精确，也很难回答疾病发生问题。研究资源和结局选择需要匹配，而不能用短期任务收益补足长期事件信息。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 主要与次要终点应保留层级
+
+主要终点通常承载试验的核心确认性问题，次要终点用于提供补充信息。出现主要未显著、次要积极时，可以如实讨论次要信号，但不能把它重新包装成原主要问题已经得到肯定回答。
+
+还要检查预设、比较数量及统计计划。不同终点的显著性并不能单独证明干预只作用于某一病程阶段；这种机制解释需要更多资料。
+
+这项例子可以作为未来BrainLab研究页面的模板：先显示研究问题与主要结果，再呈现其他终点及限制，使读者无需阅读全部讨论才发现核心结果并未证实预防。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 对本项目的具体研究启发
+
+日常游戏如果要研究认知保持，可以安排独立测验和功能结局；如果要研究疾病预防，就必须明确诊断定义、判定流程和时间。不同阶段可以进行不同研究，但每个阶段的结论范围都需诚实标明。
+
+未来综合方案若同时加入运动、健康管理和认知任务，应分别登记组成和依从性。即使整体方案收益成立，也需额外设计才能判断游戏的增量价值。
+
+后续将补提SPRINT原论文的人群限制、事件流向、随访及判定方法，并单列延长随访报告。目前这一章已建立两个终点的准确对照，不宣称完成整个试验的逐表审核。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 该章原文来源
+
+- [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
+
+## 16｜ACHIEVE：听力干预的总体结果与人群差异
+
+从感觉输入到认知结局，解释随机试验为何没有证明所有人都受益，以及亚组资料应怎样继续核查。
+
+状态：起草完成，审核进行中。
+
+### 研究问题不是“听得清就不会得AD”
+
+ACHIEVE比较听力干预与健康教育对照，研究老年听力损失人群三年认知变化。听力服务涉及设备和咨询，并不是简单增加一个音量按钮，也不是认知游戏。
+
+听力损失可能影响沟通、活动参与和认知测验输入，因此是研究脑健康的重要议题。但关联不等于干预必然改变疾病，改善听力与证明AD预防也不是同一结局。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 总体主要结果的数据卡
+
+试验随机977人，包含238名ARIC来源参与者和739名新招募者。主要总体分析的三年认知变化差异为0.002标准差单位，区间−0.077至0.081，P=.96。总体主要结果没有显示显著认知差异。
+
+认知变化单位不是痴呆发生率，更不是AD特异性预防率。不能把另一项亚组分析的相对变化直接改写成所有听力损失者减少多少病例。
+
+| 项目 | 原始结果 | 范围 |
+| --- | --- | --- |
+| 随机参与者 | 977 | 研究入组人群 |
+| 招募来源 | ARIC238；新招募739 | 来源不同，不能忽略背景 |
+| 总体三年认知差异 | 0.002标准差单位 | 认知变化 |
+| 95%区间 | −0.077至0.081 | 含无差异 |
+| P值 | .96 | 总体主要比较未显著 |
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 招募来源差异为什么值得研究
+
+既有队列参与者与新招募志愿者可能在风险、健康、教育和研究经验方面不同。若干预作用依赖这些背景，整体平均可能掩盖不同情况；但发现差异仍需预设分析、交互检验和完整数字支持。
+
+不能仅因某个来源亚组出现积极信号，就将另一个来源排除并宣布总体阳性。资料库应同时显示总体和分层结果，保留各自人数与区间，并检查是否需要多重比较处理。
+
+来源不是一个可以直接推广的个人临床标签。未来若希望按风险选择人群，应使用清楚且可验证的风险定义，而不是要求所有人属于某个特定历史队列。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 感觉输入与测量公平
+
+需要听懂指令或听取词语的认知任务，可能受到听力影响。测验设计应确保参与者接收到信息，否则低分可能包含感觉障碍，而不完全代表记忆加工下降。
+
+改善输入以后测验表现更好，可以具有实际价值，但还需判断是否是同一种认知能力真正变化。可结合视觉呈现、输入确认和不同任务，检查收益范围。
+
+对BrainLab而言，界面可读、音量可控、文字替代和清楚指令是研究可用性的基础。它们降低使用障碍，不应被包装成已证实改变AD病理。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 不显著认知结果不抹掉其他服务价值
+
+听力干预还可能影响沟通和日常参与，但这些价值应使用相应结局评价，不能从认知主要结果推断全部生活效果。反过来，沟通改善也不能替代疾病预防证明。
+
+研究库可以分别组织认知、功能、交流、生活质量和疾病终点，让读者看到一个方案在哪些方面有证据。只使用“有效”或“无效”总标签，会使复杂结果失真。
+
+同一试验的后续报告应与原试验关联，避免重复样本。不同报告增加的是结局或分析信息，不代表同一方案已被许多独立试验重复验证。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 后续审核与项目假说
+
+下一步需要逐项提取ARIC与新招募亚组的效应、交互、预设状态，核对认知任务呈现方式、依从性和失访。近期生物标志物及其他次要报告也应单列版本，再决定是否支持机制链。
+
+目前可保留的结论是：总体三年认知主要结果未显著，人群异质性值得继续研究。它不直接证明听力干预预防AD，也不能作为游戏训练疗效。
+
+研究设计可以借鉴其明确对照、长期跟踪和招募分层，同时保持本项目核心问题：特定训练在明确人群中对独立认知、生活功能或疾病终点是否产生可重复收益。
+
+依据：[S51](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/)
+
+### 该章原文来源
+
+- [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
+
 # 尚未完成的章节
 
 ## 第一部分｜先理解疾病
@@ -2262,13 +2587,9 @@ HR比较的是随访中事件发生的相对速率，并非简单事件人数比
 
 ## 第四部分｜训练预防的可能性
 
-- 训练、刺激、康复、学习和游戏分别是什么
-- 任务学习、近迁移、远迁移与生活功能
 - 可塑性与疾病修饰：机制桥梁有多长
 - 直接、间接与缺失证据：当前论证图
 - US POINTER：结构化与自主方案
-- SPRINT-MIND：MCI 与痴呆终点差异
-- ACHIEVE：感觉干预与人群异质性
 - 新技能学习、参与和认知结果
 - 经典游戏与商业产品：不能借用他人疗效
 - 盲法、期待、对照与发表偏倚
