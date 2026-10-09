@@ -33,18 +33,18 @@
         },
         {
           "id": "ad-phenotypes",
-          "title": "记忆型与非典型表型：不是每个人都先忘事",
-          "status": "planned"
+          "title": "05｜记忆型与非典型表型：不是每个人都先忘事",
+          "status": "draft"
         },
         {
           "id": "ad-diagnosis-process",
-          "title": "医生如何判断：病史、认知、功能与辅助检查",
-          "status": "planned"
+          "title": "06｜医生如何判断：病史、认知、功能与辅助检查",
+          "status": "draft"
         },
         {
           "id": "ad-biomarkers",
-          "title": "临床诊断与生物学定义：两个框架的分歧",
-          "status": "planned"
+          "title": "07｜临床诊断与生物学定义：两个框架的分歧",
+          "status": "draft"
         },
         {
           "id": "ad-outcome-language",
@@ -65,8 +65,8 @@
         },
         {
           "id": "ad-genetics",
-          "title": "APP、PSEN 与 APOE：致病变异和风险变异",
-          "status": "planned"
+          "title": "02｜APP、PSEN 与 APOE：致病变异和风险变异",
+          "status": "draft"
         },
         {
           "id": "ad-aging",
@@ -75,18 +75,18 @@
         },
         {
           "id": "ad-memory-symptoms",
-          "title": "记忆表现：编码、保存和提取如何区分",
-          "status": "planned"
+          "title": "04｜记忆表现：编码、保存与提取如何区分",
+          "status": "draft"
         },
         {
           "id": "ad-language-symptoms",
-          "title": "语言、理解与词义：失语相关表现",
-          "status": "planned"
+          "title": "05｜语言、理解与词义：不同的说不出来意味着什么",
+          "status": "draft"
         },
         {
           "id": "ad-executive-symptoms",
-          "title": "规划、注意和判断：执行功能表现",
-          "status": "planned"
+          "title": "06｜规划、注意与判断：怎样理解执行功能表现",
+          "status": "draft"
         },
         {
           "id": "ad-spatial-symptoms",
@@ -347,6 +347,13 @@
     "ad-evidence-active10",
     "ad-evidence-active20",
     "ad-brain-clinical-guide",
-    "ad-evidence-lampit"
+    "ad-evidence-lampit",
+    "ad-genetics",
+    "ad-phenotypes",
+    "ad-memory-symptoms",
+    "ad-diagnosis-process",
+    "ad-biomarkers",
+    "ad-language-symptoms",
+    "ad-executive-symptoms"
   ]
 }

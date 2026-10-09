@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 14764,
-  "visible_chars": 17030,
+  "counted_han_chars": 26793,
+  "visible_chars": 30535,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 12,
+  "drafted_chapters": 19,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -13,6 +13,14 @@
       "title": "01｜从一个生活例子理解阿尔茨海默病",
       "han_chars": 1244,
       "visible_chars": 1385,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-biomarkers",
+      "title": "07｜临床诊断与生物学定义：两个框架的分歧",
+      "han_chars": 1661,
+      "visible_chars": 1857,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -101,6 +109,54 @@
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
       "han_chars": 1714,
       "visible_chars": 2063,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-genetics",
+      "title": "02｜APP、PSEN 与 APOE：致病变异和风险变异",
+      "han_chars": 1607,
+      "visible_chars": 1826,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-phenotypes",
+      "title": "05｜记忆型与非典型表型：不是每个人都先忘事",
+      "han_chars": 1587,
+      "visible_chars": 1811,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-memory-symptoms",
+      "title": "04｜记忆表现：编码、保存与提取如何区分",
+      "han_chars": 1657,
+      "visible_chars": 1835,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-diagnosis-process",
+      "title": "06｜医生如何判断：病史、认知、功能与辅助检查",
+      "han_chars": 1966,
+      "visible_chars": 2202,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-language-symptoms",
+      "title": "05｜语言、理解与词义：不同的说不出来意味着什么",
+      "han_chars": 1691,
+      "visible_chars": 1906,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-executive-symptoms",
+      "title": "06｜规划、注意与判断：怎样理解执行功能表现",
+      "han_chars": 1860,
+      "visible_chars": 2068,
       "excluded_repeated_han": 0,
       "status": "draft"
     }
