@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：50,217 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：57,953 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -1571,6 +1571,315 @@ Aβ、Tau、突触变化及其他病理可以共同影响信息传递。一个�
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S11｜Coughlan 等：空间导航与阿尔茨海默病](https://www.nature.com/articles/s41582-018-0031-x) · 摘要与可访问概要。
 
+## 07｜MRI：结构变化不是病理和认知的同义词
+
+解释结构影像在诊断与研究中的作用，建立区域、时间、测量方法和结论范围的阅读框架。
+
+状态：起草完成，审核进行中。
+
+### MRI首先提供哪种信息
+
+MRI可以观察脑部结构，并帮助识别可能解释症状的其他异常。NIA强调检查可以支持诊断和排查其他原因。影像结果需要与病史、认知和功能一起理解，不能独立完成所有病因判断。
+
+普通结构MRI不是直接拍摄Aβ或Tau的检查。组织体积、蛋白病理和功能活动是不同测量对象。如果一张图显示萎缩，不能据此直接写成该处有多少蛋白沉积，或推算个人记忆下降比例。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### 萎缩描述的是结构，不直接给出原因
+
+某区域体积较小可能引发对组织损伤的研究，但单次检查还需考虑个体原本差异和测量条件。与年龄相关的变化、其他疾病及共病理也影响解释。区域模式可以提供线索，却不应被视为完全特异的疾病指纹。
+
+海马相关体积与记忆研究有联系，但“海马小”不能替代AD病理确认。也不能把正常范围内的个体差异直接解释成患病或需要某种脑区游戏。临床报告与研究中群体统计图使用不同判断过程。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S85](https://www.nature.com/articles/s41593-020-00764-7)
+
+### 横断面与纵向测量
+
+横断面比较不同人的体积，纵向比较同一个人随时间的变化。前者可以寻找群体差异，后者更接近变化过程，但仍需要处理扫描和分割误差。两次数据不同不必然全部来自真实生物改变。
+
+研究应记录扫描设备、序列、时间间隔、处理流程及区域定义。软件或设备变化可能影响可比性，不能把不同处理版本直接连成疾病进展曲线。
+
+如果训练研究使用MRI，应在分析前定义关注区域和方法，并设置合适对照。仅从众多区域中挑出一个有利变化，不能证明训练普遍保护脑部。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 白质和血管改变要单独记录
+
+脑影像还能提供血管相关异常等信息，它们可能与认知问题共同出现。AD相关病理与其他改变可以共存，不能因为已经发现一种病理就忽略其他解释。
+
+资料库应分开记录灰质结构、白质表现和血管相关发现。各字段需要具体方法及报告标准，而不是统一汇成“大脑损伤值”。
+
+若一个人执行或速度任务较差，研究可以考虑多种结构与网络因素，但不能仅凭行为反推白质损伤，也不能仅凭影像位置判断一个经典游戏将产生保护。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S50](https://pubmed.ncbi.nlm.nih.gov/30688979/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 群体热图怎样阅读
+
+研究热图往往展示组间统计差异或关联，而不一定是某个患者的实际损伤图。颜色代表什么、阈值如何选择、是否校正多重比较，都应与图片一起说明。
+
+一个没有显著颜色的区域不等于完全正常；它可能是效应小、噪声高或研究没有足够信息。显著区域也不自动是全部症状的原因。
+
+将来引用截图时，本项目会保留图题、图例和出处，并注明它是群体比较、代表病例还是模型。缺少这些信息的漂亮脑图不适合作为游戏设计的疗效依据。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S85](https://www.nature.com/articles/s41593-020-00764-7)
+
+### 结构结局与训练效应
+
+如果训练组出现某种结构变化，还需问独立认知和功能是否同时改善，变化是否可靠保持，以及是否存在其他解释。结构是候选机制结局，不能仅因它与脑有关就成为疾病预防的替代终点。
+
+相反，没有观察到MRI结构变化，也不能单独排除行为策略收益。训练可能改变如何使用已有资源，而不产生可测体积差。不同结局回答不同问题，应各自评价。
+
+研究方案应把任务、行为、结构和疾病终点分别列出，明确哪些是主要确认性问题、哪些是探索。这样能够保留有价值的小范围收益，又不扩大为未经验证的防病结论。
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### MRI文献提取模板
+
+下表是资料库的审核字段建议，不是个人影像诊断流程。
+
+| 字段 | 目的 |
+| --- | --- |
+| 临床与病理定义 | 确认比较的是哪些人 |
+| 扫描与序列 | 判断测量对象 |
+| 区域和分割方法 | 明确结构边界 |
+| 横断面或纵向 | 区分群体差异与个人变化 |
+| 校正与统计模型 | 判断体积和混杂处理 |
+| 效应及区间 | 避免只看颜色或P值 |
+| 认知及功能关系 | 检查生活意义 |
+| 训练分配与对照 | 若为干预，判断因果范围 |
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 当前结论与后续工作
+
+本章建立结构影像阅读基础，帮助区分结构、病理和行为。尚未完成各种MRI方法的专家级技术综述，也不为个人影像提供诊断。
+
+下一步将按具体原始研究提取萎缩与白质资料，记录区域、统计和功能关系；对训练影像研究，还需审查随机设计、时间和多重比较。
+
+对游戏设计而言，MRI最适合帮助形成机制问题，而不是生成“针对某脑区”的疗效标签。明确任务和独立结局仍然是研究起点。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S85](https://www.nature.com/articles/s41593-020-00764-7)
+
+### 该章原文来源
+
+- [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S85｜Leng 等（2021）：选择性易损神经元的分子特征](https://www.nature.com/articles/s41593-020-00764-7) · 正文可访问部分及 PMC 入口。PMID 33432193；发现阶段10名男性APOE ε3/ε3供体；标志物不等于已证实的致病原因。
+- [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
+- [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+
+## 08｜PET：不同示踪剂看见不同问题
+
+连接蛋白病理、代谢与突触相关测量，避免把影像阳性和训练作用混为一谈。
+
+状态：起草完成，审核进行中。
+
+### PET不是一种固定内容的脑照片
+
+PET使用不同示踪剂观察相应结合或生理过程，具体内容取决于示踪剂和分析方法。检查名称相同，不表示测量对象相同。淀粉样蛋白、Tau、代谢与突触相关成像应分别记录。
+
+影像颜色通常需要模型、参照和显示范围解释。更红不是通用的更健康或更严重；读图必须知道图例和测量对象。不同论文采用不同色标时，不能凭颜色深浅直接比较。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 淀粉样成像回答的是病理线索
+
+淀粉样检查帮助评价相关病理，而不直接测量当天记忆力。阳性结果需要放在临床状态、诊断框架和其他资料中理解。它不能仅凭存在病理就给出一个人多久以后出现症状的确定时间。
+
+若作为干预结局，病理变化与临床变化仍应分别报告。减少相关信号不能自动叫作恢复独立生活，也不能把一个药物试验的病理作用外推到游戏训练。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S34](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### Tau相关成像与空间分布
+
+Tau成像可用于研究病理分布与临床表现的关系，但具体示踪剂、信号特异性和病程都会影响解释。组织病理、影像结合和血液特定Tau指标不是可任意互换的量。
+
+某个脑区信号与认知表型相联系，可以支持机制假说；要证明训练改变该过程，需要干预前后及合适对照。任务涉及同一区域，不构成这条桥梁。
+
+数据库应记录区域定义、阈值、参照区和临床人群，避免只保存一个阳性标签。后续不同研究结果不一致时，这些字段可能帮助解释差异。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S84](https://pubmed.ncbi.nlm.nih.gov/1759558/), [S77](https://doi.org/10.15252/emmm.201606210)
+
+### 代谢成像不等于任务参与图
+
+代谢相关PET与任务功能影像使用不同方法和时间尺度。区域代谢模式能够提供信息，却不能直接告诉我们某个人在某局游戏中使用了哪种策略。
+
+代谢降低与结构损伤、网络输入或其他因素可能关联，需结合研究具体条件解释。不能用统一的“越高越好”规则评价全部区域和病程。
+
+本项目后续将单列原始代谢研究的病例定义、模式及结局，不把一张代表图当成所有患者的共同地图。
+
+依据：[S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### 突触相关PET的实例
+
+Chen研究使用SV2A相关示踪剂比较AD相关组与认知正常组。资料库突触章节已经列出未校正及部分容积校正参数，强调它们是不同处理版本。
+
+这说明同一个生物学目标也需要测量模型。结构萎缩、参照处理和分析定义都会影响数值解释。影像参数不是直接数出全部功能连接，更不是个人游戏剂量表。
+
+横断面组间差异支持进一步研究活体突触测量，不能直接说明训练后能够恢复同样比例的突触。
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 研究变化与个人诊断的界线
+
+群体研究可能比较均值和统计关联，临床判断则需要可靠阈值、检查质量和个体背景。某个研究中两组平均不同，不代表每个人都能够被同样准确分类。
+
+阈值附近的结果也需要考虑测量不确定性。资料库应保留连续值和定义，不能把研究中的二分标签误当成绝对自然边界。
+
+如果用于训练试验，生物标志物可以帮助定义样本或探索机制，但其临床意义和替代终点资格需要独立证据。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### PET提取卡应包含什么
+
+下面是研究记录建议，不是个人选择检查的医疗建议。
+
+| 字段 | 目的 |
+| --- | --- |
+| 示踪剂与目标 | 确认到底测什么 |
+| 样本和病理定义 | 区分正常、MCI及痴呆 |
+| 扫描和分析时间 | 理解信号获取 |
+| 参数及参照区 | 避免不同量互换 |
+| 萎缩/部分容积处理 | 检查结构影响 |
+| 区域与统计 | 核对多重比较 |
+| 结局关联 | 区分病理与行为 |
+| 纵向或干预设计 | 判断变化和因果范围 |
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 如何服务个人研究与游戏设计
+
+阅读页可以并列展示原文图例、目标、样本和解释范围，使截图成为理解工具。未经许可的完整图表不会被简单当作开放资源；许可材料会保留归属和说明。
+
+游戏设计可用PET资料提出病理与功能关系的问题，却不能仅凭图像位置给游戏分配疾病疗效。先验证任务和独立收益，再考虑机制指标，才有清楚研究顺序。
+
+本章完成测量概念导读。后续仍需逐篇扩充不同示踪剂的原始数据、局限和标准，不宣称已经完成PET专家级技术综述。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 该章原文来源
+
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S34｜Lecanemab：早期阿尔茨海默病试验](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948) · 摘要与可访问正文。
+- [S77｜Selkoe 与 Hardy（2016）：淀粉样蛋白假说二十五年后的讨论](https://doi.org/10.15252/emmm.201606210) · 开放全文 · CC BY 4.0。讨论模型及反对意见；不是训练试验。
+- [S84｜Braak 与 Braak（1991）：阿尔茨海默病相关改变的神经病理分期](https://pubmed.ncbi.nlm.nih.gov/1759558/) · 摘要与出版商入口。DOI 10.1007/BF00308809；组织病理分期不等同于个人临床功能阶段。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
+
+## 09｜血液与脑脊液：检测信号如何连接到疾病
+
+从样本、平台和临床人群出发，理解病理标志物与诊断准确性的范围。
+
+状态：起草完成，审核进行中。
+
+### 体液指标不是从大脑取出的一张直接照片
+
+血液和脑脊液检测提供与相关生物学过程有关的信号。具体测什么分子、哪种形式、使用什么平台及阈值，决定结果含义。不能把所有Tau相关数值视为同一个指标，也不能把不同实验室数值直接连成变化曲线。
+
+诊断框架把部分指标与AD病理联系起来，但它们并不独自描述全部认知、功能和共病理。病理证据与临床评估需要结合，不能以一个阳性结果替代全部判断。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 血液研究的适用人群
+
+已收录Palmqvist等2024年研究涉及有症状临床人群，而非向所有无症状社区居民普筛。研究中的准确性结论应保留这个场景，不能把临床比较自动推广到普通人日常自测。
+
+当病理比例和其他疾病构成变化时，阳性结果含义也会变化。检测性能可以很有价值，但是否适用于另一个人群，需要独立验证及相应流程。
+
+依据：[S71](https://jamanetwork.com/journals/jama/fullarticle/2821669)
+
+### 原始研究数据卡｜Palmqvist 2024
+
+研究评价1213名因认知症状接受临床评估的瑞典患者，采用预先定义阈值。总体APS2准确率90%，95%区间88%至92%；单独p-tau217百分比准确率90%，区间88%至91%。这些是该研究中的诊断表现，不是个人未来发病概率。
+
+APS2结合p-tau217相关比例与Aβ42/Aβ40血浆比例；不能将它简称为任何一种通用Tau检测。不同平台或指标的结果需要各自验证。
+
+| 项目 | 原始报告 | 限制 |
+| --- | --- | --- |
+| 样本 | 1213名有认知症状患者 | 瑞典临床场景 |
+| APS2准确率 | 90%；95%CI88%—92% | 相对研究参考定义 |
+| p-tau217百分比准确率 | 90%；95%CI88%—91% | 不是所有Tau指标 |
+| 阈值 | 预先定义 | 具体规则及参考标准待全文提取 |
+| 问题 | 当前临床检测 | 不是训练作用或无症状终身预测 |
+
+依据：[S71](https://jamanetwork.com/journals/jama/fullarticle/2821669)
+
+### 准确性之外，还要研究检测改变了什么
+
+一个检测能够区分参考状态，不等于已经改善患者生活或减少疾病发生。临床使用还需要研究它是否改变判断、减少不必要检查、帮助合适照护，以及结果披露带来什么影响。检测准确性与实施收益属于不同研究问题。
+
+预先定义阈值有助于减少在当前样本中反复调参数得到最好结果的风险，但仍需要检查阈值的来源、外部验证和平台适用性。一个固定阈值若在不同人群中性能变化，也应如实报告。
+
+本项目将把此论文登记为诊断证据，而非预防证据。未来若用它帮助训练试验分层，应明确研究入组目的，并将生物学状态与临床能力分别记录。不能把诊断工具的成功计入脑部训练有效的支持票数。
+
+依据：[S71](https://jamanetwork.com/journals/jama/fullarticle/2821669)
+
+### 准确率与个人未来风险不是同一数字
+
+诊断准确性评价将检测与某个参考定义比较；未来发病预测则需要时间与纵向结局。检测在当前临床样本中区分病理状态，不代表已经确定每个阳性者何时出现痴呆。
+
+还需核对参考标准。若比较的是另一种生物标志物，结论与病理一致性有关；若比较临床诊断，判断对象不同。不能只写“准确率高”而省略到底准确识别了什么。
+
+灵敏度、特异度和预测值也回答不同问题。资料库后续会同时登记定义、阈值、人群及区间，不用一个总体百分比代替全部性能。
+
+依据：[S71](https://jamanetwork.com/journals/jama/fullarticle/2821669), [S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/)
+
+### 阈值不是没有误差的自然界线
+
+连续测量需要阈值形成分类，阈值附近结果更应注意不确定性。平台、采样和质量控制都需要记录。研究可能设置不确定区间或后续确认流程，这些安排不能在引用中省略。
+
+同一个人两次结果不同，需要检查测量和背景变化，不能立即解释为训练使病理增加或减少。若要研究变化，还需了解重测可靠性和临床意义。
+
+本资料库不会将某个检验值换算成大脑年龄或游戏剂量；这种换算需要直接验证，目前不能由检测存在本身推导。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S71](https://jamanetwork.com/journals/jama/fullarticle/2821669)
+
+### 疾病标志物与一般损伤信号
+
+不同标志物可能对应病理、神经损伤或其他过程。一般损伤相关信号未必对AD特异，疾病相关信号也未必说明当前功能损害严重程度。读者需要明确每项指标回答哪一个问题。
+
+未来训练研究如果选择体液指标，应说明它是入组标准、探索机制还是主要结局，并提供依据。增加生物指标不能自动让试验结论升级为疾病预防。
+
+认知改善、病理变化和生活收益若不一致，应保留分别报告，继续检验机制；不能挑选最积极的一类替代全部结果。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 体液文献的审核字段
+
+下表是资料库的研究提取建议。
+
+| 字段 | 核查内容 |
+| --- | --- |
+| 样本 | 血液或脑脊液，采集条件 |
+| 指标 | 具体分子和形式 |
+| 平台 | 分析方法及质量控制 |
+| 人群 | 有无症状及临床场景 |
+| 参考标准 | 病理、影像或临床定义 |
+| 阈值 | 预设、验证及不确定区间 |
+| 性能 | 各指标与置信区间 |
+| 时间 | 横断面诊断或纵向预测 |
+| 用途 | 入组、机制或临床结局 |
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S71](https://jamanetwork.com/journals/jama/fullarticle/2821669), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 对个人阅读与项目研究的意义
+
+体液资料有助于理解疾病定义的变化，也帮助研究更清楚选择人群。它不能单独提供训练处方，更不能据此宣称一款游戏针对某种蛋白有效。
+
+本章建立概念入口，后续将逐表核查血液研究的样本、平台和参考标准，并扩充脑脊液原始资料。尚未完成的技术审核会保持明确标记。
+
+项目核心问题仍是具体训练能否产生可重复的独立收益，以及是否影响疾病终点。检测工具可以服务这个问题，但不能替代干预证据。
+
+依据：[S03](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/), [S71](https://jamanetwork.com/journals/jama/fullarticle/2821669), [S91](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia)
+
+### 该章原文来源
+
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S71｜Palmqvist 等：初级与专科诊疗中血液 AD 标志物](https://jamanetwork.com/journals/jama/fullarticle/2821669) · 摘要与可访问原文部分。1213 名有认知症状并接受评估的瑞典患者；不能直接推广为一般无症状筛查。
+- [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
+
 # 第四部分｜训练预防的可能性
 
 逐层检验机制合理性、人类训练结果、痴呆发病与 AD 特异性终点。
@@ -2255,6 +2564,69 @@ FINGER的干预同时涉及饮食、运动、认知训练与血管风险监测�
 
 - [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
 
+## 12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效
+
+准确阅读两个多领域方案的比较、认知变化率及适用人群，建立体验设计与疗效研究的边界。
+
+状态：起草完成，审核进行中。
+
+### 两个组都接受方案
+
+US POINTER比较结构化与自主多领域生活方式方案。两者并非训练与完全不活动的对照，因此随机比较回答的是两种组织与支持方式之间的额外差异。
+
+方案涉及运动、饮食、认知挑战、社交及心血管健康监测。整体比较不能告诉我们某款游戏单独贡献多少，也不能说明移除其他组成后效果仍然相同。研究库因此把它归为综合方案证据。
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
+
+### 主要结果的数据卡
+
+原始JAMA报告2111人随机分配，结构化1056人、自主1055人。两年内整体认知复合分数变化率的组间差为每年0.029标准差单位，95%区间0.008至0.050，P=.008。
+
+这个数值描述认知变化率，不是降低痴呆或AD发生的百分比。两组分数都提高，也不能仅凭各自前后变化证明两种方案都优于完全没有方案；随机设计最直接支持的是两组之间的比较。
+
+| 项目 | 结构化 | 自主 |
+| --- | --- | --- |
+| 随机人数 | 1056 | 1055 |
+| 认知年变化率，SD单位 | 0.243 | 0.213 |
+| 主要组间差 | 0.029/年；95%CI .008—.050 | 同一比较；P=.008 |
+| 结局范围 | 认知复合分数 | 不是AD发生率 |
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
+
+### 小差异如何判断实际价值
+
+统计显著说明数据在模型与假设下支持组间差异，却不能独自说明个人生活能够感觉到多大变化。实际意义还需功能结局、保持、资源投入和可实施性。
+
+认知复合分数汇总多个测量，不能直接叫作智力增加或大脑年龄逆转。后续应提取具体领域及模型，核对练习效应处理和哪些能力贡献变化。
+
+研究中分数变化也不是线性延伸到未来几十年的保证。不能将两年变化率乘以许多年，直接预测终身保护。长期效果需要长期观察。
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
+
+### 结构化支持对体验设计的启发
+
+结构化方案通常更明确安排活动与支持，这为任务组织、反馈和持续参与提供研究问题。但它不直接验证多邻国式连续打卡或Keep式课程对认知疾病有效。借鉴体验机制与借用临床疗效必须分开。
+
+未来可以比较不同提示、计划和团队支持如何影响完成量，同时设置独立认知结局。完成率改善是实施结果，认知收益是另一结果；两者关系需分析，不能用高粘性替代效果。
+
+对于个人研究库，页面应帮助读者追踪方案组成、实际参与、结局和方法，而不是只展示一个醒目成功数字。
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
+
+### 适用范围与选择过程
+
+入组试验的人群不是所有年龄和所有健康状态的人。研究筛选会排除不符合风险或活动条件者，因此推广时需要核对目标人群与研究样本的差异。
+
+较高完成率可以支持实施可行性，但仍需了解未完成者和缺失资料。专业团队、活动资源和研究接触也可能与普通应用不同。无法照搬研究条件时，应先验证自己的实施方案。
+
+后续逐表审核将提取完整入组条件、对照内容、实际剂量、随访与敏感性分析，并把其他报告与同一试验关联。当前已核实主要比较，不将其写成单独游戏预防AD的证明。
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/)
+
+### 该章原文来源
+
+- [S15｜US POINTER：结构化多领域干预](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/) · 全文或正文。结构化与自主多领域方案比较，不能隔离游戏组分；两年认知终点。
+
 ## 13｜MAPT：总体结果与亚组假说怎样分开
 
 以三年多领域及omega-3试验为入口，解释主要分析、探索性亚组和多重比较；原始效应表仍待核查。
@@ -2557,6 +2929,217 @@ ACHIEVE比较听力干预与健康教育对照，研究老年听力损失人群�
 
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
 
+## 19｜期待、对照与选择性报告：训练研究怎样产生偏倚
+
+建立逐篇方法审核框架，区分研究限制与未经证实的否定，帮助综合支持和无效结果。
+
+状态：起草完成，审核进行中。
+
+### 偏倚不是研究者一定不诚实
+
+偏倚指研究设计、实施或分析可能系统性改变估计。它可以在认真开展的研究中出现，不能只凭结果与预期不同判断。审核重点是具体过程是否影响比较，而不是给作者贴标签。
+
+训练研究特别需要关注期待、重复测试、参与支持与缺失数据。不同问题可能影响不同结局；自评改善与客观任务改善受到的影响不完全相同。因此审核应对应具体结果，不用一个总分替代解释。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 随机分配与隐藏分配
+
+随机分配帮助减少入组前差异，但研究还需避免在招募时预知下一次分组。随机方法和分配隐藏是相关却不同环节。仅在论文中出现随机一词，不能代替核对实际流程。
+
+如果按社区或诊所分组，应检查聚类和招募顺序。知道机构分组以后再选择参与者，可能影响两组样本组成。分析也需要保留分配单位的信息。
+
+资料库会登记分配单位、序列生成、隐藏方式和样本流向，未知时写待核，而非默认充分。
+
+依据：[S49](https://pubmed.ncbi.nlm.nih.gov/27474376/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 期待可以改变表现与报告
+
+参与者知道自己正在接受被认为有益的训练，可能更努力、改变其他活动或更积极自评。研究人员的接触也可能增加动机。这样的效应可能有真实体验价值，却不一定来自特定任务的认知机制。
+
+主动对照可以让两组都获得时间、关注和活动，但仍需比较期待是否相近。一个明显无聊或被描述为无效的对照，不会自动控制期待。
+
+评估者尽量不知道分组可以减少部分影响，尤其是需要主观判断的结局。参与者无法完全盲法，不意味着所有其他盲法都可以放弃。
+
+依据：[S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 重复测试与训练内容重叠
+
+同一测验重复出现可以产生练习效应，训练内容与测验接近还可能使收益包含题型熟悉。两组都重复测验有助于比较额外效果，但不完全解决训练特定重叠的问题。
+
+可使用独立材料、合理平行版本和预设结局，记录哪些测量与训练共享刺激或规则。不能把高度相似测验的改善直接扩展成所有日常能力提升。
+
+如果综合分数包含多个不同重叠程度的任务，应保留组成，避免一个熟悉测验主导平均变化却被解释为普遍认知收益。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 依从性与退出者
+
+完成训练的人可能更健康、更有资源或更有动机。只比较完成者会丢掉随机分配的部分优势。实际完成量是重要实施信息，但不能与最初随机组别混为一谈。
+
+缺失结果也需要解释。若成绩较差或负担较重的人更容易退出，剩余平均成绩可能偏积极。研究应报告每组流向、缺失原因和处理方法。
+
+敏感性分析可以检验不同假设下结论是否稳定，但不能保证彻底消除所有缺失问题。资料库应保留具体分析，不用“已校正”三个字结束审核。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S47](https://pubmed.ncbi.nlm.nih.gov/25771249/)
+
+### 选择性报告与发表
+
+研究可以测量许多领域和时间点，最终只强调积极结果。注册方案和统计计划能够帮助比较原先问题与实际报告。没有发现某个结果不代表它不存在，也可能未被发表。
+
+综述还需考虑可获得研究是否偏向积极。小样本、不一致和不精确会限制综合确定性；不能因为合并后显著就忽略各试验的方法。
+
+本资料库保留主要阴性、无差异与不确定结果，并关联同一试验多篇报告。这样可以减少只收藏成功故事和重复计算样本的倾向。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/)
+
+### 审核字段与结论写法
+
+下表用于逐篇审核，结论需对应实际资料。
+
+| 领域 | 需要的证据 |
+| --- | --- |
+| 分配 | 序列、隐藏、单位 |
+| 实施 | 接触量、期待、同时干预 |
+| 测量 | 评估盲法、独立材料、可靠性 |
+| 缺失 | 各组人数、原因、处理 |
+| 分析 | 预设结局、多重比较、敏感性 |
+| 报告 | 方案、完整终点及版本 |
+| 适用范围 | 入组人群、资源与环境 |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 怎样避免把限制当作随意否定
+
+存在偏倚风险意味着需要降低解释力度或进一步核查，并不说明结果一定是假的。反过来，结果令人期待也不能免除审核。积极和阴性研究应该使用一致标准。
+
+后续综合将同时呈现效应、人群、终点和主要限制，不用单一品质标签隐藏差异。若只有摘要，审核会明确限制在可访问范围；未读补充材料时，不声称已经确认所有方法。
+
+本章提供审核工具，核心试验仍需逐篇完成证据提取。可靠结论来自实际方法与数据，而不是清单被打满或链接校验通过。
+
+依据：[S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
+- [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
+- [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
+
+## 20｜效应量、区间与风险：不要让一个百分比替代研究
+
+结合已收录结果建立数字阅读流程，区分研究事实、算术说明与未经验证的推断。
+
+状态：起草完成，审核进行中。
+
+### 首先确认数字的单位
+
+认知分数、标准化均差、事件率和风险比不是同一种单位。FINGER的认知年变化差、POINTER的标准差单位变化率，以及preDIVA的痴呆HR，不能放在同一列按大小排名。
+
+阅读顺序可以从终点开始：测量什么，在谁身上，经过多久，与什么比较，用什么单位报告。只有这些要素明确，数字才有解释空间。否则一个较大数值可能仅来自量表不同，而非更强收益。
+
+依据：[S47](https://pubmed.ncbi.nlm.nih.gov/25771249/), [S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 绝对数字与相对数字互相补充
+
+相对风险描述比例关系，绝对风险描述事件发生的数量尺度。相同相对降低作用于不同基线风险，会产生不同绝对差异。教学假设中，若风险从20%降至16%，绝对差4个百分点、相对降低20%；这些数字是算术示例，不是脑训练试验结果。
+
+若风险从2%降至1.6%，相对降低同样20%，绝对差却只有0.4个百分点。这个例子说明只说降低20%无法判断实际影响。真实研究还需要相应随访、事件判定和区间，不应使用假设数字推算个人收益。
+
+资料库应尽可能并列事件数、分母、随访和相对估计，并保留其统计方法。没有真实绝对风险时，不自行生成一个预防人数指标。
+
+依据：[S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### HR不是累计风险比
+
+HR用于事件随时间发生的比较，不能直接当成固定期限的累计风险比。模型还包含假设，例如效应是否随时间相对稳定；具体研究应检查方法和诊断。
+
+preDIVA事件数来自不同大小的组，单看121与112会误导。分母和时间必须一起阅读。即使计算粗比例，也不能替代考虑删失和随访的正式HR。
+
+未来长期游戏试验还会受到死亡等竞争事件影响。没有继续观察到痴呆，并不总意味着疾病风险被消除；分析目标不同，处理方式也不同。资料库需登记方法，而不是只记录一个风险比。
+
+依据：[S49](https://pubmed.ncbi.nlm.nih.gov/27474376/)
+
+### 置信区间告诉我们估计有多精确
+
+区间较宽提示很多效应大小仍与数据相容。它不是说真实效应以固定概率落在已计算区间里，也不是个人未来结果的范围。对单次研究而言，更实用的阅读是比较区间是否包含无差异和具有实际意义的收益或损害。
+
+SPRINT痴呆结果区间跨1，而MCI结果不跨1，两者必须分别解释。不能把前者抹掉，也不能把后者升级成AD预防。
+
+即使统计区间排除无差异，效果是否值得实施还涉及成本、负担、保持及生活意义。统计判断与研究应用判断是相关却不同的问题。
+
+依据：[S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### P值不表示结论为真的概率
+
+P值是在特定假设及模型条件下讨论数据的统计量，不是干预有效概率，也不是研究能够推广到所有人的概率。P=.008不能被写成99.2%的人会受益。
+
+不显著可能来自估计接近零，也可能来自不够精确；显著也可能受到偏倚或选择性分析影响。因此应把效应、区间、设计和测量放在一起。
+
+只根据P值给研究标绿或标红，会让小而精确的结果与大而不稳定的结果失去区别。资料库更适合展示完整结果和确定性描述。
+
+依据：[S15](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
+### 多重比较需要保留原文调整
+
+MAPT联合方案的摘要区间略排除零，但调整后P值未显著。资料库已同时登记两者，等待核对方法。不能为了得到单一结论而删掉调整说明。
+
+研究涉及多个组、结局、脑区和亚组时，应检查主要比较及错误控制。探索可以生成假说，但不应使用与预先确认性检验相同的结论力度。
+
+若重复使用同一数据寻找最积极组合，偶然信号可能越来越吸引人。独立验证、预设问题和完整报告能帮助限制这种选择。
+
+依据：[S48](https://pubmed.ncbi.nlm.nih.gov/28359749/)
+
+### 标准化均差方便汇总，也丢失直观单位
+
+标准化效应按分散程度换算，可以汇总不同量表，但不能直接换成智力百分比。任务噪声、人群差异和测量可靠性都会影响解释。
+
+元分析还需要考虑研究是否真正测量相同概念。把不同记忆、注意和执行任务全部合并，可能回答广泛平均问题，却不能直接支持某款游戏的具体效果。
+
+Lampit综述与限定12周的Cochrane综述范围不同，不能仅比较最终数字判断哪份结论更正确。研究问题和纳入标准必须先对齐。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life)
+
+### 研究数字的核查表
+
+下表为本资料库的提取建议，辅助原文复盘。
+
+| 项目 | 核查问题 |
+| --- | --- |
+| 终点 | 认知、功能、全因痴呆或AD？ |
+| 单位 | 分数、标准差、人年或风险比？ |
+| 分母 | 随机人群、分析人群还是完成者？ |
+| 时间 | 训练结束、随访或累计事件？ |
+| 区间 | 是否精确，包含哪些实际效果？ |
+| 调整 | 混杂、聚类或多重比较？ |
+| 来源 | 主要分析、亚组或事后探索？ |
+| 重复 | 是否同一试验的再次报告？ |
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/), [S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 从数字回到核心研究问题
+
+本项目要检验脑部训练是否可能预防AD，不能通过合并不同干预和终点的积极数字完成论证。必须先清楚哪些研究直接回答训练、哪些只提供机制或其他干预线索。
+
+当前数字阅读框架能够减少误读，但不替代完整系统综述。后续仍需逐篇审核方案、偏倚和数据，形成按证据层级组织的综合。
+
+个人研究库的价值在于可以回到原文、查到单位和分母，并看到未解决问题。一个谨慎而可复核的结论，比没有方法背景的漂亮百分比更能指导下一次研究。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment), [S48](https://pubmed.ncbi.nlm.nih.gov/28359749/), [S49](https://pubmed.ncbi.nlm.nih.gov/27474376/), [S50](https://pubmed.ncbi.nlm.nih.gov/30688979/)
+
+### 该章原文来源
+
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
+- [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
+- [S15｜US POINTER：结构化多领域干预](https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/) · 全文或正文。结构化与自主多领域方案比较，不能隔离游戏组分；两年认知终点。
+- [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
+- [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
+- [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
+
 # 尚未完成的章节
 
 ## 第一部分｜先理解疾病
@@ -2577,9 +3160,6 @@ ACHIEVE比较听力干预与健康教育对照，研究老年听力损失人群�
 ## 第三部分｜脑部临床与病理表现
 
 - 额顶控制、注意与执行网络
-- MRI：萎缩、白质与血管改变
-- PET：淀粉样蛋白、Tau、代谢与突触
-- 血液与脑脊液：病理标志物怎样解释
 - EEG、fMRI 与兴奋性：为何更多激活未必更好
 - 临床认知测验与日常功能测量
 - 病理、成像与行为不一致时怎样判断
@@ -2589,11 +3169,8 @@ ACHIEVE比较听力干预与健康教育对照，研究老年听力损失人群�
 
 - 可塑性与疾病修饰：机制桥梁有多长
 - 直接、间接与缺失证据：当前论证图
-- US POINTER：结构化与自主方案
 - 新技能学习、参与和认知结果
 - 经典游戏与商业产品：不能借用他人疗效
-- 盲法、期待、对照与发表偏倚
-- 效应量、区间、绝对风险与多重比较
 - 剂量、依从性与选择效应
 - 长期保持、随访、失访与竞争风险
 - 支持什么、不支持什么、什么仍未知

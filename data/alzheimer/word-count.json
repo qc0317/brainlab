@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 50217,
-  "visible_chars": 57177,
+  "counted_han_chars": 57953,
+  "visible_chars": 66035,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 32,
+  "drafted_chapters": 38,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -261,6 +261,54 @@
       "title": "02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同",
       "han_chars": 1359,
       "visible_chars": 1507,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-evidence-pointer",
+      "title": "12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效",
+      "han_chars": 855,
+      "visible_chars": 1038,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-mri",
+      "title": "07｜MRI：结构变化不是病理和认知的同义词",
+      "han_chars": 1339,
+      "visible_chars": 1489,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-statistics",
+      "title": "20｜效应量、区间与风险：不要让一个百分比替代研究",
+      "han_chars": 1490,
+      "visible_chars": 1759,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-pet",
+      "title": "08｜PET：不同示踪剂看见不同问题",
+      "han_chars": 1220,
+      "visible_chars": 1353,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-fluid",
+      "title": "09｜血液与脑脊液：检测信号如何连接到疾病",
+      "han_chars": 1526,
+      "visible_chars": 1792,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-bias",
+      "title": "19｜期待、对照与选择性报告：训练研究怎样产生偏倚",
+      "han_chars": 1306,
+      "visible_chars": 1427,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

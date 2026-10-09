@@ -172,18 +172,18 @@
         },
         {
           "id": "ad-mri",
-          "title": "MRI：萎缩、白质与血管改变",
-          "status": "planned"
+          "title": "07｜MRI：结构变化不是病理和认知的同义词",
+          "status": "draft"
         },
         {
           "id": "ad-pet",
-          "title": "PET：淀粉样蛋白、Tau、代谢与突触",
-          "status": "planned"
+          "title": "08｜PET：不同示踪剂看见不同问题",
+          "status": "draft"
         },
         {
           "id": "ad-fluid",
-          "title": "血液与脑脊液：病理标志物怎样解释",
-          "status": "planned"
+          "title": "09｜血液与脑脊液：检测信号如何连接到疾病",
+          "status": "draft"
         },
         {
           "id": "ad-activity",
@@ -269,8 +269,8 @@
         },
         {
           "id": "ad-evidence-pointer",
-          "title": "US POINTER：结构化与自主方案",
-          "status": "planned"
+          "title": "12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效",
+          "status": "draft"
         },
         {
           "id": "ad-evidence-mapt",
@@ -304,13 +304,13 @@
         },
         {
           "id": "ad-bias",
-          "title": "盲法、期待、对照与发表偏倚",
-          "status": "planned"
+          "title": "19｜期待、对照与选择性报告：训练研究怎样产生偏倚",
+          "status": "draft"
         },
         {
           "id": "ad-statistics",
-          "title": "效应量、区间、绝对风险与多重比较",
-          "status": "planned"
+          "title": "20｜效应量、区间与风险：不要让一个百分比替代研究",
+          "status": "draft"
         },
         {
           "id": "ad-dose-adherence",
@@ -367,6 +367,12 @@
     "ad-evidence-sprint",
     "ad-evidence-achieve",
     "ad-transfer",
-    "ad-training-types"
+    "ad-training-types",
+    "ad-evidence-pointer",
+    "ad-mri",
+    "ad-statistics",
+    "ad-pet",
+    "ad-fluid",
+    "ad-bias"
   ]
 }

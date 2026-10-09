@@ -1,0 +1,523 @@
+{
+  "scope": "新版专题逐章审核盘点；不是自动判定科学正确性",
+  "target_han_chars": 100000,
+  "chapters": [
+    {
+      "record_id": "ad-foundations",
+      "title": "01｜从一个生活例子理解阿尔茨海默病",
+      "source_ids": [
+        "S37",
+        "S38"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-biomarkers",
+      "title": "07｜临床诊断与生物学定义：两个框架的分歧",
+      "source_ids": [
+        "S03",
+        "S54",
+        "S66",
+        "S72"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-amyloid-tau",
+      "title": "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
+      "source_ids": [
+        "S77",
+        "S78",
+        "S79",
+        "S80",
+        "S03",
+        "S34"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-vulnerability",
+      "title": "02｜选择性易损与分期：为什么不是整脑均匀衰退",
+      "source_ids": [
+        "S84",
+        "S85",
+        "S03",
+        "S77",
+        "S80",
+        "S07",
+        "S65",
+        "S73",
+        "S76"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "细胞比例降低如何解释",
+        "从易损研究到训练设计：保留正确的桥梁"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-circuits",
+      "title": "04｜海马与情景记忆回路：事件如何被区分和联系",
+      "source_ids": [
+        "S86",
+        "S87",
+        "S06",
+        "S14",
+        "S80",
+        "S81",
+        "S65"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "本章的证据结论与待查事项"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-synapses",
+      "title": "03｜突触、胶质细胞与炎症：连接为何会失效",
+      "source_ids": [
+        "S81",
+        "S82",
+        "S83",
+        "S08",
+        "S78"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-navigation",
+      "title": "05｜空间导航：路线、地图与路径整合",
+      "source_ids": [
+        "S88",
+        "S11"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-terms",
+      "title": "02｜正常老化、MCI、痴呆与 AD：四个词怎样区分",
+      "source_ids": [
+        "S38",
+        "S40"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-outcome-language",
+      "title": "08｜预防、延缓与风险降低：先定义想改变什么",
+      "source_ids": [
+        "S03",
+        "S12"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-training-question",
+      "title": "01｜把“脑部训练可能有效”改写成可验证问题",
+      "source_ids": [
+        "S42",
+        "S43",
+        "S44"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "个人研究笔记的建议格式"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-timeline",
+      "title": "03｜病理变化与症状：为什么不是同一条时间线",
+      "source_ids": [
+        "S55",
+        "S56",
+        "S57"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-daily-function",
+      "title": "04｜记忆、判断和独立生活：疾病影响的是什么",
+      "source_ids": [
+        "S38",
+        "S41",
+        "S58"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-cause-risk",
+      "title": "01｜原因、机制与风险：为何不能写成单一病因",
+      "source_ids": [
+        "S39"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-active5",
+      "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
+      "source_ids": [
+        "S42"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "原文报告了什么"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-active10",
+      "title": "07｜ACTIVE 十年：速度训练的积极信号",
+      "source_ids": [
+        "S43"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-active20",
+      "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "原文内部数字差异：本次全文核验发现",
+        "怎样理解这种方法学分歧"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-brain-clinical-guide",
+      "title": "00｜脑部临床表现总导读：五类资料各自看见什么",
+      "source_ids": [
+        "S60",
+        "S61",
+        "S62",
+        "S03"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-lampit",
+      "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
+      "source_ids": [
+        "S44"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "下一步需要做的全文工作"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-genetics",
+      "title": "02｜APP、PSEN 与 APOE：致病变异和风险变异",
+      "source_ids": [
+        "S39",
+        "S63",
+        "S68",
+        "S69",
+        "S70"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [
+        "“位点”为什么不等于“已经找到原因”"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-phenotypes",
+      "title": "05｜记忆型与非典型表型：不是每个人都先忘事",
+      "source_ids": [
+        "S59",
+        "S65",
+        "S66"
+      ],
+      "has_data_table": false,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-memory-symptoms",
+      "title": "04｜记忆表现：编码、保存与提取如何区分",
+      "source_ids": [
+        "S64",
+        "S67"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-diagnosis-process",
+      "title": "06｜医生如何判断：病史、认知、功能与辅助检查",
+      "source_ids": [
+        "S60",
+        "S67",
+        "S58",
+        "S66",
+        "S62",
+        "S71"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-language-symptoms",
+      "title": "05｜语言、理解与词义：不同的说不出来意味着什么",
+      "source_ids": [
+        "S65",
+        "S73",
+        "S74"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-executive-symptoms",
+      "title": "06｜规划、注意与判断：怎样理解执行功能表现",
+      "source_ids": [
+        "S75",
+        "S76"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-cochrane",
+      "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
+      "source_ids": [
+        "S45",
+        "S46"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-finger",
+      "title": "11｜FINGER：综合生活方式方案的证据，不能拆成游戏疗效",
+      "source_ids": [
+        "S47"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-mapt",
+      "title": "13｜MAPT：总体结果与亚组假说怎样分开",
+      "source_ids": [
+        "S48",
+        "S89"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "主要结果已取得，全文审核继续",
+        "多领域试验怎样帮助游戏研究"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-prediva",
+      "title": "14｜preDIVA：直接观察痴呆发生，主要结果未显著",
+      "source_ids": [
+        "S49",
+        "S90",
+        "S89"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "整群随机为什么需要特殊分析",
+        "如何使用后续亚组与长期报告"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-sprint",
+      "title": "15｜SPRINT-MIND：MCI结果积极，痴呆主要终点仍不确定",
+      "source_ids": [
+        "S50"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对本项目的具体研究启发"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-achieve",
+      "title": "16｜ACHIEVE：听力干预的总体结果与人群差异",
+      "source_ids": [
+        "S51"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "后续审核与项目假说"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-transfer",
+      "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S03"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-training-types",
+      "title": "02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S03",
+        "S47",
+        "S48"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-evidence-pointer",
+      "title": "12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效",
+      "source_ids": [
+        "S15"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-mri",
+      "title": "07｜MRI：结构变化不是病理和认知的同义词",
+      "source_ids": [
+        "S91",
+        "S03",
+        "S82",
+        "S85",
+        "S50",
+        "S49",
+        "S45"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "当前结论与后续工作"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-statistics",
+      "title": "20｜效应量、区间与风险：不要让一个百分比替代研究",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S15",
+        "S48",
+        "S49",
+        "S50"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "多重比较需要保留原文调整"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-pet",
+      "title": "08｜PET：不同示踪剂看见不同问题",
+      "source_ids": [
+        "S03",
+        "S34",
+        "S77",
+        "S84",
+        "S82",
+        "S91"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "代谢成像不等于任务参与图"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-fluid",
+      "title": "09｜血液与脑脊液：检测信号如何连接到疾病",
+      "source_ids": [
+        "S03",
+        "S71",
+        "S91"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对个人阅读与项目研究的意义"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-bias",
+      "title": "19｜期待、对照与选择性报告：训练研究怎样产生偏倚",
+      "source_ids": [
+        "S44",
+        "S45",
+        "S46",
+        "S47",
+        "S48",
+        "S49"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "随机分配与隐藏分配"
+      ],
+      "review_status": "draft_not_expert_verified"
+    }
+  ],
+  "completion_gates": [
+    "不少于100000独立正文汉字",
+    "所有规划章节完成",
+    "核心试验原文与补充资料核查",
+    "结论逐项匹配人群干预终点",
+    "许可和访问范围核查",
+    "下载材料更新",
+    "Git同步与公网页面验证"
+  ]
+}
