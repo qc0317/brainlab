@@ -95,6 +95,23 @@
       "review_status": "draft_not_expert_verified"
     },
     {
+      "record_id": "ad-vascular",
+      "title": "09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白",
+      "source_ids": [
+        "S10",
+        "S91",
+        "S03",
+        "S49",
+        "S50"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "Montagne 2020观察到什么",
+        "对游戏设计保留什么"
+      ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
       "record_id": "ad-navigation",
       "title": "05｜空间导航：路线、地图与路径整合",
       "source_ids": [
@@ -103,6 +120,22 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-reserve",
+      "title": "13｜储备、维持与补偿：同样病理为何表现不同",
+      "source_ids": [
+        "S93",
+        "S12",
+        "S13",
+        "S45",
+        "S46"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [
+        "对本项目的结论"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {
@@ -508,6 +541,35 @@
       "pending_review_sections": [
         "随机分配与隐藏分配"
       ],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-aging",
+      "title": "03｜年龄与老化：重要风险因素，不是必然命运",
+      "source_ids": [
+        "S92",
+        "S03",
+        "S77",
+        "S81",
+        "S44",
+        "S45",
+        "S48"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
+      "review_status": "draft_not_expert_verified"
+    },
+    {
+      "record_id": "ad-senses",
+      "title": "10｜听力、视力与感觉输入：先确认信息被接收到",
+      "source_ids": [
+        "S51",
+        "S71",
+        "S44",
+        "S45"
+      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     }
   ],

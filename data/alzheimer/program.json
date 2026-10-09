@@ -70,8 +70,8 @@
         },
         {
           "id": "ad-aging",
-          "title": "年龄与细胞老化：风险为何随年龄变化",
-          "status": "planned"
+          "title": "03｜年龄与老化：重要风险因素，不是必然命运",
+          "status": "draft"
         },
         {
           "id": "ad-memory-symptoms",
@@ -100,13 +100,13 @@
         },
         {
           "id": "ad-vascular",
-          "title": "血管、代谢与混合病理",
-          "status": "planned"
+          "title": "09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白",
+          "status": "draft"
         },
         {
           "id": "ad-senses",
-          "title": "听力、视力与感觉输入",
-          "status": "planned"
+          "title": "10｜听力、视力与感觉输入：先确认信息被接收到",
+          "status": "draft"
         },
         {
           "id": "ad-sleep",
@@ -120,8 +120,8 @@
         },
         {
           "id": "ad-reserve",
-          "title": "储备、韧性与补偿",
-          "status": "planned"
+          "title": "13｜储备、维持与补偿：同样病理为何表现不同",
+          "status": "draft"
         },
         {
           "id": "ad-risk-estimates",
@@ -373,6 +373,10 @@
     "ad-statistics",
     "ad-pet",
     "ad-fluid",
-    "ad-bias"
+    "ad-bias",
+    "ad-aging",
+    "ad-reserve",
+    "ad-senses",
+    "ad-vascular"
   ]
 }

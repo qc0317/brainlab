@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 57953,
-  "visible_chars": 66035,
+  "counted_han_chars": 62602,
+  "visible_chars": 71190,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 38,
+  "drafted_chapters": 42,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -57,10 +57,26 @@
       "status": "draft"
     },
     {
+      "id": "ad-vascular",
+      "title": "09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白",
+      "han_chars": 1176,
+      "visible_chars": 1345,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
       "id": "ad-navigation",
       "title": "05｜空间导航：路线、地图与路径整合",
       "han_chars": 1588,
       "visible_chars": 1825,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-reserve",
+      "title": "13｜储备、维持与补偿：同样病理为何表现不同",
+      "han_chars": 1263,
+      "visible_chars": 1380,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -309,6 +325,22 @@
       "title": "19｜期待、对照与选择性报告：训练研究怎样产生偏倚",
       "han_chars": 1306,
       "visible_chars": 1427,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-aging",
+      "title": "03｜年龄与老化：重要风险因素，不是必然命运",
+      "han_chars": 1127,
+      "visible_chars": 1239,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-senses",
+      "title": "10｜听力、视力与感觉输入：先确认信息被接收到",
+      "han_chars": 1083,
+      "visible_chars": 1191,
       "excluded_repeated_han": 0,
       "status": "draft"
     }
