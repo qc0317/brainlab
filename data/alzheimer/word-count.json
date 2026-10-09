@@ -1,10 +1,10 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 26793,
-  "visible_chars": 30535,
+  "counted_han_chars": 34933,
+  "visible_chars": 39610,
   "excluded_repeated_han": 0,
-  "drafted_chapters": 19,
+  "drafted_chapters": 22,
   "planned_chapters": 60,
   "target_met": false,
   "chapters": [
@@ -21,6 +21,30 @@
       "title": "07｜临床诊断与生物学定义：两个框架的分歧",
       "han_chars": 1661,
       "visible_chars": 1857,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-amyloid-tau",
+      "title": "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
+      "han_chars": 2742,
+      "visible_chars": 3074,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-vulnerability",
+      "title": "02｜选择性易损与分期：为什么不是整脑均匀衰退",
+      "han_chars": 2692,
+      "visible_chars": 2976,
+      "excluded_repeated_han": 0,
+      "status": "draft"
+    },
+    {
+      "id": "ad-synapses",
+      "title": "03｜突触、胶质细胞与炎症：连接为何会失效",
+      "han_chars": 2706,
+      "visible_chars": 3025,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
