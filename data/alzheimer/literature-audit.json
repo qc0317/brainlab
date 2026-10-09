@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-09",
+  "status": "ongoing",
+  "scope": "Core XML access and license verification; not a completed systematic review",
+  "items": [
+    {
+      "pmcid": "PMC5700828",
+      "title": "Speed of processing training results in lower risk of dementia",
+      "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+      "status": "downloaded-for-review",
+      "tables": 3
+    },
+    {
+      "pmcid": "PMC3384749",
+      "status": "unavailable"
+    },
+    {
+      "pmcid": "PMC4055506",
+      "status": "unavailable"
+    },
+    {
+      "pmcid": "PMC4236015",
+      "title": "Computerized Cognitive Training in Cognitively Healthy Older Adults: A Systematic Review and Meta-Analysis of Effect Modifiers",
+      "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.",
+      "status": "downloaded-for-review",
+      "tables": 1
+    },
+    {
+      "pmcid": "PMC4154531",
+      "status": "unavailable"
+    },
+    {
+      "pmcid": "PMC10529382",
+      "status": "unavailable"
+    },
+    {
+      "pmcid": "PMC12305445",
+      "status": "unavailable"
+    },
+    {
+      "pmcid": "PMC12884427",
+      "title": "Impact of cognitive training on claims‐based diagnosed dementia over 20 years: evidence from the ACTIVE study",
+      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
+      "status": "downloaded-for-review",
+      "tables": 3
+    },
+    {
+      "pmcid": "PMC11350039",
+      "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+      "license": "This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
+      "status": "downloaded-for-review",
+      "tables": 7
+    },
+    {
+      "pmcid": "PMC8477304",
+      "status": "unavailable"
+    }
+  ]
+}

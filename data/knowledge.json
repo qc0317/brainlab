@@ -1,5 +1,5 @@
 {
-  "version": "1.0",
+  "version": "1.1-research",
   "updated": "2026-10-09",
   "scope": "GitHub 结构化知识库 · 非临床产品",
   "sources": [
@@ -159,9 +159,10 @@
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/",
       "kind": "随机试验后长期随访",
       "year": 2026,
-      "access": "全文或正文",
-      "note": "",
-      "reviewed": "2026-10-09"
+      "access": "原文 XML、方法与 Table 1–3",
+      "note": "已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。",
+      "reviewed": "2026-10-09",
+      "license": "CC BY-NC-ND 4.0"
     },
     {
       "id": "S17",
@@ -169,9 +170,11 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42339399/",
       "kind": "方法学再分析",
       "year": 2026,
-      "access": "摘要",
-      "note": "多重比较和替代模型影响解释；不是独立重复试验。",
-      "reviewed": "2026-10-09"
+      "access": "摘要与元数据",
+      "note": "多重校正后区间含1，同时探索共同保护模式；仅已发表汇总结果再分析，非独立重复。",
+      "reviewed": "2026-10-09",
+      "pmcid": "PMC13284741",
+      "doi": "10.1002/trc2.70280"
     },
     {
       "id": "S18",
@@ -362,91 +365,404 @@
       "access": "全文或正文",
       "note": "",
       "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S37",
+      "title": "NIA：什么是阿尔茨海默病",
+      "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/what-alzheimers-disease",
+      "kind": "机构基础说明",
+      "year": 2025,
+      "access": "正文检索快照",
+      "note": "2025-03-04 复核日期；直接访问偶有 405，已取得正文检索快照。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S38",
+      "title": "NIA：痴呆的症状、类型与诊断",
+      "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis",
+      "kind": "机构基础说明",
+      "year": 2026,
+      "access": "正文检索快照",
+      "note": "年份为访问年份，不表示原始发布于 2026。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S39",
+      "title": "NIA：阿尔茨海默病的原因",
+      "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-causes-alzheimers-disease",
+      "kind": "机构基础说明",
+      "year": 2026,
+      "access": "正文检索快照",
+      "note": "年份为访问年份；区分多因素风险与罕见致病变异。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S40",
+      "title": "NIA：什么是轻度认知障碍",
+      "url": "https://www.nia.nih.gov/health/memory-loss-and-forgetfulness/what-mild-cognitive-impairment",
+      "kind": "机构基础说明",
+      "year": 2026,
+      "access": "正文检索快照",
+      "note": "年份为访问年份；没有采用统一个人转归百分比。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S41",
+      "title": "NIA：老年患者认知障碍评估",
+      "url": "https://www.nia.nih.gov/health/health-care-professionals-information/assessing-cognitive-impairment-older-patients",
+      "kind": "专业人员说明",
+      "year": 2026,
+      "access": "正文检索可访问部分",
+      "note": "详细临床流程仍需与专科指南全文核验。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S42",
+      "title": "Unverzagt 等：ACTIVE 五年痴呆发生率",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22400989/",
+      "kind": "随机试验随访",
+      "year": 2012,
+      "access": "PubMed 摘要",
+      "note": "原文提取未完成。",
+      "reviewed": "2026-10-09",
+      "trial_id": "ACTIVE",
+      "pmid": "22400989",
+      "doi": "10.1017/S1355617711001470"
+    },
+    {
+      "id": "S43",
+      "title": "Edwards 等：ACTIVE 十年速度训练与痴呆",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29201994/",
+      "kind": "随机试验长期随访",
+      "year": 2017,
+      "access": "原文 XML、摘要与数据表",
+      "note": "CC BY-NC-ND 4.0；原文可非商业分发但不据此公开全文翻译。数据审核继续。",
+      "reviewed": "2026-10-09",
+      "trial_id": "ACTIVE",
+      "pmid": "29201994",
+      "pmcid": "PMC5700828",
+      "doi": "10.1016/j.trci.2017.09.002",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "S44",
+      "title": "Lampit 等：正常老年人计算机认知训练元分析",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25405755/",
+      "kind": "系统综述与元分析",
+      "year": 2014,
+      "access": "全文 XML、摘要与数据表",
+      "note": "52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。",
+      "reviewed": "2026-10-09",
+      "pmid": "25405755",
+      "pmcid": "PMC4236015",
+      "doi": "10.1371/journal.pmed.1001756",
+      "license": "CC BY"
+    },
+    {
+      "id": "S45",
+      "title": "Gates 等：正常老年人至少12周计算机训练",
+      "url": "https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life",
+      "kind": "Cochrane 系统综述",
+      "year": 2020,
+      "access": "官方摘要及通俗解释",
+      "note": "纳入时长限定影响适用范围；不能代表所有短期或长期训练。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1002/14651858.CD012277.pub3"
+    },
+    {
+      "id": "S46",
+      "title": "Gates 等：MCI 人群训练与痴呆预防",
+      "url": "https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment",
+      "kind": "Cochrane 系统综述",
+      "year": 2019,
+      "access": "官方摘要及通俗解释",
+      "note": "8 项试验、660 人；无试验提供痴呆发生数据。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1002/14651858.CD012279.pub2"
+    },
+    {
+      "id": "S47",
+      "title": "Ngandu 等：FINGER 两年多领域试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/",
+      "kind": "随机对照试验",
+      "year": 2015,
+      "access": "摘要与研究机构元数据",
+      "note": "全文与数据表待提取；不能隔离认知训练组分。",
+      "reviewed": "2026-10-09",
+      "trial_id": "FINGER",
+      "pmid": "25771249",
+      "doi": "10.1016/S0140-6736(15)60461-5"
+    },
+    {
+      "id": "S48",
+      "title": "Andrieu 等：MAPT 三年随机试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28359749/",
+      "kind": "随机对照试验",
+      "year": 2017,
+      "access": "摘要与元数据检索快照",
+      "note": "总体与后续探索性亚组须分开；全文提取待完成。",
+      "reviewed": "2026-10-09",
+      "trial_id": "MAPT",
+      "pmid": "28359749"
+    },
+    {
+      "id": "S49",
+      "title": "Moll van Charante 等：preDIVA 六年试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27474376/",
+      "kind": "整群随机对照试验",
+      "year": 2016,
+      "access": "摘要",
+      "note": "全因痴呆主要结果；不是单独认知训练。",
+      "reviewed": "2026-10-09",
+      "trial_id": "preDIVA",
+      "pmid": "27474376"
+    },
+    {
+      "id": "S50",
+      "title": "Williamson 等：SPRINT-MIND 认知终点",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688979/",
+      "kind": "随机对照试验",
+      "year": 2019,
+      "access": "摘要",
+      "note": "血压干预；MCI 和可能痴呆的统计结果不同。",
+      "reviewed": "2026-10-09",
+      "trial_id": "SPRINT-MIND",
+      "pmid": "30688979",
+      "doi": "10.1001/jama.2018.21442"
+    },
+    {
+      "id": "S51",
+      "title": "Lin 等：ACHIEVE 听力干预试验",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/",
+      "kind": "随机对照试验",
+      "year": 2023,
+      "access": "原文可访问部分与摘要",
+      "note": "总体主要结果和按招募来源的分析须分开；不是脑训练试验。",
+      "reviewed": "2026-10-09",
+      "trial_id": "ACHIEVE",
+      "pmcid": "PMC10529382"
+    },
+    {
+      "id": "S52",
+      "title": "Park 等：Synapse 新技能学习项目",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24214244/",
+      "kind": "干预试验",
+      "year": 2014,
+      "access": "摘要与元数据",
+      "note": "不是 AD 发病试验；全文尚未提取。",
+      "reviewed": "2026-10-09",
+      "pmid": "24214244",
+      "doi": "10.1177/0956797613499592"
+    },
+    {
+      "id": "S53",
+      "title": "Rebok 等：ACTIVE 十年认知与功能结果",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24417410/",
+      "kind": "随机试验长期随访",
+      "year": 2014,
+      "access": "摘要与元数据",
+      "note": "与其他 ACTIVE 随访来自同一试验，不算独立重复。",
+      "reviewed": "2026-10-09",
+      "trial_id": "ACTIVE",
+      "pmid": "24417410",
+      "doi": "10.1111/jgs.12607"
+    },
+    {
+      "id": "S54",
+      "title": "Dubois 等：IWG 临床—生物学定义",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12010406/",
+      "kind": "专家工作组建议",
+      "year": 2024,
+      "access": "摘要与元数据检索快照",
+      "note": "全文提取待完成；与 AA 2024 生物学定义立场并列。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S55",
+      "title": "Sperling 等：临床前阿尔茨海默病研究框架",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21514248/",
+      "kind": "专家研究框架",
+      "year": 2011,
+      "access": "摘要与元数据",
+      "note": "历史研究框架，和 2024 标准分开；不是健康人的自我筛查指南。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1016/j.jalz.2011.03.003",
+      "pmid": "21514248"
+    },
+    {
+      "id": "S56",
+      "title": "Bateman 等：常染色体显性遗传 AD 的临床与标志物变化",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22784036/",
+      "kind": "家族性 AD 队列研究",
+      "year": 2012,
+      "access": "摘要/期刊概要与元数据",
+      "note": "特殊遗传人群的时间模型不能直接用于散发性 AD 或个人倒计时。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1056/NEJMoa1202753",
+      "pmid": "22784036"
+    },
+    {
+      "id": "S57",
+      "title": "Jessen 等：主观认知下降研究框架",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24798886/",
+      "kind": "研究共识框架",
+      "year": 2014,
+      "access": "摘要",
+      "note": "主观担忧不等于 AD；研究特征不是个人诊断规则。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1016/j.jalz.2014.01.001",
+      "pmid": "24798886"
+    },
+    {
+      "id": "S58",
+      "title": "McKhann 等：AD 痴呆临床诊断建议",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21514250/",
+      "kind": "临床诊断建议",
+      "year": 2011,
+      "access": "摘要与元数据",
+      "note": "历史标准，用于解释临床问题；当前专科诊断还需与更新指南核对。",
+      "reviewed": "2026-10-09",
+      "pmid": "21514250"
+    },
+    {
+      "id": "S59",
+      "title": "Crutch 等：后部皮质萎缩共识分类",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28259709/",
+      "kind": "专家共识",
+      "year": 2017,
+      "access": "摘要",
+      "note": "区分综合征层与病因层，详细表型全文待提取。",
+      "reviewed": "2026-10-09",
+      "doi": "10.1016/j.jalz.2017.01.014",
+      "pmid": "28259709"
+    },
+    {
+      "id": "S60",
+      "title": "DETeCD-ADRD：专科认知与病因评估指南摘要",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11772716/",
+      "kind": "临床实践指南",
+      "year": 2025,
+      "access": "正文可访问部分与摘要",
+      "note": "分层评估认知功能状态、综合征和可能病因；本专题不提供个体诊断操作。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S61",
+      "title": "Imaging the evolution and pathophysiology of Alzheimer disease",
+      "url": "https://www.nature.com/articles/s41583-018-0067-3",
+      "kind": "影像综述",
+      "year": 2018,
+      "access": "摘要与可访问概要",
+      "note": "不同成像指标测量不同层次，不能相互替代。",
+      "reviewed": "2026-10-09"
+    },
+    {
+      "id": "S62",
+      "title": "Imaging Biomarkers in Alzheimer’s Disease: A Practical Guide for Clinicians",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6159632/",
+      "kind": "临床影像综述",
+      "year": 2018,
+      "access": "摘要与可访问正文部分",
+      "note": "群体萎缩模式不自动形成单个病例的诊断。",
+      "reviewed": "2026-10-09"
     }
   ],
   "records": [
     {
       "id": "ad-foundations",
       "collection": "alzheimer",
-      "title": "疾病、综合征与目标人群",
-      "summary": "建立正常老化、MCI、痴呆与阿尔茨海默病之间的正确关系。",
+      "title": "01｜从一个生活例子理解阿尔茨海默病",
+      "summary": "先理解这是一种影响脑功能、进而影响日常独立生活的疾病，再讨论蛋白、脑区和预防。",
       "sections": [
         {
-          "title": "概念与名称",
+          "title": "先用一句话理解",
           "text": [
-            "本项目使用规范名称“阿尔茨海默病”（Alzheimer’s disease, AD），并保留“阿兹海默”为检索别名。痴呆是影响认知和日常功能的综合征；AD 是病因之一。血管性、路易体、额颞叶等疾病与混合病理也可能导致痴呆，不能把全部痴呆研究结果改写成 AD 特异性结果。"
+            "阿尔茨海默病是一种逐渐影响记忆、思考和行为能力的脑部疾病。它是痴呆的常见病因；“痴呆”描述的是认知下降已经明显影响生活的一种综合状态，“阿尔茨海默病”则是在解释这种状态由哪类疾病造成。这里沿用规范译名，并把“阿兹海默”作为检索别名。"
           ],
           "source_ids": [
-            "S01"
+            "S37",
+            "S38"
           ]
         },
         {
-          "title": "研究轨道",
-          "table": [
-            [
-              "人群",
-              "主要产品问题",
-              "应分开验证"
-            ],
-            [
-              "认知基本正常中老年人 · 本期重点",
-              "容易开始并长期参与适度挑战",
-              "独立认知测验、生活体验、长期风险"
-            ],
-            [
-              "轻度认知障碍 MCI",
-              "经专业评估后的功能支持",
-              "MCI 不等于 AD，也不必然进展"
-            ],
-            [
-              "确诊 AD 或其他痴呆",
-              "参与、生活质量和照护支持",
-              "不能套用正常人群的难度与结果指标"
-            ]
-          ]
-        },
-        {
-          "title": "对本项目的决策",
+          "title": "生活例子：我们真正关心的是什么",
           "text": [
-            "首阶段做研究知识库和产品设计，不通过游戏分数判断个人患病概率。年龄、教育、视听能力、运动能力和数字熟练度应作为任务适配条件；它们也可能解释表现差异。",
-            "未来若出现持续进展且影响日常生活的记忆或认知问题，产品应支持用户寻求专业评估。疲劳、情绪、睡眠和其他健康问题也会影响表现，低分不能直接指向 AD。"
+            "下面是说明性例子，不是真实病例，也不是诊断测试。假设一位原本能独立安排生活的人，在一段时间内反复错过约定、忘记刚谈过的事情，后来连原本熟悉的缴费或出行安排也需要别人接手。研究者关心的并不是“这个人偶尔忘了一个词”，而是能力相对过去是否出现持续变化、变化涉及哪些过程，以及它怎样影响生活。",
+            "同样一个“忘了买东西”的结果，可以来自不同过程：有人根本没有听清购物要求，有人听清后被别的事情打断，有人记住了物品却忘了什么时候去，有人知道任务却难以安排路线。先把行为拆开，才有机会讨论脑功能；否则把所有失败都叫作“记忆力差”，会让研究问题从一开始就混乱。",
+            "这个例子的价值在于提醒我们观察一个人的变化轨迹。若只记录今天是否买到了东西，就丢失了原有能力、信息是否听清、是否获得帮助和生活条件等信息。它没有告诉我们疾病名称；疾病判断还要依赖专业评估。对于个人研究，先理解“表现”“变化”和“病因”不是同一个对象，比先记住十几个蛋白缩写更有用。"
+          ]
+        },
+        {
+          "title": "看见表现、解释病因、测量脑部变化：三层问题",
+          "text": [
+            "可以把研究资料放在三张不同的纸上。第一张记录发生了什么，例如反复提问、难以完成原有事务；第二张记录为什么发生，需要区分 AD 与其他病因；第三张记录有什么客观测量，例如影像、实验室指标或认知测验。三张纸相互补充，但任何一张都不能替代其他两张。",
+            "在阅读论文时，先问作者使用的是哪张纸。认知训练论文可能只报告一项测验变好了；这属于行为测量，不一定测过病理，也可能没有追踪临床诊断。影像论文可能描述两种指标的关系，却没有实施训练。只有先认清研究对象，才能避免把几篇论文拼成它们各自都没有证明的结论。",
+            "本专题之后会把临床表现、脑部测量与训练结果分栏显示。你可以从一个表现追到相关机制，也可以从一项干预追到它真正测量的终点；不需要在首次阅读时掌握所有技术细节。"
+          ]
+        },
+        {
+          "title": "为什么疾病名称不等于“所有人都会同样发展”",
+          "text": [
+            "NIA 的基础说明强调表现存在差异，记忆问题常见，但语言、视觉空间、推理或判断方面的问题也可能较早出现；混合痴呆同样常见。这里不提供固定的个人时间表，也不把某个脑区变化当作所有病例的唯一解释。"
           ],
           "source_ids": [
-            "S36"
+            "S37"
           ]
         },
         {
-          "title": "仍需回答",
+          "title": "从这里进入“训练可能有效”的问题",
+          "text": [
+            "把训练加入上面的例子，需要更具体的目标。如果任务帮助一个人学会更好地记录约定，它可能改善某项生活安排；如果训练后在没有练过的测验上也有收益，研究的是认知迁移；如果长期随访中更少人达到预先规定的临床终点，才开始回答预防或延缓的问题。三个目标都值得研究，但它们需要不同的证据。",
+            "因此，本专题不会一开始就问“玩什么游戏可以预防”。先问我们希望改变的是任务技巧、独立能力、症状出现时间，还是疾病病理。这个问题决定后续需要选择什么人群、什么对照、多久随访，以及什么结果才算支持假设。",
+            "你提出的目标是长期研究问题：脑部训练是否可能让尚未明显受损的人保持功能更久，或者降低后来出现临床 AD 的可能性。我们会先解释疾病，再把这个宽问题拆为可检验的子问题，而不是用游戏等级或脑区标签代替答案。"
+          ]
+        },
+        {
+          "title": "读完这一节应能回答",
+          "text": [],
           "items": [
-            "目标年龄区间和数字熟练度如何界定？",
-            "是否允许家属陪伴模式，如何保留用户自主性？",
-            "正常人群与有症状人群何时需要分轨？"
+            "“AD”是病因名称，“痴呆”是临床综合状态；不能把两者完全画等号。",
+            "先观察相对过去的变化及生活影响，再讨论导致变化的病因。",
+            "行为表现、脑部指标、训练结果是不同层次的资料。",
+            "后续阅读先走概念与表现主线，再进入机制和干预数据。"
           ]
         }
       ],
       "source_ids": [
-        "S01",
-        "S36"
+        "S37",
+        "S38"
       ],
-      "status": "研究综述",
+      "status": "重建正文 · 数据审核中",
       "aliases": [
-        "阿兹海默",
-        "老年痴呆",
-        "MCI"
+        "阿兹海默"
       ],
       "reviewed": "2026-10-09",
       "relationships": [
         {
-          "target_id": "ad-biomarkers",
+          "target_id": "ad-terms",
           "type": "see-also",
-          "label": "相关研究与设计"
+          "label": "按阅读主线继续"
         },
         {
-          "target_id": "design-outcomes",
+          "target_id": "ad-training-question",
           "type": "see-also",
-          "label": "相关研究与设计"
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-daily-function",
+          "type": "see-also",
+          "label": "按阅读主线继续"
         }
-      ]
+      ],
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "understand",
+      "learning_objectives": [
+        "能用自己的话解释 AD 与痴呆的区别",
+        "能区分表现、病因和测量",
+        "知道后续研究要检验什么"
+      ],
+      "content_status": "draft",
+      "pending_relationships": []
     },
     {
       "id": "ad-biomarkers",
@@ -505,7 +821,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-amyloid-tau",
@@ -593,7 +910,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-vulnerability",
@@ -657,7 +975,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-circuits",
@@ -747,7 +1066,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-synapses",
@@ -825,7 +1145,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-vascular",
@@ -889,7 +1210,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-navigation",
@@ -979,7 +1301,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-activity",
@@ -1044,7 +1367,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-reserve",
@@ -1131,7 +1455,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-intervention",
@@ -1208,7 +1533,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ad-translation",
@@ -1296,7 +1622,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "duolingo-concept",
@@ -1382,7 +1709,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "duolingo-framework",
@@ -1474,7 +1802,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "duolingo-detail",
@@ -1567,7 +1896,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "duolingo-experience",
@@ -1666,7 +1996,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "keep-concept",
@@ -1752,7 +2083,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "keep-framework",
@@ -1850,7 +2182,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "keep-detail",
@@ -1937,7 +2270,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "keep-experience",
@@ -2041,7 +2375,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-attention",
@@ -2094,7 +2429,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-working",
@@ -2142,7 +2478,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-memory",
@@ -2195,7 +2532,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-reasoning",
@@ -2248,7 +2586,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-spatial",
@@ -2301,7 +2640,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-visual",
@@ -2354,7 +2694,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-planning",
@@ -2407,7 +2748,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-flexibility",
@@ -2455,7 +2797,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "ability-speed",
@@ -2513,7 +2856,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-memory",
@@ -2575,7 +2919,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-control",
@@ -2645,7 +2990,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-parietal",
@@ -2707,7 +3053,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-temporal",
@@ -2764,7 +3111,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-visual",
@@ -2824,7 +3172,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "brain-distributed",
@@ -2886,7 +3235,8 @@
           "type": "research-context",
           "label": "研究背景 · 非因果证明"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g01",
@@ -3003,7 +3353,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g02",
@@ -3125,7 +3476,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g03",
@@ -3242,7 +3594,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g04",
@@ -3359,7 +3712,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g05",
@@ -3491,7 +3845,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g06",
@@ -3613,7 +3968,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g07",
@@ -3740,7 +4096,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g08",
@@ -3862,7 +4219,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g09",
@@ -3974,7 +4332,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g10",
@@ -4091,7 +4450,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g11",
@@ -4213,7 +4573,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g12",
@@ -4335,7 +4696,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g13",
@@ -4457,7 +4819,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g14",
@@ -4574,7 +4937,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "g15",
@@ -4716,7 +5080,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "evidence-pointer",
@@ -4800,54 +5165,23 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "evidence-active",
       "collection": "evidence",
       "title": "ACTIVE｜20 年随访及再分析",
-      "summary": "保留积极线索，也并列亚组、理赔与统计解释的限制。",
+      "summary": "同一试验的长期证据；加强训练有再次随机安排，整体与亚组结果需分开。",
       "sections": [
         {
-          "title": "PICO 与测量",
+          "title": "当前阅读入口",
           "text": [
-            "原试验包括记忆、推理、速度训练及对照。2026 随访在 Medicare 数据关联的 2021 人子样本中分析长期 AD 及相关痴呆理赔诊断；速度任务是特定的自适应视觉注意/加工训练，不等于普通舒尔特方格。"
+            "已重新核验全文与表格，详见阿尔茨海默专题的 ACTIVE 五年、十年和二十年章节。旧版“加强训练仅是完成者选择”的表述不够准确：合资格者有再次随机安排。再分析也不只提出多重比较问题，还探索共同效应模型。"
           ],
           "source_ids": [
-            "S16"
-          ]
-        },
-        {
-          "title": "报告结果",
-          "text": [
-            "速度训练并完成加强训练者 HR 0.75（95% CI 0.59–0.95）；未加强者约 1.01（0.81–1.27）。不能把“完成加强”的亚组直接视为与未完成者在所有方面可比，也不能把 HR 解释为任一玩家个人风险下降 25%。"
-          ],
-          "source_ids": [
-            "S16"
-          ]
-        },
-        {
-          "title": "相反与方法学证据",
-          "text": [
-            "2026 再分析指出多重比较校正与替代分析影响积极结论；调整后的区间可包含无差异。它没有证明所有训练无用，但削弱单一亚组被当作确定疗效的解释。"
-          ],
-          "source_ids": [
+            "S16",
             "S17"
-          ]
-        },
-        {
-          "title": "需要复核",
-          "items": [
-            "原始随机分组与加强训练完成的选择过程。",
-            "理赔诊断的敏感性、覆盖、存活与失访。",
-            "分析人群、时间范围、多重比较和预设终点。",
-            "是否存在独立重复试验与临床诊断验证。"
-          ]
-        },
-        {
-          "title": "产品决策",
-          "text": [
-            "值得建立速度与分配注意任务的专项证据线；现阶段不发布“预防 AD”的效果宣称。不得把特定研究任务结果直接贴在经典游戏矩阵上。"
           ]
         }
       ],
@@ -4860,26 +5194,22 @@
       "reviewed": "2026-10-09",
       "relationships": [
         {
-          "target_id": "g04",
+          "target_id": "ad-evidence-active5",
           "type": "see-also",
-          "label": "相关研究与设计"
+          "label": "当前全文核验"
         },
         {
-          "target_id": "ability-speed",
+          "target_id": "ad-evidence-active10",
           "type": "see-also",
-          "label": "相关研究与设计"
+          "label": "当前全文核验"
         },
         {
-          "target_id": "ad-intervention",
+          "target_id": "ad-evidence-active20",
           "type": "see-also",
-          "label": "相关研究与设计"
-        },
-        {
-          "target_id": "design-outcomes",
-          "type": "see-also",
-          "label": "相关研究与设计"
+          "label": "当前全文核验"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "evidence-transfer",
@@ -4961,7 +5291,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "evidence-network",
@@ -5037,7 +5368,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "evidence-levad",
@@ -5084,7 +5416,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "design-translation",
@@ -5177,7 +5510,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "design-session",
@@ -5269,7 +5603,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "design-outcomes",
@@ -5391,7 +5726,8 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
-      ]
+      ],
+      "pending_relationships": []
     },
     {
       "id": "design-schema",
@@ -5477,6 +5813,1409 @@
           "type": "see-also",
           "label": "相关研究与设计"
         }
+      ],
+      "pending_relationships": []
+    },
+    {
+      "id": "ad-terms",
+      "collection": "alzheimer",
+      "title": "02｜正常老化、MCI、痴呆与 AD：四个词怎样区分",
+      "summary": "把临床严重程度和疾病病因分开，才不会误读预防论文中的人群与终点。",
+      "sections": [
+        {
+          "title": "先建立两个维度",
+          "text": [
+            "“正常老化—轻度认知障碍—痴呆”主要在描述认知和日常功能状态；“阿尔茨海默病、血管性病变、路易体相关疾病”等在解释病因。两类词放在不同维度上，才能理解为什么同样处于 MCI 的人并不一定有相同病因，也为什么 AD 相关病理可以出现在不同临床状态中。关于生物学定义的具体争议，另见分期章节。"
+          ],
+          "source_ids": [
+            "S38",
+            "S40"
+          ]
+        },
+        {
+          "title": "MCI 的核心不是“轻微的 AD”",
+          "text": [
+            "轻度认知障碍，简称 MCI，表示相对同龄预期存在可识别的记忆或思考问题，但日常独立能力大体保留。它不是一种单一病因，也不能只凭自己觉得记性不好或一项游戏低分认定。并非所有 MCI 都会进展为痴呆；部分人的状态可能稳定或改变。"
+          ],
+          "source_ids": [
+            "S40"
+          ]
+        },
+        {
+          "title": "用一张二维表组织资料",
+          "text": [],
+          "table": [
+            [
+              "问题",
+              "在描述哪个维度",
+              "阅读时怎样使用"
+            ],
+            [
+              "是否出现认知问题、是否影响独立生活",
+              "临床状态与严重度",
+              "确定研究纳入的是正常、MCI 还是痴呆人群"
+            ],
+            [
+              "问题由哪类疾病或多重因素造成",
+              "病因",
+              "判断论文是否针对 AD 而非全因痴呆"
+            ],
+            [
+              "是否检出特定病理相关指标",
+              "生物学证据",
+              "看作者是否有病理支持及采用何种标准"
+            ],
+            [
+              "一个人后续怎样变化",
+              "纵向结果",
+              "区分稳定、测验变化和诊断发生"
+            ]
+          ]
+        },
+        {
+          "title": "说明性例子：为什么不能把四个词写成一条必然阶梯",
+          "text": [
+            "设想资料中有三个人。甲主观觉得比以前容易忘事，但评估结果与独立生活仍处在正常范围；乙在评估中出现认知问题，却能独立处理日常事务；丙已经难以独立完成原来熟悉的事务。这个例子只是在演示状态差异，不是在为三个人确诊，也不能推出他们必然依次经过同一条路线。",
+            "若随后为乙取得了某种 AD 相关病理证据，新增的是病因/生物学信息，不是自动宣布乙与丙拥有同样的功能水平。若没有这种证据，也不能因为乙有认知问题就默认病因是 AD。读者可以把每个人放在“状态”和“病因证据”两栏里，而不是在一个从健康滑向 AD 的箭头上排位置。",
+            "这个二维组织方法也适合个人笔记。每读一篇论文，先写“谁被纳入”，再写“作者如何判断其病因”。如果原文只写没有痴呆，不能擅自补成所有人认知完全正常；如果只写 MCI，不能补成经病理证实的 AD 前期。"
+          ]
+        },
+        {
+          "title": "论文里最容易混淆的三个说法",
+          "text": [
+            "“没有痴呆”是很宽的排除条件，不一定排除了 MCI 或所有病理改变。“认知正常”通常也依赖该研究采用的评估标准，不能从一句话推断所有脑部指标正常。“AD 及相关痴呆”是合并类别，结果可能包括不止一种病因。数据库会保留原论文的纳入与终点名称，避免在中文页面中替换成更强的 AD 特异性结论。",
+            "这并不是术语上的小区别。假设一个训练在一般认知正常老年人中改善了速度测验，把结论用于已影响独立生活的人群，改变了受试者；把速度测验改善改写为预防 AD，改变了结果；把数周训练改写为长期保护，又改变了时间范围。三种变化都需要额外证据。"
+          ]
+        },
+        {
+          "title": "读文献时的四行笔记",
+          "text": [
+            "第一行：基线状态是正常、MCI、痴呆，还是混合人群？第二行：病因如何判断，是否有生物标志物支持？第三行：终点是测验、功能、临床诊断还是病理？第四行：谁没有被纳入，哪些人可能不适用？",
+            "这四行笔记可以显著减少“论文标题似乎支持我的想法，但正文其实研究了另一个问题”的情况。它也为后面所有训练研究建立共同语言：同一个积极结果只有在同样的人群和结果范围内才有直接解释，超出范围只能讨论可能性。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S38",
+        "S40"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "understand",
+      "learning_objectives": [
+        "区分状态与病因",
+        "理解 MCI 不是必然进展的 AD",
+        "辨认论文人群和终点名称"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-foundations",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-biomarkers",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-training-question",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": []
+    },
+    {
+      "id": "ad-outcome-language",
+      "collection": "alzheimer",
+      "title": "08｜预防、延缓与风险降低：先定义想改变什么",
+      "summary": "同一个“有效”可以指不同结果；本研究需要事先规定哪一种结果能支持目标。",
+      "sections": [
+        {
+          "title": "一句“预防”包含哪些不同目标",
+          "text": [
+            "从研究设计上看，至少可以提出四种不同目标：减少某段时间内临床诊断出现的人数；让诊断更晚出现；让认知或日常功能下降更慢；改变疾病相关生物过程。它们可能有关联，却不能用其中一个结果自动回答全部问题。这里先定义问题，不预设训练能够达到任何一种目标。"
+          ]
+        },
+        {
+          "title": "为什么临床出现时间与病理不同",
+          "text": [
+            "生物学指标与临床状态是不同维度，病理负担、共病理与认知储备等可能使它们并不完全同步。一个干预即使改善表现，也要另外研究它是否改变了病理；相反，某个病理指标变化也需要结合临床结果判断意义。"
+          ],
+          "source_ids": [
+            "S03",
+            "S12"
+          ]
+        },
+        {
+          "title": "把目标写成可观察句子",
+          "text": [],
+          "table": [
+            [
+              "目标表述",
+              "需要观察",
+              "不能用来代替"
+            ],
+            [
+              "任务更熟练",
+              "训练任务的正确、速度、策略",
+              "疾病发病率"
+            ],
+            [
+              "认知维持更好",
+              "没有训练过的独立测验与随访",
+              "同一游戏反复刷分"
+            ],
+            [
+              "生活功能维持",
+              "预设且独立评估的功能结果",
+              "登录天数"
+            ],
+            [
+              "临床发病更少或更晚",
+              "预设标准下的诊断与发生时间",
+              "短期脑活动信号"
+            ],
+            [
+              "病理过程改变",
+              "合适的病理/生物学测量",
+              "表现变化的推测"
+            ]
+          ]
+        },
+        {
+          "title": "说明性例子：如果两个组都变好了",
+          "text": [
+            "假设训练组与对照组的测验分数都上升，训练组稍多一些。我们首先比较的是两组变化差，而不是训练组“前后有提升”这一事实。两组都上升可能与重复测试、一般活动或其他共同因素有关。只有组间差异与研究条件结合，才更接近干预的贡献。这个例子是方法演示，不是任何试验的实际数据。",
+            "即使组间差异可信，也需要继续问：分数差在什么量表上、能否保持、是否超过测量波动、是否能在生活中察觉。把一个标准化分数变化直接写成“大脑年轻了几年”，还需要额外模型和验证。单项测验上的积极结果值得记录，但它只是论证链的一段。"
+          ]
+        },
+        {
+          "title": "如果临床诊断更晚出现，意味着什么",
+          "text": [
+            "这里有两个需要区分的解释。一个解释是相关病理过程本身受到影响；另一个解释是人在相同病理负担下能够保持功能更久。二者都可能对生活有价值，但机制不同，需要不同测量。还有第三种可能：评估方式、接触频率或失访使诊断记录发生变化。研究要尽量排除这个解释，而不能把所有“更晚记录诊断”都当作疾病变化。",
+            "因此，长期训练研究需要同时说明如何确定诊断、是否由不知道分组的人员评估、死亡和退出怎样处理、不同组是否同样容易被发现有症状。数据库会单独记录这些方法字段，而不是只展示一个风险比。"
+          ]
+        },
+        {
+          "title": "怎样使用“可能有效”这个结论",
+          "text": [
+            "“可能有效”不是无条件肯定，也不只是泛泛地说还有希望。它应指出：哪一种训练、什么人群、对什么结果、在什么时间范围内有支持，以及哪些关键问题未解决。如果支持只在某类速度训练和某个痴呆终点中出现，就保留这一范围；如果对 AD 特异性发病仍没有足够证据，就把这项缺口明确写出。",
+            "在研究笔记中，可以给结论附一个限制性句子。例如：“这支持继续研究该训练对长期临床表现的作用，但不能证明所有经典游戏改变 AD 病理。”这样的句子是在保护结论的精确含义，不是在否定它的研究价值。"
+          ]
+        },
+        {
+          "title": "本专题的判断顺序",
+          "text": [],
+          "items": [
+            "先确认终点，再读效应，不根据论文标题或新闻用词判断。",
+            "将功能维持与病理改变分别记录；没有测量就不能补推。",
+            "将临床 AD、全因痴呆和合并诊断分别记录。",
+            "在全文提取与证据综合完成前，结论属于阶段性判断。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S03",
+        "S12"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "understand",
+      "learning_objectives": [
+        "能定义希望改变的结果",
+        "理解疾病修饰与临床维持不同",
+        "能把“可能有效”写成有条件的研究判断"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-training-question",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-intervention",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": [
+        {
+          "target_id": "ad-statistics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-training-question",
+      "collection": "alzheimer",
+      "title": "01｜把“脑部训练可能有效”改写成可验证问题",
+      "summary": "明确训练、人群、对照、终点与时间，让支持和不支持的结果都能进入同一个研究框架。",
+      "sections": [
+        {
+          "title": "研究问题的完整句子",
+          "text": [
+            "本专题的主问题可写为：在基线尚未出现痴呆的成年人中，与适当的对照条件相比，某种明确规定的认知训练，是否能在足够长的随访中降低临床 AD 或其他预设痴呆终点的发生，或让相关认知与功能下降更慢？其中“AD”“其他痴呆”“认知”“功能”是并列的不同结果，不把它们混为一个总有效性标签。"
+          ]
+        },
+        {
+          "title": "PICO 加上时间：怎样把问题拆开",
+          "text": [
+            "P 表示参与者，例如认知正常但年龄或其他因素使风险较高的人群。I 表示干预，必须描述任务内容、难度变化、指导方式和实际完成。C 表示比较条件，可能是其他活动、一般教育或无接触对照。O 表示结果，必须预先指定如何测量。再加 T，表示训练持续时间和结果随访时间。",
+            "这些字段不是数据库形式要求。更换一个字段，就可能变成另一项研究：把正常人换成 MCI，把自适应视觉速度任务换成数独，把无接触对照换成同样有趣的活动，把痴呆发生换成速度测验，或者把十年随访换成六周，都会改变可以回答的问题。"
+          ]
+        },
+        {
+          "title": "目前核查到的不同层级证据",
+          "text": [
+            "ACTIVE 五年随访摘要报告没有发现训练与更低的痴呆发生率相关；十年分析对速度训练报告 HR 0.71、95% CI 0.50–0.998，而记忆和推理分组未达到同样的统计结论。二者来自同一试验的不同分析，不是互相独立的两项试验。"
+          ],
+          "source_ids": [
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "title": "为什么这既支持继续研究，又不能完成论证",
+          "text": [
+            "从研究逻辑看，一个有长期终点的随机训练信号比“经常玩游戏的人比较健康”更接近目标问题，因此值得详细审查。但同一研究中不同时间与分组的结果不同，需要研究诊断标准、事件数、失访和分析选择。我们不能只保留积极年份，也不能用较早无差异结果宣布所有后续研究不值得做。",
+            "这也是把核心问题写成“检验可能性”的意义。积极结果告诉我们值得查哪条线，无差异结果告诉我们哪些条件下未观察到收益，方法学局限告诉我们还需要怎样的研究。它们共同组成论证，不是一篇正向论文就可以完成的宣传故事。"
+          ]
+        },
+        {
+          "title": "为什么短期认知结果仍值得收集",
+          "text": [
+            "Lampit 等正常老年人元分析纳入 52 项研究、4885 人，整体认知效应较小，报告 Hedges g 0.22（95% CI 0.15–0.29）。这个结果涉及认知测验，不是 AD 发病率；它能帮助研究任务和方案，但不能填补长期疾病终点缺口。"
+          ],
+          "source_ids": [
+            "S44"
+          ]
+        },
+        {
+          "title": "本专题将分别回答五个子问题",
+          "text": [],
+          "items": [
+            "有没有任务内和独立认知收益？受试者与测量条件是什么？",
+            "收益能否保持到停止训练后的随访？",
+            "是否存在日常功能变化，而不只是测验分数变化？",
+            "是否观察到临床痴呆或 AD 特异性发生率的变化？诊断如何确定？",
+            "是否有证据连接训练、脑部机制、功能与疾病终点？哪些连接只是推测？"
+          ]
+        },
+        {
+          "title": "什么结果会削弱主假设",
+          "text": [
+            "若足够严谨、充分有力的研究没有观察到预设终点收益，主假设在相应条件下就会被削弱。若收益只存在于重复训练的题目，而没有独立测验、保持或功能结果，则更支持任务学习解释。若结果依赖事后筛选亚组或多次比较，应该降低对结论稳健性的信心。",
+            "反过来，样本小、时间短、测量不合适的无差异研究并不等于证明无效；它可能没有能力检测目标效应。证据综合既不能把不确定结果夸大为有效，也不能把“没有证据”简单写成“已证明没有效果”。后续统计与偏倚章节会用具体数据解释这一差别。"
+          ]
+        },
+        {
+          "title": "个人研究笔记的建议格式",
+          "text": [
+            "每篇论文保留两栏。左栏写原作者报告的数据与限定条件；右栏写你的问题、竞争解释、与主假设的关系，以及下一步需核验的信息。中文译文、原文短引、数据重算和研究者推论分别标注。这样你可以逐渐建立自己的判断，而不是只保存一句“有用”或“没用”。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S42",
+        "S43",
+        "S44"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "training",
+      "learning_objectives": [
+        "掌握 PICO 与随访时间",
+        "区分阶段性支持和完成论证",
+        "知道反证与无差异结果怎样进入研究"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-outcome-language",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-active5",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-active10",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-lampit",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": []
+    },
+    {
+      "id": "ad-timeline",
+      "collection": "alzheimer",
+      "title": "03｜病理变化与症状：为什么不是同一条时间线",
+      "summary": "从“今天是否看得出问题”到“脑部过程何时变化”，理解为什么预防研究需要较长时间。",
+      "sections": [
+        {
+          "title": "先把三只钟分开",
+          "text": [
+            "第一只钟记录疾病相关生物过程，第二只钟记录认知测量的变化，第三只钟记录日常生活是否受到明显影响。早期研究框架已讨论临床前阶段；2012 年常染色体显性遗传 AD 队列也描述了症状出现前的多种标志物变化。但这些研究不能给一般读者提供精确的个人发病倒计时。"
+          ],
+          "source_ids": [
+            "S55",
+            "S56"
+          ]
+        },
+        {
+          "title": "为什么“没有症状”不回答所有问题",
+          "text": [
+            "“没有明显症状”是对某个时点临床表现的描述。它没有说明采用了哪些测量、有没有足够敏感的评估，也没有说明相关病理是否存在。反过来，有主观变化也不能直接确定病理。Jessen 等提出主观认知下降的研究框架，正是为了让相关研究使用更清楚的定义与报告特征，而不是把所有担忧都当作早期 AD。"
+          ],
+          "source_ids": [
+            "S57"
+          ]
+        },
+        {
+          "title": "用一张示意时间表帮助理解",
+          "text": [
+            "下面是概念示意，不是自然病程数据，也不是所有人必经的阶段。可以设想在某个研究中，第一次检出指标变化、第一次检出独立测验变化、第一次发现生活功能明显变化，发生在不同测量时间。若研究只在最后一个时间点才开始记录，就无法知道之前的变化如何出现；若只在第一个时间点记录，又无法知道后来临床发生了什么。",
+            "这种示意图的重点是测量时点，而不是把早期一定有多少年画得很精确。不同指标有不同检测门槛，同一指标也可能受平台、参照和人群影响。看见两条曲线开始变化的先后，需要知道曲线如何建立、每个人是否被反复测量，以及样本是否代表目标人群。"
+          ]
+        },
+        {
+          "title": "把横断面和纵向研究分开读",
+          "text": [
+            "横断面研究在不同人身上测量不同状态，可能用模型把他们排列成一个过程。纵向研究在同一个人身上重复测量，能够观察个体变化，但也会遇到退出、死亡、测量变更和缺失。前者不是每个人的真实录像，后者也不是无条件完整的记录。",
+            "如果一篇文章用“距离预计症状出现还有多少年”组织样本，要检查预计时间如何得到。对具有特定遗传背景的家系，研究有机会使用家族信息建立模型；对普通散发病例，不能直接照搬这一时间标尺。这个区别决定模型能否用来说明一般人群，也决定我们应如何描述结论的适用范围。"
+          ]
+        },
+        {
+          "title": "为什么预防试验比短期训练试验难",
+          "text": [
+            "若目标是观察临床诊断是否更少出现，研究需要有足够的人数、随访时间和终点事件。短期训练试验可以较快观察任务和测验变化，但疾病终点可能还没有机会发生。这里的难点不是把训练做得更久就一定有效，而是研究有没有条件观测想回答的问题。",
+            "可以用一个方法学例子说明：在一群基线表现良好的人中观察几周，即使所有人都没有达到临床终点，也不能推断训练阻止了疾病。没有事件可能是这段时间本来就很少发生、样本不足或评估方式不合适。因而“没有人患病”需要与对照组、基线风险和随访范围一起阅读。"
+          ]
+        },
+        {
+          "title": "对于个人研究，这意味着怎样整理资料",
+          "text": [
+            "把每篇论文的时间信息至少拆成三格：干预持续多久、结果何时测量、临床随访多久。一次训练结束后的测验改善与多年后临床发生率是不同时间的结果；它们不应合并成一栏“长期有效”。",
+            "还要保存测量方法的版本。如果随访从面对面评估变成电话、病例记录或理赔数据，资料仍可能有价值，但比较时必须考虑定义和发现概率是否改变。后面的 ACTIVE 随访章节将具体展示这类问题。"
+          ]
+        },
+        {
+          "title": "本节结论",
+          "text": [
+            "疾病相关过程、认知表现和生活影响可以在不同时间尺度上被发现。临床前研究让预防问题有了更明确的空间，但“更早有变化”本身并不证明训练能改变变化。研究需要找到可干预的过程，再用适合的终点和时间设计检验它。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S55",
+        "S56",
+        "S57"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "understand",
+      "learning_objectives": [
+        "区分病理、认知与功能时间尺度",
+        "理解横断面模型与个体随访的区别",
+        "知道干预时长和随访时长不同"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-biomarkers",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-training-question",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": [
+        {
+          "target_id": "ad-preservation",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-daily-function",
+      "collection": "alzheimer",
+      "title": "04｜记忆、判断和独立生活：疾病影响的是什么",
+      "summary": "用一件日常事务拆解多个认知过程，理解为何不能只用记忆游戏分数描述疾病。",
+      "sections": [
+        {
+          "title": "日常功能为什么是重要的一层",
+          "text": [
+            "临床痴呆概念包含认知下降对日常活动的影响。生活功能信息、认知评估和病史是评估中的不同资料；专业诊断建议也并不只依靠一项记忆分数。这里解释研究问题，不提供诊断阈值。"
+          ],
+          "source_ids": [
+            "S38",
+            "S41",
+            "S58"
+          ]
+        },
+        {
+          "title": "说明性任务：准备一次出门",
+          "text": [
+            "假设一位成年人要去熟悉的地点办事。这项任务至少包括理解办事目的、记住时间、选择路线、带上资料、按照条件调整安排、发现错误并修正，以及在回来后记住已经完成了什么。这不是一个现成量表，而是为了说明日常任务通常同时使用多个过程。",
+            "若只记录是否到达目的地，很多不同原因会被混在一起：没有听清目的地、忘了时间、忘带资料、途中分心、走错路线、看不清路标，或者临时交通变化。若研究希望知道训练影响了哪一环，就需要更细的结果，而不是给整件事情贴一个“记忆好坏”标签。"
+          ]
+        },
+        {
+          "title": "能力和实际表现为何要分别观察",
+          "text": [
+            "一个人在某种环境下完成了任务，不等于所有条件下都有同样表现。笔记、提醒、熟悉路线和他人协助可以帮助完成；不熟悉环境或新的操作界面又可能增加困难。对个人研究而言，记录支持条件不是在贬低成绩，而是让成绩有可解释的上下文。",
+            "这个原则也适用于认知游戏。电脑操作熟练的人可能更快理解按钮；触控目标变大后误点减少，分数可能上升；增加示范后规则更清楚，任务也可能更容易完成。这些变化都值得记录，但若研究的是认知过程本身，就必须与界面学习、感觉输入和外部帮助分开。"
+          ]
+        },
+        {
+          "title": "用三种结果描述同一个人",
+          "text": [
+            "第一种结果是“在指定条件下是否能完成任务”，属于任务表现。第二种是“在生活中是否能持续独立处理相关事务”，属于功能层面。第三种是“相对过去的变化是否由某种疾病造成”，属于病因判断。三者不能只用一次实验回答。",
+            "例如，一项训练教会了更系统的记事策略，研究可能发现特定生活事务更容易管理。这是一项有价值的功能结果，未必意味着相关病理改变。反过来，一个实验室测验改善也未必自动改善复杂的生活事务，因为任务环境、策略和支持条件不同。"
+          ]
+        },
+        {
+          "title": "怎样把功能问题纳入文献提取",
+          "text": [],
+          "table": [
+            [
+              "要记录的问题",
+              "原因"
+            ],
+            [
+              "由本人、家属还是独立观察者报告",
+              "不同资料来源可能观察到不同范围"
+            ],
+            [
+              "问的是过去一段时间还是当场任务",
+              "回顾报告与现场表现不是同一测量"
+            ],
+            [
+              "是否记录所用提醒、帮助或替代方式",
+              "支持条件会改变可见表现"
+            ],
+            [
+              "功能变化是否是预先规定的结果",
+              "减少事后选择有利指标"
+            ],
+            [
+              "分组信息是否可能影响评分",
+              "降低期待和报告差异的影响"
+            ],
+            [
+              "是否有生活条件或感觉/运动变化",
+              "避免把全部变化归因于认知"
+            ]
+          ]
+        },
+        {
+          "title": "本研究为什么把生活功能放在任务成绩之后",
+          "text": [
+            "任务成绩是离训练最近的结果，便于判断训练是否真的被执行和学会。独立认知测验能进一步观察是否离开原任务仍有变化。生活功能则更接近个人想要保留的能力，但通常更复杂、更依赖环境。三层都应保留，不能为了追求一个简单答案而删掉其中两层。",
+            "对于你的主问题，较理想的长期研究会同时记录任务、独立认知、功能和临床终点，从而发现训练是否只改变了技巧，是否支持了更广泛的表现，或者是否与更晚的临床变化相联系。当前每篇文献能够覆盖哪几层，将在证据卡中直接标明。"
+          ]
+        },
+        {
+          "title": "读者练习：重新描述一个“记忆变差”的观察",
+          "text": [
+            "把“记忆变差”改写成四条具体信息：哪件事情没有完成；相对什么时候有变化；当时有哪些帮助或干扰；变化怎样影响实际生活。这是整理研究资料的练习，不是医疗自测。你会发现，具体描述通常比一个总标签更容易连接到文献和机制。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S38",
+        "S41",
+        "S58"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "understand",
+      "learning_objectives": [
+        "能把生活任务拆成认知过程",
+        "区分任务表现、生活功能和病因",
+        "知道功能研究需要记录哪些条件"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-outcome-language",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": [
+        {
+          "target_id": "ad-memory-symptoms",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-neuropsychology",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-cause-risk",
+      "collection": "alzheimer",
+      "title": "01｜原因、机制与风险：为何不能写成单一病因",
+      "summary": "分别理解疾病过程、罕见致病变异和多因素风险，再判断训练可能作用在哪一层。",
+      "sections": [
+        {
+          "title": "对“为什么发病”的直接回答",
+          "text": [
+            "NIA 对病因的概括是：多数人的 AD 没有一个单独的原因，年龄相关脑变化、遗传、健康和生活环境等因素共同参与；一些罕见 APP、PSEN1 或 PSEN2 变异具有明确的致病作用，而 APOE ε4 是风险相关变异，并不意味着携带者必然发病。"
+          ],
+          "source_ids": [
+            "S39"
+          ]
+        },
+        {
+          "title": "四种“原因”问题其实不同",
+          "text": [
+            "第一种问疾病中出现什么过程，例如特定蛋白、突触或细胞变化，这是病理机制问题。第二种问什么因素使某个人更容易出现这些过程，是风险问题。第三种问一项特定遗传变化是否能强烈驱动疾病，是特殊病因问题。第四种问已经发生的生活表现由哪类疾病解释，是临床病因鉴别问题。",
+            "这些问题关联很紧密，却不能用同一句话回答。“某项风险因素与发病相关”并不说明它是所有病例的必要条件；“病理中有一种蛋白异常”也不说明改变日常行为就一定改变这种异常。对训练研究尤其如此：训练操作最直接改变的是人在任务中的活动，不是已经测得它改变了所有上游病理。"
+          ]
+        },
+        {
+          "title": "用一个原创因果图组织笔记",
+          "text": [
+            "可以先画一个待检验的模型：遗传、年龄、健康与环境条件影响生物过程；生物过程、其他病理和个体适应共同影响认知；认知与环境支持共同影响日常功能。箭头在这里表示研究问题，不是每一条都已被证明，也没有规定所有人遵循相同路径。",
+            "把一篇论文放到这张图上，先标记它测了哪些节点、比较了哪些关系。观察研究可能只测到两个节点的相关；干预试验可能操纵了一个条件，却没有测量病理；细胞或动物实验可能提供了特定通路的因果信息，但不直接给出人类长期疾病结果。这种标注能避免把不同层次的证据无缝拼成一个确定故事。"
+          ]
+        },
+        {
+          "title": "风险因素可以改变，不等于改变它就一定达到某个终点",
+          "text": [
+            "如果两种特征相关，改变其中一个特征是否会改变另一个，需要干预研究或更强的因果证据。还要问何时改变、改变多少、对什么人、是否与其他条件同时变化。即使干预改善了某项健康状态，它对认知、功能和临床发病的效应也可能不一样。",
+            "这正是后面会单独阅读多领域、血压和听力干预试验的原因。它们可以帮助理解多因素风险的可干预部分，也可以展示不同终点和人群的差异；它们不是单独脑部训练的疗效证据，不能把整个方案的结果分给其中一个游戏。"
+          ]
+        },
+        {
+          "title": "为什么观察到“经常动脑者更好”还不够",
+          "text": [
+            "设想一个观察研究发现常参加复杂活动的人后来更少出现认知问题。可能的解释包括活动的作用，也包括原有能力、教育、健康、资源和兴趣的差异。还存在反方向：早期变化使人先减少活动，于是低活动看起来像原因。这个例子描述常见的研究逻辑问题，不是对某一篇研究做未核验的结论。",
+            "因此，数据库会保存活动如何测量、测量时是否可能已有早期变化、随访多长、调整了什么变量，以及能否观察到改变活动后的结果。不能只记录“有相关”就把它当作游戏预防的依据。"
+          ]
+        },
+        {
+          "title": "训练可能在哪一层发挥作用：三个待检验假设",
+          "text": [
+            "假设一是任务学习：更熟练的编码、注意或策略让特定任务表现改善。假设二是更广泛的适应：收益离开训练任务后仍存在，支持认知或功能维持。假设三是疾病相关过程改变：训练影响某个生物学过程，并进一步影响临床发展。三者的证据要求逐步增加，目前不能因为前两层有某些线索就自动认定第三层成立。",
+            "同一训练还可能与社交、规律活动或身体活动同时发生。若这些因素没有被分离，就需要把结果描述成组合方案的效应。对于个人研究，保留这种归因边界能使假设越来越具体，而不是越来越夸大。"
+          ]
+        },
+        {
+          "title": "本节的研究结论",
+          "text": [
+            "多数 AD 的病因需要多层、多因素框架。训练预防的研究并不要求先找出唯一原因，但需要说明希望影响哪个过程、是否有可观测指标，以及什么结果可以支持或否定这条路径。后续章节会逐项展开遗传、血管、感觉、睡眠、活动和储备证据。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S39"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "causes",
+      "learning_objectives": [
+        "区分机制、风险、致病变异与临床病因",
+        "理解相关不等于可干预因果",
+        "知道训练的不同机制假设"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-vascular",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-training-question",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-amyloid-tau",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": [
+        {
+          "target_id": "ad-genetics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-evidence-active5",
+      "collection": "alzheimer",
+      "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
+      "summary": "先看同一试验较早的无差异结果，再读十年和二十年的积极线索。",
+      "sections": [
+        {
+          "title": "原文报告了什么",
+          "text": [
+            "2012 年发表的 ACTIVE 分析研究了约 2802 名参与者五年内的痴呆发生，采用访谈和表现指标相结合的定义，识别出 189 个事件。摘要结论是：该五年分析没有发现认知训练与更低的痴呆发生率相关。全文与具体模型的进一步提取尚未完成。"
+          ],
+          "source_ids": [
+            "S42"
+          ]
+        },
+        {
+          "title": "把这项结果放回主问题",
+          "text": [
+            "这是一项与临床发生相关的结果，因而比短期游戏成绩更接近“预防”的目标。它同时是一项未观察到预期差异的结果，不能从数据库中删掉。若只把同一试验后来某个积极分组放入材料，读者就无法看到结果随时间、终点和分析如何变化。",
+            "但“未发现相关”与“已经证明任何训练都没有效应”不同。前者描述这项研究在其条件下取得的结果；后者要排除所有可能的训练、人群、剂量和结果，范围远大于单个试验。我们的数据库采用前一种精确表述，不替作者扩大肯定或否定结论。"
+          ]
+        },
+        {
+          "title": "为什么“有认知改善”与“没有发病差异”可以同时成立",
+          "text": [
+            "在逻辑上，训练可能让参与者在相关任务上更熟练，而临床诊断并未因此出现可检测的差异。也可能存在较小或较晚的效应，研究尚未观测到。还可能是测验结果和临床结果受不同因素影响。不同解释需要用后续数据比较，不能仅因两项结果不一致就认定其中一项无价值。",
+            "如果一篇报道只说研究证明训练有效，必须问它指哪一种结果。若另一篇只说研究证明无效，也要问是不是只讨论发病终点。将终点写清楚，才可能在同一数据库里保留看似矛盾却实际研究不同问题的发现。"
+          ]
+        },
+        {
+          "title": "没有显著差异时怎样检查研究的信息量",
+          "text": [
+            "第一步是看效应估计和区间，而不只看显著与否。区间很宽时，小的收益和小的损害都可能与数据相容；区间很窄且围绕无效值时，对较大效应的排除就更有力。该篇的分组估计与区间尚待全文核验，本节不编造数字。",
+            "第二步是看目标事件是否足够、随访是否能覆盖变化、测量标准是否与主问题相符。第三步是看失访及其他竞争事件是否可能使组间差异难以发现。只有这些信息齐备，才能进一步判断无差异结果更像“效应很小”还是“研究信息不足”。"
+          ]
+        },
+        {
+          "title": "预先规定的终点与事后问题",
+          "text": [
+            "同一大型试验可以产生多篇论文，研究认知、生活功能、健康和临床诊断。它们不必具有同样的预设程度。读者需要核对相关分析是否在看到数据之前规定，终点定义是否与原方案一致，以及是否进行了多次不同分析。",
+            "这并不意味着后续分析不能提供价值，而是要改变我们对证据的使用方式。预设比较通常更适合确证性判断；探索性分析更适合生成新假设、规划下一项独立研究。数据库会将注册与分析计划的核验作为单独状态，而不是给每篇后续论文统一盖上“RCT 已证明”的标签。"
+          ]
+        },
+        {
+          "title": "对于“更长时间才出现效果”的解释",
+          "text": [
+            "如果五年无差异、十年某组有差异，一个合理的研究问题是：效应是否需要更长观察才能出现？另一个问题是：分析样本、终点和缺失是否改变了结果？还有一个问题是：后续时间点增加了比较次数，积极结果是否可能受到随机波动影响？",
+            "这些是竞争解释，不能只选择最有利的一项。需要并列原始比较、后续比较、样本流转、终点变化和敏感性分析。如果后续独立试验也出现相似时间模式，延迟效应解释才会得到更强支持；同一批人的多个发表时间不是独立重复。"
+          ]
+        },
+        {
+          "title": "这篇论文对论证的贡献",
+          "text": [
+            "它告诉我们：有较长期训练研究直接检查过痴呆发生，且较早分析没有观察到所期待的总体差异。这为后面积极结果设定了必须解释的背景。它并不关闭研究问题，而是要求研究从“训练能提升成绩”继续跨越到“何时、对谁、对什么临床结果有作用”。"
+          ]
+        },
+        {
+          "title": "下一步全文核验项目",
+          "text": [],
+          "items": [
+            "逐组事件与生存模型效应、置信区间。",
+            "痴呆定义的组成、验证与潜在误分类。",
+            "样本纳入、排除、退出和死亡的处理。",
+            "终点分析的预设程度、比较次数与敏感性结果。",
+            "与后续十年和理赔分析共用样本及方法改变的关系。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S42"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "training",
+      "learning_objectives": [
+        "能理解无差异结果而不过度否定",
+        "知道为什么同一试验的年份应并列",
+        "知道哪些数据还不能从摘要补推"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-evidence-active10",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-active20",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "trial_id": "ACTIVE",
+      "extraction_level": "abstract",
+      "pending_relationships": [
+        {
+          "target_id": "ad-statistics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-evidence-active10",
+      "collection": "alzheimer",
+      "title": "07｜ACTIVE 十年：速度训练的积极信号",
+      "summary": "逐项阅读真实事件、风险比与区间，判断这条线索支持主假设到哪一步。",
+      "sections": [
+        {
+          "title": "研究与原始结果",
+          "text": [
+            "2017 年十年分析报告 260 个痴呆事件。速度训练相对无接触对照的 HR 为 0.71（95% CI 0.50–0.998，p=0.049）；记忆与推理组均为约 0.79，区间分别为 0.57–1.11 和 0.56–1.10。终点由访谈与表现指标组合定义，并不是病理证实的 AD 特异性发生。"
+          ],
+          "source_ids": [
+            "S43"
+          ]
+        },
+        {
+          "title": "原始数据摘录：不把它当调整后累计风险",
+          "text": [],
+          "source_ids": [
+            "S43"
+          ],
+          "table": [
+            [
+              "分组",
+              "表1样本数",
+              "表3事件数",
+              "报告的 HR（95% CI）"
+            ],
+            [
+              "无接触对照",
+              "695",
+              "75",
+              "1，参照"
+            ],
+            [
+              "记忆训练",
+              "702",
+              "63",
+              "0.79（0.57–1.11）"
+            ],
+            [
+              "推理训练",
+              "690",
+              "63",
+              "0.79（0.56–1.10）"
+            ],
+            [
+              "速度训练",
+              "698",
+              "59",
+              "0.71（0.50–0.998）"
+            ]
+          ]
+        },
+        {
+          "title": "为什么称为“积极信号”",
+          "text": [
+            "这里的关键是随机训练分组与长期事件结果之间出现了有利方向的估计。与横断面活动关联相比，它更接近干预问题，因此值得深入研究。与此同时，区间上限非常接近 1；这提醒我们效应估计的精度与统计稳健性需要审查，而不是只把 0.71 转换成醒目的百分比。",
+            "称为信号，是因为它为后续研究提供可具体检验的对象：该速度任务、该人群与该终点。它并没有自动覆盖其他游戏、其他训练机制、确诊 AD 人群，或者疾病相关病理是否被改变。要扩大结论，每增加一个对象或结果都需要新的证据。"
+          ]
+        },
+        {
+          "title": "“29%”怎样产生，为什么不是减少29个百分点",
+          "text": [
+            "一减去 0.71 等于 0.29，所以常见报道把它称为约 29% 的相对风险降低。更准确地说，这里的统计量是随访中事件发生速率的比值，并非某个固定时点每个人患病概率直接少了 29 个百分点。个人概率还需要基线风险、时间范围与模型条件。",
+            "仅用上表原始事件数除以样本数，会得到不同的数值；而这些简单比例没有处理不同随访长度、退出与死亡，不能拿来替代原文生存模型。这个区别非常重要：比值、绝对事件比例、固定时点累计风险和风险差是不同对象。数据库将分别保存，不在图表中互换单位。"
+          ]
+        },
+        {
+          "title": "有利估计和没有达到显著性的估计怎样比较",
+          "text": [
+            "不能因为速度组的 p 值小于某个阈值、另外两组大于阈值，就直接得出速度一定优于记忆和推理。若要证明两种训练的效果不同，应检验它们之间的差异；“一组显著、另一组不显著”本身不是组间差异检验。",
+            "从表中还可以看到另外两组的点估计也在有利方向，区间却包含无差异值。因此，我们既不能把它们说成已证实保护，也不能从同一张表推断它们与速度组存在确定差别。后续再分析恰好会讨论如何解释这种整体模式。"
+          ]
+        },
+        {
+          "title": "训练次数为什么不能立即解释成剂量因果",
+          "text": [
+            "原文另有参加次数与事件的关联分析。这里需要区分随机分配到训练类型与实际参加了多少次：参加次数还可能受到健康、动力、操作能力、生活安排和早期变化等因素影响。即使参加更多者结果更好，也不能只凭这种关系规定“再加一次就降低多少风险”。",
+            "若要研究剂量，需要明确哪些剂量条件被随机操纵、哪些只是依从性观察，以及参与者未完成的原因。解释一项剂量关联可以形成新研究假设，但给一般人制定训练处方属于更强的应用步骤，本专题不会用一个回归系数代替它。"
+          ]
+        },
+        {
+          "title": "长期失访怎样进入判断",
+          "text": [
+            "十年研究天然需要面对退出、死亡和资料不完整。我们要核对每组的人数流转、数据可得性和事件发现方式，而不能只读分析总人数。不同失访机制对估计的影响不同：若退出只与完全无关的原因有关，影响可能较小；若与早期认知变化有关，解释就更复杂。",
+            "以上是方法学问题，不是在未分析原始数据时断言该研究一定受到某个方向的偏倚。原文说明、敏感性分析以及之后的独立数据来源都能帮助判断；不能因为随访有缺失就否定全部结果，也不能因为研究最初随机就忽略后续选择。"
+          ]
+        },
+        {
+          "title": "它对 AD 预防论证的精确位置",
+          "text": [
+            "这篇研究为“特定认知训练可能影响长期临床痴呆终点”提供直接相关的积极线索。对“普通益智游戏能够预防病理定义的 AD”则仍是间接证据，因为任务、人群和终点范围均需重新核验。我们会把这两个结论分开显示，便于你继续追踪哪一层证据正在增加。"
+          ]
+        },
+        {
+          "title": "研究笔记与待核验信息",
+          "text": [],
+          "items": [
+            "数据来源：原文 Table 1 和 Table 3；不是截图中的二手新闻数字。",
+            "原始随机人数、各表分析人数和缺失说明需共同保存。",
+            "核对痴呆算法是否与训练所改善的测验有重叠，是否可能影响终点判定。",
+            "核对比较、分析计划、调整变量和不同模型结果。",
+            "需要独立重复，而不是把同一 ACTIVE 的多个发表当作多项独立试验。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S43"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "training",
+      "learning_objectives": [
+        "理解真实效应与终点",
+        "能区分风险比和绝对概率",
+        "知道显著性、剂量和长期缺失如何影响解释"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-evidence-active5",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-active20",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "trial_id": "ACTIVE",
+      "extraction_level": "full_text_tables",
+      "pending_relationships": [
+        {
+          "target_id": "ad-statistics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-transfer",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-evidence-active20",
+      "collection": "alzheimer",
+      "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
+      "summary": "保留全样本、加强训练比较和方法学再分析；记录原文内部需核对的数字差异。",
+      "sections": [
+        {
+          "title": "与十年分析相比，哪些东西改变了",
+          "text": [
+            "2026 年分析把 ACTIVE 与传统 Medicare 资料关联，得到 2021 人子样本，终点是 AD 及相关痴呆的理赔算法诊断。它扩大了时间范围和资料来源，但没有把临床算法终点升级为 AD 特异性病理诊断。"
+          ],
+          "source_ids": [
+            "S16"
+          ]
+        },
+        {
+          "title": "Table 2 的核心效应：先看全样本，再看加强训练",
+          "text": [],
+          "source_ids": [
+            "S16"
+          ],
+          "table": [
+            [
+              "比较",
+              "调整 HR",
+              "95% CI",
+              "解释范围"
+            ],
+            [
+              "全样本：记忆 vs 对照",
+              "0.85",
+              "0.70–1.02",
+              "区间包含1"
+            ],
+            [
+              "全样本：速度 vs 对照",
+              "0.87",
+              "0.72–1.05",
+              "区间包含1"
+            ],
+            [
+              "全样本：推理 vs 对照",
+              "0.88",
+              "0.73–1.07",
+              "区间包含1"
+            ],
+            [
+              "速度＋加强 vs 对照",
+              "0.75",
+              "0.59–0.95",
+              "有利的亚组/训练路径信号"
+            ],
+            [
+              "速度未加强 vs 对照",
+              "1.01",
+              "0.81–1.27",
+              "区间包含1"
+            ],
+            [
+              "合资格速度组内：随机加强 vs 未加强",
+              "0.81",
+              "0.66–1.00",
+              "不同于与总对照比较"
+            ]
+          ]
+        },
+        {
+          "title": "加强训练不是简单的“自愿多练者”",
+          "text": [
+            "全文方法说明，完成至少八次初始训练者有资格再次随机分配加强训练。因此，“原始随机训练类型”“是否达到再次随机资格”“再次随机分配”“实际完成”是不同变量。把这些状态压成“坚持的人更好”，会丢掉随机设计；把合资格人群直接等同全部基线样本，也会扩大适用范围。"
+          ],
+          "source_ids": [
+            "S16"
+          ]
+        },
+        {
+          "title": "为什么需要同时保存两种比较",
+          "text": [
+            "加强速度路径与总对照相比，是一条包含资格和训练历史的比较；合资格速度组内部再次随机加强与未加强相比，是另一个问题。后者更贴近加强安排的增量效应，但它仍只适用于满足资格的那一组参与者。两个比值不能互相替换，不能从其中一个直接推出所有玩家增加训练的个人收益。",
+            "在个人研究笔记中，建议把每个比较画成两个明确的组，而不是只记“速度 HR 0.75”。如果不知道参照是哪一组，就无法判断这项效果是在回答训练类型、训练路径还是加强安排的问题。"
+          ]
+        },
+        {
+          "title": "原文内部数字差异：本次全文核验发现",
+          "text": [
+            "当前 XML 的 Table 2 将速度＋加强的调整结果列为 0.75（0.59–0.95），但结果段的一处文字称其为调整 HR 0.74（0.59–0.93），这与表中的未调整行数值对应。方法段与表注关于部分组内人数也有需进一步核对的差异。本节以明确标出的表格值摘录，并将差异登记为待核验，不自行悄悄修改原作者数据。"
+          ],
+          "source_ids": [
+            "S16"
+          ]
+        },
+        {
+          "title": "理赔资料的强项与限制",
+          "text": [
+            "理赔资料能够提供与医疗接触有关的诊断记录，是补充长期面访的重要资料来源。但记录到诊断、出现症状、达到某套临床标准和具有特定病理不是同一件事。不同保险覆盖、医疗接触、识别机会与编码都会影响哪些事件可被发现。",
+            "因此，我们需要问算法如何建立、谁的资料不能观察、参照标准是什么、退出保险覆盖怎样处理，以及死亡怎样进入模型。不能把“记录完整到某个年份”直接当作每位参与者都接受同样完整的临床评估。这些问题决定理赔终点在主假设中的证据位置。"
+          ]
+        },
+        {
+          "title": "2026 再分析并不是一句“推翻了结果”",
+          "text": [
+            "Dickens 的再分析使用已发表的比值和区间。多重比较校正后区间包含 1，但另外的符号检验和参数模型又提示可能存在更广泛、年龄相关的有利模式。它既质疑只强调单一训练类型的解释，也探索共同效应；不是独立招募样本的新试验。"
+          ],
+          "source_ids": [
+            "S17"
+          ]
+        },
+        {
+          "title": "怎样理解这种方法学分歧",
+          "text": [
+            "一种分析希望控制多次比较导致的偶然积极结果，另一种分析试图利用多个估计共同的方向。二者关注的统计问题不同。若模型、比较集合和预设假设不同，结论可以不同，但不能把更有利的模型当作确定答案，也不能只摘取再分析中最否定的一句。",
+            "对于研究目标，这种分歧意味着需要下一步明确：哪些比较是原先计划、哪些分析是探索性、模型对假设有多敏感、哪些数据能独立验证整体模式。模型在已有汇总结果上得到更合理的解释，仍不同于在新试验中重复获得临床结果。"
+          ]
+        },
+        {
+          "title": "把死亡与覆盖变化放回长期问题",
+          "text": [
+            "长期研究中，人在发生目标诊断之前可能死亡，也可能离开可观察的保险资料范围。这会改变可观察事件和暴露时间。原因特异性风险模型、固定时间累计发生和竞争风险分析回答的问题并不完全相同；需要保留原文的统计量与处理办法，不能只看一条百分比。",
+            "一个更长随访不是自动更强的答案。时间增加使我们有机会观察更多事件，也增加了选择、覆盖变化和其他健康事件的影响。它的价值在于更接近长期问题，强度取决于方法与资料能否支持解释。"
+          ]
+        },
+        {
+          "title": "目前可写入综合的结论",
+          "text": [
+            "这项研究提供某条速度训练/加强路径与长期理赔痴呆终点有利关联的证据，且保留再次随机安排这一重要设计信息。全样本、不同参照、数字一致性和再分析仍限制确定判断。它加强了继续开展专项研究的理由，没有完成“所有脑训练预防 AD”的普遍论证。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S16",
+        "S17"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "training",
+      "learning_objectives": [
+        "理解资格、再次随机和完成的区别",
+        "分清全样本与不同加强训练比较",
+        "理解再分析的不同立场与原文核验"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-evidence-active10",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "trial_id": "ACTIVE",
+      "extraction_level": "full_text_tables",
+      "audit_issues": [
+        {
+          "source_id": "S16",
+          "location": "Results text vs Table 2",
+          "issue": "Adjusted HR wording 0.74 (0.59–0.93) conflicts with table adjusted 0.75 (0.59–0.95). Table value used; correction/supplement pending."
+        },
+        {
+          "source_id": "S16",
+          "location": "Methods vs Table 2 subgroup notes",
+          "issue": "Some within-arm sample sizes differ in text and table notes; verify original PDF/supplement before resolving."
+        }
+      ],
+      "pending_relationships": [
+        {
+          "target_id": "ad-statistics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-dose-adherence",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-synthesis",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-brain-clinical-guide",
+      "collection": "alzheimer",
+      "title": "00｜脑部临床表现总导读：五类资料各自看见什么",
+      "summary": "把临床认知表现、结构影像、病理成像、生物标志物和细胞病理放在同一张研究地图上。",
+      "sections": [
+        {
+          "title": "先解释“脑部临床表现”这个问题",
+          "text": [
+            "这里需要同时讨论两件事：脑部过程怎样反映为记忆、语言、判断和生活功能变化；医生和研究者又怎样用不同方法观察相关过程。前一件是人的表现，后一件是测量资料。后面的章节会按这两条线组织，而不是只列海马、前额叶或蛋白名称。",
+            "一个人出现同一项生活困难，并不表示我们已经看到了对应脑区的病变；一张脑部图像出现异常，也不等于它能解释这个人的所有困难。把表现与测量建立关联是研究工作，不能只用一个名称跳过这一步。"
+          ]
+        },
+        {
+          "title": "临床评估在回答哪三件事",
+          "text": [
+            "DETeCD-ADRD 专科指南将认知功能状态、认知—行为综合征和可能的病因分层评估，并在需要时使用进一步的认知、影像和实验室检查。这个结构帮助读者区分“受损到什么程度”“哪种模式受到影响”与“由什么疾病造成”。"
+          ],
+          "source_ids": [
+            "S60"
+          ]
+        },
+        {
+          "title": "第一类：认知和行为资料",
+          "text": [
+            "例如，一个学习任务可以观察初次学习、延迟回忆、提示后提取和识别；不同结果帮助描述表现模式。语言、注意、执行和视觉空间任务也提供不同侧面的资料。这里说的是测量维度，不是某种模式就能独立诊断 AD；选择与解释还需要病史、功能和背景条件。"
+          ],
+          "source_ids": [
+            "S60"
+          ]
+        },
+        {
+          "title": "第二类：结构 MRI",
+          "text": [
+            "MRI 提供脑部结构和病变相关资料。研究可观察萎缩模式、白质或血管性改变，并用于不同原因的鉴别；但群体中常见的模式不能直接成为每个人的结论。图像采集、分析方法、年龄及其他病理都会影响解释。"
+          ],
+          "source_ids": [
+            "S62"
+          ]
+        },
+        {
+          "title": "第三类：不同 PET 不是同一张“脑活动图”",
+          "text": [
+            "淀粉样蛋白 PET、Tau PET 与葡萄糖代谢 PET 针对不同过程。它们可用于研究病理分布、神经退行相关变化和认知之间的关系；“PET 阳性”必须说明是哪种示踪剂与哪种判定，不能把不同 PET 结果合成一个脑健康分数。"
+          ],
+          "source_ids": [
+            "S61"
+          ]
+        },
+        {
+          "title": "第四、第五类：液体指标与病理资料",
+          "text": [
+            "血液或脑脊液中的特定指标为病理相关过程提供线索；解释依赖检测平台、验证与人群。细胞/组织病理则观察脑组织中的相关变化，和活体行为测验属于不同证据层。生物学分期、临床评估和组织病理之间需要建立联系，但不能假定它们在每个人身上完全同步。"
+          ],
+          "source_ids": [
+            "S03"
+          ]
+        },
+        {
+          "title": "把五类资料放到一张表中",
+          "text": [],
+          "table": [
+            [
+              "资料类型",
+              "主要研究问题",
+              "读文献必须保存"
+            ],
+            [
+              "认知/行为/功能",
+              "哪种表现改变、程度怎样",
+              "任务、支持条件、常模与时间"
+            ],
+            [
+              "结构 MRI",
+              "结构、萎缩或病变模式",
+              "序列、分析、人群与对照"
+            ],
+            [
+              "不同 PET",
+              "对应标靶或代谢分布",
+              "示踪剂、参照区、阈值与时间"
+            ],
+            [
+              "血液/脑脊液",
+              "对应指标与病理相关性",
+              "平台、验证与适用人群"
+            ],
+            [
+              "组织病理",
+              "细胞与组织层面的改变",
+              "取材、分期、共病理与样本来源"
+            ]
+          ]
+        },
+        {
+          "title": "说明性例子：同一个“记不住”问题怎样展开",
+          "text": [
+            "设想一个人没有记住刚介绍的信息。研究者可以先检查信息是否被理解，再观察经过学习后能保留多少、延迟后能否提取、提示或识别是否帮助。这一过程产生行为资料。如果再获得结构和病理相关指标，研究问题是这些资料怎样与行为模式关联。不是先看到“海马”两个字，就认定所有忘事均由同一种海马病变导致。",
+            "若一个训练让这个人在同类学习任务上表现提高，还要问是否只是规则或策略更熟悉，是否能在新材料和不同任务形式下保持，是否影响生活功能。只有在研究另外测量了病理和影像时，才有依据讨论脑部指标的变化；没有测量的部分保持未知。"
+          ]
+        },
+        {
+          "title": "为什么不能根据激活高低直接下结论",
+          "text": [
+            "活体功能信号、结构体积、病理结合和行为成绩是不同测量。一个结果提高并不意味着所有脑指标都往同一方向变化。更强的活动可能有多种解释，较弱活动也可能有多种解释。研究要规定任务对比、指标与竞争解释，不能用“亮了更多”替代机制判断。",
+            "对于个人研究，这意味着每张图都要有图例和测量说明。看颜色之前先看图展示的是哪种量、比较了什么人或条件、统计尺度是什么。后面的 EEG/fMRI、PET 与 MRI 章节会逐一扩展这套读图方法。"
+          ]
+        },
+        {
+          "title": "这张地图如何帮助检验训练预防",
+          "text": [
+            "行为训练首先提供任务和认知层面的结果。若希望论证更广泛功能维持，需要功能测量；若希望论证病理过程受到影响，需要相应生物学指标；若希望论证临床发病减少，需要长期且定义明确的诊断终点。五类资料不是竞赛，越贵的测量也不自动回答越重要的问题。关键是测量是否与研究假设对齐。"
+          ]
+        },
+        {
+          "title": "本节之后的阅读路径",
+          "text": [
+            "先读蛋白与突触机制，再读记忆和其他网络；接着读 MRI、PET 与液体指标的专章，最后回到病理—行为不一致的解释。机制旧稿在本章下方另列为待扩展资料，尚未重写的内容不计入十万字专题正文。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S60",
+        "S61",
+        "S62",
+        "S03"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "brain",
+      "learning_objectives": [
+        "区分临床表现与脑部测量",
+        "知道五类资料各自回答什么",
+        "能把训练假设与测量层次对齐"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-amyloid-tau",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-synapses",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-circuits",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "pending_relationships": [
+        {
+          "target_id": "ad-mri",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-pet",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-neuropsychology",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ]
+    },
+    {
+      "id": "ad-evidence-lampit",
+      "collection": "alzheimer",
+      "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
+      "summary": "使用一篇许可允许再利用的原文，练习双语阅读、效应量解释和对分组结果的审查。",
+      "sections": [
+        {
+          "title": "论文与简要数据",
+          "text": [
+            "Lampit、Hallock 与 Valenzuela 的 2014 年元分析纳入 52 项随机研究、4885 人。其主要问题是正常老年人的计算机认知训练能否改善神经心理测验表现；总体随机效应估计为 Hedges g 0.22（95% CI 0.15–0.29）。这不是 AD 发病风险比。"
+          ],
+          "source_ids": [
+            "S44"
+          ]
+        },
+        {
+          "title": "原文短片段与中文翻译",
+          "text": [
+            "原文：“These results are limited to healthy older adults, and do not address the durability of training effects.”",
+            "中文译文：“这些结果只适用于认知健康的老年人，且没有回答训练效果能保持多久。”",
+            "出处：摘要 Methods and Findings 结尾。原文为 CC BY；此处保留作者与来源，并标明中文翻译由本专题提供。它是有限片段对照，不是整篇论文的译本。"
+          ],
+          "source_ids": [
+            "S44"
+          ]
+        },
+        {
+          "title": "为什么这句话比单独的积极效应更重要",
+          "text": [
+            "这句话限定了结论的两个边界：受试者与时间。假设我们想将总体效应应用到已确诊 AD 的人群，受试者条件就变了；假设我们希望宣称保护延续多年，结果时间也变了。原文在摘要中已经指出这两个问题，因此阅读时应把限定和数值一起保存。",
+            "对于个人研究资料库，可以把双语片段放在数据表旁边。这样复盘时不会只看到一个有利数字，而忘记作者实际承认了什么范围。翻译的目的不是把论文包装得更有说服力，而是让原文的细节在中文阅读中保留下来。"
+          ]
+        },
+        {
+          "title": "g 0.22 究竟是哪一种量",
+          "text": [
+            "标准化效应量把量表上的差异转换为相对于变异程度的大小，以便合并不同测验。它不是“认知提高了22%”，也不是“患病风险下降22%”，更不是一年年龄变化。解释它需要知道测了什么、比较了什么、测量的稳定性以及实际意义。",
+            "同一个标准化效应大小可以对应不同量表上的不同分数差；实际生活意义也可能不同。对一个很稳定、与功能相关的结果，小差异可能值得研究；对一个波动很大或与生活关系不清的结果，即使统计上有差异，也还需要解释。不能只根据一个 g 值给所有训练统一排序。"
+          ]
+        },
+        {
+          "title": "元分析为什么不能只是把人数相加",
+          "text": [
+            "不同研究可能使用不同任务、参与者、对照、时长、指导和测验。将它们合并需要规定哪些结果可被视为回答相近的问题、怎样对估计加权、如何处理一个研究的多个测量。若同一参与者贡献多项相近测验，把它们当作完全独立的样本，可能让精度看起来过高。",
+            "因此，读一篇元分析要同时看研究纳入规则和统计单位。总人数很大不代表每个结论都使用了全部人数，也不代表每种认知过程都获得了同样多的研究。某一个分领域结果可能只来自少数试验，不能因为总体研究很多而忽略它自己的不确定性。"
+          ]
+        },
+        {
+          "title": "随机效应模型在表达什么",
+          "text": [
+            "随机效应模型允许不同研究存在不同的真实效应，而不仅仅是同一个效应被抽样误差包围。合并值仍然是某种平均估计，并不自动描述任何一个具体训练程序的效果。若不同设计差异很大，平均值甚至可能掩盖重要的适用条件。",
+            "这使得数据库需要保存每项研究的特征，而不只是引用最后一个总数。我们需要知道平均值背后有哪些方案、什么对照、哪些受试者、结果何时测量。如果研究目标是自己将来采用一种特定的训练形式，应该继续追到相似方案的原始试验，而不是停在总体平均上。"
+          ]
+        },
+        {
+          "title": "分组与调节分析如何提供线索",
+          "text": [
+            "作者讨论了方案设计相关的效应差异。这里需分开“研究中随机比较了某个设计条件”与“元分析按不同研究的设计特征分组”。后者可提示哪些条件值得进一步验证，但不同研究之间还可能同时存在其他差异。"
+          ],
+          "source_ids": [
+            "S44"
+          ]
+        },
+        {
+          "title": "为什么不能把分组结果直接变成个人训练剂量",
+          "text": [
+            "假设较有监督的试验与家庭独立训练试验表现不同，一个候选解释是监督作用；另一个解释是材料、受试者、实施支持、对照或测量不同。若这些条件没有在同一研究中被恰当地分离，分组结果就不能单独给出监督的因果效应。",
+            "同样，若不同频率研究的平均结果不同，不能据此规定每个人训练超过某个次数就必然无效。频率可能与总体时长、疲劳、参与度和研究质量共同变化。分组分析的价值是提出设计问题，剂量建议则还需要更直接、可靠的人群证据。"
+          ]
+        },
+        {
+          "title": "怎样检查发表偏倚与选择性结果",
+          "text": [
+            "我们应核对是否检索未发表研究、是否选择了论文中某些测验、多个结果怎样进入合并、是否报告敏感性分析。一个偏倚检验没有达到显著性，并不意味着所有形式的选择都不存在；检验也有其假设和信息量。",
+            "反过来，发现可能的发表偏倚也不等于每一项积极结果都是假的。需要研究调整后的估计、相关领域的试验设计，以及是否有足够透明的预注册和完整报告。对于本专题，偏倚问题会单独记录，不把某一个统计检验当作最终裁判。"
+          ]
+        },
+        {
+          "title": "为什么认知收益对预防问题仍有价值",
+          "text": [
+            "主假设的第一段链条是训练是否能形成可观测的认知结果。这篇综述提供相关信息，帮助我们研究训练任务、测验和实施条件。如果连任务外的认知结果都无法稳定获得，讨论长期疾病终点会更困难。",
+            "但这一段链条有价值，不等于它可以替代后面几段。保持、功能、临床发生和病理过程都需要相应的数据。因此，我们会把此文放在“认知结果”这一层，与 ACTIVE 的临床终点层并列，而不是把两个层次合成一个总的预防效应。"
+          ]
+        },
+        {
+          "title": "下一步需要做的全文工作",
+          "text": [
+            "当前已取得全文 XML 与许可说明。下一步逐一核对纳入表、对照类型、结果选择、效应计算和敏感性分析，并将原始研究追溯为独立提取卡。尚未核验的字段保持未核验，不因可下载全文就标成已完成方法学审查。",
+            "后续可以在许可范围内选择最能解释方法的图表，提供带出处的原图和中文图注；自行重绘或翻译时也会标明所作修改。每个图表需连接它回答的具体问题，避免只为了页面装饰而增加图像。"
+          ]
+        }
+      ],
+      "source_ids": [
+        "S44"
+      ],
+      "status": "重建正文 · 数据审核中",
+      "aliases": [],
+      "reviewed": "2026-10-09",
+      "research_program": "alzheimer-rebuild-2026",
+      "part": "training",
+      "learning_objectives": [
+        "能区分标准化效应与风险比",
+        "理解平均效应与具体方案的区别",
+        "知道元分析分组不能直接给出个人剂量"
+      ],
+      "relationships": [
+        {
+          "target_id": "ad-training-question",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
+      ],
+      "content_status": "draft",
+      "extraction_level": "full_text_pending_methods_audit",
+      "translation_permission": "CC BY verified in XML; limited bilingual excerpt included",
+      "pending_relationships": [
+        {
+          "target_id": "ad-transfer",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-evidence-cochrane",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        },
+        {
+          "target_id": "ad-statistics",
+          "type": "see-also",
+          "label": "按阅读主线继续"
+        }
       ]
     }
   ],
@@ -5485,7 +7224,7 @@
       "id": "alzheimer",
       "title": "阿尔茨海默病",
       "path": "research/alzheimer",
-      "description": "从病理与网络到认知任务，逐层记录依据与转译缺口。"
+      "description": "围绕四个读者问题，由浅入深研究疾病、原因与表现、脑部变化，以及训练预防的可能性。10 万字研究进行中。"
     },
     {
       "id": "duolingo",

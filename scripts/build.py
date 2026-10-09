@@ -1,11 +1,14 @@
 # -*- coding: utf-8 -*-
 """Build BrainLab's static knowledge base from normalized JSON (stdlib only)."""
-import json,html,posixpath,hashlib
+import json,html,posixpath,hashlib,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
+if (ROOT/'data/alzheimer/program.json').exists():subprocess.run([sys.executable,str(ROOT/'scripts/count_research.py')],check=True)
 DB=json.loads((ROOT/'data/knowledge.json').read_text(encoding='utf-8'))
 ASSET_VERSION=hashlib.sha256(b''.join((ROOT/p).read_bytes() for p in ['assets/style.css','assets/app.js','data/knowledge.json'])).hexdigest()[:12]
 R={r['id']:r for r in DB['records']};S={s['id']:s for s in DB['sources']};C={c['id']:c for c in DB['collections']}
+PROGRAM=json.loads((ROOT/'data/alzheimer/program.json').read_text()) if (ROOT/'data/alzheimer/program.json').exists() else None
+WORD_COUNT=json.loads((ROOT/'data/alzheimer/word-count.json').read_text()) if (ROOT/'data/alzheimer/word-count.json').exists() else None
 assert len(R)==len(DB['records']) and len(S)==len(DB['sources']), 'Duplicate stable IDs'
 for r in R.values():
  assert r['collection'] in C
@@ -29,7 +32,7 @@ manifest=[]
 def render(page,title,body,active='',description='BrainLab：阿尔茨海默病、认知游戏与产品体验研究知识库'):
  nav=[('alzheimer','阿尔茨海默病'),('duolingo','多邻国'),('keep','Keep'),('games','游戏'),('brain','脑网络'),('evidence','证据'),('design','设计')]
  head='<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="'+esc(description)+'"><meta name="color-scheme" content="light"><title>'+esc(title)+'｜BrainLab</title><link rel="stylesheet" href="'+href('assets/style.css',page)+'?v='+ASSET_VERSION+'"><script defer src="'+href('assets/search-data.js',page)+'?v='+ASSET_VERSION+'"></script><script defer src="'+href('assets/app.js',page)+'?v='+ASSET_VERSION+'"></script></head><body data-root="'+href('index.html',page)+'"><a class="skip" href="#main">跳至正文</a><header><div class="bar"><a class="brand" href="'+href('index.html',page)+'">BrainLab<span>研究知识库</span></a><nav class="topnav" aria-label="全站导航">'+''.join('<a'+(' class="active" aria-current="page"' if active==k else '')+' href="'+href(C[k]['path']+'/index.html',page)+'">'+v+'</a>' for k,v in nav)+'<a class="searchlink" href="'+href('search/index.html',page)+'">⌕ 检索</a></nav></div></header><main id="main">'
- foot='<footer class="pagefoot"><div>BrainLab · v'+DB['version']+' / '+DB['updated']+'<br>研究与设计基线 · 产品疗效尚未验证</div><div><a href="'+href('sources/index.html',page)+'">来源与读取范围</a><a href="'+href('design/design-schema/index.html',page)+'">编辑与扩展</a><a href="https://github.com/qc0317/brainlab">GitHub ↗</a></div></footer></main></body></html>'
+ foot='<footer class="pagefoot"><div>BrainLab · v'+DB['version']+' / '+DB['updated']+'<br>个人研究资料库 · 读取范围与结论条件详见各章</div><div><a href="'+href('sources/index.html',page)+'">来源与读取范围</a><a href="'+href('design/design-schema/index.html',page)+'">编辑与扩展</a><a href="https://github.com/qc0317/brainlab">GitHub ↗</a></div></footer></main></body></html>'
  file=ROOT/page;file.parent.mkdir(parents=True,exist_ok=True);file.write_text(head+body+foot,encoding='utf-8');manifest.append(page)
 def crumb(page,c=None,title=None):return '<nav class="crumb" aria-label="面包屑"><a href="'+href('index.html',page)+'">首页</a>'+(' / <a href="'+href(C[c]['path']+'/index.html',page)+'">'+esc(C[c]['title'])+'</a>' if c else '')+(' / <span>'+esc(title)+'</span>' if title else '')+'</nav>'
 def intro(title,summary,tag='知识库',meta=''):
@@ -40,10 +43,10 @@ topics=''
 for n,k in enumerate(['alzheimer','duolingo','keep'],1):
  count=sum(r['collection']==k for r in R.values());c=C[k]
  topics+='<a class="card topic" href="'+href(c['path']+'/index.html',p)+'"><div class="number">RESEARCH / 0'+str(n)+'</div><h3>'+esc(c['title'])+'</h3><p>'+esc(c['description'])+'</p><div class="meta">'+str(count)+' 个研究条目 · 进入专题 →</div></a>'
-body='<div class="hero"><div><div class="eyebrow">Cognitive Health / Research Library · 1.0</div><h1>从脑科学到日常练习，<br>把设计建立在证据之上。</h1><p>面向认知基本正常的中老年人，以有趣、可持续的日常游戏支持认知健康。这里汇集疾病机制、任务分析与体验研究，逐步检验功能维持与风险降低的可能性。</p><div class="actions"><a class="btn" href="search/index.html">检索知识库</a><a class="btn secondary" href="games/matrix.html">游戏 × 能力矩阵</a></div><div class="stats"><div><b>'+str(len(R))+'</b><span>知识与设计条目</span></div><div><b>'+str(len(S))+'</b><span>可追溯来源</span></div><div><b>15 / 9</b><span>游戏 / 认知能力</span></div></div></div><aside class="chain"><strong>研究 → 设计 → 验证</strong><ol><li>病理与脑网络</li><li>可操作的认知过程</li><li>规则明确的游戏任务</li><li>持续参与的产品体验</li><li>独立结果与长期研究</li></ol><small>每一跳都保留依据、假设和缺口。</small></aside></div><div class="notice"><strong>科学边界：</strong>参与不等于已证实的迁移训练，任务进步不等于疾病预防。当前没有验证 BrainLab 的认知或预防疗效。脑区关联用于研究导航，不是个人脑区诊断。</div><section class="section"><div class="sectionhead"><h2>三项核心研究</h2><a href="sources/index.html">阅读来源说明 ↗</a></div><p class="sub">分别深入疾病机制与两种产品体验，再连接到可检验的游戏设计。</p><div class="grid">'+topics+'</div></section><section class="section"><h2>相互关联的知识结构</h2><div class="grid">'
+body='<div class="hero"><div><div class="eyebrow">Personal Research / Literature &amp; Data</div><h1>认知健康与脑部训练，<br>从文献与数据开始研究。</h1><p>个人非商业研究资料库。先读懂疾病，再审查训练预防的可能性；保留原文出处、中文解析、数据与相反证据，方便多端阅读和持续复盘。</p><div class="actions"><a class="btn" href="search/index.html">检索知识库</a><a class="btn secondary" href="games/matrix.html">游戏 × 能力矩阵</a></div><div class="stats"><div><b>'+str(len(R))+'</b><span>知识与设计条目</span></div><div><b>'+str(len(S))+'</b><span>可追溯来源</span></div><div><b>15 / 9</b><span>游戏 / 认知能力</span></div></div></div><aside class="chain"><strong>研究 → 设计 → 验证</strong><ol><li>病理与脑网络</li><li>可操作的认知过程</li><li>规则明确的游戏任务</li><li>持续参与的产品体验</li><li>独立结果与长期研究</li></ol><small>每一跳都保留依据、假设和缺口。</small></aside></div><div class="notice"><strong>研究阅读：</strong>任务学习、独立认知、生活功能、临床发病和病理指标分别记录。阿尔茨海默病十万字专题正在重建；全文审核和阶段性结论按章节标记。</div><section class="section"><div class="sectionhead"><h2>三项核心研究</h2><a href="sources/index.html">阅读来源说明 ↗</a></div><p class="sub">分别深入疾病机制与两种产品体验，再连接到可检验的游戏设计。</p><div class="grid">'+topics+'</div></section><section class="section"><h2>相互关联的知识结构</h2><div class="grid">'
 for k in ['brain','abilities','games','evidence','design']:
  c=C[k];body+='<a class="card" href="'+c['path']+'/index.html"><span class="tag">'+str(sum(r['collection']==k for r in R.values()))+' 个条目</span><h3>'+c['title']+'</h3><p>'+c['description']+'</p><div class="meta">浏览目录 →</div></a>'
-body+='<a class="card" href="sources/index.html"><span class="tag">来源层</span><h3>来源与证据范围</h3><p>记录原文、年份、证据类型、读取范围与限制，反向查看引用它的知识条目。</p><div class="meta">'+str(len(S))+' 项来源 →</div></a></div></section><section class="section"><h2>建议的阅读路径</h2>'+cards(['ad-foundations','ad-translation','design-outcomes'],p)+'<p class="sub" style="margin-top:24px">本轮完成知识库基线。下一阶段优先做少量会话原型与目标用户实测；专题研究继续补全文、偏倚评估及专家审查。<a href="archive/v0.3.html">查看单页历史版本</a></p></section>'
+body+='<a class="card" href="sources/index.html"><span class="tag">来源层</span><h3>来源与证据范围</h3><p>记录原文、年份、证据类型、读取范围与限制，反向查看引用它的知识条目。</p><div class="meta">'+str(len(S))+' 项来源 →</div></a></div></section><section class="section"><h2>建议的阅读路径</h2>'+cards(['ad-foundations','ad-translation','design-outcomes'],p)+'<p class="sub" style="margin-top:24px">阿尔茨海默病专题正在按四条阅读主线重建，目标不少于十万字正文；已起草内容与待研究内容分开显示。<a href="archive/v0.3.html">查看单页历史版本</a></p></section>'
 render(p,'认知健康与游戏设计',body)
 # Hubs and level-three entries
 for k,c in C.items():
@@ -51,15 +54,32 @@ for k,c in C.items():
  b=crumb(p,title=c['title'])+intro(c['title'],c['description'],'Research Collection',str(len(ids))+' 个条目 · 更新 '+DB['updated'])
  if k in ['duolingo','keep']:
   b+='<div class="notice hub-note"><strong>观察范围：</strong>'+('官方资料与 2022 历史界面；未实测当前原生 App。' if k=='duolingo' else '官方开发者说明与公开 Web 目录/详情；未实测原生跟练、AI、付费和推送流程。')+'“体验分析”与“设计建议”是分析模型，未声称已验证黏性效果。</div>'
- elif k=='alzheimer':b+='<div class="notice hub-note"><strong>专题研究基线：</strong>深入机制、方法与设计转译，属于叙述性研究草案；尚未完成系统检索、所有全文提取或专家审稿。痴呆总体证据保留原终点，不改写为 AD 特异性疗效。</div>'
+ elif k=='alzheimer':b+='<div class="notice hub-note"><strong>专题重建：</strong>这是一项正在推进的个人文献研究。先读已起草的概念与证据，再查看规划章节；新版正文按实际汉字计数，尚未达到十万字目标。</div>'
  elif k=='brain':b+='<div class="notice hub-note">这些关联为多系统教学映射；没有本项目的游戏脑成像证据。历史“一游戏、一脑区、可预防”的强推断已纠正。</div>'
  elif k=='games':b+='<div class="actions"><a class="btn" href="matrix.html">查看游戏 × 能力矩阵</a><a class="btn secondary" href="'+href('abilities/index.html',p)+'">认知能力目录</a></div><div class="notice hub-note">任务需求依据明确规则判断；不是疗效排行榜。黑白翻转、堆叠水果采用暂定规则；密室逃脱仍需指定作品与关卡。</div>'
- b+=cards(ids,p,'two' if k in ['duolingo','keep'] else '')
+ if k=='alzheimer' and PROGRAM:
+  b+='<div class="research-progress"><div><span class="eyebrow">个人研究 · 重建进行中</span><h2>脑部训练对于预防阿尔茨海默病，可能有效吗？</h2><p>按疾病、原因与表现、脑部变化、训练证据四条主线阅读。假设需要检验，支持、无差异和反对证据均保留。</p></div><div class="progress-count"><b>'+format(WORD_COUNT['counted_han_chars'],',')+'</b><span> / 100,000 正文汉字</span><small>'+str(WORD_COUNT['drafted_chapters'])+' / '+str(WORD_COUNT['planned_chapters'])+' 章已起草 · 尚未完成</small></div></div>'
+  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
+  written=set(PROGRAM['drafted_record_ids'])
+  for part in PROGRAM['parts']:
+   available=[ch['id'] for ch in part['chapters'] if ch['id'] in written and ch['id'] in R]
+   planned=[ch for ch in part['chapters'] if ch['id'] not in written]
+   b+='<section class="section" id="part-'+part['id']+'"><h2>'+esc(part['title'])+'</h2><p class="sub">'+esc(part['description'])+'</p>'+cards(available,p,'two')
+   if planned:b+='<details class="planned"><summary>后续章节 · '+str(len(planned))+' 章待撰写/重写</summary><ol>'+''.join('<li>'+esc(ch['title'])+' <span class="meta-line">尚未完成</span></li>' for ch in planned)+'</ol></details>'
+   b+='</section>'
+  legacy=[i for i in ids if i not in written]
+  if legacy:b+='<section class="section"><h2>机制旧稿与研究线索</h2><p class="sub">保留用于继续扩展与复盘；这些旧条目尚未按新专题要求重写，不计入十万字正文。</p>'+cards(legacy,p)+'</section>'
+ else:b+=cards(ids,p,'two' if k in ['duolingo','keep'] else '')
  render(p,c['title'],b,k,c['description'])
 for r in R.values():
  p=path(r['id']);c=r['collection'];secs=r['sections']
  b=crumb(p,c,r['title'])+intro(r['title'],r['summary'],C[c]['title'],r['id']+' · '+r['status']+' · 更新 '+r['reviewed'])
+ if r.get('research_program') and PROGRAM:
+  part=next(x for x in PROGRAM['parts'] if x['id']==r['part'])
+  ch_count=next((x['han_chars'] for x in WORD_COUNT['chapters'] if x['id']==r['id']),0)
+  b+='<div class="reader-meta"><strong>'+esc(part['title'])+'</strong><span>正文 '+format(ch_count,',')+' 汉字 · 起草完成，审核进行中</span></div><details class="learning"><summary>本节帮助理解什么</summary><ul>'+''.join('<li>'+esc(x)+'</li>' for x in r.get('learning_objectives',[]))+'</ul></details>'
  if r.get('basis'):b+='<div class="notice hub-note">资料与观察依据：'+esc(r['basis'])+'</div>'
+
  if r.get('needs_clarification'):b+='<div class="notice hub-note"><strong>规则待确认：</strong>历史名称或类型不足以唯一确定玩法。本页规则是工作定义，后续须指定版本。</div>'
  b+='<div class="layout"><article class="content">'
  for i,s in enumerate(secs):
@@ -74,7 +94,7 @@ for r in R.values():
  if r['source_ids']:
   b+='<section id="refs"><h2>引用来源与读取范围</h2><ul class="refs">'
   for sid in r['source_ids']:
-   s=S[sid];b+='<li>'+source_link(sid,p)+' · <a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a><small>'+esc(str(s['year'])+' · '+s['kind']+' · '+s['access'])+('；'+esc(s['note']) if s['note'] else '')+'</small></li>'
+   s=S[sid];b+='<li>'+source_link(sid,p)+' · <a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a><small>'+esc(str(s['year'])+' · '+s['kind']+' · '+s['access'])+('；'+esc(s['note']) if s['note'] else '')+('；许可：'+esc(s['license']) if s.get('license') else '')+'</small></li>'
   b+='</ul></section>'
  b+='</article><aside class="toc"><strong>本页目录</strong><nav aria-label="条目章节">'+''.join('<a href="#s'+str(i)+'">'+esc(s['title'])+'</a>' for i,s in enumerate(secs))+('<a href="#interface">界面观察</a>' if r.get('image') else '')+('<a href="#refs">来源与范围</a>' if r['source_ids'] else '')+'<a href="#related">关联条目</a></nav><div class="aside-note"><span class="tag">'+esc(r['status'])+'</span><small>关联 ≠ 因果或疗效。<br>证据更新时保留版本、适用条件和相反结果。</small><p>'+link('design-schema',p,'如何编辑与扩展 →')+'</p></div></aside></div>'
  b+='<section class="relations" id="related"><h2>继续沿关联阅读</h2><div class="grid">'+''.join(card(R[t['target_id']],p,t['label']) for t in r['relationships'])+'</div>'
@@ -85,7 +105,7 @@ for r in R.values():
 p='sources/index.html';b=crumb(p,title='来源')+intro('来源与读取范围','先看证据类型、适用人群和读取范围，再决定它能支持何种结论。','Evidence Provenance',str(len(S))+' 项来源 · 访问基线 2026-10-09')+'<div class="notice">本版采用机构、论文原文和官方产品资料。部分只有摘要/概要，已逐项标记；没有把未阅读全文当作已完成系统综述。原生产品未实测的能力与流程不作为已观察事实。来源年份可能为访问年份，相关说明见备注。</div>'
 for sid,s in S.items():
  used=[r['id'] for r in R.values() if sid in set(r['source_ids']+[v for a in r['sections'] for v in a.get('source_ids',[])])]
- b+='<section class="source-item" id="'+sid+'"><span class="tag">'+sid+' · '+esc(s['kind'])+'</span><h2><a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a></h2><div class="meta-line">'+str(s['year'])+' · 读取范围：'+esc(s['access'])+' · 复核 '+s['reviewed']+'</div>'+('<p>'+esc(s['note'])+'</p>' if s['note'] else '')+'<div class="backlinks">被引用：'+''.join(link(i,p) for i in used)+'</div></section>'
+ b+='<section class="source-item" id="'+sid+'"><span class="tag">'+sid+' · '+esc(s['kind'])+'</span><h2><a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a></h2><div class="meta-line">'+str(s['year'])+' · 读取范围：'+esc(s['access'])+' · 复核 '+s['reviewed']+'</div>'+('<p>'+esc(s['note'])+'</p>' if s['note'] else '')+('<p>许可：'+esc(s['license'])+'</p>' if s.get('license') else '')+('<p>同一试验：'+esc(s['trial_id'])+'</p>' if s.get('trial_id') else '')+'<div class="backlinks">被引用：'+''.join(link(i,p) for i in used)+'</div></section>'
 render(p,'来源与证据范围',b)
 # Matrix, no unsupported evidence scores
 p='games/matrix.html';ab=[r for r in R.values() if r['collection']=='abilities'];games=[r for r in R.values() if r['collection']=='games']

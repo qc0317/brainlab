@@ -1,0 +1,352 @@
+{
+  "id": "alzheimer-rebuild-2026",
+  "title": "阿尔茨海默病与脑部训练的预防可能性",
+  "created": "2026-10-09",
+  "status": "in_progress",
+  "target_han_chars": 100000,
+  "counting_rule": "新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落",
+  "parts": [
+    {
+      "id": "understand",
+      "title": "第一部分｜先理解疾病",
+      "description": "什么是阿尔茨海默病？从生活中的变化、概念与分期开始。",
+      "chapters": [
+        {
+          "id": "ad-foundations",
+          "title": "01｜从一个生活例子理解阿尔茨海默病",
+          "status": "draft"
+        },
+        {
+          "id": "ad-terms",
+          "title": "02｜正常老化、MCI、痴呆与 AD：四个词怎样区分",
+          "status": "draft"
+        },
+        {
+          "id": "ad-timeline",
+          "title": "03｜病理变化与症状：为什么不是同一条时间线",
+          "status": "draft"
+        },
+        {
+          "id": "ad-daily-function",
+          "title": "04｜记忆、判断和独立生活：疾病影响的是什么",
+          "status": "draft"
+        },
+        {
+          "id": "ad-phenotypes",
+          "title": "记忆型与非典型表型：不是每个人都先忘事",
+          "status": "planned"
+        },
+        {
+          "id": "ad-diagnosis-process",
+          "title": "医生如何判断：病史、认知、功能与辅助检查",
+          "status": "planned"
+        },
+        {
+          "id": "ad-biomarkers",
+          "title": "临床诊断与生物学定义：两个框架的分歧",
+          "status": "planned"
+        },
+        {
+          "id": "ad-outcome-language",
+          "title": "08｜预防、延缓与风险降低：先定义想改变什么",
+          "status": "draft"
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "title": "第二部分｜原因与表现",
+      "description": "区分发病机制、遗传原因、风险因素，以及认知、行为和功能表现。",
+      "chapters": [
+        {
+          "id": "ad-cause-risk",
+          "title": "01｜原因、机制与风险：为何不能写成单一病因",
+          "status": "draft"
+        },
+        {
+          "id": "ad-genetics",
+          "title": "APP、PSEN 与 APOE：致病变异和风险变异",
+          "status": "planned"
+        },
+        {
+          "id": "ad-aging",
+          "title": "年龄与细胞老化：风险为何随年龄变化",
+          "status": "planned"
+        },
+        {
+          "id": "ad-memory-symptoms",
+          "title": "记忆表现：编码、保存和提取如何区分",
+          "status": "planned"
+        },
+        {
+          "id": "ad-language-symptoms",
+          "title": "语言、理解与词义：失语相关表现",
+          "status": "planned"
+        },
+        {
+          "id": "ad-executive-symptoms",
+          "title": "规划、注意和判断：执行功能表现",
+          "status": "planned"
+        },
+        {
+          "id": "ad-spatial-symptoms",
+          "title": "定向、导航与视觉空间表现",
+          "status": "planned"
+        },
+        {
+          "id": "ad-behavior-symptoms",
+          "title": "情绪、动机与行为：症状和混杂",
+          "status": "planned"
+        },
+        {
+          "id": "ad-vascular",
+          "title": "血管、代谢与混合病理",
+          "status": "planned"
+        },
+        {
+          "id": "ad-senses",
+          "title": "听力、视力与感觉输入",
+          "status": "planned"
+        },
+        {
+          "id": "ad-sleep",
+          "title": "睡眠、节律与双向关系",
+          "status": "planned"
+        },
+        {
+          "id": "ad-social-education",
+          "title": "教育、活动与社交：关联和因果",
+          "status": "planned"
+        },
+        {
+          "id": "ad-reserve",
+          "title": "储备、韧性与补偿",
+          "status": "planned"
+        },
+        {
+          "id": "ad-risk-estimates",
+          "title": "怎样阅读风险数字与群体归因估计",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "brain",
+      "title": "第三部分｜脑部临床与病理表现",
+      "description": "从细胞与突触到网络、影像和认知测验，解释每种测量能看到什么。",
+      "chapters": [
+        {
+          "id": "ad-brain-clinical-guide",
+          "title": "00｜脑部临床表现总导读：五类资料各自看见什么",
+          "status": "draft"
+        },
+        {
+          "id": "ad-amyloid-tau",
+          "title": "Aβ 与 Tau：从蛋白变化到疾病模型",
+          "status": "planned"
+        },
+        {
+          "id": "ad-vulnerability",
+          "title": "选择性易损、脑区异质性与分期",
+          "status": "planned"
+        },
+        {
+          "id": "ad-synapses",
+          "title": "突触、胶质细胞与炎症",
+          "status": "planned"
+        },
+        {
+          "id": "ad-circuits",
+          "title": "海马、内嗅皮层与情景记忆回路",
+          "status": "planned"
+        },
+        {
+          "id": "ad-navigation",
+          "title": "导航系统与环境表征",
+          "status": "planned"
+        },
+        {
+          "id": "ad-control-network",
+          "title": "额顶控制、注意与执行网络",
+          "status": "planned"
+        },
+        {
+          "id": "ad-mri",
+          "title": "MRI：萎缩、白质与血管改变",
+          "status": "planned"
+        },
+        {
+          "id": "ad-pet",
+          "title": "PET：淀粉样蛋白、Tau、代谢与突触",
+          "status": "planned"
+        },
+        {
+          "id": "ad-fluid",
+          "title": "血液与脑脊液：病理标志物怎样解释",
+          "status": "planned"
+        },
+        {
+          "id": "ad-activity",
+          "title": "EEG、fMRI 与兴奋性：为何更多激活未必更好",
+          "status": "planned"
+        },
+        {
+          "id": "ad-neuropsychology",
+          "title": "临床认知测验与日常功能测量",
+          "status": "planned"
+        },
+        {
+          "id": "ad-pathology-cognition",
+          "title": "病理、成像与行为不一致时怎样判断",
+          "status": "planned"
+        },
+        {
+          "id": "ad-atypical-networks",
+          "title": "不同表型的网络与共病理",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "id": "training",
+      "title": "第四部分｜训练预防的可能性",
+      "description": "逐层检验机制合理性、人类训练结果、痴呆发病与 AD 特异性终点。",
+      "chapters": [
+        {
+          "id": "ad-training-question",
+          "title": "01｜把“脑部训练可能有效”改写成可验证问题",
+          "status": "draft"
+        },
+        {
+          "id": "ad-training-types",
+          "title": "训练、刺激、康复、学习和游戏分别是什么",
+          "status": "planned"
+        },
+        {
+          "id": "ad-transfer",
+          "title": "任务学习、近迁移、远迁移与生活功能",
+          "status": "planned"
+        },
+        {
+          "id": "ad-plasticity",
+          "title": "可塑性与疾病修饰：机制桥梁有多长",
+          "status": "planned"
+        },
+        {
+          "id": "ad-intervention",
+          "title": "直接、间接与缺失证据：当前论证图",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-active5",
+          "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
+          "status": "draft"
+        },
+        {
+          "id": "ad-evidence-active10",
+          "title": "07｜ACTIVE 十年：速度训练的积极信号",
+          "status": "draft"
+        },
+        {
+          "id": "ad-evidence-active20",
+          "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
+          "status": "draft"
+        },
+        {
+          "id": "ad-evidence-lampit",
+          "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
+          "status": "draft"
+        },
+        {
+          "id": "ad-evidence-cochrane",
+          "title": "Cochrane：保持、MCI 和确诊痴呆分别看",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-finger",
+          "title": "FINGER：多领域干预的认知结果",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-pointer",
+          "title": "US POINTER：结构化与自主方案",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-mapt",
+          "title": "MAPT：总体结果与探索性亚组",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-prediva",
+          "title": "preDIVA：全因痴呆发生率",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-sprint",
+          "title": "SPRINT-MIND：MCI 与痴呆终点差异",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-achieve",
+          "title": "ACHIEVE：感觉干预与人群异质性",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-synapse",
+          "title": "新技能学习、参与和认知结果",
+          "status": "planned"
+        },
+        {
+          "id": "ad-evidence-games",
+          "title": "经典游戏与商业产品：不能借用他人疗效",
+          "status": "planned"
+        },
+        {
+          "id": "ad-bias",
+          "title": "盲法、期待、对照与发表偏倚",
+          "status": "planned"
+        },
+        {
+          "id": "ad-statistics",
+          "title": "效应量、区间、绝对风险与多重比较",
+          "status": "planned"
+        },
+        {
+          "id": "ad-dose-adherence",
+          "title": "剂量、依从性与选择效应",
+          "status": "planned"
+        },
+        {
+          "id": "ad-preservation",
+          "title": "长期保持、随访、失访与竞争风险",
+          "status": "planned"
+        },
+        {
+          "id": "ad-synthesis",
+          "title": "支持什么、不支持什么、什么仍未知",
+          "status": "planned"
+        },
+        {
+          "id": "ad-translation",
+          "title": "从证据到游戏：可检验的设计与研究计划",
+          "status": "planned"
+        }
+      ]
+    }
+  ],
+  "drafted_record_ids": [
+    "ad-foundations",
+    "ad-terms",
+    "ad-outcome-language",
+    "ad-training-question",
+    "ad-timeline",
+    "ad-daily-function",
+    "ad-cause-risk",
+    "ad-evidence-active5",
+    "ad-evidence-active10",
+    "ad-evidence-active20",
+    "ad-brain-clinical-guide",
+    "ad-evidence-lampit"
+  ]
+}
