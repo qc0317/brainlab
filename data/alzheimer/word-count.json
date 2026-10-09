@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 100452,
-  "visible_chars": 115129,
+  "counted_han_chars": 102605,
+  "visible_chars": 117847,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -11,8 +11,8 @@
     {
       "id": "ad-foundations",
       "title": "01｜从一个生活例子理解阿尔茨海默病",
-      "han_chars": 1244,
-      "visible_chars": 1385,
+      "han_chars": 1532,
+      "visible_chars": 1715,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -75,8 +75,8 @@
     {
       "id": "ad-activity",
       "title": "10｜EEG、fMRI与兴奋性：更多活动未必更健康",
-      "han_chars": 836,
-      "visible_chars": 939,
+      "han_chars": 1161,
+      "visible_chars": 1314,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -171,8 +171,8 @@
     {
       "id": "ad-evidence-active20",
       "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
-      "han_chars": 2095,
-      "visible_chars": 2650,
+      "han_chars": 2606,
+      "visible_chars": 3402,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -395,8 +395,8 @@
     {
       "id": "ad-evidence-synapse",
       "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
-      "han_chars": 2447,
-      "visible_chars": 2801,
+      "han_chars": 3476,
+      "visible_chars": 4062,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

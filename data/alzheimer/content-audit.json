@@ -7,9 +7,10 @@
       "title": "01｜从一个生活例子理解阿尔茨海默病",
       "source_ids": [
         "S37",
-        "S38"
+        "S38",
+        "S116"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     },
@@ -138,10 +139,14 @@
         "S93",
         "S14",
         "S13",
-        "S45"
+        "S45",
+        "S115",
+        "S52"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "研究解读｜调节能力与绝对活动大小"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {

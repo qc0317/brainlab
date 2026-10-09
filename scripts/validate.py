@@ -41,8 +41,12 @@ for p,parser in pages.items():
 assert not errors,errors[:30]
 db=json.loads((ROOT/'data/knowledge.json').read_text());index=json.loads((ROOT/'data/search-index.json').read_text())
 ids={r['id'] for r in db['records']};sources={s['id'] for s in db['sources']}
-assert {x['id'] for x in index}==ids|sources
-assert len(index)==len(ids)+len(sources)
+trial_data=json.loads((ROOT/'data/alzheimer/trial-extractions.json').read_text())
+trial_ids={'trial-'+x['id'] for x in trial_data['studies']}
+assert {x['id'] for x in index}==ids|sources|trial_ids
+assert len(index)==len(ids)+len(sources)+len(trial_ids)
+for x in index:
+ target=urlsplit(x['url']);assert target.path in pages and (not target.fragment or target.fragment in pages[target.path].ids),('search target missing',x['id'])
 for r in db['records']:
  if r['collection']=='games':
   assert len(r['demands'])==9
@@ -56,7 +60,7 @@ if extract_path.exists():
  record_map={x['id']:x for x in db['records']}
  source_map={x['id']:x for x in db['sources']}
  study_ids=set()
- allowed_levels={'clinical_dementia_algorithm','claims_adrd','independent_cognition','task_and_transfer','task_and_eeg'}
+ allowed_levels={'clinical_dementia_algorithm','claims_adrd','independent_cognition','task_and_transfer','task_and_eeg','clinical_dementia','clinical_dementia_and_mci'}
  for x in extracts['studies']:
   assert x['id'] not in study_ids,('duplicate study extraction',x['id'])
   study_ids.add(x['id'])
@@ -64,6 +68,21 @@ if extract_path.exists():
   assert x['source_id'] in record_map[x['record_id']]['source_ids'],('uncited extraction source',x['id'])
   assert x['source_url']==source_map[x['source_id']]['url'],('provenance URL mismatch',x['id'])
   assert x['outcome_level'] in allowed_levels
+  assert x['intervention_role'] in extracts['intervention_roles']
+  for e in x.get('effects',[]):
+   assert e['ci_lower']<=e['estimate']<=e['ci_upper'],('invalid effect interval',x['id'])
+   assert e['ci_level']==.95 and e['unit'] and e['endpoint'] and e['contrast'] and e['source_location']
+   if e['measure']=='HR':assert e['ci_lower']>0
+   if e['p_value'] is not None:assert 0<=e['p_value']<=1
+
+  if x.get('event_counts'):
+   assert x['event_counts']['note'] and x['event_counts']['source_location']
+   for e in x['event_counts']['groups']:
+    assert isinstance(e['events'],int) and isinstance(e['participants'],int) and 0<=e['events']<=e['participants'],('invalid event denominator',x['id'])
+  if x.get('individual_change'):
+   assert x['individual_change']['threshold'] and x['individual_change']['limitations']
+   assert all(0<=v<=1 for v in x['individual_change']['proportions'].values())
+
   for field in ['population','intervention','comparator','outcome','effect_summary','limitations_and_pending','access_scope','cohort_key','audit_status']:
    assert isinstance(x[field],str) and x[field].strip(),('missing extraction field',x['id'],field)
  assert not extracts['complete'] or all(x['audit_status']=='verified' for x in extracts['studies']), 'Incomplete study audits cannot be labelled complete'

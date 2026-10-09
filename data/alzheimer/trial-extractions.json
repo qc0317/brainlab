@@ -22,7 +22,26 @@
       "limitations_and_pending": "AD特异性发病未统一病理确认；完整终点与失访审核",
       "access_scope": "原文 XML、摘要与数据表",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29201994/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29201994/",
+      "intervention_role": "direct",
+      "effects": [
+        {
+          "contrast": "初始速度训练 vs 对照",
+          "measure": "HR",
+          "estimate": 0.71,
+          "ci_lower": 0.5,
+          "ci_upper": 0.998,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "研究定义痴呆",
+          "p_value": 0.049,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": "不能换算为AD特异性绝对风险"
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
     },
     {
       "id": "active20",
@@ -38,7 +57,126 @@
       "limitations_and_pending": "两种比较不能混用；竞争死亡、补充材料、文字表格差异待审",
       "access_scope": "原文 XML、方法与 Table 1–3",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/"
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/",
+      "intervention_role": "direct",
+      "effects": [
+        {
+          "contrast": "初始速度组总体 vs 对照",
+          "measure": "HR",
+          "estimate": 0.87,
+          "ci_lower": 0.72,
+          "ci_upper": 1.05,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "理赔ADRD",
+          "p_value": null,
+          "source_location": "原文Table 2调整列",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        },
+        {
+          "contrast": "速度＋加强路径 vs 对照",
+          "measure": "HR",
+          "estimate": 0.75,
+          "ci_lower": 0.59,
+          "ci_upper": 0.95,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "理赔ADRD",
+          "p_value": null,
+          "source_location": "原文Table 2调整列",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": "路径比较不同于原速度组总体；资格与再次随机分配需要核对"
+        },
+        {
+          "contrast": "合资格速度组内：加强 vs 未加强",
+          "measure": "HR",
+          "estimate": 0.81,
+          "ci_lower": 0.66,
+          "ci_upper": 1.0,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "理赔ADRD",
+          "p_value": null,
+          "source_location": "原文加强比较",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": "区间上界1.00是原报告舍入值，不能自行解释边界显著性"
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": "",
+      "event_counts": {
+        "source_location": "Table 2：Ever diagnosed dementia",
+        "endpoint": "CCW理赔ADRD",
+        "groups": [
+          {
+            "label": "control",
+            "events": 239,
+            "participants": 491
+          },
+          {
+            "label": "memory",
+            "events": 231,
+            "participants": 516
+          },
+          {
+            "label": "speed",
+            "events": 223,
+            "participants": 512
+          },
+          {
+            "label": "reasoning",
+            "events": 223,
+            "participants": 502
+          },
+          {
+            "label": "eligible_speed_booster",
+            "events": 105,
+            "participants": 264
+          },
+          {
+            "label": "eligible_speed_no_booster",
+            "events": 92,
+            "participants": 201
+          }
+        ],
+        "note": "描述事件比例不是固定二十年累计发病概率；群体范围与资格不同，不能把子组分母与总体混用。"
+      },
+      "model_details": {
+        "model": "cause-specific hazard model",
+        "adjustment_covariates": [
+          "baseline memory factor",
+          "baseline reasoning factor",
+          "baseline speed factor",
+          "age",
+          "race",
+          "sex",
+          "self-reported health",
+          "years of education",
+          "ischemia",
+          "heart attack",
+          "atrial fibrillation",
+          "congestive heart failure",
+          "diabetes",
+          "hypertension",
+          "marital status",
+          "smoking status",
+          "site",
+          "replicate code"
+        ],
+        "source_location": "Table 2 footnotes g/h",
+        "within_arm_booster": "three separate regressions comparing randomized booster vs randomized no-booster within intervention arms, adjusted for covariates",
+        "pending": "脚注2021 person-year observations措辞及完整模型实现待核；竞争风险补充分析待核"
+      },
+      "discrepancies": [
+        {
+          "source_location": "Results text vs Table 2 speed+booster columns",
+          "text_label": "adjusted HR 0.74 (0.59–0.93)",
+          "table_unadjusted": "0.74 (0.59–0.93)",
+          "table_adjusted": "0.75 (0.59–0.95)",
+          "resolution": "未裁决，规范记录按表列，保留文字差异"
+        }
+      ]
     },
     {
       "id": "lampit",
@@ -54,7 +192,26 @@
       "limitations_and_pending": "长期发病不是该综合终点；各领域与偏倚不同",
       "access_scope": "全文 XML、摘要与数据表",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25405755/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25405755/",
+      "intervention_role": "direct",
+      "effects": [
+        {
+          "contrast": "计算机认知训练 vs 原试验对照",
+          "measure": "Hedges g",
+          "estimate": 0.22,
+          "ci_lower": 0.15,
+          "ci_upper": 0.29,
+          "ci_level": 0.95,
+          "unit": "标准差",
+          "endpoint": "即刻独立认知测试",
+          "p_value": null,
+          "source_location": "原文总体元分析",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
     },
     {
       "id": "pointer",
@@ -70,7 +227,26 @@
       "limitations_and_pending": "主动比较；游戏成分独立效果与临床发病未证明",
       "access_scope": "全文或正文",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/"
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/",
+      "intervention_role": "multidomain",
+      "effects": [
+        {
+          "contrast": "结构化 vs 自主综合方案",
+          "measure": "mean_difference",
+          "estimate": 0.029,
+          "ci_lower": 0.008,
+          "ci_upper": 0.05,
+          "ci_level": 0.95,
+          "unit": "标准差/年",
+          "endpoint": "认知复合分数年变化",
+          "p_value": 0.008,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
     },
     {
       "id": "neuroracer",
@@ -86,7 +262,11 @@
       "limitations_and_pending": "46人随机；长期临床发生未测；补充表待审",
       "access_scope": "原始摘要及作者机构公开PDF：主文任务设计与样本已读取，补充材料及逐项结果审核中",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24005416/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24005416/",
+      "intervention_role": "direct",
+      "effects": [],
+      "numeric_extraction_status": "pending",
+      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
     },
     {
       "id": "neuroracer6",
@@ -102,7 +282,11 @@
       "limitations_and_pending": "不是独立重复试验；回访选择与缺失处理待审",
       "access_scope": "原始元数据与出版商正文索引；全文表格待审",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33789209/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33789209/",
+      "intervention_role": "direct",
+      "effects": [],
+      "numeric_extraction_status": "pending",
+      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
     },
     {
       "id": "owen",
@@ -118,7 +302,11 @@
       "limitations_and_pending": "11430是摘要样本描述；不能直接当作全部随机入组人数",
       "access_scope": "原始摘要与部分正文索引；招募流程和完整结果表待审",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20407435/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/20407435/",
+      "intervention_role": "direct",
+      "effects": [],
+      "numeric_extraction_status": "pending",
+      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
     },
     {
       "id": "cochraneD",
@@ -134,7 +322,274 @@
       "limitations_and_pending": "治疗阶段不是健康人发病预防；原试验重叠与偏倚待逐项审",
       "access_scope": "原始摘要、官方综述与PMC结果索引；逐项偏倚表待审",
       "audit_status": "partial_extraction_not_final",
-      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30909318/"
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30909318/",
+      "intervention_role": "direct",
+      "effects": [
+        {
+          "contrast": "训练 vs 对照条件",
+          "measure": "SMD",
+          "estimate": 0.42,
+          "ci_lower": 0.23,
+          "ci_upper": 0.61,
+          "ci_level": 0.95,
+          "unit": "标准差",
+          "endpoint": "结束时总体认知",
+          "p_value": null,
+          "source_location": "原综述Analysis 1.1",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        },
+        {
+          "contrast": "训练 vs 其他治疗",
+          "measure": "SMD",
+          "estimate": 0.21,
+          "ci_lower": -0.23,
+          "ci_upper": 0.64,
+          "ci_level": 0.95,
+          "unit": "标准差",
+          "endpoint": "结束时总体认知",
+          "p_value": null,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": "对照比较不可互换"
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
+    },
+    {
+      "id": "finger",
+      "source_id": "S47",
+      "record_id": "ad-evidence-finger",
+      "cohort_key": "FINGER",
+      "population": "认知下降风险较高老年人，完整标准待核",
+      "intervention": "饮食、运动、认知训练及血管监测",
+      "comparator": "一般健康建议",
+      "outcome": "两年NTB认知复合分数",
+      "outcome_level": "independent_cognition",
+      "effect_summary": "年组间差0.022；95%CI0.002至0.042；P0.030",
+      "limitations_and_pending": "综合方案，不能隔离游戏；退出153人，逐组缺失待核",
+      "access_scope": "摘要与研究机构元数据",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25771249/",
+      "intervention_role": "multidomain",
+      "effects": [
+        {
+          "contrast": "综合方案 vs 一般健康建议",
+          "measure": "mean_difference",
+          "estimate": 0.022,
+          "ci_lower": 0.002,
+          "ci_upper": 0.042,
+          "ci_level": 0.95,
+          "unit": "NTB复合分数/年",
+          "endpoint": "认知年变化",
+          "p_value": 0.03,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
+    },
+    {
+      "id": "mapt",
+      "source_id": "S48",
+      "record_id": "ad-evidence-mapt",
+      "cohort_key": "MAPT",
+      "population": "原试验老年入组者，逐项标准待核",
+      "intervention": "多领域、omega-3及组合",
+      "comparator": "安慰剂",
+      "outcome": "36个月认知复合分数",
+      "outcome_level": "independent_cognition",
+      "effect_summary": "组合差0.093；CI0.001至0.184；调整P0.142。多领域0.079；−0.012至0.170；P0.179",
+      "limitations_and_pending": "原始CI与调整P不可替换；多重比较方法待核，总体未达到主要显著标准",
+      "access_scope": "原始论文摘要检索快照；全文待逐表审核",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28359749/",
+      "intervention_role": "multidomain",
+      "effects": [],
+      "numeric_extraction_status": "pending",
+      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
+    },
+    {
+      "id": "prediva",
+      "source_id": "S49",
+      "record_id": "ad-evidence-prediva",
+      "cohort_key": "preDIVA",
+      "population": "基层医疗诊所招募老年人",
+      "intervention": "多领域血管照护",
+      "comparator": "常规照护",
+      "outcome": "全因痴呆发生",
+      "outcome_level": "clinical_dementia",
+      "effect_summary": "HR0.92；95%CI0.71至1.19；P0.54。事件121/1853与112/1601",
+      "limitations_and_pending": "诊所随机116家；不是认知游戏试验；随机人数不同于事件分析分母",
+      "access_scope": "原始摘要及作者机构研究记录",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27474376/",
+      "intervention_role": "background",
+      "effects": [
+        {
+          "contrast": "血管照护 vs 常规照护",
+          "measure": "HR",
+          "estimate": 0.92,
+          "ci_lower": 0.71,
+          "ci_upper": 1.19,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "全因痴呆",
+          "p_value": 0.54,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
+    },
+    {
+      "id": "sprint",
+      "source_id": "S50",
+      "record_id": "ad-evidence-sprint",
+      "cohort_key": "SPRINT_MIND",
+      "population": "原降压试验入组者，完整标准待核",
+      "intervention": "强化血压控制",
+      "comparator": "标准血压控制",
+      "outcome": "可能痴呆与MCI分别判定",
+      "outcome_level": "clinical_dementia_and_mci",
+      "effect_summary": "可能痴呆HR0.83；0.67至1.04；P0.10。MCI0.81；0.69至0.95；P0.007",
+      "limitations_and_pending": "MCI积极不能替代痴呆主要结果；血压不是游戏；后续随访待审",
+      "access_scope": "摘要",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30688979/",
+      "intervention_role": "background",
+      "effects": [
+        {
+          "contrast": "强化 vs 标准降压",
+          "measure": "HR",
+          "estimate": 0.83,
+          "ci_lower": 0.67,
+          "ci_upper": 1.04,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "可能痴呆",
+          "p_value": 0.1,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        },
+        {
+          "contrast": "强化 vs 标准降压",
+          "measure": "HR",
+          "estimate": 0.81,
+          "ci_lower": 0.69,
+          "ci_upper": 0.95,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "MCI",
+          "p_value": 0.007,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
+    },
+    {
+      "id": "achieve",
+      "source_id": "S51",
+      "record_id": "ad-evidence-achieve",
+      "cohort_key": "ACHIEVE",
+      "population": "977名参加者，ARIC238与新招募739",
+      "intervention": "听力干预",
+      "comparator": "健康教育对照",
+      "outcome": "三年总体认知变化",
+      "outcome_level": "independent_cognition",
+      "effect_summary": "总体差0.002SD；95%CI−0.077至0.081；P0.96",
+      "limitations_and_pending": "总体未显著；招募亚组的交互及完整方法待核；不能归为游戏疗效",
+      "access_scope": "原文可访问部分与摘要",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/",
+      "intervention_role": "background",
+      "effects": [
+        {
+          "contrast": "听力干预 vs 健康教育",
+          "measure": "mean_difference",
+          "estimate": 0.002,
+          "ci_lower": -0.077,
+          "ci_upper": 0.081,
+          "ci_level": 0.95,
+          "unit": "标准差",
+          "endpoint": "三年总体认知变化",
+          "p_value": 0.96,
+          "source_location": "原始摘要",
+          "verification": "已有正文提取核对；完整统计审核进行中",
+          "note": ""
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": ""
+    },
+    {
+      "id": "synapse",
+      "source_id": "S52",
+      "record_id": "ad-evidence-synapse",
+      "cohort_key": "Synapse",
+      "population": "259入组、221完成14周的老年人",
+      "intervention": "摄影、拼布或两者的新技能学习",
+      "comparator": "社交、居家安慰活动及无干预分别比较",
+      "outcome": "情景记忆等独立测试",
+      "outcome_level": "independent_cognition",
+      "effect_summary": "整体情景记忆交互F(1,179)=9.63，P0.002；逐条件Bonferroni-Holm校正后摄影vs安慰的情景记忆保留显著。原文净效应量摄影0.54、双项目0.22，脚注定义已核；CI与原始分数复算待核。",
+      "limitations_and_pending": "完成者分析、偏好排除与对照差异待核；项目名称不等于生物突触测量",
+      "access_scope": "原始摘要及PMC正文样本、对照、认知分析与多重校正已读取；补充表及效应量定义待审",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24214244/",
+      "intervention_role": "background",
+      "effects": [],
+      "numeric_extraction_status": "pending",
+      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。",
+      "statistics": [
+        {
+          "contrast": "生产性vs接受性活动",
+          "endpoint": "情景记忆",
+          "test": "condition_by_time_F",
+          "value": 9.63,
+          "df": [
+            1,
+            179
+          ],
+          "p_value": 0.002,
+          "source_location": "Cognitive-intervention analyses"
+        }
+      ],
+      "multiplicity_note": "逐条件校正后保留摄影vs安慰情景记忆，不将未校正多项结果作为同等确定证据。",
+      "individual_change": {
+        "endpoint": "情景记忆测试",
+        "threshold": "原文：正向变化超过一个测量标准误",
+        "proportions": {
+          "photo": 0.76,
+          "quilt": 0.6,
+          "dual": 0.57,
+          "social": 0.47,
+          "placebo": 0.46
+        },
+        "source_location": "Results：percent reliable change；Fig.3",
+        "limitations": "原文信度来自无干预组；在线公式显示缺失，完整公式与原始数据待核；不是防病率或干预净效果"
+      },
+      "effect_definition": {
+        "measure": "original_net_effect_size",
+        "numerator": "干预组Blom分数前后变化－安慰组Blom分数前后变化",
+        "denominator": "原文测验前标准差，具体范围及数值仍待核",
+        "source_location": "Footnote 2",
+        "ci_status": "未录入，不表示零区间"
+      }
     }
-  ]
+  ],
+  "intervention_roles": {
+    "direct": "直接认知训练",
+    "multidomain": "综合生活方式方案",
+    "background": "背景干预与新技能学习"
+  }
 }

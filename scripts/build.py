@@ -119,19 +119,40 @@ render(p,'游戏能力需求矩阵',b,'games')
 # Structured trial browser: data remains independently downloadable.
 p='research/alzheimer/trials/index.html'
 EXTRACTS=json.loads((ROOT/'data/alzheimer/trial-extractions.json').read_text())
+subprocess.run([sys.executable,str(ROOT/'scripts/export_trials.py')],check=True)
 b=crumb(p,title='核心训练研究对照')+intro('核心训练研究对照','逐项查看人群、对照和实际终点，再回到原文与详细解读。当前为第一批部分提取，完整数据与方法审核仍在进行。','Literature Comparison')
 b+='<div class="notice">同一试验的不同随访不是独立重复验证；综述与原始试验可能重叠。认知、任务、脑电及临床发生分别记录。</div><div class="actions"><a class="btn secondary" href="'+href('data/alzheimer/trial-extractions.json',p)+'" download>下载结构化数据 JSON</a><a class="btn secondary" href="'+href('research-programs/alzheimer/TRIALS.md',p)+'" download>下载研究对照表</a></div>'
 b+='<nav class="reading-parts" aria-label="按研究跳转">'+''.join('<a href="#trial-'+esc(x['id'])+'">'+esc(x['id'])+'</a>' for x in EXTRACTS['studies'])+'</nav>'
+b+='<div class="grid">'
+for role,label in EXTRACTS['intervention_roles'].items():
+ group=[x for x in EXTRACTS['studies'] if x['intervention_role']==role]
+ b+='<div class="card"><h2>'+esc(label)+'</h2><p>'+('综合方案不能拆成游戏独立疗效。' if role=='multidomain' else '帮助理解背景与认知收益，不能当作直接游戏预防试验。' if role=='background' else '检查训练任务、独立认知与长期临床结果。')+'</p><ul>'+''.join('<li><a href="#trial-'+esc(x['id'])+'">'+esc(S[x['source_id']]['title'])+'</a></li>' for x in group)+'</ul></div>'
+b+='</div>'
 for x in EXTRACTS['studies']:
  assert x['source_id'] in S and x['record_id'] in R
  b+='<section class="section" id="trial-'+esc(x['id'])+'"><span class="tag">部分提取 · 审核中</span><h2>'+esc(S[x['source_id']]['title'])+'</h2>'
  b+=table([['提取字段','当前记录'],['人群',x['population']],['训练或干预',x['intervention']],['比较对象',x['comparator']],['实际终点',x['outcome']],['结果',x['effect_summary']],['同队列标识',x['cohort_key']],['读取范围',x['access_scope']],['限制与待核',x['limitations_and_pending']]])
+ if x.get('effects'):
+  b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','95%区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
+ else:b+='<p class="sub">'+esc(x.get('numeric_missing_reason','完整数值待提取'))+'</p>'
+ if x.get('statistics'):
+  b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+str(e['value']),str(e.get('df',[])),str(e['p_value']),e['source_location']] for e in x['statistics']])
+ if x.get('multiplicity_note'):b+='<p>'+esc(x['multiplicity_note'])+'</p>'
+ if x.get('event_counts'):
+  ev=x['event_counts'];b+='<h3>事件数与分析分母</h3>'+table([['群体','事件数','人数']]+[[e['label'],str(e['events']),str(e['participants'])] for e in ev['groups']])+'<p>'+esc(ev['note'])+'</p><p class="sub">'+esc(ev['source_location'])+'</p>'
+ if x.get('model_details'):
+  model=x['model_details'];b+='<details class="learning"><summary>模型与调整变量</summary><p>'+esc(model['model'])+'</p><p>'+esc('、'.join(model['adjustment_covariates']))+'</p><p>'+esc(model['within_arm_booster'])+'</p><p>'+esc(model['pending'])+'</p></details>'
+ if x.get('discrepancies'):
+  b+='<h3>原文差异 · 尚未裁决</h3>'+table([['位置','文字标签','表格未调整','表格调整','处理']]+[[e['source_location'],e['text_label'],e['table_unadjusted'],e['table_adjusted'],e['resolution']] for e in x['discrepancies']])
+ if x.get('effect_definition'):
+  ed=x['effect_definition'];b+='<details class="learning"><summary>效应量计算口径</summary><p>'+esc(ed['numerator'])+'</p><p>'+esc(ed['denominator'])+'</p><p>'+esc(ed['source_location']+'；'+ed['ci_status'])+'</p></details>'
  b+='<div class="actions"><a class="btn" href="'+href(path(x['record_id']),p)+'">阅读详细章节</a><a class="btn secondary" href="'+esc(x['source_url'])+'" target="_blank" rel="noopener">查看原始文献 ↗</a></div>'+cite([x['source_id']],p)+'</section>'
 render(p,'核心训练研究对照',b,'alzheimer')
 
 # Search index embeds all authored text for offline browsing; URLs relative to root.
 search=[dict(id=r['id'],title=r['title'],summary=r['summary'],collection=r['collection'],category=C[r['collection']]['title'],status=r['status'],url=path(r['id']),text=' '.join([r['title'],r['summary'],*r.get('aliases',[]),json.dumps(r['sections'],ensure_ascii=False)])) for r in R.values()]
 search += [dict(id=s['id'],title=s['title'],summary=s['note'] or s['access'],collection='sources',category='来源',status=s['kind'],url='sources/index.html#'+s['id'],text=' '.join(map(str,s.values()))) for s in S.values()]
+search += [dict(id='trial-'+x['id'],title=S[x['source_id']]['title']+'｜研究对照',summary=x['effect_summary'],collection='alzheimer',category='研究数据',status=EXTRACTS['intervention_roles'][x['intervention_role']],url='research/alzheimer/trials/index.html#trial-'+x['id'],text=json.dumps(x,ensure_ascii=False)) for x in EXTRACTS['studies']]
 (ROOT/'data/search-index.json').write_text(json.dumps(search,ensure_ascii=False,indent=2),encoding='utf-8')
 (ROOT/'assets/search-data.js').write_text('window.BRAINLAB_INDEX='+json.dumps(search,ensure_ascii=False).replace('<','\\u003c')+';',encoding='utf-8')
 p='search/index.html';b=crumb(p,title='检索')+intro('检索整个知识库','搜索正文、来源与历史别名，按专题和证据状态筛选。','Knowledge Search')+'<form id="search-form" class="searchbox"><div class="filters"><div class="field wide"><label for="query">关键词</label><input id="query" type="search" placeholder="海马、迁移、暂停、阿兹海默…" autocomplete="off"></div><div class="field"><label for="category">专题</label><select id="category"><option value="">全部专题</option>'+''.join('<option value="'+k+'">'+esc(c['title'])+'</option>' for k,c in C.items())+'<option value="sources">来源</option></select></div><div class="field"><label for="status">条目状态 / 证据类型</label><select id="status"><option value="">全部状态</option></select></div><button type="submit">检索</button><button id="reset" type="button">重置</button></div></form><p id="result-count" class="resultmeta" aria-live="polite"></p><div id="results" class="results"></div><noscript><p class="nojs">检索需要 JavaScript。可以通过首页各专题目录浏览全部内容。</p></noscript>'

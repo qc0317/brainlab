@@ -30,17 +30,17 @@
     {
       "requirement": "多级导航、检索、关联、响应式",
       "status": "static_pass_interaction_pending",
-      "evidence": "120页面5795链接校验；视觉、手机尺寸、检索实际交互仍待验证"
+      "evidence": "121页面5838静态链接通过；新版导航与对照页HTTP200。视觉、手机尺寸与检索实际交互仍待验证。"
     },
     {
       "requirement": "Git同步与公网最新发布",
-      "status": "incomplete",
-      "evidence": "本地d8abfb7；公网69f1b0e仅91997汉字，未发布最新100452版本"
+      "status": "verified_at_published_checkpoint",
+      "evidence": "公开main b54b3588；2026-10-10 HTTP200确认100452汉字、四步阅读导航及研究对照页。后续本地改动需要再次同步。"
     },
     {
       "requirement": "可下载研究材料",
-      "status": "local_present_public_update_pending",
-      "evidence": "DRAFT.md与中文下载文件存在；公网仍旧版"
+      "status": "public_download_verified",
+      "evidence": "公开DRAFT.md与trial-extractions.json HTTP200，SHA256与本地逐字节相同；研究内容审核仍未完成。"
     }
   ],
   "chapter_count": 60,
