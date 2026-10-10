@@ -27,7 +27,7 @@ def link(id,page,label=None):return '<a href="'+href(path(id),page)+'">'+esc(lab
 def source_link(sid,page):return '<a href="'+href('sources/index.html',page)+'#'+esc(sid)+'">'+esc(sid)+'</a>'
 def cite(ids,page):return '<div class="citations">依据：'+''.join(source_link(s,page) for s in ids)+'</div>' if ids else ''
 def table(rows,cls=''):
- wide=len(rows[0])>=5
+ wide=len(rows[0])>=5 or (len(rows[0])>=4 and any(len(str(cell))>=45 for row in rows[1:] for cell in row))
  if wide:cls=(cls+" wide-table").strip()
  hint='<p class="table-hint">多列表格可左右滑动查看；键盘可聚焦表格后使用方向键。</p>' if wide else ""
  return hint+'<div class="table-wrap" tabindex="0" role="region" aria-label="数据表格，可横向浏览"><table class="'+cls+'"><thead><tr>'+''.join('<th scope="col">'+esc(x)+'</th>' for x in rows[0])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(x)+'</td>' for x in row)+'</tr>' for row in rows[1:])+'</tbody></table></div>'
@@ -101,12 +101,13 @@ for r in R.values():
  for fi,im in enumerate(r.get('research_figures',[])):
   assert im['source_id'] in S and im['license_url']
   b+='<section id="figure-'+str(fi)+'"><h2>'+esc(im['title'])+'</h2><figure class="research-image"><a href="'+href(im['path'],p)+'"><img loading="lazy" width="'+str(im['width'])+'" height="'+str(im['height'])+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"></a><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+' · <a href="'+esc(im['license_url'])+'">使用许可</a></figcaption></figure></section>'
- if r['source_ids']:
+ used_sources=list(dict.fromkeys(r['source_ids']+[sid for section in secs for sid in section.get('source_ids',[])]+[im['source_id'] for im in r.get('research_figures',[])]+([r['image']['source_id']] if r.get('image') else [])))
+ if used_sources:
   b+='<section id="refs"><h2>引用来源与读取范围</h2><ul class="refs">'
-  for sid in r['source_ids']:
+  for sid in used_sources:
    s=S[sid];b+='<li>'+source_link(sid,p)+' · <a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a><small>'+esc(str(s['year'])+' · '+s['kind']+' · '+s['access'])+('；'+esc(s['note']) if s['note'] else '')+('；许可：'+esc(s['license']) if s.get('license') else '')+'</small></li>'
   b+='</ul></section>'
- b+='</article><aside class="toc"><strong>本页目录</strong><nav aria-label="条目章节">'+''.join('<a href="#s'+str(i)+'">'+esc(s['title'])+'</a>' for i,s in enumerate(secs))+('<a href="#interface">'+esc(r['image'].get('title','界面观察'))+'</a>' if r.get('image') else '')+''.join('<a href="#figure-'+str(fi)+'">'+esc(im['title'])+'</a>' for fi,im in enumerate(r.get('research_figures',[])))+('<a href="#refs">来源与范围</a>' if r['source_ids'] else '')+'<a href="#related">关联条目</a></nav><div class="aside-note"><span class="tag">'+esc(r['status'])+'</span><small>关联 ≠ 因果或疗效。<br>证据更新时保留版本、适用条件和相反结果。</small><p>'+link('design-schema',p,'如何编辑与扩展 →')+'</p></div></aside></div>'
+ b+='</article><aside class="toc"><strong>本页目录</strong><nav aria-label="条目章节">'+''.join('<a href="#s'+str(i)+'">'+esc(s['title'])+'</a>' for i,s in enumerate(secs))+('<a href="#interface">'+esc(r['image'].get('title','界面观察'))+'</a>' if r.get('image') else '')+''.join('<a href="#figure-'+str(fi)+'">'+esc(im['title'])+'</a>' for fi,im in enumerate(r.get('research_figures',[])))+('<a href="#refs">来源与范围</a>' if used_sources else '')+'<a href="#related">关联条目</a></nav><div class="aside-note"><span class="tag">'+esc(r['status'])+'</span><small>关联 ≠ 因果或疗效。<br>证据更新时保留版本、适用条件和相反结果。</small><p>'+link('design-schema',p,'如何编辑与扩展 →')+'</p></div></aside></div>'
  b+='<section class="relations" id="related"><h2>继续沿关联阅读</h2><div class="grid">'+''.join(card(R[t['target_id']],p,t['label']) for t in r['relationships'])+'</div>'
  backlinks=[x['id'] for x in R.values() if any(t['target_id']==r['id'] for t in x['relationships'])]
  if backlinks:b+='<h3 style="margin-top:26px">哪些条目关联本页</h3><div class="backlinks">'+''.join(link(t,p) for t in backlinks)+'</div>'
