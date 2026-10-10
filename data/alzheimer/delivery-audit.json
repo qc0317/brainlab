@@ -30,17 +30,17 @@
     {
       "requirement": "多级导航、检索、关联、响应式",
       "status": "static_pass_partial_runtime_verified",
-      "evidence": "当前121页面、5962静态链接；真实界面已检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开。完整阅读及其余交互仍待审核；静态检查不证明全部运行行为。"
+      "evidence": "静态页面、引用、关联及锚点由scripts/validate.py逐次检查，以独立运行输出为准。真实界面已部分检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开；完整阅读及其余交互仍待审核，不能由静态检查推定全部运行行为。"
     },
     {
       "requirement": "Git同步与公网最新发布",
       "status": "verified_at_published_checkpoint",
-      "evidence": "已验证检查点：公开main efffbd14d7632475fa0ff476e1c4a935bab4cb84，文件树与本地9c92f56e02f06b8e8bfecd57b71e6fe2b3359d61一致。107981汉字计数、MRI页、研究对照页、ZIP均HTTP200并SHA256与本地相同。本次导出/审核修正需另行公开核对。"
+      "evidence": "历史已核验快照（2026-10-11，检查点40）：公开main b3c954c4dea3ed9c7b27622f60e03f0542d0af69，文件树d789435490fa65bf5f477b2bf0fa9bdc8b474738与本地提交f23da8f5b89702e5f38336fc8fd94822f5bb3870一致。111957汉字计数、可塑性页、knowledge JSON及ZIP均HTTP200且SHA256一致。本记录只证明该检查点和这些文件；后续修改须重新发布核验。"
     },
     {
       "requirement": "可下载研究材料",
       "status": "public_download_verified",
-      "evidence": "上述检查点ZIP854124字节；正文、方案、结构化研究数据、两张许可图及独立复算材料已核对公网哈希。本次下载来源范围修正将重新生成包。"
+      "evidence": "检查点40的ZIP为865260字节，HTTP200且与对应Git提交SHA256一致；包括正文、方案、结构化数据、两张许可图与独立复算材料。它是研究中材料，不代表科学审核完成；后续包需重新核验。"
     }
   ],
   "chapter_count": 60,
@@ -152,5 +152,39 @@
     }
   ],
   "extraction_records": 17,
-  "verified_extraction_records": 0
+  "verified_extraction_records": 0,
+  "publication_snapshot": {
+    "date": "2026-10-11",
+    "remote_sha": "b3c954c4dea3ed9c7b27622f60e03f0542d0af69",
+    "local_sha": "f23da8f5b89702e5f38336fc8fd94822f5bb3870",
+    "tree_sha": "d789435490fa65bf5f477b2bf0fa9bdc8b474738",
+    "han_chars": 111957,
+    "files": [
+      {
+        "path": "research/alzheimer/ad-plasticity/index.html",
+        "status": 200,
+        "bytes": 22641,
+        "matches_published_commit": true
+      },
+      {
+        "path": "data/knowledge.json",
+        "status": 200,
+        "bytes": 841281,
+        "matches_published_commit": true
+      },
+      {
+        "path": "data/alzheimer/word-count.json",
+        "status": 200,
+        "bytes": 14641,
+        "matches_published_commit": true
+      },
+      {
+        "path": "downloads/alzheimer-research.zip",
+        "status": 200,
+        "bytes": 865260,
+        "matches_published_commit": true
+      }
+    ],
+    "scope": "checkpoint40_only_not_latest_guarantee"
+  }
 }

@@ -6,12 +6,12 @@
 |---|---|---|
 |不少于十万实质性中文正文|quantitative_pass_editorial_pending|data/alzheimer/word-count.json；计数器只取新研究正文段落、列表及表格数据行；精确重复排除，不检测近义重复，仍需编辑审核|
 |四条主线、导读与分层章节|structure_present_readability_pending|program.json：8/14/14/24章；目录与生成页面存在；完整由浅入深阅读尚未审核|
-|逐篇证据提取、数据与方法评价|incomplete|17条结构化核心研究记录，均为部分提取；原始数据与方法解释存在，关键补充材料、方向、分母、偏倚和独立复制仍待审核。|
+|逐篇证据提取、数据与方法评价|incomplete|17条结构化核心研究记录，均为部分提取；原文数据、分母和方法已有记录，关键补充材料、版本、偏倚和独立复制仍待审核。|
 |支持、无效与反向证据综合|present_critical_review_pending|ad-synthesis、ad-transfer及各试验；临床终点与任务收益区分；关键主张仍需逐项复核|
 |许可、版本、读取范围|partially_audited|来源与literature-audit记录存在；部分许可、正式版本与更正数据待核对|
-|多级导航、检索、关联、响应式|static_pass_partial_runtime_verified|当前121页面、5962静态链接；真实界面已检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开。完整阅读及其余交互仍待审核；静态检查不证明全部运行行为。|
-|Git同步与公网最新发布|verified_at_published_checkpoint|已验证检查点：公开main efffbd14d7632475fa0ff476e1c4a935bab4cb84，文件树与本地9c92f56e02f06b8e8bfecd57b71e6fe2b3359d61一致。107981汉字计数、MRI页、研究对照页、ZIP均HTTP200并SHA256与本地相同。本次导出/审核修正需另行公开核对。|
-|可下载研究材料|public_download_verified|上述检查点ZIP854124字节；正文、方案、结构化研究数据、两张许可图及独立复算材料已核对公网哈希。本次下载来源范围修正将重新生成包。|
+|多级导航、检索、关联、响应式|static_pass_partial_runtime_verified|静态页面、引用、关联及锚点由scripts/validate.py逐次检查，以独立运行输出为准。真实界面已部分检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开；完整阅读及其余交互仍待审核，不能由静态检查推定全部运行行为。|
+|Git同步与公网最新发布|verified_at_published_checkpoint|历史已核验快照（2026-10-11，检查点40）：公开main b3c954c4dea3ed9c7b27622f60e03f0542d0af69，文件树d789435490fa65bf5f477b2bf0fa9bdc8b474738与本地提交f23da8f5b89702e5f38336fc8fd94822f5bb3870一致。111957汉字计数、可塑性页、knowledge JSON及ZIP均HTTP200且SHA256一致。本记录只证明该检查点和这些文件；后续修改须重新发布核验。|
+|可下载研究材料|public_download_verified|检查点40的ZIP为865260字节，HTTP200且与对应Git提交SHA256一致；包括正文、方案、结构化数据、两张许可图与独立复算材料。它是研究中材料，不代表科学审核完成；后续包需重新核验。|
 
 ## 四部分正文规模
 

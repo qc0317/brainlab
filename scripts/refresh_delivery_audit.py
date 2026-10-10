@@ -19,6 +19,11 @@ audit['verified_extraction_records'] = sum(s['audit_status'] == 'verified' for s
 path.write_text(json.dumps(audit, ensure_ascii=False, indent=2))
 report = ROOT / 'research-programs/alzheimer/DELIVERY-AUDIT.md'
 text = report.read_text()
+req_start = text.index('|要求|')
+req_end = text.index('## 四部分正文规模')
+requirements = '|要求|当前状态|核验依据与剩余工作|\n|---|---|---|\n'
+requirements += ''.join('|'+r['requirement']+'|'+r['status']+'|'+r['evidence'].replace('|', '／')+'|\n' for r in audit['requirements'])
+text = text[:req_start]+requirements+'\n'+text[req_end:]
 start = text.index('## 四部分正文规模')
 end = text.index('计数只取', start)
 table = '## 四部分正文规模\n\n|阅读主线|计数汉字|\n|---|---|\n'
