@@ -27,7 +27,10 @@ def link(id,page,label=None):return '<a href="'+href(path(id),page)+'">'+esc(lab
 def source_link(sid,page):return '<a href="'+href('sources/index.html',page)+'#'+esc(sid)+'">'+esc(sid)+'</a>'
 def cite(ids,page):return '<div class="citations">依据：'+''.join(source_link(s,page) for s in ids)+'</div>' if ids else ''
 def table(rows,cls=''):
- return '<div class="table-wrap"><table class="'+cls+'"><thead><tr>'+''.join('<th scope="col">'+esc(x)+'</th>' for x in rows[0])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(x)+'</td>' for x in row)+'</tr>' for row in rows[1:])+'</tbody></table></div>'
+ wide=len(rows[0])>=5
+ if wide:cls=(cls+" wide-table").strip()
+ hint='<p class="table-hint">多列表格可左右滑动查看；键盘可聚焦表格后使用方向键。</p>' if wide else ""
+ return hint+'<div class="table-wrap" tabindex="0" role="region" aria-label="数据表格，可横向浏览"><table class="'+cls+'"><thead><tr>'+''.join('<th scope="col">'+esc(x)+'</th>' for x in rows[0])+'</tr></thead><tbody>'+''.join('<tr>'+''.join('<td>'+esc(x)+'</td>' for x in row)+'</tr>' for row in rows[1:])+'</tbody></table></div>'
 def card(r,page,label=None):
  return '<a class="card" href="'+href(path(r['id']),page)+'"><span class="tag">'+esc(label or r['status'])+'</span><h3>'+esc(r['title'])+'</h3><p>'+esc(r['summary'])+'</p><div class="meta">'+esc(C[r['collection']]['title'])+' · '+esc(r['id'])+'　↗</div></a>'
 def cards(ids,page,cls=''):return '<div class="grid '+cls+'">'+''.join(card(R[i],page) for i in ids)+'</div>'
