@@ -41,4 +41,7 @@ for study in x['studies']:
  for key,title in [('analysis_flow','登记与分析'),('participant_flow','样本流程'),('safety','安全性人数'),('individual_change','个体变化阈值'),('historical_protocol','历史方案')]:
   if study.get(key):lines+=['### '+study['id']+'｜'+title,'','|字段|原提取记录|','|---|---|']+extract_rows(study[key])+['']
 lines+=['','[下载结构化JSON](../../data/alzheimer/trial-extractions.json)']
+for study in x['studies']:
+ fields=[(label,study[key]) for key,label in [('search_cutoff','检索时间'),('intervention_duration','纳入干预时长'),('missing_outcomes','未提供的结局')] if study.get(key)]
+ if fields:lines+=['','### '+study['id']+'｜综述时间与结局缺失','']+['- '+label+'：'+value for label,value in fields]
 (ROOT/'research-programs/alzheimer/TRIALS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')

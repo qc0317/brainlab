@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 107399,
-  "visible_chars": 124828,
+  "counted_han_chars": 107675,
+  "visible_chars": 125287,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -123,8 +123,8 @@
     {
       "id": "ad-training-question",
       "title": "01｜把“脑部训练可能有效”改写成可验证问题",
-      "han_chars": 1091,
-      "visible_chars": 1291,
+      "han_chars": 1095,
+      "visible_chars": 1298,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -187,8 +187,8 @@
     {
       "id": "ad-evidence-lampit",
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
-      "han_chars": 4090,
-      "visible_chars": 5507,
+      "han_chars": 4092,
+      "visible_chars": 5512,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -243,8 +243,8 @@
     {
       "id": "ad-evidence-cochrane",
       "title": "10｜Cochrane综述：认知收益与预防证据为何要分开",
-      "han_chars": 2588,
-      "visible_chars": 3000,
+      "han_chars": 2858,
+      "visible_chars": 3447,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

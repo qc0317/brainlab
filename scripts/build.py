@@ -140,6 +140,8 @@ for x in EXTRACTS['studies']:
  assert x['source_id'] in S and x['record_id'] in R
  b+='<section class="section" id="trial-'+esc(x['id'])+'"><span class="tag">部分提取 · 审核中</span><h2>'+esc(S[x['source_id']]['title'])+'</h2>'
  b+=table([['提取字段','当前记录'],['人群',x['population']],['训练或干预',x['intervention']],['比较对象',x['comparator']],['实际终点',x['outcome']],['结果',x['effect_summary']],['同队列标识',x['cohort_key']],['读取范围',x['access_scope']],['限制与待核',x['limitations_and_pending']]])
+ if any(x.get(k) for k in ['search_cutoff','intervention_duration','missing_outcomes']):
+  b+='<h3>综述时间与未提供的终点</h3>'+table([['字段','原始范围']]+[[label,x[key]] for key,label in [('search_cutoff','检索时间'),('intervention_duration','纳入干预时长'),('missing_outcomes','未提供的结局')] if x.get(key)])
  if x.get('effects'):
   b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','置信区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),format(e['ci_level'],'.0%')+'：'+str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
  else:b+='<p class="sub">'+esc(x.get('numeric_missing_reason','完整数值待提取'))+'</p>'
