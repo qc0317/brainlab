@@ -59,7 +59,7 @@
         "S73",
         "S76"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [
         "细胞比例降低如何解释",
         "从易损研究到训练设计：保留正确的桥梁"
@@ -338,7 +338,9 @@
         "S03"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "从生活困难走到脑部证据：三个可继续追踪的例子"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {

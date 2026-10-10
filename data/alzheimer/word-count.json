@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 106308,
-  "visible_chars": 123414,
+  "counted_han_chars": 106922,
+  "visible_chars": 124150,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -35,8 +35,8 @@
     {
       "id": "ad-vulnerability",
       "title": "02｜选择性易损与分期：为什么不是整脑均匀衰退",
-      "han_chars": 2692,
-      "visible_chars": 2976,
+      "han_chars": 2874,
+      "visible_chars": 3203,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -179,8 +179,8 @@
     {
       "id": "ad-brain-clinical-guide",
       "title": "00｜脑部临床表现总导读：五类资料各自看见什么",
-      "han_chars": 1350,
-      "visible_chars": 1554,
+      "han_chars": 1782,
+      "visible_chars": 2063,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
