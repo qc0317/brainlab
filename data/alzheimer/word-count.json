@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 109933,
-  "visible_chars": 128330,
+  "counted_han_chars": 110355,
+  "visible_chars": 128870,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -211,8 +211,8 @@
     {
       "id": "ad-memory-symptoms",
       "title": "04｜记忆表现：编码、保存与提取如何区分",
-      "han_chars": 1657,
-      "visible_chars": 1835,
+      "han_chars": 2079,
+      "visible_chars": 2375,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
