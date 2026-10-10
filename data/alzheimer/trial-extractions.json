@@ -297,7 +297,8 @@
         "heterogeneity_after": 29.92,
         "heterogeneity_unit": "I²百分比",
         "source_location": "Data Collection/Data Analysis/Sensitivity/Overall Efficacy",
-        "pending": "Table S5已读取；Dataset S1的8项视觉空间效应已按指定方法复算，其他领域与原始试验/结局合并待审"
+        "pending": "Table S5已读取；Dataset S1的8项视觉空间效应已按指定方法复算，其他领域与原始试验/结局合并待审",
+        "overall_independent_check": "Dataset S1总体52项和移除Anderson后51项按指定DL法复算，结果及I²与报告舍入值一致；各试验结局合并未复算。"
       },
       "visuospatial_audit": {
         "source_location": "出版商摘要、正文Visuospatial skills、PDF第12页Figure10",

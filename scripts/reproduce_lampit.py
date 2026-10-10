@@ -19,3 +19,23 @@ se=math.sqrt(1/sum(wr));z=1.95996398454
 result=dict(g=g,ci_lower=g-z*se,ci_upper=g+z*se,ci_level=.95,Q=q,df=df,tau_squared=tau,I_squared_percent=max(0,(q-df)/q)*100)
 for name,value in result.items():assert math.isclose(value,x['result'][name],rel_tol=1e-10,abs_tol=1e-10),name
 print(json.dumps({'method':'specified DL aggregate-data check','result':result,'matches_saved_result':True},ensure_ascii=False,indent=2))
+
+# Repeat the same specified method for the supplied overall inputs.
+def overall_check(rows):
+    weights=[1/v['variance'] for v in rows]
+    mean=sum(a*v['g'] for a,v in zip(weights,rows))/sum(weights)
+    q=sum(a*(v['g']-mean)**2 for a,v in zip(weights,rows));df=len(rows)-1
+    c=sum(weights)-sum(a*a for a in weights)/sum(weights)
+    tau=max(0,(q-df)/c)
+    random_weights=[1/(v['variance']+tau) for v in rows]
+    effect=sum(a*v['g'] for a,v in zip(random_weights,rows))/sum(random_weights)
+    se=math.sqrt(1/sum(random_weights))
+    return dict(n=len(rows),g=effect,ci=[effect-z*se,effect+z*se],I2=max(0,(q-df)/q)*100,tau2=tau,Q=q)
+if x.get('overall_check'):
+    inputs=x['overall_check'];excluded={v['study'] for v in inputs['excluded']}
+    for label,rows in [('all',inputs['rows']),('after',[v for v in inputs['rows'] if v['study'] not in excluded])]:
+        result=overall_check(rows);saved=inputs[label]
+        for key,value in result.items():
+            pairs=zip(value,saved[key]) if isinstance(value,list) else [(value,saved[key])]
+            assert all(math.isclose(a,b,rel_tol=1e-10,abs_tol=1e-10) for a,b in pairs),key
+        print(json.dumps({'analysis':label,'result':result,'matches_saved_result':True},indent=2))
