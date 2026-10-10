@@ -520,7 +520,9 @@
         "S100"
       ],
       "has_data_table": true,
-      "pending_review_sections": [],
+      "pending_review_sections": [
+        "研究解读｜大样本仍需要核对参加流程"
+      ],
       "review_status": "draft_not_expert_verified"
     },
     {

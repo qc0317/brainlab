@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 109150,
-  "visible_chars": 127397,
+  "counted_han_chars": 109838,
+  "visible_chars": 128200,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -99,8 +99,8 @@
     {
       "id": "ad-translation",
       "title": "24｜从证据到游戏：可检验的设计与研究计划",
-      "han_chars": 1175,
-      "visible_chars": 1311,
+      "han_chars": 1878,
+      "visible_chars": 2084,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -291,8 +291,8 @@
     {
       "id": "ad-transfer",
       "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
-      "han_chars": 2127,
-      "visible_chars": 2354,
+      "han_chars": 2112,
+      "visible_chars": 2384,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
