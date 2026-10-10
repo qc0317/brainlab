@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 107981,
-  "visible_chars": 125691,
+  "counted_han_chars": 108251,
+  "visible_chars": 126176,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -155,8 +155,8 @@
     {
       "id": "ad-evidence-active5",
       "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
-      "han_chars": 1230,
-      "visible_chars": 1367,
+      "han_chars": 1500,
+      "visible_chars": 1852,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

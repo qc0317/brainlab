@@ -4,7 +4,7 @@ import json,html,posixpath,hashlib,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 if (ROOT/'data/alzheimer/program.json').exists():subprocess.run([sys.executable,str(ROOT/'scripts/count_research.py')],check=True)
-for export_script in ['export_trials.py','export_draft.py','export_research_bundle.py']:
+for export_script in ['refresh_delivery_audit.py','export_trials.py','export_draft.py','export_research_bundle.py']:
  subprocess.run([sys.executable,str(ROOT/'scripts'/export_script)],check=True)
 DB=json.loads((ROOT/'data/knowledge.json').read_text(encoding='utf-8'))
 ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ['assets/style.css','assets/app.js']}

@@ -9,6 +9,123 @@
   ],
   "studies": [
     {
+      "id": "active5",
+      "source_id": "S42",
+      "record_id": "ad-evidence-active5",
+      "cohort_key": "ACTIVE",
+      "population": "基线排除16人后2786名社区老年人；原随机样本2802",
+      "intervention": "记忆、推理、速度训练；原文合并三组并分别报告",
+      "comparator": "无训练对照",
+      "outcome": "五年研究定义痴呆：189事件",
+      "outcome_level": "clinical_dementia_algorithm",
+      "effect_summary": "合并训练调整HR1.00；95%CI0.71—1.40；P0.98",
+      "limitations_and_pending": "次级分析；终点含机构化/接触拒绝；与十年及理赔版本须逐项对齐；PDF视觉、全方法及失访审核待完成",
+      "access_scope": "原始摘要；PMC索引提供Methods及Table 1—5文本；机构PDF下载超时，尚未视觉核对表格",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/22400989/",
+      "intervention_role": "direct",
+      "effects": [
+        {
+          "contrast": "三训练合并 vs 对照：未调整",
+          "measure": "HR",
+          "estimate": 0.9,
+          "ci_lower": 0.65,
+          "ci_upper": 1.24,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "五年研究定义痴呆",
+          "p_value": 0.52,
+          "source_location": "Table 2/5",
+          "verification": "PMC原文索引文本提取；PDF视觉及全方法审核待完成",
+          "note": "同一队列，不是AD病理确认终点"
+        },
+        {
+          "contrast": "三训练合并 vs 对照：调整",
+          "measure": "HR",
+          "estimate": 1,
+          "ci_lower": 0.71,
+          "ci_upper": 1.4,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "五年研究定义痴呆",
+          "p_value": 0.98,
+          "source_location": "Table 4",
+          "verification": "PMC原文索引文本提取；PDF视觉及全方法审核待完成",
+          "note": "同一队列，不是AD病理确认终点"
+        },
+        {
+          "contrast": "记忆 vs 对照：未调整",
+          "measure": "HR",
+          "estimate": 0.89,
+          "ci_lower": 0.59,
+          "ci_upper": 1.32,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "五年研究定义痴呆",
+          "p_value": null,
+          "source_location": "Results",
+          "verification": "PMC原文索引文本提取；PDF视觉及全方法审核待完成",
+          "note": "同一队列，不是AD病理确认终点"
+        },
+        {
+          "contrast": "推理 vs 对照：未调整",
+          "measure": "HR",
+          "estimate": 0.99,
+          "ci_lower": 0.66,
+          "ci_upper": 1.46,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "五年研究定义痴呆",
+          "p_value": null,
+          "source_location": "Results",
+          "verification": "PMC原文索引文本提取；PDF视觉及全方法审核待完成",
+          "note": "同一队列，不是AD病理确认终点"
+        },
+        {
+          "contrast": "速度 vs 对照：未调整",
+          "measure": "HR",
+          "estimate": 0.83,
+          "ci_lower": 0.56,
+          "ci_upper": 1.25,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "五年研究定义痴呆",
+          "p_value": null,
+          "source_location": "Results",
+          "verification": "PMC原文索引文本提取；PDF视觉及全方法审核待完成",
+          "note": "同一队列，不是AD病理确认终点"
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": "",
+      "event_counts": {
+        "source_location": "Table 3",
+        "groups": [
+          {
+            "label": "记忆",
+            "events": 46,
+            "participants": 700
+          },
+          {
+            "label": "推理",
+            "events": 49,
+            "participants": 693
+          },
+          {
+            "label": "速度",
+            "events": 44,
+            "participants": 700
+          },
+          {
+            "label": "对照",
+            "events": 50,
+            "participants": 693
+          }
+        ],
+        "note": "事件数/分析人数不是统一五年累积发病概率；合并训练139/2093与分组共享参与者。"
+      }
+    },
+    {
       "id": "active10",
       "source_id": "S43",
       "record_id": "ad-evidence-active10",

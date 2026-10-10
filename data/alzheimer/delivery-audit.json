@@ -15,7 +15,7 @@
     {
       "requirement": "逐篇证据提取、数据与方法评价",
       "status": "incomplete",
-      "evidence": "16条结构化核心研究记录，均为部分提取；原始数据与方法解释存在，关键补充材料、方向、分母、偏倚和独立复制仍待审核。"
+      "evidence": "17条结构化核心研究记录，均为部分提取；原文数据、分母和方法已有记录，关键补充材料、版本、偏倚和独立复制仍待审核。"
     },
     {
       "requirement": "支持、无效与反向证据综合",
@@ -48,7 +48,6 @@
     "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
     "01｜把“脑部训练可能有效”改写成可验证问题",
     "01｜原因、机制与风险：为何不能写成单一病因",
-    "06｜ACTIVE 五年：没有发现痴呆发生率差异",
     "05｜记忆型与非典型表型：不是每个人都先忘事"
   ],
   "sources_flagged_for_reading_audit": [
@@ -150,9 +149,9 @@
     {
       "id": "training",
       "title": "第四部分｜训练的可能性与证据 · 重点",
-      "han_chars": 43688
+      "han_chars": 43958
     }
   ],
-  "extraction_records": 16,
+  "extraction_records": 17,
   "verified_extraction_records": 0
 }

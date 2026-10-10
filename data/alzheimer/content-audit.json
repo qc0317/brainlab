@@ -293,10 +293,8 @@
       "source_ids": [
         "S42"
       ],
-      "has_data_table": false,
-      "pending_review_sections": [
-        "原文报告了什么"
-      ],
+      "has_data_table": true,
+      "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     },
     {
