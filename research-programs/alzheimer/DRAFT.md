@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：106,002 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：106,421 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -1077,7 +1077,7 @@ NIA将年龄列为重要已知风险因素。风险描述群体中发生疾病�
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S77｜Selkoe 与 Hardy（2016）：淀粉样蛋白假说二十五年后的讨论](https://doi.org/10.15252/emmm.201606210) · 开放全文 · CC BY 4.0。讨论模型及反对意见；不是训练试验。
 - [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
 
@@ -1520,7 +1520,7 @@ AD相关变化可以涉及情绪与行为，但同样表现也可能受到身体
 
 - [S96｜NIA：理解阿尔茨海默病人格与行为变化](https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and) · 官方页面。2026为访问年份；不是游戏干预效果研究。
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 
 ## 09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白
@@ -1742,7 +1742,7 @@ ACHIEVE研究提供直接听力干预资料，但其总体三年认知主要结�
 
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
 - [S71｜Palmqvist 等：初级与专科诊疗中血液 AD 标志物](https://jamanetwork.com/journals/jama/fullarticle/2821669) · 摘要与可访问原文部分。1213 名有认知症状并接受评估的瑞典患者；不能直接推广为一般无症状筛查。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 
 ## 11｜睡眠与疾病：长期关联和双向关系
@@ -1882,7 +1882,7 @@ Plá等2025年的批评涉及清除定义、模型与实际流动、脑状态及
 ### 该章原文来源
 
 - [S94｜Sabia 等（2021）：中晚年睡眠时长与痴呆发生](https://www.nature.com/articles/s41467-021-22354-2) · 原始摘要与正文可访问部分。DOI10.1038/s41467-021-22354-2；非随机睡眠干预，终点为痴呆。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S110｜Xie 2013｜Sleep drives metabolite clearance from the adult brain](https://pubmed.ncbi.nlm.nih.gov/24136970/) · 原始摘要与PMC结果索引；完整方法待审。睡眠、麻醉与间质交换；不是人体AD预防试验
 - [S111｜Miao 2024｜Brain clearance is reduced during sleep and anesthesia](https://www.nature.com/articles/s41593-024-01638-y) · 出版商摘要与正文方法讨论；补充数据待审。2024更正已读：图3b源数据列修订；2025批评与机构回复部分已读。修订数据复算与正式版本核对仍待完成。
 - [S112｜Miao 2024｜Author Correction: Brain clearance is reduced during sleep and anesthesia](https://www.nature.com/articles/s41593-024-01698-0) · 更正全文已读取。Figure 3b源数据Mean Wake 3h列更正；修订数据未重新计算
@@ -2874,16 +2874,16 @@ LEV-AD是34名AD成人参加的双盲、安慰剂交叉试验。治疗每期四�
 
 ### 研究数据卡｜Howett 2019
 
-此处仅登记已核实样本与设计，分类阈值、区间和验证流程尚待全文提取，不补写摘要之外的准确率。
+样本、任务流程、平台阈值及分类结果已分别核对，下表给出索引。原PDF方法和结果、视觉核对与版本差异在后文展开；独立外部验证及完整方法审核尚未完成。
 
-| 项目 | 已核实内容 | 待核查事项 |
+| 项目 | 已核实内容 | 核对范围与剩余问题 |
 | --- | --- | --- |
 | 比较样本 | 45名MCI；41名健康对照 | 招募流程与排除原因 |
-| MCI生物标志物子样本 | 26人有脑脊液数据 | 19人缺少该数据的原因与选择影响 |
-| 标志物分层 | 12人阳性；14人阴性 | 具体标志物及阈值 |
-| 任务 | 沉浸式VR路径整合 | 试次、线索及误差定义 |
-| 关联测量 | 内嗅皮层MRI体积 | 区域分割和校正 |
-| 研究性质 | 评估/分类比较 | 不是训练随机试验 |
+| MCI生物标志物子样本 | 26人有脑脊液数据 | 来自临床检查；子样本选择影响仍需评估 |
+| 标志物分层 | 12人阳性；14人阴性 | 平台阈值已视觉核对，见后文 |
+| 任务 | 沉浸式VR路径整合 | 真实步行、27正式试次和距离误差已提取 |
+| 关联测量 | 内嗅皮层MRI体积 | 体积测量与区域方法仍需完整审核 |
+| 研究性质 | 评估/分类比较 | 分类模型与区间已提取；外部验证尚未完成 |
 
 依据：[S88](https://pubmed.ncbi.nlm.nih.gov/31121601/)
 
@@ -2950,7 +2950,7 @@ LEV-AD是34名AD成人参加的双盲、安慰剂交叉试验。治疗每期四�
 
 没有检测的19人不能被填成阴性，也不能让26人分层结果代表全部45人。研究排除严重影响任务的视觉与行动问题，因此可完成VR的样本与真实社区全部人群仍有差距。
 
-PDF文本抽取会把小于和大于符号误识别，具体脑脊液阈值须视觉核对后再入表，当前不根据损坏文本猜填。
+原PDF脑脊液阈值中的大小关系符号已视觉核对，见下方阈值表。对不同平台或人群是否适用，仍需另行验证。
 
 依据：[S97](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf)
 
@@ -2958,9 +2958,9 @@ PDF文本抽取会把小于和大于符号误识别，具体脑脊液阈值须�
 
 原文摘要报告标志物阳性与阴性MCI区分的导航AUC为.90，最佳比较认知测试AUC为.57。AUC评价排序区分表现，不等于90%的个人未来会发病，也不是某个固定阈值的阳性预测值。
 
-这个比较在小病理子样本内完成，仍需独立验证、区间和分析方法审核。它可以支持导航测量研究，不提供训练改善或预防效应。
+分类模型调整项、十折交叉验证、bootstrap及AUC区间已经核对，后文同时记录其宽区间与参考测试图文差异。内部验证仍不能代替新样本的外部验证。
 
-后续将核查完整分类模型、交叉验证及表格，不把一个高AUC变成网页自诊。本文开放许可已核实，允许材料将保留作者归属和版本。
+本页研究图的开放许可已核实并保留归属。图和模型用于解释识别研究，不能将分类结果当作训练疗效。
 
 依据：[S97](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf)
 
@@ -2970,7 +2970,7 @@ PDF文本抽取会把小于和大于符号误识别，具体脑脊液阈值须�
 
 这次核对同时确认Hachinski缺血评分排除条件为大于4。研究还排除严重影响VR的视觉或行动问题，因此分类结果适用范围需要保留这些选择条件。
 
-数据抽取必须核对符号和单位。小于被识别成数字5、大于被识别成数字4，会让数值发生数量级错误；数据库不应在没有图像核查时根据猜测填入。此处已完成符号核对，分类模型与区间仍需继续审核。
+这次核对排除了文本抽取中大小关系符号被误读为数字的问题；分类模型与区间见后文。图文差异与平台适用性仍分别保留，不因一个符号核对完成而宣布整个研究全部验证。
 
 | 原文变量 | 视觉核实表达 | 范围 |
 | --- | --- | --- |
@@ -3036,7 +3036,7 @@ Howett等，2019，Brain，Figure 7；CC BY 4.0。仅裁剪原PDF的图及原图
 
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S11｜Coughlan 等：空间导航与阿尔茨海默病](https://www.nature.com/articles/s41582-018-0031-x) · 摘要与可访问概要。
-- [S97｜Howett2019导航研究：作者机构保存的开放PDF](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf) · 开放PDF · CC BY4.0。PDF首页核实许可；与S88同一研究，不重复计数。；2026-10-10核对PDF1757/1761页分类方法与AUC区间。距离阈值符号抽取不可靠，不据抽取文本填写。；1761页已视觉核对≥157/≥196厘米，记录参考测试AUC图文差异。
+- [S97｜Howett2019导航研究：作者机构保存的开放PDF](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf) · 开放PDF · CC BY4.0。PDF首页核实CC BY 4.0，与S88同一研究。2026-10-10读取任务与盲法，视觉核对1753页平台阈值和1761页分类阈值；1757/1761页模型及AUC区间已提取。保留图7参考测试AUC与正文差异；外部验证与完整方法审核未完成。
 
 ## 06｜注意与执行网络：规划不是一个脑区独自完成
 
@@ -3124,7 +3124,7 @@ Howett等，2019，Brain，Figure 7；CC BY 4.0。仅裁剪原PDF的图及原图
 - [S76｜Ossenkoppele 等：AD 行为/执行型表型](https://pubmed.ncbi.nlm.nih.gov/26141491/) · 摘要与可访问原文部分。症状标签不能直接等同额叶主要萎缩；不同表型与对照定义待逐表核验。
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
 - [S65｜Gorno-Tempini 等：原发性进行性失语分类](https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/) · 可访问正文与摘要。分开临床综合征、影像支持与病理层；PPA 不等同 AD。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 - [S06｜Düzel 与 Kreutz：情景记忆网络失调](https://www.nature.com/articles/s41582-026-01189-9) · 摘要、正文可访问部分与参考文献。回路利用框架是理论提案，不能作为已验证游戏处方。
@@ -3674,7 +3674,7 @@ Synapse影像子研究记录39名原项目参加者，在干预前后接受认�
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 
 ## 12｜病理、影像与行为不一致：先检查测量，再讨论机制
 
@@ -3924,7 +3924,7 @@ Lampit 等正常老年人元分析纳入 52 项研究、4885 人，整体认知�
 
 - [S42｜Unverzagt 等：ACTIVE 五年痴呆发生率](https://pubmed.ncbi.nlm.nih.gov/22400989/) · PubMed 摘要。原文提取未完成。
 - [S43｜Edwards 等：ACTIVE 十年速度训练与痴呆](https://pubmed.ncbi.nlm.nih.gov/29201994/) · 原文 XML、摘要与数据表。CC BY-NC-ND 4.0；原文可非商业分发但不据此公开全文翻译。数据审核继续。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 
 ## 02｜训练、刺激、康复、学习与游戏：名称相近，研究问题不同
 
@@ -4014,7 +4014,7 @@ Lampit 等正常老年人元分析纳入 52 项研究、4885 人，整体认知�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
@@ -4137,7 +4137,7 @@ NeuroRacer与这项在线研究不能只按样本大小决定谁正确。需要�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
@@ -4238,7 +4238,7 @@ Shankar的人脑材料与动物实验支持特定条件下的突触影响，不�
 
 - [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
 - [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S34｜Lecanemab：早期阿尔茨海默病试验](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948) · 摘要与可访问正文。
@@ -4328,7 +4328,7 @@ MCI计算机训练综述没有提供痴呆发生数据，说明这一层问题�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
@@ -4771,7 +4771,7 @@ Lampit、Hallock 与 Valenzuela 的 2014 年元分析纳入 52 项随机研究�
 
 ### 下一步需要做的全文工作
 
-当前已取得全文 XML 与许可说明。下一步逐一核对纳入表、对照类型、结果选择、效应计算和敏感性分析，并将原始研究追溯为独立提取卡。尚未核验的字段保持未核验，不因可下载全文就标成已完成方法学审查。
+主文的纳入、偏倚、合并模型、相关性假设和离群处理规则已经核对。下一步核查补充Table S5与Dataset S1，并将纳入试验追溯为独立提取卡；主文已读不等于数据已逐项复算。
 
 后续可以在许可范围内选择最能解释方法的图表，提供带出处的原图和中文图注；自行重绘或翻译时也会标明所作修改。每个图表需连接它回答的具体问题，避免只为了页面装饰而增加图像。
 
@@ -4879,9 +4879,29 @@ PEDro评分也删除了两项难以实施的盲法项目，最高9分。不能�
 
 依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/)
 
+### 敏感性分析｜为什么总体结果要连同处理规则一起读
+
+原文先报告g=0.28（95%CI 0.18–0.39），I²=69.03%；移除一个离群研究后为g=0.22（0.15–0.29），I²=29.92%。合并数据假设前后相关0.6、同研究结局相关0.7，并检验周边范围。
+
+研究解读：这使读者看到较稳定的平均收益来自哪些处理规则，而不是只看到一个孤立数值。不同测试共享参加者时，假设相关性会影响精度；离群处理也会影响总体估计。应保留处理前后结果和预设规则，再检查结论是否依赖某一次选择。
+
+版本核对：出版商摘要的视觉空间效应为0.30（0.07–0.54），正文对应段落却写0.22（0.15–0.29）。此处保留差异，尚未用原图、补充数据和更正记录裁决，不自行选择较积极的数值。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/)
+
+### 图10视觉核对｜数字标签与加权数据仍需区分
+
+已查看出版商PDF第12页图10。红色总体标签同正文写0.22（0.15–0.29），而摘要写0.30（0.07–0.54）。仅用图中八项已舍入效应及权重作加权算术检查，权重合计100%，得到0.305451。
+
+这是本资料库的核对计算，不是作者正式修正结果，也不是完整随机效应元分析复算。图上舍入值会损失精度；尚需Dataset S1、方差、异质性估计和计算方法验证。当前不将这条领域结果标为完全核实。
+
+出版商页面和本轮定向检索未找到可用于裁决此差异的更正记录；这不证明不存在更正。总体认知效应、视觉空间领域效应和图标签应分开记录，避免把同一个0.22误认为三个独立支持结果。
+
+依据：[S44](https://pubmed.ncbi.nlm.nih.gov/25405755/)
+
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 
 ## 10｜Cochrane综述：认知收益与预防证据为何要分开
 
@@ -5942,7 +5962,7 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 ### 该章原文来源
 
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
@@ -6041,7 +6061,7 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
@@ -6151,7 +6171,7 @@ Lampit综述与限定12周的Cochrane综述范围不同，不能仅比较最终�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S47｜Ngandu 等：FINGER 两年多领域试验](https://pubmed.ncbi.nlm.nih.gov/25771249/) · 摘要与研究机构元数据。全文与数据表待提取；不能隔离认知训练组分。
@@ -6244,7 +6264,7 @@ ACTIVE二十年报告需要区分初始训练分配、加强训练资格、加�
 ### 该章原文来源
 
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。
 
@@ -6463,7 +6483,7 @@ preDIVA直接观察全因痴呆主要结果未显著；SPRINT的MCI及可能痴�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方摘要及通俗解释。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文 XML、方法与 Table 1–3。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
@@ -6586,7 +6606,7 @@ Git记录研究更新与纠正，网页服务多端阅读。暂不在线编辑�
 
 ### 该章原文来源
 
-- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 全文 XML、摘要与数据表。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
+- [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审。52 项研究；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方摘要及通俗解释。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S86｜Bakker 等（2008）：人类海马 CA3 与齿状回的模式分离](https://pubmed.ncbi.nlm.nih.gov/18356518/) · PMC作者稿主文：任务、18人样本、条件统计与讨论限制已读取；补充方法仍待核。DOI 10.1126/science.1152882；PMCID PMC2829853。数据来自偶然编码成像实验，非训练。BOLD/ROI比较不能分开CA3与DG；补充材料、年龄与完整采集方法待核。
 - [S51｜Lin 等：ACHIEVE 听力干预试验](https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/) · 原文可访问部分与摘要。总体主要结果和按招募来源的分析须分开；不是脑训练试验。

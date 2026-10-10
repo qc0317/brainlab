@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 106002,
-  "visible_chars": 122487,
+  "counted_han_chars": 106421,
+  "visible_chars": 123126,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -67,8 +67,8 @@
     {
       "id": "ad-navigation",
       "title": "05｜空间导航：路线、地图与路径整合",
-      "han_chars": 3123,
-      "visible_chars": 3896,
+      "han_chars": 3164,
+      "visible_chars": 3949,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -187,8 +187,8 @@
     {
       "id": "ad-evidence-lampit",
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
-      "han_chars": 3234,
-      "visible_chars": 4040,
+      "han_chars": 3612,
+      "visible_chars": 4626,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

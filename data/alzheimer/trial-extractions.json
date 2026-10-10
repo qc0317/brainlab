@@ -242,14 +242,14 @@
       "outcome": "即刻未训练认知测试",
       "outcome_level": "independent_cognition",
       "effect_summary": "综合g0.22；95%CI0.15至0.29",
-      "limitations_and_pending": "长期发病不是该综合终点；各领域与偏倚不同",
-      "access_scope": "全文 XML、摘要与数据表",
+      "limitations_and_pending": "即时认知终点；离群处理及相关性假设需同时记录，亚组非随机剂量比较。视觉空间摘要/正文数值不同待核原图与数据。",
+      "access_scope": "出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/25405755/",
       "intervention_role": "direct",
       "effects": [
         {
-          "contrast": "计算机认知训练 vs 原试验对照",
+          "contrast": "计算机认知训练 vs 原试验对照；排除一个离群研究后",
           "measure": "Hedges g",
           "estimate": 0.22,
           "ci_lower": 0.15,
@@ -260,11 +260,85 @@
           "p_value": null,
           "source_location": "原文总体元分析",
           "verification": "已有正文提取核对；完整统计审核进行中",
-          "note": ""
+          "note": "总体即刻独立认知结果；原文排除离群研究后的随机效应估计。"
+        },
+        {
+          "contrast": "计算机认知训练 vs 原试验对照；排除离群研究前",
+          "measure": "Hedges g",
+          "estimate": 0.28,
+          "ci_lower": 0.18,
+          "ci_upper": 0.39,
+          "ci_level": 0.95,
+          "unit": "标准差",
+          "endpoint": "即刻独立认知测试",
+          "p_value": 0.001,
+          "p_relation": "<",
+          "source_location": "Overall Efficacy on Cognitive Outcomes",
+          "verification": "出版商原文主文核对",
+          "note": "排除前估计；不是第二项独立元分析。"
         }
       ],
       "numeric_extraction_status": "partial",
-      "numeric_missing_reason": ""
+      "numeric_missing_reason": "",
+      "meta_analysis_methods": {
+        "pre_post_correlation": 0.6,
+        "within_study_outcome_correlation": 0.7,
+        "sensitivity_ranges": {
+          "pre_post": [
+            0.5,
+            0.7
+          ],
+          "within_study": [
+            0.6,
+            0.8
+          ]
+        },
+        "heterogeneity_before": 69.03,
+        "heterogeneity_after": 29.92,
+        "heterogeneity_unit": "I²百分比",
+        "source_location": "Data Collection/Data Analysis/Sensitivity/Overall Efficacy",
+        "pending": "补充Table S5完整数值与Dataset S1逐项复算尚未完成"
+      },
+      "visuospatial_audit": {
+        "source_location": "出版商摘要、正文Visuospatial skills、PDF第12页Figure10",
+        "abstract": {
+          "estimate": 0.3,
+          "ci": [
+            0.07,
+            0.54
+          ]
+        },
+        "body_and_figure_label": {
+          "estimate": 0.22,
+          "ci": [
+            0.15,
+            0.29
+          ]
+        },
+        "rounded_figure_effects": [
+          -0.08,
+          0.18,
+          0.52,
+          0.42,
+          0.59,
+          0.55,
+          -0.05,
+          0.82
+        ],
+        "rounded_figure_weights_percent": [
+          16.51,
+          20.55,
+          10.15,
+          9.69,
+          7.85,
+          8.85,
+          14.17,
+          12.23
+        ],
+        "arithmetic_check": 0.305451,
+        "status": "discrepancy_not_resolved",
+        "scope": "已查看原图；加权舍入数字仅为算术检查，未复算随机效应模型或确认正式更正"
+      }
     },
     {
       "id": "pointer",
