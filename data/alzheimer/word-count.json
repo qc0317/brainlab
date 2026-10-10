@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 110666,
-  "visible_chars": 129244,
+  "counted_han_chars": 110988,
+  "visible_chars": 129766,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -59,8 +59,8 @@
     {
       "id": "ad-vascular",
       "title": "09｜血管、血脑屏障与混合病理：疾病不只有两种蛋白",
-      "han_chars": 2020,
-      "visible_chars": 2380,
+      "han_chars": 2322,
+      "visible_chars": 2881,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -451,8 +451,8 @@
     {
       "id": "ad-pathology-cognition",
       "title": "12｜病理、影像与行为不一致：先检查测量，再讨论机制",
-      "han_chars": 898,
-      "visible_chars": 1000,
+      "han_chars": 918,
+      "visible_chars": 1021,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

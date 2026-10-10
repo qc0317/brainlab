@@ -113,7 +113,6 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "Montagne 2020观察到什么",
         "对游戏设计保留什么"
       ],
       "review_status": "draft_not_expert_verified"
@@ -848,9 +847,7 @@
         "S34"
       ],
       "has_data_table": true,
-      "pending_review_sections": [
-        "对本专题研究的作用"
-      ],
+      "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     },
     {
