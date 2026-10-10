@@ -151,6 +151,19 @@ for x in EXTRACTS['studies']:
   model=x['model_details'];b+='<details class="learning"><summary>模型与调整变量</summary><p>'+esc(model['model'])+'</p><p>'+esc('、'.join(model['adjustment_covariates']))+'</p><p>'+esc(model['within_arm_booster'])+'</p><p>'+esc(model['pending'])+'</p></details>'
  if x.get('discrepancies'):
   b+='<h3>原文差异 · 尚未裁决</h3>'+table([['位置','文字标签','表格未调整','表格调整','处理']]+[[e['source_location'],e['text_label'],e['table_unadjusted'],e['table_adjusted'],e['resolution']] for e in x['discrepancies']])
+ if x.get('participant_flow'):
+  f=x['participant_flow'];b+='<h3>筛选、随机与分析人数</h3>'+table([['阶段','人数'],['筛选',str(f['screened'])],['随机分配',str(f['randomized'])]])
+  labels={'intervention':'综合干预','control':'对照','hearing':'听力干预','education':'健康教育'}
+  b+=table([['组别','随机人数','修正意向治疗人数']]+[[labels.get(g['label'],g['label']),str(g['randomized']),str(g.get('modified_itt','未录入'))] for g in f['groups']])
+  if f.get('modified_itt_definition'):b+='<p>分析纳入条件：'+esc(f['modified_itt_definition'])+'</p>'
+  b+='<p class="sub">'+esc(f['source_location'])+'；不同阶段分母不能混用。</p>'
+ if x.get('safety'):
+  f=x['safety'];b+='<h3>安全性记录 · 人数</h3>'+table([['记录','干预组','对照组'],['至少一次不良事件',str(f['counts']['intervention']),str(f['counts']['control'])],['肌肉骨骼疼痛',str(f['musculoskeletal_pain']['intervention']),str(f['musculoskeletal_pain']['control'])]])+'<p>'+esc(f['note'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'
+ if x.get('individual_change'):
+  f=x['individual_change'];labels={'photo':'摄影','quilt':'拼布','dual':'双项目','social':'社交','placebo':'安慰活动'}
+  b+='<h3>个体变化阈值 · '+esc(f['endpoint'])+'</h3><p>'+esc(f['threshold'])+'</p>'+table([['活动','超过阈值比例']]+[[labels.get(k,k),format(v,'.0%')] for k,v in f['proportions'].items()])+'<p>'+esc(f['limitations'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'
+ if x.get('historical_protocol'):
+  f=x['historical_protocol'];b+='<h3>历史第一次加强训练方案</h3>'+table([['字段','方案记录'],['时间',f['first_booster_timing']],['随机子样本比例',format(f['random_subsample_fraction'],'.0%')],['初始出席资格',format(f['initial_attendance_eligibility_fraction'],'.0%')],['课程',str(f['planned_sessions'])+'次，每次'+str(f['minutes_per_session'])+'分钟，'+str(f['delivery_weeks'])+'周内']])+'<p>'+esc(f['interpretation'])+'</p><p>'+esc(f['pending'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'
  if x.get('effect_definition'):
   ed=x['effect_definition'];b+='<details class="learning"><summary>效应量计算口径</summary><p>'+esc(ed['numerator'])+'</p><p>'+esc(ed['denominator'])+'</p><p>'+esc(ed['source_location']+'；'+ed['ci_status'])+'</p></details>'
  b+='<div class="actions"><a class="btn" href="'+href(path(x['record_id']),p)+'">阅读详细章节</a><a class="btn secondary" href="'+esc(x['source_url'])+'" target="_blank" rel="noopener">查看原始文献 ↗</a></div>'+cite([x['source_id']],p)+'</section>'

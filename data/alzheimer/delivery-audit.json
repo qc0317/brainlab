@@ -29,18 +29,18 @@
     },
     {
       "requirement": "多级导航、检索、关联、响应式",
-      "status": "static_pass_interaction_pending",
-      "evidence": "121页面5838静态链接通过；新版导航与对照页HTTP200。视觉、手机尺寸与检索实际交互仍待验证。"
+      "status": "static_pass_partial_runtime_verified",
+      "evidence": "121页面5918静态链接通过；公网444px窄屏首页及ACTIVE数据表查看，Fine检索返回正文/数据并跳转正确；表格方向键横向移动40px。桌面、筛选、重置及完整阅读尚未验收。"
     },
     {
       "requirement": "Git同步与公网最新发布",
       "status": "verified_at_published_checkpoint",
-      "evidence": "公开main 5f656e41；HTTP200及SHA256确认102605汉字、14研究记录、正文下载和研究对照页与本地一致。"
+      "evidence": "公开main1141c7e4：文件树与本地76e1c66一致；104631汉字及数据/ZIP在afe305检查点HTTP200并SHA256相同，后续仅表格呈现调整已浏览器验证。新正文修改需再次同步。"
     },
     {
       "requirement": "可下载研究材料",
       "status": "public_download_verified",
-      "evidence": "正文DRAFT.md与研究JSON公开HTTP200，SHA256与当前本地一致；内容科学审核仍待完成。"
+      "evidence": "公开离线ZIP835770字节包含正文、方案、数据及两张许可研究图；在afe305检查点HTTP200且SHA256与本地相同。后续正文修改需更新包并同步。"
     }
   ],
   "chapter_count": 60,

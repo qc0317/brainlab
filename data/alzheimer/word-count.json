@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 104631,
-  "visible_chars": 120565,
+  "counted_han_chars": 105231,
+  "visible_chars": 121235,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -171,8 +171,8 @@
     {
       "id": "ad-evidence-active20",
       "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
-      "han_chars": 3000,
-      "visible_chars": 3932,
+      "han_chars": 3600,
+      "visible_chars": 4602,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

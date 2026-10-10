@@ -218,7 +218,18 @@
           "table_adjusted": "0.75 (0.59–0.95)",
           "resolution": "未裁决，规范记录按表列，保留文字差异"
         }
-      ]
+      ],
+      "historical_protocol": {
+        "source_location": "官方补充包 TRC2-12-e70197-s004.docx：Booster Training",
+        "first_booster_timing": "初始训练结束约11个月",
+        "random_subsample_fraction": 0.6,
+        "initial_attendance_eligibility_fraction": 0.8,
+        "planned_sessions": 4,
+        "minutes_per_session": 75,
+        "delivery_weeks": 3,
+        "interpretation": "历史第一次加强方案，不是20年分析实际流程；预估拒绝/不合资格比例不能当作观察值。",
+        "pending": "后续加强年份、20年分析分配/资格/完成量与样本流转仍待逐项对应。"
+      }
     },
     {
       "id": "lampit",
