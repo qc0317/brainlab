@@ -143,7 +143,7 @@ for x in EXTRACTS['studies']:
   b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','95%区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
  else:b+='<p class="sub">'+esc(x.get('numeric_missing_reason','完整数值待提取'))+'</p>'
  if x.get('statistics'):
-  b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+('未报告统计量' if e['value'] is None else str(e['value'])),str(e.get('df',[])),str(e['p_value']),e['source_location']] for e in x['statistics']])
+  b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+('未报告统计量' if e['value'] is None else str(e['value'])),str(e.get('df',[])),e.get('p_relation','=')+str(e['p_value']),e['source_location']] for e in x['statistics']])
  if x.get('multiplicity_note'):b+='<p>'+esc(x['multiplicity_note'])+'</p>'
  if x.get('event_counts'):
   ev=x['event_counts'];b+='<h3>事件数与分析分母</h3>'+table([['群体','事件数','人数']]+[[e['label'],str(e['events']),str(e['participants'])] for e in ev['groups']])+'<p>'+esc(ev['note'])+'</p><p class="sub">'+esc(ev['source_location'])+'</p>'

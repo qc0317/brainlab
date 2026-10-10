@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 106113,
-  "visible_chars": 122343,
+  "counted_han_chars": 105660,
+  "visible_chars": 122012,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -27,8 +27,8 @@
     {
       "id": "ad-amyloid-tau",
       "title": "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
-      "han_chars": 2742,
-      "visible_chars": 3074,
+      "han_chars": 2509,
+      "visible_chars": 2825,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -475,16 +475,16 @@
     {
       "id": "ad-evidence-games",
       "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
-      "han_chars": 2846,
-      "visible_chars": 3259,
+      "han_chars": 3168,
+      "visible_chars": 3669,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-synthesis",
       "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
-      "han_chars": 2654,
-      "visible_chars": 3125,
+      "han_chars": 2112,
+      "visible_chars": 2633,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

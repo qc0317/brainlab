@@ -312,14 +312,40 @@
       "outcome": "任务成本及部分独立认知测试",
       "outcome_level": "task_and_transfer",
       "effect_summary": "摘要报告多任务成本及部分独立认知收益；逐项区间待提取",
-      "limitations_and_pending": "46人随机；长期临床发生未测；补充表待审",
-      "access_scope": "原始摘要及作者机构公开PDF：主文任务设计与样本已读取，补充材料及逐项结果审核中",
+      "limitations_and_pending": "46人随机；六个月缺席多任务2、单任务2、无接触4；行为与EEG各分析分母不同。独立测验效应、补充表和完整多重比较待审；未测AD发病。",
+      "access_scope": "原始PMC作者稿：主文、图2/3/4与Methods已读取；补充表和完整效应量计算待审",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/24005416/",
       "intervention_role": "direct",
       "effects": [],
-      "numeric_extraction_status": "pending",
-      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": "图2交互统计已录；各独立任务精确效应和区间、多重比较、各分析分母仍待核。",
+      "statistics": [
+        {
+          "contrast": "多任务、单任务、无接触三组 × 基线、训练后、六个月",
+          "endpoint": "NeuroRacer多任务成本",
+          "test": "group_by_session_F",
+          "value": 7.17,
+          "df": [
+            4,
+            72
+          ],
+          "p_value": 0.0001,
+          "p_relation": "<",
+          "source_location": "Figure 2b"
+        }
+      ],
+      "task_cost": {
+        "definition": "100×(双任务d′－单任务d′)/单任务d′",
+        "unit": "percent task cost; more negative means greater interference",
+        "multitask_group": {
+          "baseline": -64.2,
+          "post": -16.2,
+          "six_months": -21.9
+        },
+        "source_location": "正文Results及Figure 2",
+        "note": "描述性组内数值；不是组间净效应、错误率、年龄逆转或AD风险。"
+      }
     },
     {
       "id": "neuroracer6",

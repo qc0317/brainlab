@@ -81,8 +81,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "本章的证据结论与待查事项",
-        "老化研究对照｜分辨相似经历与整体记忆不能混称"
+        "老化研究对照｜分辨相似经历与整体记忆不能混称",
+        "本章的证据结论与待查事项"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -902,7 +902,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "从矩阵到研究"
+        "从矩阵到研究",
+        "NeuroRacer结果｜成本改善、迁移与随访分别读"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -932,8 +933,9 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "疾病终点层",
+        "先回答核心问题：目前的证据支持到哪一步",
         "机制层",
+        "疾病终点层",
         "为什么保留反证能让积极论证更具体"
       ],
       "review_status": "draft_not_expert_verified"

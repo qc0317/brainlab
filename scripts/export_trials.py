@@ -16,7 +16,7 @@ for s in x['studies']:
  for e in s.get('effects',[]):lines.append('|'+cell(s['id']+'：'+e['contrast'])+'|'+cell(e['endpoint'])+'|'+cell(e['measure']+' '+str(e['estimate']))+'|'+str(e['ci_lower'])+' 至 '+str(e['ci_upper'])+'|'+cell(e['unit'])+'|'+('未录入' if e['p_value'] is None else str(e['p_value']))+'|'+cell(e['source_location']+'；'+e['note'])+'|')
 lines+=['','## 其他原文统计','','没有完整效应量与区间的比较不以零值补齐。']
 for s in x['studies']:
- for st in s.get('statistics',[]):lines.append('- '+cell(s['id']+'：'+st['contrast']+'；'+st['endpoint']+'；'+st['test']+'='+('未报告统计量' if st['value'] is None else str(st['value']))+'；自由度'+str(st.get('df',[]))+'；P='+str(st['p_value'])+'；'+st['source_location']))
+ for st in s.get('statistics',[]):lines.append('- '+cell(s['id']+'：'+st['contrast']+'；'+st['endpoint']+'；'+st['test']+'='+('未报告统计量' if st['value'] is None else str(st['value']))+'；自由度'+str(st.get('df',[]))+'；P'+st.get('p_relation','=')+str(st['p_value'])+'；'+st['source_location']))
  if s.get('multiplicity_note'):lines.append('- '+cell(s['id']+'：'+s['multiplicity_note']))
 lines+=['','## 原文分母、模型与差异','']
 for study in x['studies']:
