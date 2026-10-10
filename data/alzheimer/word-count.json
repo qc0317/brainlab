@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 105231,
-  "visible_chars": 121235,
+  "counted_han_chars": 106113,
+  "visible_chars": 122343,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -43,8 +43,8 @@
     {
       "id": "ad-circuits",
       "title": "04｜海马与情景记忆回路：事件如何被区分和联系",
-      "han_chars": 3658,
-      "visible_chars": 4081,
+      "han_chars": 4540,
+      "visible_chars": 5189,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

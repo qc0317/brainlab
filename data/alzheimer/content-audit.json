@@ -76,11 +76,13 @@
         "S14",
         "S80",
         "S81",
-        "S65"
+        "S65",
+        "S117"
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "本章的证据结论与待查事项"
+        "本章的证据结论与待查事项",
+        "老化研究对照｜分辨相似经历与整体记忆不能混称"
       ],
       "review_status": "draft_not_expert_verified"
     },
