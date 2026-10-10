@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 105660,
-  "visible_chars": 122012,
+  "counted_han_chars": 106002,
+  "visible_chars": 122487,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -475,8 +475,8 @@
     {
       "id": "ad-evidence-games",
       "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
-      "han_chars": 3168,
-      "visible_chars": 3669,
+      "han_chars": 3510,
+      "visible_chars": 4144,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

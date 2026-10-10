@@ -11,9 +11,9 @@ for role,label in x['intervention_roles'].items():
  for s in x['studies']:
   if s['intervention_role']!=role:continue
   lines.append('|['+s['id']+']('+s['source_url']+')|'+cell(s['population']+'；'+s['comparator'])+'|'+cell(s['outcome'])+'|'+cell(s['effect_summary'])+'|'+cell(s['limitations_and_pending'])+'|')
-lines+=['','## 逐项效应','','|研究与比较|终点|效应|95%区间|单位|P值|原文位置与说明|','|---|---|---|---|---|---|---|']
+lines+=['','## 逐项效应','','|研究与比较|终点|效应|置信区间|单位|P值|原文位置与说明|','|---|---|---|---|---|---|---|']
 for s in x['studies']:
- for e in s.get('effects',[]):lines.append('|'+cell(s['id']+'：'+e['contrast'])+'|'+cell(e['endpoint'])+'|'+cell(e['measure']+' '+str(e['estimate']))+'|'+str(e['ci_lower'])+' 至 '+str(e['ci_upper'])+'|'+cell(e['unit'])+'|'+('未录入' if e['p_value'] is None else str(e['p_value']))+'|'+cell(e['source_location']+'；'+e['note'])+'|')
+ for e in s.get('effects',[]):lines.append('|'+cell(s['id']+'：'+e['contrast'])+'|'+cell(e['endpoint'])+'|'+cell(e['measure']+' '+str(e['estimate']))+'|'+format(e['ci_level'],'.0%')+'：'+str(e['ci_lower'])+' 至 '+str(e['ci_upper'])+'|'+cell(e['unit'])+'|'+('未录入' if e['p_value'] is None else str(e['p_value']))+'|'+cell(e['source_location']+'；'+e['note'])+'|')
 lines+=['','## 其他原文统计','','没有完整效应量与区间的比较不以零值补齐。']
 for s in x['studies']:
  for st in s.get('statistics',[]):lines.append('- '+cell(s['id']+'：'+st['contrast']+'；'+st['endpoint']+'；'+st['test']+'='+('未报告统计量' if st['value'] is None else str(st['value']))+'；自由度'+str(st.get('df',[]))+'；P'+st.get('p_relation','=')+str(st['p_value'])+'；'+st['source_location']))
@@ -38,7 +38,7 @@ def extract_rows(value,prefix=''):
  else:result.append('|'+cell(prefix)+'|'+cell(value)+'|')
  return result
 for study in x['studies']:
- for key,title in [('participant_flow','样本流程'),('safety','安全性人数'),('individual_change','个体变化阈值'),('historical_protocol','历史方案')]:
+ for key,title in [('analysis_flow','登记与分析'),('participant_flow','样本流程'),('safety','安全性人数'),('individual_change','个体变化阈值'),('historical_protocol','历史方案')]:
   if study.get(key):lines+=['### '+study['id']+'｜'+title,'','|字段|原提取记录|','|---|---|']+extract_rows(study[key])+['']
 lines+=['','[下载结构化JSON](../../data/alzheimer/trial-extractions.json)']
 (ROOT/'research-programs/alzheimer/TRIALS.md').write_text('\n'.join(lines)+'\n',encoding='utf-8')

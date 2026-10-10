@@ -372,20 +372,66 @@
       "source_id": "S108",
       "record_id": "ad-transfer",
       "cohort_key": "Owen2010",
-      "population": "在线研究参加者，完整年龄分布待核",
-      "intervention": "六周认知任务",
-      "comparator": "原试验比较条件待完整提取",
+      "population": "18至60岁在线登记者；52617初始登记，11430满足两次基准测验及至少两次完整训练条件",
+      "intervention": "实验1推理/规划；实验2记忆/注意/视觉空间/计算；六周自适应在线任务",
+      "comparator": "查找网络资料回答知识题的活动对照",
       "outcome": "训练任务与未训练测试",
       "outcome_level": "task_and_transfer",
       "effect_summary": "受练任务改善，摘要未发现未训练任务迁移",
-      "limitations_and_pending": "11430是摘要样本描述；不能直接当作全部随机入组人数",
-      "access_scope": "原始摘要与部分正文索引；招募流程和完整结果表待审",
+      "limitations_and_pending": "分析条件排除大量登记者，三组完成比例不同；99%CI不能改标95%。小的个别测验差异不等于普遍迁移，也不是AD预防试验。",
+      "access_scope": "作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/20407435/",
       "intervention_role": "direct",
-      "effects": [],
-      "numeric_extraction_status": "pending",
-      "numeric_missing_reason": "完整效应值、区间或多重比较方法尚待提取；无数值不表示无效应。"
+      "effects": [
+        {
+          "contrast": "实验组1 vs 活动对照：六周变化",
+          "measure": "reported standardized effect size",
+          "estimate": 0.17,
+          "ci_lower": 0.1,
+          "ci_upper": 0.23,
+          "ci_level": 0.99,
+          "unit": "原报告标准化单位",
+          "endpoint": "独立推理基准测验",
+          "p_value": null,
+          "source_location": "作者稿Table 2，推理行",
+          "verification": "作者稿Table 2文本与第12页渲染图列名、推理数值和99%区间交叉核对",
+          "note": "组间改变差；原文99%CI，不能泛化为总体认知或临床发生。"
+        },
+        {
+          "contrast": "实验组2 vs 活动对照：六周变化",
+          "measure": "reported standardized effect size",
+          "estimate": 0.22,
+          "ci_lower": 0.15,
+          "ci_upper": 0.28,
+          "ci_level": 0.99,
+          "unit": "原报告标准化单位",
+          "endpoint": "独立推理基准测验",
+          "p_value": null,
+          "source_location": "作者稿Table 2，推理行",
+          "verification": "作者稿Table 2文本与第12页渲染图列名、推理数值和99%区间交叉核对",
+          "note": "组间改变差；原文99%CI，不能泛化为总体认知或临床发生。"
+        }
+      ],
+      "numeric_extraction_status": "partial",
+      "numeric_missing_reason": "推理比较已视觉核对；其他标准化效应的方向定义、计算公式及补充材料仍待审核。",
+      "analysis_flow": {
+        "registered": 52617,
+        "age_range": [
+          18,
+          60
+        ],
+        "included_analysis": 11430,
+        "analysis_groups": {
+          "experimental_1": 4678,
+          "experimental_2": 4014,
+          "control": 2738
+        },
+        "inclusion": "完成基线和六周基准测验，至少两次完整训练/对照课程",
+        "source_location": "作者稿PDF第2、4页",
+        "note": "登记、分配与纳入分析不同；完整各组初始分配/失访流转待核。"
+      },
+      "reported_direction_note": "Table 2某些平均改变差为负，但其标准化效应与区间为正；原图也如此，不能当OCR错误自动改符号。当前正式effects仅录两项方向明确的正向推理比较。"
     },
     {
       "id": "cochraneD",

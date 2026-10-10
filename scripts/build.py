@@ -140,7 +140,7 @@ for x in EXTRACTS['studies']:
  b+='<section class="section" id="trial-'+esc(x['id'])+'"><span class="tag">部分提取 · 审核中</span><h2>'+esc(S[x['source_id']]['title'])+'</h2>'
  b+=table([['提取字段','当前记录'],['人群',x['population']],['训练或干预',x['intervention']],['比较对象',x['comparator']],['实际终点',x['outcome']],['结果',x['effect_summary']],['同队列标识',x['cohort_key']],['读取范围',x['access_scope']],['限制与待核',x['limitations_and_pending']]])
  if x.get('effects'):
-  b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','95%区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
+  b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','置信区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),format(e['ci_level'],'.0%')+'：'+str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
  else:b+='<p class="sub">'+esc(x.get('numeric_missing_reason','完整数值待提取'))+'</p>'
  if x.get('statistics'):
   b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+('未报告统计量' if e['value'] is None else str(e['value'])),str(e.get('df',[])),e.get('p_relation','=')+str(e['p_value']),e['source_location']] for e in x['statistics']])
@@ -151,6 +151,9 @@ for x in EXTRACTS['studies']:
   model=x['model_details'];b+='<details class="learning"><summary>模型与调整变量</summary><p>'+esc(model['model'])+'</p><p>'+esc('、'.join(model['adjustment_covariates']))+'</p><p>'+esc(model['within_arm_booster'])+'</p><p>'+esc(model['pending'])+'</p></details>'
  if x.get('discrepancies'):
   b+='<h3>原文差异 · 尚未裁决</h3>'+table([['位置','文字标签','表格未调整','表格调整','处理']]+[[e['source_location'],e['text_label'],e['table_unadjusted'],e['table_adjusted'],e['resolution']] for e in x['discrepancies']])
+ if x.get('analysis_flow'):
+  f=x['analysis_flow'];labels={'experimental_1':'实验1','experimental_2':'实验2','control':'活动对照'}
+  b+='<h3>登记与纳入分析</h3>'+table([['阶段','人数'],['初始登记',str(f['registered'])],['纳入分析',str(f['included_analysis'])]]+[[labels.get(k,k),str(v)] for k,v in f['analysis_groups'].items()])+'<p>'+esc(f['inclusion'])+'</p><p>'+esc(f['note'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'
  if x.get('participant_flow'):
   f=x['participant_flow'];b+='<h3>筛选、随机与分析人数</h3>'+table([['阶段','人数'],['筛选',str(f['screened'])],['随机分配',str(f['randomized'])]])
   labels={'intervention':'综合干预','control':'对照','hearing':'听力干预','education':'健康教育'}

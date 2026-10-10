@@ -71,7 +71,7 @@ if extract_path.exists():
   assert x['intervention_role'] in extracts['intervention_roles']
   for e in x.get('effects',[]):
    assert e['ci_lower']<=e['estimate']<=e['ci_upper'],('invalid effect interval',x['id'])
-   assert e['ci_level']==.95 and e['unit'] and e['endpoint'] and e['contrast'] and e['source_location']
+   assert e['ci_level'] in [.95,.99] and e['unit'] and e['endpoint'] and e['contrast'] and e['source_location']
    if e['measure']=='HR':assert e['ci_lower']>0
    if e['p_value'] is not None:assert 0<=e['p_value']<=1
 
