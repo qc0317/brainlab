@@ -35,12 +35,12 @@
     {
       "requirement": "Git同步与公网最新发布",
       "status": "verified_at_published_checkpoint",
-      "evidence": "公开main b54b3588；2026-10-10 HTTP200确认100452汉字、四步阅读导航及研究对照页。后续本地改动需要再次同步。"
+      "evidence": "公开main 5f656e41；HTTP200及SHA256确认102605汉字、14研究记录、正文下载和研究对照页与本地一致。"
     },
     {
       "requirement": "可下载研究材料",
       "status": "public_download_verified",
-      "evidence": "公开DRAFT.md与trial-extractions.json HTTP200，SHA256与本地逐字节相同；研究内容审核仍未完成。"
+      "evidence": "正文DRAFT.md与研究JSON公开HTTP200，SHA256与当前本地一致；内容科学审核仍待完成。"
     }
   ],
   "chapter_count": 60,

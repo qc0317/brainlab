@@ -87,4 +87,17 @@ if extract_path.exists():
    assert isinstance(x[field],str) and x[field].strip(),('missing extraction field',x['id'],field)
  assert not extracts['complete'] or all(x['audit_status']=='verified' for x in extracts['studies']), 'Incomplete study audits cannot be labelled complete'
 
+# Download integrity: archived authored files must match the current build.
+import zipfile
+bundle_path=ROOT/'downloads/alzheimer-research.zip'
+with zipfile.ZipFile(bundle_path) as archive:
+ assert archive.testzip() is None, 'Corrupt research archive'
+ for name in archive.namelist():
+  assert not name.startswith('/') and '..' not in Path(name).parts, 'Unsafe archive member'
+  if name=='README.txt':continue
+  assert archive.read(name)==(ROOT/name).read_bytes(),('Stale offline research file',name)
+ draft=(ROOT/'research-programs/alzheimer/DRAFT.md').read_text()
+ word_count=json.loads((ROOT/'data/alzheimer/word-count.json').read_text())
+assert format(word_count['counted_han_chars'],',') in draft, 'Stale draft count'
+
 print(f'PASS: {len(pages)} pages; {checked} local links/assets/anchors; {len(index)} searchable records; all citations, relationships and demand IDs valid')

@@ -54,8 +54,8 @@
       "outcome": "二十年理赔ADRD",
       "outcome_level": "claims_adrd",
       "effect_summary": "总体速度调整HR0.87；0.72至1.05。速度加加强0.75；0.59至0.95",
-      "limitations_and_pending": "两种比较不能混用；竞争死亡、补充材料、文字表格差异待审",
-      "access_scope": "原文 XML、方法与 Table 1–3",
+      "limitations_and_pending": "整体速度组区间含1；加强路径不能替代总体随机比较。文字表格差异、资格流程、亚组与多重比较仍待审。",
+      "access_scope": "原文XML、Table 1–3；官方Europe PMC补充包中s003，Table S4选定单元格与S5统计计划",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/",
       "intervention_role": "direct",
@@ -101,6 +101,48 @@
           "source_location": "原文加强比较",
           "verification": "已有正文提取核对；完整统计审核进行中",
           "note": "区间上界1.00是原报告舍入值，不能自行解释边界显著性"
+        },
+        {
+          "contrast": "初始速度组总体 vs 对照",
+          "measure": "subdistribution HR",
+          "estimate": 0.91,
+          "ci_lower": 0.75,
+          "ci_upper": 1.11,
+          "ci_level": 0.95,
+          "unit": "亚分布风险比",
+          "endpoint": "死亡竞争下的理赔ADRD",
+          "p_value": null,
+          "source_location": "补充s003 Table S4 Model 2",
+          "verification": "原EMF坐标文本与原docx转换PDF第4页指定单元格交叉核对",
+          "note": "Fine–Gray估计；不能与原因别HR或绝对风险降低混称。资格、分组及完整模型审核尚未完成。"
+        },
+        {
+          "contrast": "速度＋加强路径 vs 对照",
+          "measure": "subdistribution HR",
+          "estimate": 0.77,
+          "ci_lower": 0.61,
+          "ci_upper": 0.98,
+          "ci_level": 0.95,
+          "unit": "亚分布风险比",
+          "endpoint": "死亡竞争下的理赔ADRD",
+          "p_value": null,
+          "source_location": "补充s003 Table S4 Model 4",
+          "verification": "原EMF坐标文本与原docx转换PDF第4页指定单元格交叉核对",
+          "note": "Fine–Gray估计；不能与原因别HR或绝对风险降低混称。资格、分组及完整模型审核尚未完成。"
+        },
+        {
+          "contrast": "合资格速度组内：加强 vs 未加强",
+          "measure": "subdistribution HR",
+          "estimate": 0.78,
+          "ci_lower": 0.63,
+          "ci_upper": 0.96,
+          "ci_level": 0.95,
+          "unit": "亚分布风险比",
+          "endpoint": "死亡竞争下的理赔ADRD",
+          "p_value": null,
+          "source_location": "补充s003 Table S4 Model 6",
+          "verification": "原EMF坐标文本与原docx转换PDF第4页指定单元格交叉核对",
+          "note": "Fine–Gray估计；不能与原因别HR或绝对风险降低混称。资格、分组及完整模型审核尚未完成。"
         }
       ],
       "numeric_extraction_status": "partial",
@@ -166,7 +208,7 @@
         ],
         "source_location": "Table 2 footnotes g/h",
         "within_arm_booster": "three separate regressions comparing randomized booster vs randomized no-booster within intervention arms, adjusted for covariates",
-        "pending": "脚注2021 person-year observations措辞及完整模型实现待核；竞争风险补充分析待核"
+        "pending": "脚注样本措辞、完整模型实现及补充表星号定义仍待核；已提取S4三个指定比较。"
       },
       "discrepancies": [
         {
@@ -362,7 +404,7 @@
       "source_id": "S47",
       "record_id": "ad-evidence-finger",
       "cohort_key": "FINGER",
-      "population": "认知下降风险较高老年人，完整标准待核",
+      "population": "60至77岁，CAIDE风险分数至少6、认知为年龄平均或略低者；完整排除标准待核",
       "intervention": "饮食、运动、认知训练及血管监测",
       "comparator": "一般健康建议",
       "outcome": "两年NTB认知复合分数",
@@ -390,7 +432,38 @@
         }
       ],
       "numeric_extraction_status": "partial",
-      "numeric_missing_reason": ""
+      "numeric_missing_reason": "",
+      "participant_flow": {
+        "screened": 2654,
+        "randomized": 1260,
+        "groups": [
+          {
+            "label": "intervention",
+            "randomized": 631,
+            "modified_itt": 591
+          },
+          {
+            "label": "control",
+            "randomized": 629,
+            "modified_itt": 599
+          }
+        ],
+        "modified_itt_definition": "至少一次基线后观察",
+        "source_location": "原始摘要Methods/Findings"
+      },
+      "safety": {
+        "unit": "participants_with_adverse_event",
+        "counts": {
+          "intervention": 46,
+          "control": 6
+        },
+        "musculoskeletal_pain": {
+          "intervention": 32,
+          "control": 0
+        },
+        "source_location": "原始摘要Findings",
+        "note": "综合方案，不归因于单独游戏；完整事件判定与严重程度待核"
+      }
     },
     {
       "id": "mapt",
@@ -507,7 +580,7 @@
       "outcome": "三年总体认知变化",
       "outcome_level": "independent_cognition",
       "effect_summary": "总体差0.002SD；95%CI−0.077至0.081；P0.96",
-      "limitations_and_pending": "总体未显著；招募亚组的交互及完整方法待核；不能归为游戏疗效",
+      "limitations_and_pending": "总体未显著；预设招募来源交互P0.010。精确亚组估计、多重比较及完整方法待核；不是游戏疗效。",
       "access_scope": "原文可访问部分与摘要",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/",
@@ -529,7 +602,33 @@
         }
       ],
       "numeric_extraction_status": "partial",
-      "numeric_missing_reason": ""
+      "numeric_missing_reason": "",
+      "participant_flow": {
+        "screened": 3004,
+        "randomized": 977,
+        "groups": [
+          {
+            "label": "hearing",
+            "randomized": 490
+          },
+          {
+            "label": "education",
+            "randomized": 487
+          }
+        ],
+        "source_location": "原始摘要Findings；原研究机构记录"
+      },
+      "statistics": [
+        {
+          "contrast": "ARIC vs de novo：干预效应差异",
+          "endpoint": "三年认知变化",
+          "test": "interaction",
+          "value": null,
+          "df": [],
+          "p_value": 0.01,
+          "source_location": "预设敏感性分析，原始摘要"
+        }
+      ]
     },
     {
       "id": "synapse",

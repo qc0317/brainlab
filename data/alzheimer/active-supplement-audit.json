@@ -2,7 +2,7 @@
   "trial": "ACTIVE",
   "paper_doi": "10.1002/trc2.70197",
   "checked": "2026-10-10",
-  "status": "supplement_content_not_acquired",
+  "status": "supplement_acquired_partial_table_audit",
   "files": [
     {
       "name": "trc270197-sup-0001-SuppMat.docx",
@@ -26,10 +26,59 @@
     }
   ],
   "pending": [
-    "Fine–Gray competing-risk estimates",
     "booster eligibility/randomization sample flow",
     "text versus table adjusted estimate discrepancy",
     "subgroup sample count discrepancy",
     "multiple-comparison sensitivity and correction notices"
-  ]
+  ],
+  "official_api_acquisition": {
+    "date": "2026-10-10",
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12884427/supplementaryFiles",
+    "status": "downloaded_local_research_corpus",
+    "bytes": 1871108,
+    "docx_files": [
+      "TRC2-12-e70197-s001.docx",
+      "TRC2-12-e70197-s003.docx",
+      "TRC2-12-e70197-s004.docx"
+    ],
+    "initial_reading": "s003包含Table S4 Fine & Gray；s004为试验方案。文本已提取，完整表格与文件身份审核尚未完成。",
+    "public_copy": "不公开镜像整个原始材料包；当前只保存获取范围与后续原创提取。"
+  },
+  "table_s4_text_extraction": {
+    "status": "selected_cells_verified_source_vector_and_native_docx_pdf",
+    "method": "读取官方docx嵌入EMF的Unicode文本记录，保留原x/y坐标；不依赖OCR猜测",
+    "file": "TRC2-12-e70197-s003.docx",
+    "embedded_image": "word/media/image2.emf",
+    "provisional_values": [
+      {
+        "row": "Speed",
+        "column": "Model 2 adjusted F+G with score × time",
+        "estimate": 0.91,
+        "ci": [
+          0.75,
+          1.11
+        ]
+      },
+      {
+        "row": "Speed + Booster",
+        "column": "Model 4 adjusted F+G with score × time",
+        "estimate": 0.77,
+        "ci": [
+          0.61,
+          0.98
+        ]
+      },
+      {
+        "row": "Speed + Booster",
+        "column": "Model 6 speed within treatment adjusted",
+        "estimate": 0.78,
+        "ci": [
+          0.63,
+          0.96
+        ]
+      }
+    ],
+    "use": "三个指定单元格已进入结构化提取及原创解读；其余模型、星号脚注和总体方法审查仍未完成。",
+    "verification": "2026-10-10：官方docx原EMF坐标文本与LibreOffice转换PDF第4页交叉核对，已查看渲染图。转换页面右侧部分裁切；不据此解释Model7/8。"
+  }
 }

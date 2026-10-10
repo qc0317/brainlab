@@ -4,6 +4,8 @@ import json,html,posixpath,hashlib,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 if (ROOT/'data/alzheimer/program.json').exists():subprocess.run([sys.executable,str(ROOT/'scripts/count_research.py')],check=True)
+for export_script in ['export_trials.py','export_draft.py','export_research_bundle.py']:
+ subprocess.run([sys.executable,str(ROOT/'scripts'/export_script)],check=True)
 DB=json.loads((ROOT/'data/knowledge.json').read_text(encoding='utf-8'))
 ASSET_VERSIONS={p:hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12] for p in ['assets/style.css','assets/app.js']}
 def asset_version(p):return ASSET_VERSIONS.get(p) or hashlib.sha256((ROOT/p).read_bytes()).hexdigest()[:12]
@@ -60,7 +62,7 @@ for k,c in C.items():
  elif k=='games':b+='<div class="actions"><a class="btn" href="matrix.html">查看游戏 × 能力矩阵</a><a class="btn secondary" href="'+href('abilities/index.html',p)+'">认知能力目录</a></div><div class="notice hub-note">任务需求依据明确规则判断；不是疗效排行榜。黑白翻转、堆叠水果采用暂定规则；密室逃脱仍需指定作品与关卡。</div>'
  if k=='alzheimer' and PROGRAM:
   b+='<div class="research-progress"><div><span class="eyebrow">个人研究 · 重建进行中</span><h2>脑部训练对于预防阿尔茨海默病，可能有效吗？</h2><p>按疾病、原因与表现、脑部变化、训练证据四条主线阅读。假设需要检验，支持、无差异和反对证据均保留。</p></div><div class="progress-count"><b>'+format(WORD_COUNT['counted_han_chars'],',')+'</b><span> / 100,000 正文汉字</span><small>'+str(WORD_COUNT['drafted_chapters'])+' / '+str(WORD_COUNT['planned_chapters'])+' 章已起草 · 尚未完成</small></div></div>'
-  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DELIVERY-AUDIT.md',p)+'">交付审核与剩余工作</a><a class="btn secondary" href="'+href('research/alzheimer/trials/index.html',p)+'">核心研究对照表</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
+  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DELIVERY-AUDIT.md',p)+'">交付审核与剩余工作</a><a class="btn secondary" href="'+href('research/alzheimer/trials/index.html',p)+'">核心研究对照表</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a><a class="btn secondary" href="'+href('downloads/alzheimer-research.zip',p)+'" download>下载离线研究包</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
   b+='<section class="section"><h2>这一专题怎样展开</h2><p>'+esc(PROGRAM.get('reading_logic',''))+'</p><p>第3部分解释大脑变化与认知受影响的联系，第4部分据此检验训练可能性。机制基础与临床效应分别记录，并通过具体研究连接。</p></section>'
   written=set(PROGRAM['drafted_record_ids'])
   for part in PROGRAM['parts']:
@@ -93,12 +95,15 @@ for r in R.values():
   b+='<section id="demands"><h2>游戏 × 能力需求</h2><p class="sub">● 主要需求　◐ 次要/条件性需求　— 未突出；依据规则分析，非疗效强度。</p><div class="labelrow">'+''.join(link(d['ability_id'],p,('● ' if d['level']==2 else '◐ ' if d['level']==1 else '— ')+R[d['ability_id']]['title']) for d in r['demands'])+'</div></section>'
  if r.get('image'):
   im=r['image'];b+='<section id="interface"><h2>'+esc(im.get('title','界面样本与观察记录'))+'</h2><figure class="research-image"><img loading="lazy" width="'+str(im.get('width',1280))+'" height="'+str(im.get('height',720))+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+'</figcaption></figure></section>'
+ for fi,im in enumerate(r.get('research_figures',[])):
+  assert im['source_id'] in S and im['license_url']
+  b+='<section id="figure-'+str(fi)+'"><h2>'+esc(im['title'])+'</h2><figure class="research-image"><a href="'+href(im['path'],p)+'"><img loading="lazy" width="'+str(im['width'])+'" height="'+str(im['height'])+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"></a><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+' · <a href="'+esc(im['license_url'])+'">使用许可</a></figcaption></figure></section>'
  if r['source_ids']:
   b+='<section id="refs"><h2>引用来源与读取范围</h2><ul class="refs">'
   for sid in r['source_ids']:
    s=S[sid];b+='<li>'+source_link(sid,p)+' · <a href="'+esc(s['url'])+'" target="_blank" rel="noopener">'+esc(s['title'])+' ↗</a><small>'+esc(str(s['year'])+' · '+s['kind']+' · '+s['access'])+('；'+esc(s['note']) if s['note'] else '')+('；许可：'+esc(s['license']) if s.get('license') else '')+'</small></li>'
   b+='</ul></section>'
- b+='</article><aside class="toc"><strong>本页目录</strong><nav aria-label="条目章节">'+''.join('<a href="#s'+str(i)+'">'+esc(s['title'])+'</a>' for i,s in enumerate(secs))+('<a href="#interface">'+esc(r['image'].get('title','界面观察'))+'</a>' if r.get('image') else '')+('<a href="#refs">来源与范围</a>' if r['source_ids'] else '')+'<a href="#related">关联条目</a></nav><div class="aside-note"><span class="tag">'+esc(r['status'])+'</span><small>关联 ≠ 因果或疗效。<br>证据更新时保留版本、适用条件和相反结果。</small><p>'+link('design-schema',p,'如何编辑与扩展 →')+'</p></div></aside></div>'
+ b+='</article><aside class="toc"><strong>本页目录</strong><nav aria-label="条目章节">'+''.join('<a href="#s'+str(i)+'">'+esc(s['title'])+'</a>' for i,s in enumerate(secs))+('<a href="#interface">'+esc(r['image'].get('title','界面观察'))+'</a>' if r.get('image') else '')+''.join('<a href="#figure-'+str(fi)+'">'+esc(im['title'])+'</a>' for fi,im in enumerate(r.get('research_figures',[])))+('<a href="#refs">来源与范围</a>' if r['source_ids'] else '')+'<a href="#related">关联条目</a></nav><div class="aside-note"><span class="tag">'+esc(r['status'])+'</span><small>关联 ≠ 因果或疗效。<br>证据更新时保留版本、适用条件和相反结果。</small><p>'+link('design-schema',p,'如何编辑与扩展 →')+'</p></div></aside></div>'
  b+='<section class="relations" id="related"><h2>继续沿关联阅读</h2><div class="grid">'+''.join(card(R[t['target_id']],p,t['label']) for t in r['relationships'])+'</div>'
  backlinks=[x['id'] for x in R.values() if any(t['target_id']==r['id'] for t in x['relationships'])]
  if backlinks:b+='<h3 style="margin-top:26px">哪些条目关联本页</h3><div class="backlinks">'+''.join(link(t,p) for t in backlinks)+'</div>'
@@ -119,7 +124,6 @@ render(p,'游戏能力需求矩阵',b,'games')
 # Structured trial browser: data remains independently downloadable.
 p='research/alzheimer/trials/index.html'
 EXTRACTS=json.loads((ROOT/'data/alzheimer/trial-extractions.json').read_text())
-subprocess.run([sys.executable,str(ROOT/'scripts/export_trials.py')],check=True)
 b=crumb(p,title='核心训练研究对照')+intro('核心训练研究对照','逐项查看人群、对照和实际终点，再回到原文与详细解读。当前为第一批部分提取，完整数据与方法审核仍在进行。','Literature Comparison')
 b+='<div class="notice">同一试验的不同随访不是独立重复验证；综述与原始试验可能重叠。认知、任务、脑电及临床发生分别记录。</div><div class="actions"><a class="btn secondary" href="'+href('data/alzheimer/trial-extractions.json',p)+'" download>下载结构化数据 JSON</a><a class="btn secondary" href="'+href('research-programs/alzheimer/TRIALS.md',p)+'" download>下载研究对照表</a></div>'
 b+='<nav class="reading-parts" aria-label="按研究跳转">'+''.join('<a href="#trial-'+esc(x['id'])+'">'+esc(x['id'])+'</a>' for x in EXTRACTS['studies'])+'</nav>'
@@ -136,7 +140,7 @@ for x in EXTRACTS['studies']:
   b+='<h3>逐项效应与终点</h3>'+table([['比较','终点','效应值','95%区间','单位','原文位置与说明']]+[[e['contrast'],e['endpoint'],e['measure']+' '+str(e['estimate']),str(e['ci_lower'])+' 至 '+str(e['ci_upper']),e['unit'],e['source_location']+'；'+e['note']] for e in x['effects']])
  else:b+='<p class="sub">'+esc(x.get('numeric_missing_reason','完整数值待提取'))+'</p>'
  if x.get('statistics'):
-  b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+str(e['value']),str(e.get('df',[])),str(e['p_value']),e['source_location']] for e in x['statistics']])
+  b+='<h3>原文统计检验</h3>'+table([['比较','终点','统计量','自由度','P值','位置']]+[[e['contrast'],e['endpoint'],e['test']+' '+('未报告统计量' if e['value'] is None else str(e['value'])),str(e.get('df',[])),str(e['p_value']),e['source_location']] for e in x['statistics']])
  if x.get('multiplicity_note'):b+='<p>'+esc(x['multiplicity_note'])+'</p>'
  if x.get('event_counts'):
   ev=x['event_counts'];b+='<h3>事件数与分析分母</h3>'+table([['群体','事件数','人数']]+[[e['label'],str(e['events']),str(e['participants'])] for e in ev['groups']])+'<p>'+esc(ev['note'])+'</p><p class="sub">'+esc(ev['source_location'])+'</p>'

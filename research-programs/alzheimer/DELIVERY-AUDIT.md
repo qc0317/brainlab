@@ -10,7 +10,7 @@
 |支持、无效与反向证据综合|present_critical_review_pending|ad-synthesis、ad-transfer及各试验；临床终点与任务收益区分；关键主张仍需逐项复核|
 |许可、版本、读取范围|partially_audited|来源与literature-audit记录存在；部分许可、正式版本与更正数据待核对|
 |多级导航、检索、关联、响应式|static_pass_interaction_pending|120页面5795链接校验；视觉、手机尺寸、检索实际交互仍待验证|
-|Git同步与公网最新发布|verified_at_published_checkpoint|公开main b54b3588；HTTP200确认100452汉字、四步导航及对照页。后续本地修改需再次同步|
+|Git同步与公网最新发布|verified_at_published_checkpoint|公开main 5f656e41；HTTP200及SHA256确认102605汉字、14研究记录与正文及对照页一致。后续本地修改需再次同步|
 |可下载研究材料|public_download_verified|公开正文与结构化JSON返回200，SHA256与本地相同；内容审核仍未完成|
 
 ## 下一轮优先检查
