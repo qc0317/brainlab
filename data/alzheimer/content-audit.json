@@ -880,11 +880,14 @@
         "S03",
         "S16",
         "S45",
-        "S82"
+        "S82",
+        "S100",
+        "S118"
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "对日常游戏的实际方向"
+        "两个原始训练实例：改变了什么，尚未回答什么",
+        "从实例转为项目可检验的分支"
       ],
       "review_status": "draft_not_expert_verified"
     },

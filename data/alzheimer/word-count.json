@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 110988,
-  "visible_chars": 129766,
+  "counted_han_chars": 111957,
+  "visible_chars": 130916,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -467,8 +467,8 @@
     {
       "id": "ad-plasticity",
       "title": "04｜可塑性与疾病修饰：机制桥梁有多长",
-      "han_chars": 1025,
-      "visible_chars": 1126,
+      "han_chars": 1994,
+      "visible_chars": 2276,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
