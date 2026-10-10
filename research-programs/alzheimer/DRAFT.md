@@ -246,6 +246,7 @@ NIA 的基础说明强调表现存在差异，记忆问题常见，但语言、�
 - [S55｜Sperling 等：临床前阿尔茨海默病研究框架](https://pubmed.ncbi.nlm.nih.gov/21514248/) · 摘要与元数据。历史研究框架，和 2024 标准分开；不是健康人的自我筛查指南。
 - [S56｜Bateman 等：常染色体显性遗传 AD 的临床与标志物变化](https://pubmed.ncbi.nlm.nih.gov/22784036/) · 摘要/期刊概要与元数据。特殊遗传人群的时间模型不能直接用于散发性 AD 或个人倒计时。
 - [S57｜Jessen 等：主观认知下降研究框架](https://pubmed.ncbi.nlm.nih.gov/24798886/) · 摘要。主观担忧不等于 AD；研究特征不是个人诊断规则。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 
 ## 04｜记忆、判断和独立生活：疾病影响的是什么
 
@@ -961,6 +962,8 @@ Bellenguez2022原始报告的两阶段研究包含111326名临床或代理病例
 - [S70｜Rogaev 等：染色体1相关家族性 AD 基因](https://pubmed.ncbi.nlm.nih.gov/7651536/) · 摘要与元数据。用于 PSEN2 历史线索；不提供个人遗传咨询或检测解读。
 - [S98｜Fortea 等（2024）：APOE4纯合子作为独特遗传形式的研究](https://doi.org/10.1038/s41591-024-02931-w) · 原始PubMed摘要与Fig.1等图注；出版商/PMC直连本轮不可完整读取。DOI 10.1038/s41591-024-02931-w；PMID38710950。总体病理3297/临床10039与各子分析分母分开；完整方法、年龄分层及推广仍待审。
 - [S99｜Fortea2024出版商更正](https://doi.org/10.1038/s41591-024-03127-y) · 出版商检索索引给出更正全文文字；直连授权页不可读，更正PDF未核。2024-06-17更正Fig.4标题：APOE3纯合子改为APOE4纯合子。更正范围为标题，不扩展为全篇数据裁决。
+- [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 
 ## 03｜年龄与老化：重要风险因素，不是必然命运
 
@@ -2272,6 +2275,10 @@ MRI 提供脑部结构和病变相关资料。研究可观察萎缩模式、白�
 - [S61｜Imaging the evolution and pathophysiology of Alzheimer disease](https://www.nature.com/articles/s41583-018-0067-3) · 摘要与可访问概要。不同成像指标测量不同层次，不能相互替代。
 - [S62｜Imaging Biomarkers in Alzheimer’s Disease: A Practical Guide for Clinicians](https://pmc.ncbi.nlm.nih.gov/articles/PMC6159632/) · 摘要与可访问正文部分。群体萎缩模式不自动形成单个病例的诊断。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
+- [S97｜Howett2019导航研究：作者机构保存的开放PDF](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf) · 开放PDF · CC BY4.0。PDF首页核实CC BY 4.0，与S88同一研究。2026-10-10读取任务与盲法，视觉核对1753页平台阈值和1761页分类阈值；1757/1761页模型及AUC区间已提取。保留图7参考测试AUC与正文差异；外部验证与完整方法审核未完成。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 
 ## 01｜Aβ 与 Tau：从蛋白变化到疾病模型
 
@@ -3275,6 +3282,8 @@ Engvig等研究随机分配45名健康中老年志愿者，训练为八周地点
 - [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
 - [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
+- [S119｜Morra等（2009）：490名ADNI参与者一年海马萎缩自动测量](https://pubmed.ncbi.nlm.nih.gov/19041724/) · PubMed原始摘要与PMC正文索引；完整方法、区域图与补充材料待核。DOI 10.1016/j.neuroimage.2008.10.043；ADNI队列，不是训练试验；980次扫描不等于980名独立参与者；摘要的替代指标提议不等于已完成临床替代终点验证。
+- [S118｜Engvig等（2010）：记忆训练与皮层厚度的短期变化](https://pubmed.ncbi.nlm.nih.gov/20580844/) · 原始论文PDF的Methods、Results及表1—2；补充材料未核。DOI 10.1016/j.neuroimage.2010.05.041；公开PDF为原论文，不在本库转载全文或图片；被动对照、短期结局；行为样本人数存在需核对的内部差异。
 
 ## 08｜PET：不同示踪剂看见不同问题
 
@@ -6068,6 +6077,7 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 - [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 - [S101｜Anguera 2021｜Long-term maintenance of multitasking abilities following video game training in older adults](https://pubmed.ncbi.nlm.nih.gov/33789209/) · 原始元数据与出版商正文索引；全文表格待审。与2013研究关联，不能作为独立重复试验
 - [S102｜Ballesteros 2015｜Non-action video games: results of the 3-month follow-up](https://pubmed.ncbi.nlm.nih.gov/25926790/) · 原始摘要索引；全文效应量与流失表待审。训练后与停止训练后的结果分开；非AD发病终点
+- [S108｜Owen 2010｜Putting brain training to the test](https://pubmed.ncbi.nlm.nih.gov/20407435/) · 作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审。DOI 10.1038/nature09042；PMCID PMC2884087作者稿文本。登记52617与分析11430分开；99%CI；部分表格标准化效应方向与原始差方向需分开核对。
 
 ## 19｜期待、对照与选择性报告：训练研究怎样产生偏倚
 

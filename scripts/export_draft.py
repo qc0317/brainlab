@@ -17,7 +17,8 @@ for part in p['parts']:
   for im in ([r['image']] if r.get('image') else [])+r.get('research_figures',[]):
    lines+=['### '+im.get('title','原文图'),'','!['+im['caption']+'](../../'+im['path']+')','',im['caption'],'','来源：['+im['source_id']+']('+sources[im['source_id']]['url']+')','']
   lines+=['### 该章原文来源','']
-  for sid in r['source_ids']:
+  used_sources=list(dict.fromkeys(r['source_ids']+[sid for sec in r['sections'] for sid in sec.get('source_ids',[])]+[im['source_id'] for im in r.get('research_figures',[])]+([r['image']['source_id']] if r.get('image') else [])))
+  for sid in used_sources:
    s=sources[sid];lines+=['- ['+sid+'｜'+s['title']+']('+s['url']+') · '+s['access']+'。'+s['note']]
   lines+=['']
 lines+=['# 全文审核状态','','全部60章已有草稿，但核心原文、补充材料、数据提取、可读性与页面交互审核尚未全部完成。字数达标不能替代这些工作。','']

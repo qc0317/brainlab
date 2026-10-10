@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "goal_complete": false,
   "requirements": [
     {
@@ -15,7 +15,7 @@
     {
       "requirement": "逐篇证据提取、数据与方法评价",
       "status": "incomplete",
-      "evidence": "章节存在原始数据与方法解释，但不是全部来源逐篇完成提取；关键补充材料仍待核对"
+      "evidence": "16条结构化核心研究记录，均为部分提取；原始数据与方法解释存在，关键补充材料、方向、分母、偏倚和独立复制仍待审核。"
     },
     {
       "requirement": "支持、无效与反向证据综合",
@@ -30,24 +30,22 @@
     {
       "requirement": "多级导航、检索、关联、响应式",
       "status": "static_pass_partial_runtime_verified",
-      "evidence": "121页面5918静态链接通过；公网444px窄屏首页及ACTIVE数据表查看，Fine检索返回正文/数据并跳转正确；表格方向键横向移动40px。桌面、筛选、重置及完整阅读尚未验收。"
+      "evidence": "当前121页面、5962静态链接；真实界面已检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开。完整阅读及其余交互仍待审核；静态检查不证明全部运行行为。"
     },
     {
       "requirement": "Git同步与公网最新发布",
       "status": "verified_at_published_checkpoint",
-      "evidence": "公开main1141c7e4：文件树与本地76e1c66一致；104631汉字及数据/ZIP在afe305检查点HTTP200并SHA256相同，后续仅表格呈现调整已浏览器验证。新正文修改需再次同步。"
+      "evidence": "已验证检查点：公开main efffbd14d7632475fa0ff476e1c4a935bab4cb84，文件树与本地9c92f56e02f06b8e8bfecd57b71e6fe2b3359d61一致。107981汉字计数、MRI页、研究对照页、ZIP均HTTP200并SHA256与本地相同。本次导出/审核修正需另行公开核对。"
     },
     {
       "requirement": "可下载研究材料",
       "status": "public_download_verified",
-      "evidence": "公开离线ZIP835770字节包含正文、方案、数据及两张许可研究图；在afe305检查点HTTP200且SHA256与本地相同。后续正文修改需更新包并同步。"
+      "evidence": "上述检查点ZIP854124字节；正文、方案、结构化研究数据、两张许可图及独立复算材料已核对公网哈希。本次下载来源范围修正将重新生成包。"
     }
   ],
   "chapter_count": 60,
   "chapters_without_tables": [
-    "01｜从一个生活例子理解阿尔茨海默病",
     "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
-    "02｜选择性易损与分期：为什么不是整脑均匀衰退",
     "01｜把“脑部训练可能有效”改写成可验证问题",
     "01｜原因、机制与风险：为何不能写成单一病因",
     "06｜ACTIVE 五年：没有发现痴呆发生率差异",
@@ -128,6 +126,33 @@
     "S110",
     "S111",
     "S113",
-    "S114"
-  ]
+    "S114",
+    "S117",
+    "S118",
+    "S119"
+  ],
+  "part_counts": [
+    {
+      "id": "understand",
+      "title": "第一部分｜什么是阿尔茨海默病",
+      "han_chars": 14256
+    },
+    {
+      "id": "causes",
+      "title": "第二部分｜分析疾病：原因、表现与发展",
+      "han_chars": 20972
+    },
+    {
+      "id": "brain",
+      "title": "第三部分｜大脑发生了什么变化 · 重点",
+      "han_chars": 29065
+    },
+    {
+      "id": "training",
+      "title": "第四部分｜训练的可能性与证据 · 重点",
+      "han_chars": 43688
+    }
+  ],
+  "extraction_records": 16,
+  "verified_extraction_records": 0
 }
