@@ -1227,7 +1227,7 @@
     "category": "来源",
     "status": "随机试验后长期随访",
     "url": "sources/index.html#S16",
-    "text": "S16 ACTIVE：20 年理赔数据随访 https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/ 随机试验后长期随访 2026 原文 XML、方法与 Table 1–3 已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。 2026-10-09 CC BY-NC-ND 4.0"
+    "text": "S16 ACTIVE：20 年理赔数据随访 https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/ 随机试验后长期随访 2026 原文XML、方法与Table 1—3；官方补充包s003的Table S4选定Fine–Gray单元格及S5计划，s004第一次加强方案已读；全部模型与资格流程仍待审核 已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。 2026-10-11 CC BY-NC-ND 4.0"
   },
   {
     "id": "S17",
@@ -1507,7 +1507,7 @@
     "category": "来源",
     "status": "系统综述与元分析",
     "url": "sources/index.html#S44",
-    "text": "S44 Lampit 等：正常老年人计算机认知训练元分析 https://pubmed.ncbi.nlm.nih.gov/25405755/ 系统综述与元分析 2014 出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审 51篇文章、52个数据集；CC BY，允许在署名与标注修改的条件下使用与翻译。 2026-10-10 25405755 PMC4236015 10.1371/journal.pmed.1001756 CC BY"
+    "text": "S44 Lampit 等：正常老年人计算机认知训练元分析 https://pubmed.ncbi.nlm.nih.gov/25405755/ 系统综述与元分析 2014 出版商正文与原始PDF主要结果；Table S5和Dataset S1已读取；本库独立复算视觉空间8行及总体52/51数据集；原试验重新编码与全方法审核待完成 51篇文章、52个数据集；CC BY，允许在署名与标注修改的条件下使用与翻译。 2026-10-11 25405755 PMC4236015 10.1371/journal.pmed.1001756 CC BY"
   },
   {
     "id": "S45",
