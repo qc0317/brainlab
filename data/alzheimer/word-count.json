@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 109838,
-  "visible_chars": 128200,
+  "counted_han_chars": 109933,
+  "visible_chars": 128330,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -155,8 +155,8 @@
     {
       "id": "ad-evidence-active5",
       "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
-      "han_chars": 1500,
-      "visible_chars": 1852,
+      "han_chars": 1561,
+      "visible_chars": 1941,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -187,8 +187,8 @@
     {
       "id": "ad-evidence-lampit",
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
-      "han_chars": 4092,
-      "visible_chars": 5512,
+      "han_chars": 4126,
+      "visible_chars": 5553,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
