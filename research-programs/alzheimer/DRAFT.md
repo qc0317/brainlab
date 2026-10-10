@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：110,355 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：110,666 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -1188,7 +1188,22 @@ Grober等2010年在初级诊疗场景比较FCSRT不同评分。分析244名老�
 
 ### 语音保持与句子复述
 
-2008 年 logopenic 型 PPA 病例系列研究了六个病例，观察到找词停顿、句子重复及语音跨度等困难，而某些语法、发音与单词层理解相对保留。小型病例研究帮助提出加工假设，不能单独给出一般人群诊断准确率。
+Gorno-Tempini等2008年研究六名新病例：美国四人、意大利两人。病例根据能够完成多次测试及已有脑扫描选择；这是病例系列，不能当作一般人群的代表性调查。原文将语言测验、语音保持实验与MRI或SPECT资料联系起来。
+
+| 观察层次 | 原始报告 | 解释范围 |
+| --- | --- | --- |
+| 语言表现 | 找词停顿；句子复述和理解较差，单词相对保留 | 并非全部语言过程一起受损 |
+| 保持实验 | 数字、字母、词语跨度明显受损；改用指认未改善 | 不能仅以说话动作困难解释 |
+| 脑部资料 | 左侧后部颞上/中回及顶下小叶出现萎缩或血流降低 | MRI结构与SPECT血流分别测量 |
+| AD病理线索 | 美国四例报告PiB PET淀粉样结合 | 不是六例全部尸检确认AD |
+
+依据：[S73](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/)
+
+### 说明性阅读练习｜单词听懂了，为何长句仍困难
+
+说明性例子：能够理解“钥匙”和“桌子”，不等于能够暂时保留“先把钥匙放到桌子，再取杯子”的全部信息。长句需要维持成分和顺序；错误可能来自保持、注意或其他过程。这个例子是本库教学设计，不是原论文的病例原话或测试题。
+
+研究解读：上述病例资料支持继续检验语音保持机制，但不能将一片脑区称为唯一语言储存处。训练研究应先规定加工与独立测量，再检查是否迁移到交流；影像位置和淀粉样线索没有直接检验语言游戏的防病效果。
 
 依据：[S73](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/)
 
@@ -1249,7 +1264,7 @@ Grober等2010年在初级诊疗场景比较FCSRT不同评分。分析244名老�
 ### 该章原文来源
 
 - [S65｜Gorno-Tempini 等：原发性进行性失语分类](https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/) · 可访问正文与摘要。分开临床综合征、影像支持与病理层；PPA 不等同 AD。
-- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 摘要与可访问正文片段。6 个病例，提供表型机制线索；不能视为一般人群疗效或诊断概率。
+- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 原始摘要及PMC主文索引Subjects/Discussion；逐例测验表、原图和补充材料待核。6例：美国4、意大利2；按能完成多次测试和有扫描选择。MRI/SPECT各自测量不同；美国4例PiB PET线索不等于全部病例尸检确认AD。未实施游戏训练。
 - [S74｜Henry 等：AD 型痴呆言语流畅性元分析](https://pubmed.ncbi.nlm.nih.gov/15178173/) · 摘要与元数据。153 项研究、15990 人；原文效应与测量差异待进一步提取。
 
 ## 06｜规划、注意与判断：怎样理解执行功能表现
@@ -2515,7 +2530,7 @@ RORB作为亚群标志可以帮助识别一类细胞，但标志物未必就是�
 - [S80｜de Calignon 等（2012）：早期阿尔茨海默病小鼠模型中的 Tau 病理传播](https://pubmed.ncbi.nlm.nih.gov/22365544/) · 摘要与 PMC 原文入口。PMID 22365544；DOI 10.1016/j.neuron.2011.11.033；模型外推须谨慎。
 - [S07｜Luan 等：连接组、p-tau 与突触损失](https://www.nature.com/articles/s41467-025-61497-4) · 全文或正文。
 - [S65｜Gorno-Tempini 等：原发性进行性失语分类](https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/) · 可访问正文与摘要。分开临床综合征、影像支持与病理层；PPA 不等同 AD。
-- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 摘要与可访问正文片段。6 个病例，提供表型机制线索；不能视为一般人群疗效或诊断概率。
+- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 原始摘要及PMC主文索引Subjects/Discussion；逐例测验表、原图和补充材料待核。6例：美国4、意大利2；按能完成多次测试和有扫描选择。MRI/SPECT各自测量不同；美国4例PiB PET线索不等于全部病例尸检确认AD。未实施游戏训练。
 - [S76｜Ossenkoppele 等：AD 行为/执行型表型](https://pubmed.ncbi.nlm.nih.gov/26141491/) · 原始机构PDF：摘要、Participants、MRI方法、区域结果与讨论部分已读；原图视觉及补充表待核。DOI 10.1093/brain/awv191；75名行为/执行型AD独立患者，55与29两类含9人重叠。MRI分母不同；作者PDF标明All rights reserved，本库仅原创转述及事实提取，未转载图片。
 
 ## 03｜突触、胶质细胞与炎症：连接为何会失效
@@ -3749,7 +3764,7 @@ Synapse影像子研究记录39名原项目参加者，在干预前后接受认�
 
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S65｜Gorno-Tempini 等：原发性进行性失语分类](https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/) · 可访问正文与摘要。分开临床综合征、影像支持与病理层；PPA 不等同 AD。
-- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 摘要与可访问正文片段。6 个病例，提供表型机制线索；不能视为一般人群疗效或诊断概率。
+- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 原始摘要及PMC主文索引Subjects/Discussion；逐例测验表、原图和补充材料待核。6例：美国4、意大利2；按能完成多次测试和有扫描选择。MRI/SPECT各自测量不同；美国4例PiB PET线索不等于全部病例尸检确认AD。未实施游戏训练。
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
@@ -3969,7 +3984,7 @@ Ossenkoppele等2015年回顾性研究纳入253人。行为型55人与执行型29
 
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S65｜Gorno-Tempini 等：原发性进行性失语分类](https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/) · 可访问正文与摘要。分开临床综合征、影像支持与病理层；PPA 不等同 AD。
-- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 摘要与可访问正文片段。6 个病例，提供表型机制线索；不能视为一般人群疗效或诊断概率。
+- [S73｜Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像](https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/) · 原始摘要及PMC主文索引Subjects/Discussion；逐例测验表、原图和补充材料待核。6例：美国4、意大利2；按能完成多次测试和有扫描选择。MRI/SPECT各自测量不同；美国4例PiB PET线索不等于全部病例尸检确认AD。未实施游戏训练。
 - [S76｜Ossenkoppele 等：AD 行为/执行型表型](https://pubmed.ncbi.nlm.nih.gov/26141491/) · 原始机构PDF：摘要、Participants、MRI方法、区域结果与讨论部分已读；原图视觉及补充表待核。DOI 10.1093/brain/awv191；75名行为/执行型AD独立患者，55与29两类含9人重叠。MRI分母不同；作者PDF标明All rights reserved，本库仅原创转述及事实提取，未转载图片。
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。

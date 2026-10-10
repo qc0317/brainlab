@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 110355,
-  "visible_chars": 128870,
+  "counted_han_chars": 110666,
+  "visible_chars": 129244,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -227,8 +227,8 @@
     {
       "id": "ad-language-symptoms",
       "title": "05｜语言、理解与词义：不同的说不出来意味着什么",
-      "han_chars": 1691,
-      "visible_chars": 1906,
+      "han_chars": 2002,
+      "visible_chars": 2280,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
