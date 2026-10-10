@@ -46,7 +46,6 @@
   "chapter_count": 60,
   "chapters_without_tables": [
     "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
-    "01｜把“脑部训练可能有效”改写成可验证问题",
     "01｜原因、机制与风险：为何不能写成单一病因",
     "05｜记忆型与非典型表型：不是每个人都先忘事"
   ],
@@ -144,12 +143,12 @@
     {
       "id": "brain",
       "title": "第三部分｜大脑发生了什么变化 · 重点",
-      "han_chars": 29065
+      "han_chars": 29588
     },
     {
       "id": "training",
       "title": "第四部分｜训练的可能性与证据 · 重点",
-      "han_chars": 43958
+      "han_chars": 44334
     }
   ],
   "extraction_records": 17,

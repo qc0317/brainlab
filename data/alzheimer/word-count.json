@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 108251,
-  "visible_chars": 126176,
+  "counted_han_chars": 109150,
+  "visible_chars": 127397,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -123,8 +123,8 @@
     {
       "id": "ad-training-question",
       "title": "01｜把“脑部训练可能有效”改写成可验证问题",
-      "han_chars": 1095,
-      "visible_chars": 1298,
+      "han_chars": 1471,
+      "visible_chars": 1851,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -443,8 +443,8 @@
     {
       "id": "ad-control-network",
       "title": "06｜注意与执行网络：规划不是一个脑区独自完成",
-      "han_chars": 970,
-      "visible_chars": 1075,
+      "han_chars": 975,
+      "visible_chars": 1091,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -459,8 +459,8 @@
     {
       "id": "ad-atypical-networks",
       "title": "13｜不同表型与网络：不是所有AD都先表现为忘事",
-      "han_chars": 846,
-      "visible_chars": 938,
+      "han_chars": 1364,
+      "visible_chars": 1590,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

@@ -247,7 +247,7 @@
         "S43",
         "S44"
       ],
-      "has_data_table": false,
+      "has_data_table": true,
       "pending_review_sections": [
         "个人研究笔记的建议格式"
       ],
