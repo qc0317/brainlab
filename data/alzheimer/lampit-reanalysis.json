@@ -1,0 +1,97 @@
+{
+  "doi": "10.1371/journal.pmed.1001756",
+  "source_url": "https://journals.plos.org/plosmedicine/article/file?type=supplementary&id=10.1371/journal.pmed.1001756.s015",
+  "source_sha256": "a7cc81041c88888bf4ff0960ba240b3fe1e49b8a3c83066ad2ed698cd2bde0cb",
+  "sheet": "Domain-specific outomes",
+  "columns": {
+    "effect": "E",
+    "variance": "G"
+  },
+  "method": "本库独立DerSimonian–Laird矩估计；逆方差权重；正态近似95%区间。未声称作者CMA所有实现与此完全相同。",
+  "scope": "8项视觉空间效应使用提供的聚合g和方差；不重做原始个体数据、结局合并或全篇元分析。",
+  "rows": [
+    {
+      "row": 19,
+      "study": "Basak 2008",
+      "cct_n": 19,
+      "control_n": 20,
+      "g": 0.519084211,
+      "variance": 0.09178989,
+      "random_weight_percent": 10.149573961748754
+    },
+    {
+      "row": 59,
+      "study": "Edwards 2002",
+      "cct_n": 44,
+      "control_n": 47,
+      "g": -0.08375719,
+      "variance": 0.039084611,
+      "random_weight_percent": 16.513226008552024
+    },
+    {
+      "row": 80,
+      "study": "Lee 2012",
+      "cct_n": 15,
+      "control_n": 15,
+      "g": 0.586518035,
+      "variance": 0.131956911,
+      "random_weight_percent": 7.845441693472732
+    },
+    {
+      "row": 91,
+      "study": "Maillot 2012",
+      "cct_n": 16,
+      "control_n": 16,
+      "g": 0.54558853,
+      "variance": 0.111802347,
+      "random_weight_percent": 8.854004939343726
+    },
+    {
+      "row": 100,
+      "study": "Miller 2013",
+      "cct_n": 38,
+      "control_n": 36,
+      "g": -0.049486761,
+      "variance": 0.052985149,
+      "random_weight_percent": 14.170038074555666
+    },
+    {
+      "row": 125,
+      "study": "Shatil 2013",
+      "cct_n": 33,
+      "control_n": 29,
+      "g": 0.81770542,
+      "variance": 0.068561851,
+      "random_weight_percent": 12.22600492612771
+    },
+    {
+      "row": 139,
+      "study": "Stern 2011",
+      "cct_n": 20,
+      "control_n": 20,
+      "g": 0.424414651,
+      "variance": 0.098317559,
+      "random_weight_percent": 9.687216862681035
+    },
+    {
+      "row": 149,
+      "study": "Vance 2007",
+      "cct_n": 82,
+      "control_n": 77,
+      "g": 0.177839935,
+      "variance": 0.022557143,
+      "random_weight_percent": 20.554493533518347
+    }
+  ],
+  "result": {
+    "g": 0.3038036653222104,
+    "ci_lower": 0.07288352880965951,
+    "ci_upper": 0.5347238018347613,
+    "ci_level": 0.95,
+    "Q": 12.207904866630267,
+    "df": 7,
+    "tau_squared": 0.04497657327763881,
+    "I_squared_percent": 42.66010362569117
+  },
+  "conclusion": "复算为0.30380（0.07288–0.53472），接近摘要0.30（0.07–0.54），末位差异保留；正文/图标签差异仍非正式更正裁决。"
+}

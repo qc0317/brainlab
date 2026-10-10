@@ -151,6 +151,8 @@ for x in EXTRACTS['studies']:
   model=x['model_details'];b+='<details class="learning"><summary>模型与调整变量</summary><p>'+esc(model['model'])+'</p><p>'+esc('、'.join(model['adjustment_covariates']))+'</p><p>'+esc(model['within_arm_booster'])+'</p><p>'+esc(model['pending'])+'</p></details>'
  if x.get('discrepancies'):
   b+='<h3>原文差异 · 尚未裁决</h3>'+table([['位置','文字标签','表格未调整','表格调整','处理']]+[[e['source_location'],e['text_label'],e['table_unadjusted'],e['table_adjusted'],e['resolution']] for e in x['discrepancies']])
+ if x.get('reanalysis_artifact'):
+  b+='<p><a href="'+href(x['reanalysis_artifact'],p)+'">查看本库独立复算的输入、方法和结果 JSON</a> · <a href="'+href('scripts/reproduce_lampit.py',p)+'">下载指定复算脚本</a></p><p class="sub">复算范围与原文差异详见正文；独立复算不代表出版商正式更正。</p>'
  if x.get('analysis_flow'):
   f=x['analysis_flow'];labels={'experimental_1':'实验1','experimental_2':'实验2','control':'活动对照'}
   b+='<h3>登记与纳入分析</h3>'+table([['阶段','人数'],['初始登记',str(f['registered'])],['纳入分析',str(f['included_analysis'])]]+[[labels.get(k,k),str(v)] for k,v in f['analysis_groups'].items()])+'<p>'+esc(f['inclusion'])+'</p><p>'+esc(f['note'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'

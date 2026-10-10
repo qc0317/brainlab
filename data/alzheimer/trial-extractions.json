@@ -243,7 +243,7 @@
       "outcome_level": "independent_cognition",
       "effect_summary": "综合g0.22；95%CI0.15至0.29",
       "limitations_and_pending": "即时认知终点；离群处理及相关性假设需同时记录，亚组非随机剂量比较。视觉空间摘要/正文数值不同待核原图与数据。",
-      "access_scope": "出版商正文：纳入、筛选、偏倚规则、模型、相关性假设、离群处理与主要结果已核对；补充数据及逐试验复算待审",
+      "access_scope": "出版商主文、PDF图10、Table S5与Dataset S1指定领域；完整逐试验及全篇复算尚未完成",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/25405755/",
       "intervention_role": "direct",
@@ -297,7 +297,7 @@
         "heterogeneity_after": 29.92,
         "heterogeneity_unit": "I²百分比",
         "source_location": "Data Collection/Data Analysis/Sensitivity/Overall Efficacy",
-        "pending": "补充Table S5完整数值与Dataset S1逐项复算尚未完成"
+        "pending": "Table S5已读取；Dataset S1的8项视觉空间效应已按指定方法复算，其他领域与原始试验/结局合并待审"
       },
       "visuospatial_audit": {
         "source_location": "出版商摘要、正文Visuospatial skills、PDF第12页Figure10",
@@ -337,8 +337,10 @@
         ],
         "arithmetic_check": 0.305451,
         "status": "discrepancy_not_resolved",
-        "scope": "已查看原图；加权舍入数字仅为算术检查，未复算随机效应模型或确认正式更正"
-      }
+        "scope": "已查看原图；加权舍入数字仅为算术检查，未复算随机效应模型或确认正式更正",
+        "independent_reanalysis": "data/alzheimer/lampit-reanalysis.json；g0.30380，CI0.07288–0.53472，I²42.6601%；仅指定DL/正态方法，不替代正式更正"
+      },
+      "reanalysis_artifact": "data/alzheimer/lampit-reanalysis.json"
     },
     {
       "id": "pointer",

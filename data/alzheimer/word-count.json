@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 106421,
-  "visible_chars": 123126,
+  "counted_han_chars": 106722,
+  "visible_chars": 123622,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -187,8 +187,8 @@
     {
       "id": "ad-evidence-lampit",
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
-      "han_chars": 3612,
-      "visible_chars": 4626,
+      "han_chars": 3913,
+      "visible_chars": 5122,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
