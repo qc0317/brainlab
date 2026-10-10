@@ -566,6 +566,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
+        "原始训练实例｜八周记忆策略与MRI",
+        "研究分析｜这怎样支持训练可能性",
         "当前结论与后续工作"
       ],
       "review_status": "draft_not_expert_verified"

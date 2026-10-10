@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 106922,
-  "visible_chars": 124150,
+  "counted_han_chars": 107399,
+  "visible_chars": 124828,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -315,8 +315,8 @@
     {
       "id": "ad-mri",
       "title": "07｜MRI：结构变化不是病理和认知的同义词",
-      "han_chars": 1339,
-      "visible_chars": 1489,
+      "han_chars": 1816,
+      "visible_chars": 2167,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
