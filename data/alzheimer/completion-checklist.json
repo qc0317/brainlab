@@ -83,8 +83,13 @@
     {
       "id": "full_site_archive",
       "requirement": "完整HTML站点ZIP公网哈希一致",
-      "pass": false,
-      "evidence": "当前未完成；公网完整ZIP与本地版本不一致"
+      "pass": true,
+      "evidence": {
+        "manifest": "downloads/alzheimer-research-archive-manifest.json",
+        "parts": 2,
+        "merge_sha256": "7be9b52a112191ca16ae0675b840fe65434fef9b15e83ec4c8050fb8819d3d0c",
+        "pages_build": "success"
+      }
     },
     {
       "id": "formal_quality_ratings",

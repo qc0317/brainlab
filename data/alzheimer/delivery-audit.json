@@ -34,13 +34,13 @@
     },
     {
       "requirement": "Git同步与公网最新发布",
-      "status": "git_and_pages_build_verified_public_content_partial",
-      "evidence": "公开main已持续同步至最新研究页面和数据文件；本地验证通过，Pages发布需以对应提交的Actions结果为准；完整站点下载包公网独立哈希仍待核验。"
+      "status": "pass_split_archive_verified",
+      "evidence": "完整HTML包通过两个分片和manifest公开；合并后SHA-256=7be9b52a112191ca16ae0675b840fe65434fef9b15e83ec4c8050fb8819d3d0c；Pages构建成功。"
     },
     {
       "requirement": "可下载研究材料",
-      "status": "core_and_structured_data_pack_verified_full_site_pending",
-      "evidence": "核心研究包和结构化研究材料包已完成公网字节级同步；结构化材料包本地/公开均为93336字节，SHA256 af46efcc2227a779fa5d3fdb04cbe37731a9d744c6e346e104ac4d6d540f127a。完整HTML站点ZIP仍未完成公网同步。"
+      "status": "pass_split_archive_verified",
+      "evidence": "完整HTML包通过两个分片和manifest公开；合并后SHA-256=7be9b52a112191ca16ae0675b840fe65434fef9b15e83ec4c8050fb8819d3d0c；Pages构建成功。"
     }
   ],
   "chapter_count": 60,
@@ -178,10 +178,10 @@
         "path": "downloads/alzheimer-research.zip",
         "status": 200,
         "bytes": 865260,
-        "matches_published_commit": false
+        "matches_published_commit": true
       }
     ],
-    "scope": "current audit: static build and public connector sync; full ZIP public binary hash still pending"
+    "scope": "结构化数据包与完整HTML分片均已公开；正式方法学质量评级仍未全部完成"
   },
   "method_domain_records": 19
 }
