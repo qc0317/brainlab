@@ -39,8 +39,8 @@
     },
     {
       "requirement": "可下载研究材料",
-      "status": "local_package_verified_public_binary_mismatch",
-      "evidence": "核心研究包已完成公开字节级同步；完整站点ZIP本地为892984字节，但当前公开Git tree downloads/alzheimer-research.zip blob为c1541558272437ac7a143c25425eed41e003bf5e、29856字节，未与本地包一致，需重新上传或明确分发路径。"
+      "status": "core_and_structured_data_pack_verified_full_site_pending",
+      "evidence": "核心研究包和结构化研究材料包已完成公网字节级同步；结构化材料包本地/公开均为93336字节，SHA256 af46efcc2227a779fa5d3fdb04cbe37731a9d744c6e346e104ac4d6d540f127a。完整HTML站点ZIP仍未完成公网同步。"
     }
   ],
   "chapter_count": 60,
