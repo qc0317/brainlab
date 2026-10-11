@@ -1,0 +1,21 @@
+{
+  "package": "brainlab-alzheimer-research-update",
+  "version": "2026-10-11-outcome-layers",
+  "purpose": "补充完整研究 ZIP 的最新终点分层定义与公开版本校验信息；不替代完整 ZIP。",
+  "source_file": "data/alzheimer/trial-extractions.json",
+  "source_blob": "0bc3e3a98600a60345a696b4ba95a3d85c96aee4",
+  "definitions": {
+    "task_and_transfer": "任务层：训练任务及未训练但相近的认知测验；不能单独推出临床预防。",
+    "task_and_eeg": "任务层加神经生理测量；不能单独推出AD病程改变。",
+    "independent_cognition": "独立认知测验或复合分数；不等同于MCI、痴呆或AD发生率。",
+    "clinical_dementia": "全因痴呆发生；不等同于AD特异性病理结局。",
+    "clinical_dementia_algorithm": "按研究算法判定的痴呆事件；不能称为病理确认AD。",
+    "clinical_dementia_and_mci": "同时报告痴呆与MCI；两个终点必须分别解释。",
+    "claims_adrd": "行政理赔代理结局；不是临床或病理确认的AD发病。"
+  },
+  "full_zip": {
+    "local_sha256": "d9560bd555c6ce258ef025e5e9ca2ceed55f861a82bc11811e079892230457f5",
+    "local_bytes": 891160,
+    "public_binary_hash_verified": false
+  }
+}
