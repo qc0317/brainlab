@@ -768,7 +768,7 @@
       "effect_summary": "年差0.029SD；95%CI0.008至0.050；P0.008",
       "limitations_and_pending": "主动比较；游戏成分独立效果与临床发病未证明",
       "access_scope": "全文或正文",
-      "audit_status": "partial_extraction_not_final",
+      "audit_status": "structured_method_review_preliminary",
       "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/",
       "intervention_role": "multidomain",
       "effects": [
@@ -824,6 +824,37 @@
             "evidence": "严重事件151/190、非严重1091/1225为事件数",
             "interpretation": "不能当作发生事件的人数或直接游戏风险",
             "pending": "重复事件、接触差异、采集与因果归属"
+          }
+        ],
+        "tool": "RoB 2（个体随机试验；结构化预审）",
+        "overall_signal": "some_concerns",
+        "formal_status": "pending_final_adjudication",
+        "evidence_basis": "正文摘要与已提取结构化结果；PMC页面当前触发reCAPTCHA，完整表格和补充材料待读取",
+        "domain_judgement": [
+          {
+            "domain": "randomization_or_assignment",
+            "judgement": "some_concerns",
+            "reason": "报告2111人随机分配，但序列、隐藏和整套流程仍待全文核对"
+          },
+          {
+            "domain": "deviations_and_adherence",
+            "judgement": "some_concerns",
+            "reason": "结构化生活方式支持强度和组成同时变化，不能单独归因游戏训练"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "两年复合认知终点的失访、敏感性和完成量待核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "认知复合分数是独立认知结局，不是临床AD或痴呆终点"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "some_concerns",
+            "reason": "亚组未多重调整，预设层级和全部报告仍待核对"
           }
         ]
       }
