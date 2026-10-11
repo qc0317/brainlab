@@ -1,0 +1,258 @@
+{
+  "generated_at": "2026-10-11",
+  "purpose": "下一轮逐篇审核队列；不是质量评级。",
+  "records": [
+    {
+      "priority": 0,
+      "id": "active20",
+      "source_id": "S16",
+      "outcome_level": "claims_adrd",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 0,
+      "id": "active10",
+      "source_id": "S43",
+      "outcome_level": "clinical_dementia_algorithm",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 0,
+      "id": "active5",
+      "source_id": "S42",
+      "outcome_level": "clinical_dementia_algorithm",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 0,
+      "id": "pact_design",
+      "source_id": "S120",
+      "outcome_level": "clinical_dementia_and_mci",
+      "audit_status": "protocol_only_no_results",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 0,
+      "id": "prediva",
+      "source_id": "S49",
+      "outcome_level": "clinical_dementia",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 0,
+      "id": "sprint",
+      "source_id": "S50",
+      "outcome_level": "clinical_dementia_and_mci",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "achieve",
+      "source_id": "S51",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "lampit",
+      "source_id": "S44",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "neuroracer",
+      "source_id": "S100",
+      "outcome_level": "task_and_transfer",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "synapse",
+      "source_id": "S52",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "cochraneD",
+      "source_id": "S106",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "cochraneHealthy",
+      "source_id": "S45",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "cochraneMCI",
+      "source_id": "S46",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "finger",
+      "source_id": "S47",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "mapt",
+      "source_id": "S48",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "neuroracer6",
+      "source_id": "S101",
+      "outcome_level": "task_and_eeg",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "owen",
+      "source_id": "S108",
+      "outcome_level": "task_and_transfer",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    },
+    {
+      "priority": 1,
+      "id": "pointer",
+      "source_id": "S15",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "missing_fields": [
+        "event_counts_or_denominators",
+        "statistical_model_details",
+        "design_registration_or_protocol",
+        "formal_bias_and_certainty_judgement"
+      ],
+      "next_action": "优先回到全文/补充材料与注册版本核对事件、分母、模型和预设终点；保留访问范围与不确定性。"
+    }
+  ],
+  "priority_definition": {
+    "0": "临床痴呆、ADRD或MCI/痴呆终点",
+    "1": "任务、认知或背景终点"
+  },
+  "counts": {
+    "records": 18,
+    "priority_0": 6,
+    "with_event_counts": 2,
+    "with_model_details": 6
+  }
+}
