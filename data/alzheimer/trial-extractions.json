@@ -1467,7 +1467,7 @@
       "effect_summary": "原始试验HR0.92（95%CI0.71至1.19，P0.54）；扩展随访中位10.3年：干预217/1871（11.6%）vs对照192/1620（11.9%），HR0.99（95%CI0.89至1.10，P0.92）",
       "limitations_and_pending": "诊所整群随机；非认知游戏试验；扩展随访是临床全因痴呆终点但不能证明脑部训练效果；原始Lancet全文及完整整群分析表待核对",
       "access_scope": "PubMed摘要；JAMA Neurology开放网页Research Letter（扩展随访方法与结果可核对）；原始Lancet全文仍受访问限制",
-      "audit_status": "partial_extraction_not_final",
+      "audit_status": "structured_method_review_preliminary",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/27474376/",
       "intervention_role": "background",
       "effects": [
@@ -1527,36 +1527,38 @@
             "pending": "判定盲法、死亡、缺失和后续同队列"
           }
         ],
-        "tool": "RoB 2（整群随机试验映射；尚未完成正式裁决）",
+        "tool": "RoB 2（整群随机试验；结构化预审）",
         "overall_signal": "some_concerns",
         "not_a_final_rating": true,
         "domain_judgement": [
           {
             "domain": "randomization_or_assignment",
             "judgement": "some_concerns",
-            "reason": "研究有随机或活动分配信息，但序列、隐藏和逐组流转仍待完整核对"
+            "reason": "诊所/医疗中心整群随机；扩展文章说明计算机生成序列，但完整分配隐藏和聚类分析流程仍需原始全文核对"
           },
           {
             "domain": "deviations_and_adherence",
             "judgement": "some_concerns",
-            "reason": "实际接触、依从性、偏好或实施差异可能影响比较，且干预并非认知游戏本身"
+            "reason": "开放标签、护士实施与常规照护接触强度不同；无法盲法参与者，需核对实际实施偏离"
           },
           {
             "domain": "missing_outcome_data",
-            "judgement": "some_concerns",
-            "reason": "长期退出、死亡或完成者分析需要逐项核对"
+            "judgement": "low_concerns",
+            "reason": "扩展随访报告死亡和缺失人数，并使用Cox及Fine-Gray模型；仍需核对各组完整失访流程"
           },
           {
             "domain": "outcome_measurement",
-            "judgement": "some_concerns",
-            "reason": "临床、MCI、认知或短期活动终点的直接性不同，不能互相替代"
+            "judgement": "low_concerns",
+            "reason": "痴呆结局由对分组设盲的专家委员会核验；但原始试验判定流程仍需核对"
           },
           {
             "domain": "selective_reporting",
-            "judgement": "unclear",
-            "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
+            "judgement": "some_concerns",
+            "reason": "扩展文章报告主要长期结局和预设亚组，但完整注册方案、全部时间点及多重比较仍待核对"
           }
-        ]
+        ],
+        "formal_status": "pending_final_adjudication",
+        "evidence_basis": "JAMA Neurology 2021扩展随访网页全文：Methods/Results/Discussion；不是最终双人裁决"
       },
       "event_counts_status": "extended_followup_extracted_original_full_tables_pending"
     },
