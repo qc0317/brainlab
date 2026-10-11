@@ -159,6 +159,12 @@ for x in EXTRACTS['studies']:
  if x.get('analysis_flow'):
   f=x['analysis_flow'];labels={'experimental_1':'实验1','experimental_2':'实验2','control':'活动对照'}
   b+='<h3>登记与纳入分析</h3>'+table([['阶段','人数'],['初始登记',str(f['registered'])],['纳入分析',str(f['included_analysis'])]]+[[labels.get(k,k),str(v)] for k,v in f['analysis_groups'].items()])+'<p>'+esc(f['inclusion'])+'</p><p>'+esc(f['note'])+'</p><p class="sub">'+esc(f['source_location'])+'</p>'
+  for key in ('allocation_note','analysis_population_definition'):
+   if f.get(key):b+='<p>'+esc(f[key])+'</p>'
+  if f.get('sessions_mean_by_analysis_group'):b+=table([['完成分析组别','平均课程次数']]+[[labels.get(k,k),str(v)] for k,v in f['sessions_mean_by_analysis_group'].items()])
+ if x.get('statistical_methods'):
+  f=x['statistical_methods'];labels={'event_timing':'事件时间','model':'统计模型','randomized_contrast':'随机比较','sessions_analysis':'出席次数分析','covariate_selection':'调整变量选择','attrition_sensitivity':'失访敏感性','source_location':'原文位置'}
+  b+='<h3>统计方法与解释范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
  if x.get('participant_flow'):
   f=x['participant_flow'];b+='<h3>筛选、随机与分析人数</h3>'+table([['阶段','人数'],['筛选',str(f['screened'])],['随机分配',str(f['randomized'])]])
   labels={'intervention':'综合干预','control':'对照','hearing':'听力干预','education':'健康教育'}

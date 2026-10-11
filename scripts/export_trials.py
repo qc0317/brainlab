@@ -28,7 +28,7 @@ for study in x['studies']:
  if study.get('effect_definition'):
   e=study['effect_definition'];lines+=['### '+study['id']+'｜效应定义','',e['numerator'],'',e['denominator'],'',e['source_location']+'；'+e['ci_status'],'']
 lines+=['','## 人数、安全性与历史方案','']
-labels={'screened':'筛选人数','randomized':'随机人数','groups':'分组','modified_itt':'修正意向治疗人数','modified_itt_definition':'分析纳入条件','label':'组别','unit':'记录单位','counts':'至少一次不良事件人数','musculoskeletal_pain':'肌肉骨骼疼痛人数','source_location':'原文位置','note':'说明','endpoint':'终点','threshold':'阈值','proportions':'超过阈值比例','limitations':'限制','first_booster_timing':'第一次加强时间','random_subsample_fraction':'随机抽样比例','initial_attendance_eligibility_fraction':'出席资格比例','planned_sessions':'课程次数','minutes_per_session':'每次分钟','delivery_weeks':'安排周数','interpretation':'解释范围','pending':'待核'}
+labels={'allocation_note':'登记时分配与完成者差异','analysis_population_definition':'实际分析人群定义','sessions_mean_by_analysis_group':'完成者平均课程次数','experimental_1':'实验1','experimental_2':'实验2','control':'活动对照','event_timing':'事件时间','model':'模型','randomized_contrast':'随机比较','sessions_analysis':'实际课程分析','covariate_selection':'调整变量筛选','attrition_sensitivity':'失访敏感性','screened':'筛选人数','randomized':'随机人数','groups':'分组','modified_itt':'修正意向治疗人数','modified_itt_definition':'分析纳入条件','label':'组别','unit':'记录单位','counts':'至少一次不良事件人数','musculoskeletal_pain':'肌肉骨骼疼痛人数','source_location':'原文位置','note':'说明','endpoint':'终点','threshold':'阈值','proportions':'超过阈值比例','limitations':'限制','first_booster_timing':'第一次加强时间','random_subsample_fraction':'随机抽样比例','initial_attendance_eligibility_fraction':'出席资格比例','planned_sessions':'课程次数','minutes_per_session':'每次分钟','delivery_weeks':'安排周数','interpretation':'解释范围','pending':'待核'}
 def extract_rows(value,prefix=''):
  result=[]
  if isinstance(value,dict):
@@ -38,7 +38,7 @@ def extract_rows(value,prefix=''):
  else:result.append('|'+cell(prefix)+'|'+cell(value)+'|')
  return result
 for study in x['studies']:
- for key,title in [('analysis_flow','登记与分析'),('participant_flow','样本流程'),('safety','安全性人数'),('individual_change','个体变化阈值'),('historical_protocol','历史方案')]:
+ for key,title in [('analysis_flow','登记与分析'),('statistical_methods','统计方法与解释范围'),('participant_flow','样本流程'),('safety','安全性人数'),('individual_change','个体变化阈值'),('historical_protocol','历史方案')]:
   if study.get(key):lines+=['### '+study['id']+'｜'+title,'','|字段|原提取记录|','|---|---|']+extract_rows(study[key])+['']
 lines+=['','[下载结构化JSON](../../data/alzheimer/trial-extractions.json)']
 for study in x['studies']:

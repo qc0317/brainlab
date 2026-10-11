@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 112583,
-  "visible_chars": 131675,
+  "counted_han_chars": 114449,
+  "visible_chars": 133911,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -19,8 +19,8 @@
     {
       "id": "ad-biomarkers",
       "title": "07｜临床诊断与生物学定义：两个框架的分歧",
-      "han_chars": 3054,
-      "visible_chars": 3618,
+      "han_chars": 3198,
+      "visible_chars": 3779,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -67,8 +67,8 @@
     {
       "id": "ad-navigation",
       "title": "05｜空间导航：路线、地图与路径整合",
-      "han_chars": 3164,
-      "visible_chars": 3949,
+      "han_chars": 3015,
+      "visible_chars": 3759,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -155,24 +155,24 @@
     {
       "id": "ad-evidence-active5",
       "title": "06｜ACTIVE 五年：没有发现痴呆发生率差异",
-      "han_chars": 1561,
-      "visible_chars": 1941,
+      "han_chars": 1566,
+      "visible_chars": 1946,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-evidence-active10",
       "title": "07｜ACTIVE 十年：速度训练的积极信号",
-      "han_chars": 2179,
-      "visible_chars": 2606,
+      "han_chars": 2517,
+      "visible_chars": 2987,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-evidence-active20",
       "title": "08｜ACTIVE 二十年：理赔诊断、加强训练与再分析",
-      "han_chars": 3600,
-      "visible_chars": 4602,
+      "han_chars": 3654,
+      "visible_chars": 4672,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -187,8 +187,8 @@
     {
       "id": "ad-evidence-lampit",
       "title": "09｜正常老年人训练元分析：小效应、异质性与适用范围",
-      "han_chars": 4126,
-      "visible_chars": 5553,
+      "han_chars": 4130,
+      "visible_chars": 5560,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -259,8 +259,8 @@
     {
       "id": "ad-evidence-mapt",
       "title": "13｜MAPT：总体结果与亚组假说怎样分开",
-      "han_chars": 1470,
-      "visible_chars": 1756,
+      "han_chars": 1473,
+      "visible_chars": 1765,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -283,16 +283,16 @@
     {
       "id": "ad-evidence-achieve",
       "title": "16｜ACHIEVE：听力干预的总体结果与人群差异",
-      "han_chars": 1281,
-      "visible_chars": 1537,
+      "han_chars": 1286,
+      "visible_chars": 1541,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-transfer",
       "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
-      "han_chars": 2112,
-      "visible_chars": 2384,
+      "han_chars": 2487,
+      "visible_chars": 2850,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -307,8 +307,8 @@
     {
       "id": "ad-evidence-pointer",
       "title": "12｜US POINTER：结构化支持的增量收益，不是游戏的独立疗效",
-      "han_chars": 1454,
-      "visible_chars": 1743,
+      "han_chars": 1460,
+      "visible_chars": 1751,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -371,8 +371,8 @@
     {
       "id": "ad-sleep",
       "title": "11｜睡眠与疾病：长期关联和双向关系",
-      "han_chars": 2028,
-      "visible_chars": 2380,
+      "han_chars": 2046,
+      "visible_chars": 2399,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -395,16 +395,16 @@
     {
       "id": "ad-evidence-synapse",
       "title": "17｜Synapse：新技能挑战与情景记忆，不能借名证明突触修复",
-      "han_chars": 3476,
-      "visible_chars": 4062,
+      "han_chars": 3552,
+      "visible_chars": 4143,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-social-education",
       "title": "12｜教育、活动与社交：有价值的经历不自动等于预防证据",
-      "han_chars": 1689,
-      "visible_chars": 1913,
+      "han_chars": 1723,
+      "visible_chars": 1951,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -435,8 +435,8 @@
     {
       "id": "ad-neuropsychology",
       "title": "11｜认知测验与日常功能：分数怎样解释",
-      "han_chars": 1057,
-      "visible_chars": 1158,
+      "han_chars": 1480,
+      "visible_chars": 1624,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -475,16 +475,16 @@
     {
       "id": "ad-evidence-games",
       "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
-      "han_chars": 3510,
-      "visible_chars": 4144,
+      "han_chars": 3528,
+      "visible_chars": 4163,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
     {
       "id": "ad-synthesis",
       "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
-      "han_chars": 2112,
-      "visible_chars": 2633,
+      "han_chars": 2624,
+      "visible_chars": 3325,
       "excluded_repeated_han": 0,
       "status": "draft"
     }

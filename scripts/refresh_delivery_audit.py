@@ -29,3 +29,22 @@ end = text.index('计数只取', start)
 table = '## 四部分正文规模\n\n|阅读主线|计数汉字|\n|---|---|\n'
 table += ''.join('|'+p['title']+'|'+format(p['han_chars'], ',')+'|\n' for p in audit['part_counts'])
 report.write_text(text[:start]+table+'\n'+text[end:])
+
+# Preserve the original acquisition snapshot separately from current source metadata.
+literature_path = ROOT / 'data/alzheimer/literature-audit.json'
+literature = json.loads(literature_path.read_text())
+if 'historical_acquisition_snapshot' not in literature:
+    literature['historical_acquisition_snapshot'] = {
+        'date': literature.get('date'),
+        'scope': literature.get('scope'),
+        'items': literature.pop('items', []),
+        'interpretation': 'Historical XML retrieval results; unavailable here does not describe current reading access.',
+    }
+literature['status'] = 'ongoing'
+literature['scope'] = 'Current canonical access metadata plus dated historical acquisition snapshot; no full scientific review certification'
+literature['current_source_metadata'] = [
+    {k: source[k] for k in ('id', 'title', 'url', 'reviewed', 'access', 'note', 'license', 'license_url') if k in source}
+    for source in knowledge['sources']
+]
+literature['metadata_refresh_rule'] = 'Regenerated from data/knowledge.json; reviewed dates and access scope retained, not upgraded by building.'
+literature_path.write_text(json.dumps(literature, ensure_ascii=False, indent=2)+'\n')

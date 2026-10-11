@@ -1,59 +1,1027 @@
 {
   "date": "2026-10-09",
   "status": "ongoing",
-  "scope": "Core XML access and license verification; not a completed systematic review",
-  "items": [
+  "scope": "Current canonical access metadata plus dated historical acquisition snapshot; no full scientific review certification",
+  "historical_acquisition_snapshot": {
+    "date": "2026-10-09",
+    "scope": "Core XML access and license verification; not a completed systematic review",
+    "items": [
+      {
+        "pmcid": "PMC5700828",
+        "title": "Speed of processing training results in lower risk of dementia",
+        "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
+        "status": "downloaded-for-review",
+        "tables": 3
+      },
+      {
+        "pmcid": "PMC3384749",
+        "status": "unavailable"
+      },
+      {
+        "pmcid": "PMC4055506",
+        "status": "unavailable"
+      },
+      {
+        "pmcid": "PMC4236015",
+        "title": "Computerized Cognitive Training in Cognitively Healthy Older Adults: A Systematic Review and Meta-Analysis of Effect Modifiers",
+        "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.",
+        "status": "downloaded-for-review",
+        "tables": 1
+      },
+      {
+        "pmcid": "PMC4154531",
+        "status": "unavailable"
+      },
+      {
+        "pmcid": "PMC10529382",
+        "status": "unavailable"
+      },
+      {
+        "pmcid": "PMC12305445",
+        "status": "unavailable"
+      },
+      {
+        "pmcid": "PMC12884427",
+        "title": "Impact of cognitive training on claims‐based diagnosed dementia over 20 years: evidence from the ACTIVE study",
+        "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
+        "status": "downloaded-for-review",
+        "tables": 3
+      },
+      {
+        "pmcid": "PMC11350039",
+        "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
+        "license": "This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
+        "status": "downloaded-for-review",
+        "tables": 7
+      },
+      {
+        "pmcid": "PMC8477304",
+        "status": "unavailable"
+      }
+    ],
+    "interpretation": "Historical XML retrieval results; unavailable here does not describe current reading access."
+  },
+  "current_source_metadata": [
     {
-      "pmcid": "PMC5700828",
-      "title": "Speed of processing training results in lower risk of dementia",
-      "license": "This is an open access article under the CC BY-NC-ND license (http://creativecommons.org/licenses/by-nc-nd/4.0/).",
-      "status": "downloaded-for-review",
-      "tables": 3
+      "id": "S01",
+      "title": "WHO：Dementia",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/dementia",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
     },
     {
-      "pmcid": "PMC3384749",
-      "status": "unavailable"
+      "id": "S02",
+      "title": "NIA：阿尔茨海默病脑内变化",
+      "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
     },
     {
-      "pmcid": "PMC4055506",
-      "status": "unavailable"
+      "id": "S03",
+      "title": "Jack 等：修订诊断与分期标准",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "生物学定义框架；不是面向健康用户的筛查操作指南。"
     },
     {
-      "pmcid": "PMC4236015",
-      "title": "Computerized Cognitive Training in Cognitively Healthy Older Adults: A Systematic Review and Meta-Analysis of Effect Modifiers",
-      "license": "This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.",
-      "status": "downloaded-for-review",
-      "tables": 1
+      "id": "S04",
+      "title": "Kampmann：选择性易损机制",
+      "url": "https://www.nature.com/articles/s41583-024-00806-0",
+      "reviewed": "2026-10-09",
+      "access": "摘要与图题",
+      "note": "全文有访问限制，本版不声称完成全文提取。"
     },
     {
-      "pmcid": "PMC4154531",
-      "status": "unavailable"
+      "id": "S05",
+      "title": "Vogel 等：Tau 网络传播模型",
+      "url": "https://www.nature.com/articles/s41467-020-15701-2",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "有 2021 年作者更正；模型拟合不等于证实传播路径。"
     },
     {
-      "pmcid": "PMC10529382",
-      "status": "unavailable"
+      "id": "S06",
+      "title": "Düzel 与 Kreutz：情景记忆网络失调",
+      "url": "https://www.nature.com/articles/s41582-026-01189-9",
+      "reviewed": "2026-10-09",
+      "access": "摘要、正文可访问部分与参考文献",
+      "note": "回路利用框架是理论提案，不能作为已验证游戏处方。"
     },
     {
-      "pmcid": "PMC12305445",
-      "status": "unavailable"
+      "id": "S07",
+      "title": "Luan 等：连接组、p-tau 与突触损失",
+      "url": "https://www.nature.com/articles/s41467-025-61497-4",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
     },
     {
-      "pmcid": "PMC12884427",
-      "title": "Impact of cognitive training on claims‐based diagnosed dementia over 20 years: evidence from the ACTIVE study",
-      "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/ This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
-      "status": "downloaded-for-review",
-      "tables": 3
+      "id": "S08",
+      "title": "Hong 等：补体与小胶质细胞介导突触丢失",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27033548/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与研究概要",
+      "note": ""
     },
     {
-      "pmcid": "PMC11350039",
-      "title": "Revised criteria for diagnosis and staging of Alzheimer's disease: Alzheimer's Association Workgroup",
-      "license": "This is an open access article under the terms of the  http://creativecommons.org/licenses/by-nc-nd/4.0/  License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.",
-      "status": "downloaded-for-review",
-      "tables": 7
+      "id": "S09",
+      "title": "C1q、胶质细胞与 Tau 模型突触清除",
+      "url": "https://www.nature.com/articles/s43587-022-00281-1",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问正文",
+      "note": ""
     },
     {
-      "pmcid": "PMC8477304",
-      "status": "unavailable"
+      "id": "S10",
+      "title": "Montagne 等：APOE4 与血脑屏障失调",
+      "url": "https://www.nature.com/articles/s41586-020-2247-3",
+      "reviewed": "2026-10-11",
+      "access": "出版商摘要；作者机构原始稿Participants、主文部分、统计方法与图3文字说明已读；原图及完整补充模型待核",
+      "note": "435总样本，DCE-MRI245、脑脊液350、两者172；纵向146。图3中位数分组仅展示，模型用连续预测量；部分分析未校正多重比较。作者稿使用条件不作为转载全文/图片许可。"
+    },
+    {
+      "id": "S11",
+      "title": "Coughlan 等：空间导航与阿尔茨海默病",
+      "url": "https://www.nature.com/articles/s41582-018-0031-x",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问概要",
+      "note": ""
+    },
+    {
+      "id": "S12",
+      "title": "病理负担下的认知韧性",
+      "url": "https://www.nature.com/articles/s41582-022-00642-9",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问概要",
+      "note": ""
+    },
+    {
+      "id": "S13",
+      "title": "Vockert等（2024）：记忆形成活动与阿尔茨海默病理下的认知储备",
+      "url": "https://www.nature.com/articles/s41467-024-53360-9",
+      "reviewed": "2026-10-11",
+      "access": "出版商原文Abstract、Results样本及模式描述、Methods样本与模型拟合、Limitations；补充资料及全部纵向结果未完整审核",
+      "note": "DOI10.1038/s41467-024-53360-9；DELCODE观察研究，非认知训练试验；490最终fMRI、其中232有CSF及病理负荷分数。",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    {
+      "id": "S14",
+      "title": "LEV-AD：左乙拉西坦交叉试验",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8477304/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要、正文索引与部分正文；完整统计及补充材料待审",
+      "note": "总体主要终点不显著；亚组结果与总体分别记录。"
+    },
+    {
+      "id": "S15",
+      "title": "US POINTER：结构化多领域干预",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12305445/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "结构化与自主多领域方案比较，不能隔离游戏组分；两年认知终点。"
+    },
+    {
+      "id": "S16",
+      "title": "ACTIVE：20 年理赔数据随访",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/",
+      "reviewed": "2026-10-11",
+      "access": "原文XML、方法与Table 1—3；官方补充包s003的Table S4选定Fine–Gray单元格及S5计划，s004第一次加强方案已读；全部模型与资格流程仍待审核",
+      "note": "已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "S17",
+      "title": "Dickens：ACTIVE 随访再分析",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42339399/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "多重校正后区间含1，同时探索共同保护模式；仅已发表汇总结果再分析，非独立重复。"
+    },
+    {
+      "id": "S18",
+      "title": "Sala 等：认知训练二阶元分析",
+      "url": "https://doi.org/10.1525/collabra.203",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S19",
+      "title": "Lancet 2024：痴呆预防、干预与照护",
+      "url": "https://doi.org/10.1016/S0140-6736(24)01296-0",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S20",
+      "title": "WHO 2026：风险降低指南第二版",
+      "url": "https://www.who.int/publications/i/item/9789240123557",
+      "reviewed": "2026-10-09",
+      "access": "官方出版概要",
+      "note": "未逐条提取推荐强度；本版不能将其当作某款游戏的背书。"
+    },
+    {
+      "id": "S21",
+      "title": "NIA：预防阿尔茨海默病，已知什么",
+      "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/preventing-alzheimers-disease-what-do-we-know",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S22",
+      "title": "BrainFacts：主要脑部结构",
+      "url": "https://www.brainfacts.org/brain-anatomy-and-function/anatomy/2022/major-brain-landmarks-110822",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S23",
+      "title": "BrainFacts：记忆的不同侧面",
+      "url": "https://www.brainfacts.org/thinking-sensing-and-behaving/learning-and-memory/2012/different-facets-of-memory",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S24",
+      "title": "Duolingo：新版首页与学习路径",
+      "url": "https://blog.duolingo.com/new-duolingo-home-screen-design/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "历史发布版本；本次观察的是官方文章与配图，不是当前原生 App。"
+    },
+    {
+      "id": "S25",
+      "title": "Duolingo：改进连续学习机制",
+      "url": "https://blog.duolingo.com/improving-the-streak/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "相对指标、内部实验；不能迁移为 BrainLab 效果预测。"
+    },
+    {
+      "id": "S26",
+      "title": "Duolingo：连续学习如何建立习惯",
+      "url": "https://blog.duolingo.com/how-duolingo-streak-builds-habit/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S27",
+      "title": "Duolingo：从 Hearts 到 Energy",
+      "url": "https://blog.duolingo.com/duolingo-energy/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "官方描述仍提及小范围测试；按客户端、地区、订阅和实验组区分。"
+    },
+    {
+      "id": "S28",
+      "title": "Duolingo：教学效果研究框架",
+      "url": "https://blog.duolingo.com/duolingo-efficacy-research-framework/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S29",
+      "title": "Duolingo：形状语言与艺术风格",
+      "url": "https://blog.duolingo.com/shape-language-duolingos-art-style/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S30",
+      "title": "Duolingo：品牌标志规范",
+      "url": "https://design.duolingo.com/identity/logos",
+      "reviewed": "2026-10-09",
+      "access": "网页",
+      "note": "访问年份；原发布年份未确认。"
+    },
+    {
+      "id": "S31",
+      "title": "Keep：App Store 官方产品说明",
+      "url": "https://apps.apple.com/cn/app/keep-ai-%E8%BF%90%E5%8A%A8%E6%95%99%E7%BB%83/id952694580?platform=ipad",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "2026-10-09 访问；正文称 Keep 9.1。营销功能描述不是实际体验验证。"
+    },
+    {
+      "id": "S32",
+      "title": "Keep：官方课程分类目录",
+      "url": "https://www.calorietech.com/workouthashtags/6188a335bbe52400013481f6",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "2026-10-09 桌面 Web 观察；不同于原生 App。截图为有限界面研究样本。"
+    },
+    {
+      "id": "S33",
+      "title": "Keep：8 分钟课程详情样本",
+      "url": "https://www.calorietech.com/plans/5f59a74a1310a36ec17af792",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": "观察到 K1、8 分钟与打开 App 入口；未进入实际跟练播放器。"
+    },
+    {
+      "id": "S34",
+      "title": "Lecanemab：早期阿尔茨海默病试验",
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2212948",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问正文",
+      "note": ""
+    },
+    {
+      "id": "S35",
+      "title": "认知训练与脑功能改变元分析",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12717087/",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S36",
+      "title": "NIA：记忆问题是否都是阿尔茨海默病",
+      "url": "https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/do-memory-problems-always-mean-alzheimers-disease",
+      "reviewed": "2026-10-09",
+      "access": "全文或正文",
+      "note": ""
+    },
+    {
+      "id": "S37",
+      "title": "NIA：什么是阿尔茨海默病",
+      "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/what-alzheimers-disease",
+      "reviewed": "2026-10-09",
+      "access": "正文检索快照",
+      "note": "2025-03-04 复核日期；直接访问偶有 405，已取得正文检索快照。"
+    },
+    {
+      "id": "S38",
+      "title": "NIA：痴呆的症状、类型与诊断",
+      "url": "https://www.nia.nih.gov/health/alzheimers-and-dementia/what-dementia-symptoms-types-and-diagnosis",
+      "reviewed": "2026-10-09",
+      "access": "正文检索快照",
+      "note": "年份为访问年份，不表示原始发布于 2026。"
+    },
+    {
+      "id": "S39",
+      "title": "NIA：阿尔茨海默病的原因",
+      "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-causes-alzheimers-disease",
+      "reviewed": "2026-10-09",
+      "access": "正文检索快照",
+      "note": "年份为访问年份；区分多因素风险与罕见致病变异。"
+    },
+    {
+      "id": "S40",
+      "title": "NIA：什么是轻度认知障碍",
+      "url": "https://www.nia.nih.gov/health/memory-loss-and-forgetfulness/what-mild-cognitive-impairment",
+      "reviewed": "2026-10-09",
+      "access": "正文检索快照",
+      "note": "年份为访问年份；没有采用统一个人转归百分比。"
+    },
+    {
+      "id": "S41",
+      "title": "NIA：老年患者认知障碍评估",
+      "url": "https://www.nia.nih.gov/health/health-care-professionals-information/assessing-cognitive-impairment-older-patients",
+      "reviewed": "2026-10-09",
+      "access": "正文检索可访问部分",
+      "note": "详细临床流程仍需与专科指南全文核验。"
+    },
+    {
+      "id": "S42",
+      "title": "Unverzagt 等：ACTIVE 五年痴呆发生率",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22400989/",
+      "reviewed": "2026-10-11",
+      "access": "原始摘要；PMC索引提供Methods及Table 1—5文本；机构PDF下载超时，尚未视觉核对表格",
+      "note": "ACTIVE的五年次级分析；合并训练组调整HR1.00（0.71—1.40）；终点定义、分母与后续版本不同。全文和补充方法审核未完成。"
+    },
+    {
+      "id": "S43",
+      "title": "Edwards 等：ACTIVE 十年速度训练与痴呆",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29201994/",
+      "reviewed": "2026-10-09",
+      "access": "原文 XML、摘要与数据表",
+      "note": "CC BY-NC-ND 4.0；原文可非商业分发但不据此公开全文翻译。数据审核继续。",
+      "license": "CC BY-NC-ND 4.0"
+    },
+    {
+      "id": "S44",
+      "title": "Lampit 等：正常老年人计算机认知训练元分析",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25405755/",
+      "reviewed": "2026-10-11",
+      "access": "出版商正文与原始PDF主要结果；Table S5和Dataset S1已读取；本库独立复算视觉空间8行及总体52/51数据集；原试验重新编码与全方法审核待完成",
+      "note": "51篇文章、52个数据集；CC BY，允许在署名与标注修改的条件下使用与翻译。",
+      "license": "CC BY"
+    },
+    {
+      "id": "S45",
+      "title": "Gates 等：正常老年人至少12周计算机训练",
+      "url": "https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life",
+      "reviewed": "2026-10-10",
+      "access": "官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核",
+      "note": "纳入时长限定影响适用范围；不能代表所有短期或长期训练。"
+    },
+    {
+      "id": "S46",
+      "title": "Gates 等：MCI 人群训练与痴呆预防",
+      "url": "https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment",
+      "reviewed": "2026-10-10",
+      "access": "官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核",
+      "note": "8 项试验、660 人；无试验提供痴呆发生数据。"
+    },
+    {
+      "id": "S47",
+      "title": "Ngandu 等：FINGER 两年多领域试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25771249/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与研究机构元数据",
+      "note": "全文与数据表待提取；不能隔离认知训练组分。"
+    },
+    {
+      "id": "S48",
+      "title": "Andrieu 等：MAPT 三年随机试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28359749/",
+      "reviewed": "2026-10-09",
+      "access": "原始论文摘要检索快照；全文待逐表审核",
+      "note": "主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。"
+    },
+    {
+      "id": "S49",
+      "title": "Moll van Charante 等：preDIVA 六年试验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27474376/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要及作者机构研究记录",
+      "note": "六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。"
+    },
+    {
+      "id": "S50",
+      "title": "Williamson 等：SPRINT-MIND 认知终点",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30688979/",
+      "reviewed": "2026-10-09",
+      "access": "摘要",
+      "note": "血压干预；MCI 和可能痴呆的统计结果不同。"
+    },
+    {
+      "id": "S51",
+      "title": "Lin 等：ACHIEVE 听力干预试验",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10529382/",
+      "reviewed": "2026-10-09",
+      "access": "原文可访问部分与摘要",
+      "note": "总体主要结果和按招募来源的分析须分开；不是脑训练试验。"
+    },
+    {
+      "id": "S52",
+      "title": "Park 等：Synapse 新技能学习项目",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24214244/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要及PMC正文样本、对照、认知分析与多重校正已读取；补充表及效应量定义待审",
+      "note": "不是 AD 发病试验；全文尚未提取。"
+    },
+    {
+      "id": "S53",
+      "title": "Rebok 等：ACTIVE 十年认知与功能结果",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24417410/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "与其他 ACTIVE 随访来自同一试验，不算独立重复。"
+    },
+    {
+      "id": "S54",
+      "title": "Dubois 等：IWG 临床—生物学定义",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12010406/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据检索快照",
+      "note": "全文提取待完成；与 AA 2024 生物学定义立场并列。"
+    },
+    {
+      "id": "S55",
+      "title": "Sperling 等：临床前阿尔茨海默病研究框架",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21514248/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "历史研究框架，和 2024 标准分开；不是健康人的自我筛查指南。"
+    },
+    {
+      "id": "S56",
+      "title": "Bateman 等：常染色体显性遗传 AD 的临床与标志物变化",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22784036/",
+      "reviewed": "2026-10-09",
+      "access": "摘要/期刊概要与元数据",
+      "note": "特殊遗传人群的时间模型不能直接用于散发性 AD 或个人倒计时。"
+    },
+    {
+      "id": "S57",
+      "title": "Jessen 等：主观认知下降研究框架",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24798886/",
+      "reviewed": "2026-10-09",
+      "access": "摘要",
+      "note": "主观担忧不等于 AD；研究特征不是个人诊断规则。"
+    },
+    {
+      "id": "S58",
+      "title": "McKhann 等：AD 痴呆临床诊断建议",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21514250/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "历史标准，用于解释临床问题；当前专科诊断还需与更新指南核对。"
+    },
+    {
+      "id": "S59",
+      "title": "Crutch 等：后部皮质萎缩共识分类",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28259709/",
+      "reviewed": "2026-10-09",
+      "access": "摘要",
+      "note": "区分综合征层与病因层，详细表型全文待提取。"
+    },
+    {
+      "id": "S60",
+      "title": "DETeCD-ADRD：专科认知与病因评估指南摘要",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11772716/",
+      "reviewed": "2026-10-09",
+      "access": "正文可访问部分与摘要",
+      "note": "分层评估认知功能状态、综合征和可能病因；本专题不提供个体诊断操作。"
+    },
+    {
+      "id": "S61",
+      "title": "Imaging the evolution and pathophysiology of Alzheimer disease",
+      "url": "https://www.nature.com/articles/s41583-018-0067-3",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问概要",
+      "note": "不同成像指标测量不同层次，不能相互替代。"
+    },
+    {
+      "id": "S62",
+      "title": "Imaging Biomarkers in Alzheimer’s Disease: A Practical Guide for Clinicians",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6159632/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问正文部分",
+      "note": "群体萎缩模式不自动形成单个病例的诊断。"
+    },
+    {
+      "id": "S63",
+      "title": "Bellenguez 等：AD 及相关痴呆的遗传关联",
+      "url": "https://www.nature.com/articles/s41588-022-01024-z",
+      "reviewed": "2026-10-09",
+      "access": "摘要、元数据与研究机构原文存档概要",
+      "note": "临床病例与代理病例混合；风险位点不等于已证明的单一致病基因。全文许可仍待核验。"
+    },
+    {
+      "id": "S64",
+      "title": "Weintraub 等：AD 神经心理学表现",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3312395/",
+      "reviewed": "2026-10-09",
+      "access": "可访问正文检索片段",
+      "note": "用于记忆与网络表现的背景；原始实验需要继续追溯。"
+    },
+    {
+      "id": "S65",
+      "title": "Gorno-Tempini 等：原发性进行性失语分类",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3059138/",
+      "reviewed": "2026-10-09",
+      "access": "可访问正文与摘要",
+      "note": "分开临床综合征、影像支持与病理层；PPA 不等同 AD。"
+    },
+    {
+      "id": "S66",
+      "title": "Dubois 等：IWG 2021 临床诊断建议",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33933186/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问正文片段",
+      "note": "与 AA 2024 生物学定义并列；论文强调临床表型与标志物结合。"
+    },
+    {
+      "id": "S67",
+      "title": "Grober 等：自由与提示回忆识别轻微痴呆",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20683186/",
+      "reviewed": "2026-10-11",
+      "access": "PubMed原始摘要及PMC索引Methods/Results/评分说明；原图与完整模型待审",
+      "note": "244名分析患者，Methods前瞻随访249人及5例中度病例排除分别记录；固定90%特异度时自由/总回忆敏感度78%/54%。诊断研究，不是训练或病理确认AD预防证据。"
+    },
+    {
+      "id": "S68",
+      "title": "Goate 等：APP 变异与家族性 AD 共分离",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1671712/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "历史发现，不代表所有 APP 变异均致病。"
+    },
+    {
+      "id": "S69",
+      "title": "Sherrington 等：早发家族性 AD 相关基因",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7596406/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "历史 PSEN1 发现；变异解释须区分具体变异的证据。"
+    },
+    {
+      "id": "S70",
+      "title": "Rogaev 等：染色体1相关家族性 AD 基因",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7651536/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "用于 PSEN2 历史线索；不提供个人遗传咨询或检测解读。"
+    },
+    {
+      "id": "S71",
+      "title": "Palmqvist 等：初级与专科诊疗中血液 AD 标志物",
+      "url": "https://jamanetwork.com/journals/jama/fullarticle/2821669",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问原文部分",
+      "note": "1213 名有认知症状并接受评估的瑞典患者；不能直接推广为一般无症状筛查。"
+    },
+    {
+      "id": "S72",
+      "title": "AA 修订标准的临床与药物开发应用",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11694534/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与可访问正文片段",
+      "note": "解释 Core1 与临床用途；不把无症状研究分层转为日常自我检测。"
+    },
+    {
+      "id": "S73",
+      "title": "Gorno-Tempini 等：logopenic/语音型 PPA 的认知与影像",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2676989/",
+      "reviewed": "2026-10-11",
+      "access": "原始摘要及PMC主文索引Subjects/Discussion；逐例测验表、原图和补充材料待核",
+      "note": "6例：美国4、意大利2；按能完成多次测试和有扫描选择。MRI/SPECT各自测量不同；美国4例PiB PET线索不等于全部病例尸检确认AD。未实施游戏训练。"
+    },
+    {
+      "id": "S74",
+      "title": "Henry 等：AD 型痴呆言语流畅性元分析",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15178173/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与元数据",
+      "note": "153 项研究、15990 人；原文效应与测量差异待进一步提取。"
+    },
+    {
+      "id": "S75",
+      "title": "Amieva 等：AD 中的抑制功能",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14645147/",
+      "reviewed": "2026-10-09",
+      "access": "摘要",
+      "note": "区分多种抑制机制，并检查速度等其他缺陷的解释；全文逐任务提取待完成。"
+    },
+    {
+      "id": "S76",
+      "title": "Ossenkoppele 等：AD 行为/执行型表型",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26141491/",
+      "reviewed": "2026-10-11",
+      "access": "原始机构PDF：摘要、Participants、MRI方法、区域结果与讨论部分已读；原图视觉及补充表待核",
+      "note": "DOI 10.1093/brain/awv191；75名行为/执行型AD独立患者，55与29两类含9人重叠。MRI分母不同；作者PDF标明All rights reserved，本库仅原创转述及事实提取，未转载图片。"
+    },
+    {
+      "id": "S77",
+      "title": "Selkoe 与 Hardy（2016）：淀粉样蛋白假说二十五年后的讨论",
+      "url": "https://doi.org/10.15252/emmm.201606210",
+      "reviewed": "2026-10-09",
+      "access": "开放全文 · CC BY 4.0",
+      "note": "讨论模型及反对意见；不是训练试验。"
+    },
+    {
+      "id": "S78",
+      "title": "Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18568035/",
+      "reviewed": "2026-10-09",
+      "access": "摘要、图注与 PMC 原文入口",
+      "note": "PMID 18568035；DOI 10.1038/nm1782。"
+    },
+    {
+      "id": "S79",
+      "title": "Grundke-Iqbal 等（1986）：阿尔茨海默病细胞骨架病理中的异常 Tau 磷酸化",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3088567/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与 PMC 原文入口",
+      "note": "PMID 3088567；DOI 10.1073/pnas.83.13.4913；全文复用许可待核。"
+    },
+    {
+      "id": "S80",
+      "title": "de Calignon 等（2012）：早期阿尔茨海默病小鼠模型中的 Tau 病理传播",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22365544/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与 PMC 原文入口",
+      "note": "PMID 22365544；DOI 10.1016/j.neuron.2011.11.033；模型外推须谨慎。"
+    },
+    {
+      "id": "S81",
+      "title": "Tzioras 等：阿尔茨海默病中的突触退变",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36513730/",
+      "reviewed": "2026-10-09",
+      "access": "摘要及参考文献",
+      "note": "DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。"
+    },
+    {
+      "id": "S82",
+      "title": "Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30014145/",
+      "reviewed": "2026-10-09",
+      "access": "摘要、图注及 PMC 原文入口",
+      "note": "DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。"
+    },
+    {
+      "id": "S83",
+      "title": "Guerreiro 等（2013）：TREM2 变异与阿尔茨海默病",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23150934/",
+      "reviewed": "2026-10-09",
+      "access": "摘要及 PMC 原文入口",
+      "note": "DOI 10.1056/NEJMoa1211851；遗传关联不等于抑制全部免疫反应有效。"
+    },
+    {
+      "id": "S84",
+      "title": "Braak 与 Braak（1991）：阿尔茨海默病相关改变的神经病理分期",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1759558/",
+      "reviewed": "2026-10-09",
+      "access": "摘要与出版商入口",
+      "note": "DOI 10.1007/BF00308809；组织病理分期不等同于个人临床功能阶段。"
+    },
+    {
+      "id": "S85",
+      "title": "Leng 等（2021）：选择性易损神经元的分子特征",
+      "url": "https://www.nature.com/articles/s41593-020-00764-7",
+      "reviewed": "2026-10-09",
+      "access": "正文可访问部分及 PMC 入口",
+      "note": "PMID 33432193；发现阶段10名男性APOE ε3/ε3供体；标志物不等于已证实的致病原因。"
+    },
+    {
+      "id": "S86",
+      "title": "Bakker 等（2008）：人类海马 CA3 与齿状回的模式分离",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18356518/",
+      "reviewed": "2026-10-10",
+      "access": "PMC作者稿主文：任务、18人样本、条件统计与讨论限制已读取；补充方法仍待核",
+      "note": "DOI 10.1126/science.1152882；PMCID PMC2829853。数据来自偶然编码成像实验，非训练。BOLD/ROI比较不能分开CA3与DG；补充材料、年龄与完整采集方法待核。"
+    },
+    {
+      "id": "S87",
+      "title": "Scoville 与 Milner（1957）：双侧海马相关损伤后的近期记忆丧失",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/13406589/",
+      "reviewed": "2026-10-09",
+      "access": "元数据与 PMC 扫描原文入口",
+      "note": "DOI 10.1136/jnnp.20.1.11；无PubMed摘要；历史病例与AD病程不能等同。"
+    },
+    {
+      "id": "S88",
+      "title": "Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31121601/",
+      "reviewed": "2026-10-09",
+      "access": "摘要及 PMC 原文入口",
+      "note": "正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。"
+    },
+    {
+      "id": "S89",
+      "title": "WHO（2019）：痴呆风险降低指南中的多领域干预讨论",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK542796/",
+      "reviewed": "2026-10-09",
+      "access": "官方指南全文",
+      "note": "讨论FINGER、MAPT和preDIVA；不是独立试验，不能与其引用研究重复计数。"
+    },
+    {
+      "id": "S90",
+      "title": "preDIVA原始论文：Amsterdam UMC机构记录",
+      "url": "https://pure.amsterdamumc.nl/en/publications/effectiveness-of-a-6-year-multidomain-vascular-care-intervention-/",
+      "reviewed": "2026-10-09",
+      "access": "作者机构摘要",
+      "note": "与S49为同一试验同一论文，不独立计数。"
+    },
+    {
+      "id": "S91",
+      "title": "NIA：生物标志物如何帮助诊断痴呆",
+      "url": "https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia",
+      "reviewed": "2026-10-09",
+      "access": "官方页面",
+      "note": "用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。"
+    },
+    {
+      "id": "S92",
+      "title": "NIA：阿尔茨海默病风险的五个问题",
+      "url": "https://www.nia.nih.gov/alzheimers/topics/risk-factors-prevention",
+      "reviewed": "2026-10-09",
+      "access": "官方页面",
+      "note": "年份为访问年份；风险概念导读，不以页面群体比例预测个人。"
+    },
+    {
+      "id": "S93",
+      "title": "Stern 等：认知储备、脑储备与脑维持白皮书",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30222945/",
+      "reviewed": "2026-10-09",
+      "access": "摘要及 PMC 原文入口",
+      "note": "DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。"
+    },
+    {
+      "id": "S94",
+      "title": "Sabia 等（2021）：中晚年睡眠时长与痴呆发生",
+      "url": "https://www.nature.com/articles/s41467-021-22354-2",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要与正文可访问部分",
+      "note": "DOI10.1038/s41467-021-22354-2；非随机睡眠干预，终点为痴呆。"
+    },
+    {
+      "id": "S95",
+      "title": "Sommerlad 等（2019）：社交联系与痴呆及认知的长期关联",
+      "url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002862",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要及开放原文入口",
+      "note": "PMID31374073；Whitehall II；详细效应表待提取，与睡眠队列存在来源重叠。"
+    },
+    {
+      "id": "S96",
+      "title": "NIA：理解阿尔茨海默病人格与行为变化",
+      "url": "https://www.nia.nih.gov/health/alzheimers-changes-behavior-and-communication/alzheimers-caregiving-managing-personality-and",
+      "reviewed": "2026-10-09",
+      "access": "官方页面",
+      "note": "2026为访问年份；不是游戏干预效果研究。"
+    },
+    {
+      "id": "S97",
+      "title": "Howett2019导航研究：作者机构保存的开放PDF",
+      "url": "https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf",
+      "reviewed": "2026-10-10",
+      "access": "开放PDF · CC BY4.0",
+      "note": "PDF首页核实CC BY 4.0，与S88同一研究。2026-10-10读取任务与盲法，视觉核对1753页平台阈值和1761页分类阈值；1757/1761页模型及AUC区间已提取。保留图7参考测试AUC与正文差异；外部验证与完整方法审核未完成。",
+      "license": "CC BY 4.0；图1A裁取，原作者归属保留"
+    },
+    {
+      "id": "S98",
+      "title": "Fortea 等（2024）：APOE4纯合子作为独特遗传形式的研究",
+      "url": "https://doi.org/10.1038/s41591-024-02931-w",
+      "reviewed": "2026-10-10",
+      "access": "原始PubMed摘要与Fig.1等图注；出版商/PMC直连本轮不可完整读取",
+      "note": "DOI 10.1038/s41591-024-02931-w；PMID38710950。总体病理3297/临床10039与各子分析分母分开；完整方法、年龄分层及推广仍待审。"
+    },
+    {
+      "id": "S99",
+      "title": "Fortea2024出版商更正",
+      "url": "https://doi.org/10.1038/s41591-024-03127-y",
+      "reviewed": "2026-10-10",
+      "access": "出版商检索索引给出更正全文文字；直连授权页不可读，更正PDF未核",
+      "note": "2024-06-17更正Fig.4标题：APOE3纯合子改为APOE4纯合子。更正范围为标题，不扩展为全篇数据裁决。"
+    },
+    {
+      "id": "S100",
+      "title": "Anguera 2013｜Video game training enhances cognitive control in older adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24005416/",
+      "reviewed": "2026-10-10",
+      "access": "PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核",
+      "note": "作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。"
+    },
+    {
+      "id": "S101",
+      "title": "Anguera 2021｜Long-term maintenance of multitasking abilities following video game training in older adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33789209/",
+      "reviewed": "2026-10-09",
+      "access": "原始元数据与出版商正文索引；全文表格待审",
+      "note": "与2013研究关联，不能作为独立重复试验"
+    },
+    {
+      "id": "S102",
+      "title": "Ballesteros 2015｜Non-action video games: results of the 3-month follow-up",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25926790/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要索引；全文效应量与流失表待审",
+      "note": "训练后与停止训练后的结果分开；非AD发病终点"
+    },
+    {
+      "id": "S103",
+      "title": "Ossenkoppele 2022｜Amyloid and tau PET-positive cognitively unimpaired individuals are at high risk for future cognitive decline",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36357681/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要及PMC正文索引的样本、主要模型已核对；完整表格与补充材料待审",
+      "note": "不是干预研究；进展至MCI与AD发病需区分",
+      "license": "CC BY 4.0，原PMC许可说明；图表再用仍需核对第三方材料"
+    },
+    {
+      "id": "S104",
+      "title": "Schneider 2007｜Mixed brain pathologies account for most dementia cases in community-dwelling older persons",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17568013/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要；完整尸检方法与模型待审",
+      "note": "首次141例尸检；不是总体人群患病率，也不是训练研究"
+    },
+    {
+      "id": "S105",
+      "title": "Sperling 2023｜Trial of Solanezumab in Preclinical Alzheimer’s Disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37458272/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要与PMC方法索引；全文与补充材料待审",
+      "note": "A4药物试验；不能计入游戏训练疗效"
+    },
+    {
+      "id": "S106",
+      "title": "Bahar-Fuchs 2019｜Cognitive training for people with mild to moderate dementia",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30909318/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要、官方综述与PMC结果索引；逐项偏倚表待审",
+      "note": "已有轻中度痴呆者的训练；不是健康人预防"
+    },
+    {
+      "id": "S107",
+      "title": "Wilson 2007｜Relation of cognitive activity to risk of developing Alzheimer disease",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17596582/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要；完整模型与量表待审",
+      "note": "活动关联不等于随机训练效应；尸检子群102人"
+    },
+    {
+      "id": "S108",
+      "title": "Owen 2010｜Putting brain training to the test",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20407435/",
+      "reviewed": "2026-10-10",
+      "access": "作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审",
+      "note": "DOI 10.1038/nature09042；PMCID PMC2884087作者稿文本。登记52617与分析11430分开；99%CI；部分表格标准化效应方向与原始差方向需分开核对。"
+    },
+    {
+      "id": "S109",
+      "title": "Butler 2018｜Does Cognitive Training Prevent Cognitive Decline? A Systematic Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29255842/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要与机构记录；完整证据表待审",
+      "note": "检索至2017年7月，不能当作当前完整更新"
+    },
+    {
+      "id": "S110",
+      "title": "Xie 2013｜Sleep drives metabolite clearance from the adult brain",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24136970/",
+      "reviewed": "2026-10-09",
+      "access": "原始摘要与PMC结果索引；完整方法待审",
+      "note": "睡眠、麻醉与间质交换；不是人体AD预防试验"
+    },
+    {
+      "id": "S111",
+      "title": "Miao 2024｜Brain clearance is reduced during sleep and anesthesia",
+      "url": "https://www.nature.com/articles/s41593-024-01638-y",
+      "reviewed": "2026-10-09",
+      "access": "出版商摘要与正文方法讨论；补充数据待审",
+      "note": "2024更正已读：图3b源数据列修订；2025批评与机构回复部分已读。修订数据复算与正式版本核对仍待完成。"
+    },
+    {
+      "id": "S112",
+      "title": "Miao 2024｜Author Correction: Brain clearance is reduced during sleep and anesthesia",
+      "url": "https://www.nature.com/articles/s41593-024-01698-0",
+      "reviewed": "2026-10-09",
+      "access": "更正全文已读取",
+      "note": "Figure 3b源数据Mean Wake 3h列更正；修订数据未重新计算",
+      "license": "CC BY 4.0"
+    },
+    {
+      "id": "S113",
+      "title": "Plá 2025｜A curious concept of CNS clearance",
+      "url": "https://www.nature.com/articles/s41593-025-01897-3",
+      "reviewed": "2026-10-09",
+      "access": "出版商与PMC原文预览、索引；全文逐条验证待审",
+      "note": "批评文章不是独立临床预防试验"
+    },
+    {
+      "id": "S114",
+      "title": "Franks与Wisden 2025｜Reply to: A curious concept of CNS clearance",
+      "url": "https://www.nature.com/articles/s41593-025-01898-2",
+      "reviewed": "2026-10-09",
+      "access": "机构公开接受稿已读取相关方法回复；正式版本差异待审",
+      "note": "机构稿：https://spiral.imperial.ac.uk/server/api/core/bitstreams/b49833aa-38ee-4878-92e1-4e882a929c44/content"
+    },
+    {
+      "id": "S115",
+      "title": "McDonough 2015｜The Synapse Project: Engagement in mentally challenging activities enhances neural efficiency",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4927925/",
+      "reviewed": "2026-10-09",
+      "access": "原始正文Methods样本流程、任务对比、预处理及讨论已读取；统计阈值、逐区结果和补充数据待审",
+      "note": "同项目子样本，不能当作独立临床预防试验"
+    },
+    {
+      "id": "S116",
+      "title": "NIA｜What Happens to the Brain in Alzheimer’s Disease?",
+      "url": "https://www.nia.nih.gov/health/alzheimers-causes-and-risk-factors/what-happens-brain-alzheimers-disease",
+      "reviewed": "2026-10-09",
+      "access": "官方正文检索索引；访问年份非发布年份",
+      "note": "教学概述，不是独立训练试验"
+    },
+    {
+      "id": "S117",
+      "title": "Yassa 等（2011）：无痴呆老年人的模式分离表现与CA3/DG活动",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20865732/",
+      "reviewed": "2026-10-09",
+      "access": "原始PubMed摘要及图2、3、7图注；完整方法与统计表待审",
+      "note": "DOI 10.1002/hipo.20808；2010在线、2011卷期。PMC访问本轮遇验证页，未绕过。图注数据不等于已审核完整样本流程。"
+    },
+    {
+      "id": "S118",
+      "title": "Engvig等（2010）：记忆训练与皮层厚度的短期变化",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20580844/",
+      "reviewed": "2026-10-09",
+      "access": "原始论文PDF的Methods、Results及表1—2；补充材料未核",
+      "note": "DOI 10.1016/j.neuroimage.2010.05.041；公开PDF为原论文，不在本库转载全文或图片；被动对照、短期结局；行为样本人数存在需核对的内部差异。"
+    },
+    {
+      "id": "S119",
+      "title": "Morra等（2009）：490名ADNI参与者一年海马萎缩自动测量",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19041724/",
+      "reviewed": "2026-10-09",
+      "access": "PubMed原始摘要与PMC正文索引；完整方法、区域图与补充材料待核",
+      "note": "DOI 10.1016/j.neuroimage.2008.10.043；ADNI队列，不是训练试验；980次扫描不等于980名独立参与者；摘要的替代指标提议不等于已完成临床替代终点验证。"
     }
-  ]
+  ],
+  "metadata_refresh_rule": "Regenerated from data/knowledge.json; reviewed dates and access scope retained, not upgraded by building."
 }

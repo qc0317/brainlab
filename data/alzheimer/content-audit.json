@@ -304,7 +304,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "旧定义与敏感性分析"
+        "旧定义与敏感性分析",
+        "方法核查｜访视间的发生时间与实际课程剂量"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -320,7 +321,7 @@
         "原文内部数字差异：本次全文核验发现",
         "怎样理解这种方法学分歧",
         "模型检查与尚待核查",
-        "补充文件访问审核｜2026年10月10日",
+        "补充文件访问记录｜失败入口与后续获取分开",
         "补充分析：把死亡作为竞争事件后，积极信号还在吗？"
       ],
       "review_status": "draft_not_expert_verified"
@@ -520,7 +521,8 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "研究解读｜大样本仍需要核对参加流程"
+        "研究解读｜大样本仍需要核对参加流程",
+        "Owen方法核查｜原文ITT名称与实际完成条件"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -727,8 +729,9 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "当前结论与下一步",
-        "从现实新技能到手机游戏｜需要重新验证的成分"
+        "原始活动及结果",
+        "从现实新技能到手机游戏｜需要重新验证的成分",
+        "当前结论与下一步"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -744,9 +747,7 @@
         "S107"
       ],
       "has_data_table": true,
-      "pending_review_sections": [
-        "对本项目保留的结论"
-      ],
+      "pending_review_sections": [],
       "review_status": "draft_not_expert_verified"
     },
     {
@@ -905,8 +906,9 @@
       ],
       "has_data_table": true,
       "pending_review_sections": [
-        "从矩阵到研究",
-        "NeuroRacer结果｜成本改善、迁移与随访分别读"
+        "研究解读｜超越年轻人究竟比较了什么",
+        "NeuroRacer结果｜成本改善、迁移与随访分别读",
+        "从矩阵到研究"
       ],
       "review_status": "draft_not_expert_verified"
     },
@@ -932,7 +934,8 @@
         "S100",
         "S108",
         "S43",
-        "S102"
+        "S102",
+        "S42"
       ],
       "has_data_table": true,
       "pending_review_sections": [
@@ -952,5 +955,72 @@
     "许可和访问范围核查",
     "下载材料更新",
     "Git同步与公网页面验证"
-  ]
+  ],
+  "organization_reading_snapshot": {
+    "date": "2026-10-11",
+    "chapter_ids": [
+      "ad-foundations",
+      "ad-terms",
+      "ad-amyloid-tau",
+      "ad-synapses",
+      "ad-circuits",
+      "ad-cause-risk",
+      "ad-genetics",
+      "ad-aging",
+      "ad-risk-estimates",
+      "ad-timeline",
+      "ad-daily-function",
+      "ad-phenotypes",
+      "ad-brain-clinical-guide",
+      "ad-vulnerability",
+      "ad-mri",
+      "ad-pet",
+      "ad-fluid",
+      "ad-activity",
+      "ad-training-question",
+      "ad-control-network",
+      "ad-atypical-networks",
+      "ad-translation",
+      "ad-transfer",
+      "ad-dose-adherence",
+      "ad-bias",
+      "ad-memory-symptoms",
+      "ad-language-symptoms",
+      "ad-vascular",
+      "ad-pathology-cognition",
+      "ad-plasticity",
+      "ad-reserve",
+      "ad-neuropsychology",
+      "ad-biomarkers",
+      "ad-diagnosis-process",
+      "ad-outcome-language",
+      "ad-executive-symptoms",
+      "ad-spatial-symptoms",
+      "ad-behavior-symptoms",
+      "ad-senses",
+      "ad-sleep",
+      "ad-social-education",
+      "ad-navigation",
+      "ad-training-types",
+      "ad-intervention",
+      "ad-evidence-active5",
+      "ad-evidence-active10",
+      "ad-evidence-active20",
+      "ad-evidence-lampit",
+      "ad-evidence-cochrane",
+      "ad-evidence-finger",
+      "ad-evidence-pointer",
+      "ad-evidence-mapt",
+      "ad-evidence-prediva",
+      "ad-evidence-sprint",
+      "ad-evidence-achieve",
+      "ad-evidence-synapse",
+      "ad-evidence-games",
+      "ad-statistics",
+      "ad-preservation",
+      "ad-synthesis"
+    ],
+    "scope": "章节组织与重复说明的历史阅读记录；不证明全部原文、科学事实或当前所有修订已审核",
+    "not_scientific_verification": true
+  }
 }
