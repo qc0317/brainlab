@@ -1,0 +1,20 @@
+{
+  "archive": "alzheimer-research.zip",
+  "total_bytes": 899927,
+  "sha256": "7be9b52a112191ca16ae0675b840fe65434fef9b15e83ec4c8050fb8819d3d0c",
+  "parts": [
+    {
+      "part": 1,
+      "path": "downloads/alzheimer-research.zip.part-01",
+      "bytes": 460800,
+      "sha256": "e8aa3d32b2a3b8e3c36481f930410cffdd3f31699041b6b24fb23f9e17478cbf"
+    },
+    {
+      "part": 2,
+      "path": "downloads/alzheimer-research.zip.part-02",
+      "bytes": 439127,
+      "sha256": "c1129a559e96238e71095981cc16cc00850658a22e43aac02747395cb20697aa"
+    }
+  ],
+  "merge_command": "cat alzheimer-research.zip.part-01 alzheimer-research.zip.part-02 > alzheimer-research.zip"
+}
