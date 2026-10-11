@@ -1409,6 +1409,36 @@
             "interpretation": "不是AD特异发生，也不是游戏试验",
             "pending": "判定盲法、死亡、缺失和后续同队列"
           }
+        ],
+        "tool": "RoB 2（整群随机试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_or_assignment",
+            "judgement": "some_concerns",
+            "reason": "研究有随机或活动分配信息，但序列、隐藏和逐组流转仍待完整核对"
+          },
+          {
+            "domain": "deviations_and_adherence",
+            "judgement": "some_concerns",
+            "reason": "实际接触、依从性、偏好或实施差异可能影响比较，且干预并非认知游戏本身"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "长期退出、死亡或完成者分析需要逐项核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "临床、MCI、认知或短期活动终点的直接性不同，不能互相替代"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
+          }
         ]
       }
     },
@@ -1483,6 +1513,36 @@
             "evidence": "老年随访包含退出及死亡",
             "interpretation": "缺少诊断记录不能默认持续无病",
             "pending": "事件流转、竞争死亡和后续报告"
+          }
+        ],
+        "tool": "RoB 2（原随机试验认知结局映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_or_assignment",
+            "judgement": "some_concerns",
+            "reason": "研究有随机或活动分配信息，但序列、隐藏和逐组流转仍待完整核对"
+          },
+          {
+            "domain": "deviations_and_adherence",
+            "judgement": "some_concerns",
+            "reason": "实际接触、依从性、偏好或实施差异可能影响比较，且干预并非认知游戏本身"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "长期退出、死亡或完成者分析需要逐项核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "临床、MCI、认知或短期活动终点的直接性不同，不能互相替代"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
           }
         ]
       }
@@ -1570,6 +1630,36 @@
             "evidence": "听力服务vs健康教育，三年认知",
             "interpretation": "输入改善、认知改变和AD预防不同",
             "pending": "测验呈现、盲法、依从性、缺失及功能"
+          }
+        ],
+        "tool": "RoB 2（主动对照随机试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_or_assignment",
+            "judgement": "some_concerns",
+            "reason": "研究有随机或活动分配信息，但序列、隐藏和逐组流转仍待完整核对"
+          },
+          {
+            "domain": "deviations_and_adherence",
+            "judgement": "some_concerns",
+            "reason": "实际接触、依从性、偏好或实施差异可能影响比较，且干预并非认知游戏本身"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "长期退出、死亡或完成者分析需要逐项核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "临床、MCI、认知或短期活动终点的直接性不同，不能互相替代"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
           }
         ]
       }
@@ -1663,6 +1753,36 @@
             "evidence": "短期认知，新技能项目名为Synapse",
             "interpretation": "没有直接测突触修复或AD发生；同队列影像并非独立复制",
             "pending": "长期保持、功能与独立临床发生资料"
+          }
+        ],
+        "tool": "RoB 2（行为干预随机/偏好限制映射；尚未完成正式裁决）",
+        "overall_signal": "serious_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_or_assignment",
+            "judgement": "some_concerns",
+            "reason": "研究有随机或活动分配信息，但序列、隐藏和逐组流转仍待完整核对"
+          },
+          {
+            "domain": "deviations_and_adherence",
+            "judgement": "some_concerns",
+            "reason": "实际接触、依从性、偏好或实施差异可能影响比较，且干预并非认知游戏本身"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "长期退出、死亡或完成者分析需要逐项核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "临床、MCI、认知或短期活动终点的直接性不同，不能互相替代"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
           }
         ]
       }
