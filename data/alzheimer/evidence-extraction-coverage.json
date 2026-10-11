@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-11",
+  "purpose": "记录逐篇证据提取的覆盖与未完成边界；不是质量评级或疗效汇总。",
+  "record_count": 18,
+  "complete_required_field_records": 18,
+  "verified_extraction_records": 0,
+  "protocol_only_records": 1,
+  "partial_records": 17,
+  "outcome_layers": {
+    "clinical_dementia_algorithm": 2,
+    "claims_adrd": 1,
+    "independent_cognition": 9,
+    "task_and_transfer": 2,
+    "task_and_eeg": 1,
+    "clinical_dementia": 1,
+    "clinical_dementia_and_mci": 2
+  },
+  "records": [
+    {
+      "id": "active5",
+      "record_id": "ad-evidence-active5",
+      "source_id": "S42",
+      "outcome_level": "clinical_dementia_algorithm",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "active10",
+      "record_id": "ad-evidence-active10",
+      "source_id": "S43",
+      "outcome_level": "clinical_dementia_algorithm",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整RoB2裁决"
+    },
+    {
+      "id": "active20",
+      "record_id": "ad-evidence-active20",
+      "source_id": "S16",
+      "outcome_level": "claims_adrd",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚裁决"
+    },
+    {
+      "id": "lampit",
+      "record_id": "ad-evidence-lampit",
+      "source_id": "S44",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "综述方法记录，非正式完整ROBIS或确定性裁决"
+    },
+    {
+      "id": "pointer",
+      "record_id": "ad-evidence-pointer",
+      "source_id": "S15",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚裁决"
+    },
+    {
+      "id": "neuroracer",
+      "record_id": "ad-evidence-games",
+      "source_id": "S100",
+      "outcome_level": "task_and_transfer",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整RoB2裁决"
+    },
+    {
+      "id": "neuroracer6",
+      "record_id": "ad-evidence-games",
+      "source_id": "S101",
+      "outcome_level": "task_and_eeg",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "pending",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "owen",
+      "record_id": "ad-transfer",
+      "source_id": "S108",
+      "outcome_level": "task_and_transfer",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整RoB2裁决"
+    },
+    {
+      "id": "cochraneD",
+      "record_id": "ad-evidence-cochrane",
+      "source_id": "S106",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "finger",
+      "record_id": "ad-evidence-finger",
+      "source_id": "S47",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚裁决"
+    },
+    {
+      "id": "mapt",
+      "record_id": "ad-evidence-mapt",
+      "source_id": "S48",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "pending",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "prediva",
+      "record_id": "ad-evidence-prediva",
+      "source_id": "S49",
+      "outcome_level": "clinical_dementia",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "sprint",
+      "record_id": "ad-evidence-sprint",
+      "source_id": "S50",
+      "outcome_level": "clinical_dementia_and_mci",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "achieve",
+      "record_id": "ad-evidence-achieve",
+      "source_id": "S51",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚或确定性裁决"
+    },
+    {
+      "id": "synapse",
+      "record_id": "ad-evidence-synapse",
+      "source_id": "S52",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "pending",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式完整偏倚裁决"
+    },
+    {
+      "id": "cochraneHealthy",
+      "record_id": "ad-evidence-cochrane",
+      "source_id": "S45",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "综述方法记录，非正式完整ROBIS或确定性裁决"
+    },
+    {
+      "id": "cochraneMCI",
+      "record_id": "ad-evidence-cochrane",
+      "source_id": "S46",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "partial",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "综述方法记录，非正式完整ROBIS或确定性裁决"
+    },
+    {
+      "id": "pact_design",
+      "record_id": "ad-synthesis",
+      "source_id": "S120",
+      "outcome_level": "clinical_dementia_and_mci",
+      "audit_status": "protocol_only_no_results",
+      "numeric_extraction_status": "not_applicable_protocol_only",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "方案阶段，未进行结果偏倚裁决"
+    }
+  ],
+  "interpretation": [
+    "当前记录覆盖人群、干预、对照、终点和限制，但多数仍是partial_extraction_not_final。",
+    "partial记录可用于导航和初步边界，不能作为完成的RoB2/ROBINS-I/GRADE判断。",
+    "只有含临床痴呆或ADRD终点的记录才可进入疾病发生层综合；任务或认知分数不得替代该层。"
+  ]
+}
