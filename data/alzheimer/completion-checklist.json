@@ -46,8 +46,8 @@
       "requirement": "逐篇证据提取记录存在",
       "pass": true,
       "evidence": {
-        "record_count": 18,
-        "complete_required_field_records": 18,
+        "record_count": 19,
+        "complete_required_field_records": 19,
         "verified_extraction_records": 0
       }
     },
@@ -56,7 +56,7 @@
       "requirement": "结局层级综合矩阵存在",
       "pass": true,
       "evidence": {
-        "rows": 18,
+        "rows": 19,
         "ad_specific_records": 0
       }
     },

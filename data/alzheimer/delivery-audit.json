@@ -15,7 +15,7 @@
     {
       "requirement": "逐篇证据提取、数据与方法评价",
       "status": "incomplete",
-      "evidence": "18条核心记录均已有逐域方法表、工具映射或方案审查入口；当前仍为部分提取，尚未完成正式RoB2/ROBIS/ROBINS-I/GRADE裁决。"
+      "evidence": "19条核心记录均已有逐域方法表、工具映射或方案审查入口；当前仍为部分提取，尚未完成正式RoB2/ROBIS/ROBINS-I/GRADE裁决。"
     },
     {
       "requirement": "支持、无效与反向证据综合",
@@ -147,7 +147,7 @@
       "han_chars": 50525
     }
   ],
-  "extraction_records": 18,
+  "extraction_records": 19,
   "verified_extraction_records": 0,
   "publication_snapshot": {
     "date": "2026-10-11",
@@ -183,5 +183,5 @@
     ],
     "scope": "current audit: static build and public connector sync; full ZIP public binary hash still pending"
   },
-  "method_domain_records": 18
+  "method_domain_records": 19
 }
