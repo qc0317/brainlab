@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 115385,
-  "visible_chars": 135062,
+  "counted_han_chars": 116047,
+  "visible_chars": 135792,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -163,8 +163,8 @@
     {
       "id": "ad-evidence-active10",
       "title": "07｜ACTIVE 十年：速度训练的积极信号",
-      "han_chars": 2781,
-      "visible_chars": 3317,
+      "han_chars": 3083,
+      "visible_chars": 3645,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -387,8 +387,8 @@
     {
       "id": "ad-preservation",
       "title": "22｜保持、失访与竞争风险：长期结果怎样成立",
-      "han_chars": 1076,
-      "visible_chars": 1181,
+      "han_chars": 1436,
+      "visible_chars": 1583,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

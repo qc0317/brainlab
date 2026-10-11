@@ -162,6 +162,12 @@ for x in EXTRACTS['studies']:
   for key in ('allocation_note','analysis_population_definition'):
    if f.get(key):b+='<p>'+esc(f[key])+'</p>'
   if f.get('sessions_mean_by_analysis_group'):b+=table([['完成分析组别','平均课程次数']]+[[labels.get(k,k),str(v)] for k,v in f['sessions_mean_by_analysis_group'].items()])
+ if x.get('risk_of_bias_review'):
+  f=x['risk_of_bias_review'];b+='<h3>逐域方法记录 · 未完成正式裁决</h3><p>'+esc(f['status'])+'</p>'+table([['方法领域','已读依据','解释范围','待核信息']]+[[d['domain'],d['evidence'],d['interpretation'],d['pending']] for d in f['domains']])+cite(f.get('source_ids',[]),p)
+ if x.get('direction_audit'):
+  f=x['direction_audit'];e=f['example']
+  b+='<h3>原始差异与标准化方向 · 待核</h3>'+table([['比较终点','原始变化差','原表标准化效应','原表99%区间'],[e['endpoint'],str(e['raw_mean_change_difference']),str(e['reported_standardized_effect']),str(e['reported_99_ci'][0])+' 至 '+str(e['reported_99_ci'][1])]])
+  b+=''.join('<p>'+esc(f[k])+'</p>' for k in ('interpretation','formula_status','not_correction'))+'<p class="sub">'+esc(f['source_location'])+'</p>'
  if x.get('selection_scope'):
   f=x['selection_scope'];labels={'source_location':'原文位置','methods_older_participants':'方法中的老年参与者','main_reported_training_sample':'主文报告训练样本','performance_exclusions_reported':'任务表现排除条件','timing_pending':'时间与流向待核','clinical_scope':'临床适用条件','interpretation':'解释范围'}
   b+='<h3>样本筛选与排除范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
@@ -169,8 +175,8 @@ for x in EXTRACTS['studies']:
   f=x['implementation_support'];labels={'source_location':'原文位置','expectancy_instruction':'期待说明措施','support':'实施支持','experience_rating':'体验评分','interpretation':'解释范围','pending':'待核'}
   b+='<h3>实施支持与体验测量</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
  if x.get('design_and_registration'):
-  f=x['design_and_registration'];labels={'author_design_label':'原文设计标签','registry_id_in_article':'论文所列注册号','registration_verification':'注册核验范围','population_scope':'人群范围','initial_sessions':'初始安排','booster_schedule_in_report':'论文中的加强安排','blinding_scope':'盲法核验范围','source_location':'原文位置'}
-  b+='<h3>设计、注册与盲法范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
+  f=x['design_and_registration'];labels={'historical_randomization_record':'历史随机分配记录','historical_protocol_scope':'历史方案适用范围','historical_source':'历史方案来源','author_design_label':'原文设计标签','registry_id_in_article':'论文所列注册号','registration_verification':'注册核验范围','population_scope':'人群范围','initial_sessions':'初始安排','booster_schedule_in_report':'论文中的加强安排','blinding_scope':'盲法核验范围','source_location':'原文位置'}
+  b+='<h3>设计、注册与盲法范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items() if k!='source_ids'])+cite(f.get('source_ids',[]),p)
  if x.get('statistical_methods'):
   f=x['statistical_methods'];labels={'event_timing':'事件时间','model':'统计模型','randomized_contrast':'随机比较','sessions_analysis':'出席次数分析','covariate_selection':'调整变量选择','attrition_sensitivity':'失访敏感性','source_location':'原文位置'}
   b+='<h3>统计方法与解释范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
