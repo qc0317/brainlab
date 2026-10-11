@@ -20,8 +20,8 @@
   },
   "core_latest_zip": {
     "path": "downloads/alzheimer-research-core-latest.zip",
-    "bytes": 27107,
-    "sha256": "9dca86adbbc742d986ed1b7219d3c6393aeca5518e417bbfb79d89b6397ef354",
+    "bytes": 27611,
+    "sha256": "432a23a8eec4cedfc1c71485621b854f6c1807a753ecf8c2969c494d51500302",
     "contents": ["data/alzheimer/trial-extractions.json", "research-programs/alzheimer/PROTOCOL.md", "research-programs/alzheimer/DELIVERY-AUDIT.md", "downloads/alzheimer-research-latest-update.json"],
     "public_binary_hash_verified": true
   }
