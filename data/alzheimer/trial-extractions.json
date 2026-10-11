@@ -1242,6 +1242,36 @@
             "interpretation": "不是AD发生率或病理变化，不能换算预防比例",
             "pending": "评估盲法、复合构成、模型、功能与后续报告"
           }
+        ],
+        "tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_process",
+            "judgement": "some_concerns",
+            "reason": "随机和分析分母已部分记录，序列/隐藏/流转仍待核对"
+          },
+          {
+            "domain": "deviations_from_intervention",
+            "judgement": "some_concerns",
+            "reason": "综合方案组成和完成量无法隔离认知训练独立效果"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "修正ITT或退出数字需要逐组缺失模型核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "主要为认知复合结局，不是AD临床发生终点"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "多重比较、亚组和计划版本尚未完整核对"
+          }
         ]
       }
     },
@@ -1287,6 +1317,36 @@
             "evidence": "综合干预/补充剂，36个月认知",
             "interpretation": "不是游戏独立贡献或AD病例减少",
             "pending": "实际剂量、盲法、复合构成与长期结局"
+          }
+        ],
+        "tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_process",
+            "judgement": "some_concerns",
+            "reason": "随机和分析分母已部分记录，序列/隐藏/流转仍待核对"
+          },
+          {
+            "domain": "deviations_from_intervention",
+            "judgement": "some_concerns",
+            "reason": "综合方案组成和完成量无法隔离认知训练独立效果"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "修正ITT或退出数字需要逐组缺失模型核对"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "主要为认知复合结局，不是AD临床发生终点"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "多重比较、亚组和计划版本尚未完整核对"
           }
         ]
       }
@@ -1701,6 +1761,31 @@
             "interpretation": "未提供不能填成零事件或无害，也不能由认知结果补成防病",
             "pending": "逐结局缺失、长期随访和直接疾病发生试验"
           }
+        ],
+        "tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+        "overall_signal": "low_or_very_low_certainty",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "study_eligibility",
+            "judgement": "unclear",
+            "reason": "检索版本、纳入排除和更新范围仍需完整核对"
+          },
+          {
+            "domain": "identification_selection",
+            "judgement": "some_concerns",
+            "reason": "原试验身份和综述重叠尚未全部映射"
+          },
+          {
+            "domain": "data_collection_appraisal",
+            "judgement": "some_concerns",
+            "reason": "官方摘要数值已记录，逐试验偏倚仍待回溯"
+          },
+          {
+            "domain": "synthesis_findings",
+            "judgement": "some_concerns",
+            "reason": "合并结局存在低/非常低确定性，不能升级为临床预防"
+          }
         ]
       }
     },
@@ -1784,6 +1869,31 @@
             "evidence": "疾病发生、功能、安全性等结局可缺失",
             "interpretation": "未提供不能填成零事件或无害，也不能由认知结果补成防病",
             "pending": "逐结局缺失、长期随访和直接疾病发生试验"
+          }
+        ],
+        "tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+        "overall_signal": "low_or_very_low_certainty",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "study_eligibility",
+            "judgement": "unclear",
+            "reason": "检索版本、纳入排除和更新范围仍需完整核对"
+          },
+          {
+            "domain": "identification_selection",
+            "judgement": "some_concerns",
+            "reason": "原试验身份和综述重叠尚未全部映射"
+          },
+          {
+            "domain": "data_collection_appraisal",
+            "judgement": "some_concerns",
+            "reason": "官方摘要数值已记录，逐试验偏倚仍待回溯"
+          },
+          {
+            "domain": "synthesis_findings",
+            "judgement": "some_concerns",
+            "reason": "合并结局存在低/非常低确定性，不能升级为临床预防"
           }
         ]
       }
