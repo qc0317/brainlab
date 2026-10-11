@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 116047,
-  "visible_chars": 135792,
+  "counted_han_chars": 116944,
+  "visible_chars": 136944,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -51,8 +51,8 @@
     {
       "id": "ad-synapses",
       "title": "03｜突触、胶质细胞与炎症：连接为何会失效",
-      "han_chars": 3904,
-      "visible_chars": 4480,
+      "han_chars": 4178,
+      "visible_chars": 4925,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -467,8 +467,8 @@
     {
       "id": "ad-plasticity",
       "title": "04｜可塑性与疾病修饰：机制桥梁有多长",
-      "han_chars": 1994,
-      "visible_chars": 2276,
+      "han_chars": 2617,
+      "visible_chars": 2983,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

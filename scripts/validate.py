@@ -61,9 +61,26 @@ if extract_path.exists():
  source_map={x['id']:x for x in db['sources']}
  study_ids=set()
  allowed_levels={'clinical_dementia_algorithm','claims_adrd','independent_cognition','task_and_transfer','task_and_eeg','clinical_dementia','clinical_dementia_and_mci'}
+ def check_nested_sources(value, study_id):
+  if isinstance(value, dict):
+   for key, item in value.items():
+    if key == 'source_id':
+     assert isinstance(item, str) and item in source_map, ('unknown nested source', study_id, item)
+    elif key == 'source_ids':
+     assert isinstance(item, list) and all(isinstance(sid, str) and sid in source_map for sid in item), ('unknown nested sources', study_id, item)
+    check_nested_sources(item, study_id)
+  elif isinstance(value, list):
+   for item in value:check_nested_sources(item, study_id)
+
  for x in extracts['studies']:
   assert x['id'] not in study_ids,('duplicate study extraction',x['id'])
   study_ids.add(x['id'])
+  check_nested_sources(x, x['id'])
+  if x.get('risk_of_bias_review'):
+   review=x['risk_of_bias_review']
+   assert review.get('status') and review.get('source_ids') and review.get('domains'), ('incomplete method-domain record',x['id'])
+   for domain in review['domains']:
+    assert all(isinstance(domain.get(field),str) and domain[field].strip() for field in ('domain','evidence','interpretation','pending')), ('missing method-domain field',x['id'])
   assert x['source_id'] in source_map and x['record_id'] in record_map
   assert x['source_id'] in record_map[x['record_id']]['source_ids'],('uncited extraction source',x['id'])
   assert x['source_url']==source_map[x['source_id']]['url'],('provenance URL mismatch',x['id'])

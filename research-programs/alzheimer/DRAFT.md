@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：116,047 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：116,944 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -2377,7 +2377,7 @@ MRI 提供脑部结构和病变相关资料。研究可观察萎缩模式、白�
 - [S61｜Imaging the evolution and pathophysiology of Alzheimer disease](https://www.nature.com/articles/s41583-018-0067-3) · 摘要与可访问概要。不同成像指标测量不同层次，不能相互替代。
 - [S62｜Imaging Biomarkers in Alzheimer’s Disease: A Practical Guide for Clinicians](https://pmc.ncbi.nlm.nih.gov/articles/PMC6159632/) · 摘要与可访问正文部分。群体萎缩模式不自动形成单个病例的诊断。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S97｜Howett2019导航研究：作者机构保存的开放PDF](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf) · 开放PDF · CC BY4.0。PDF首页核实CC BY 4.0，与S88同一研究。2026-10-10读取任务与盲法，视觉核对1753页平台阈值和1761页分类阈值；1757/1761页模型及AUC区间已提取。保留图7参考测试AUC与正文差异；外部验证与完整方法审核未完成。
 - [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
@@ -2655,7 +2655,7 @@ Guerreiro 等研究发现 TREM2 某些变异与阿尔茨海默病关联。遗传
 
 SV2A 是突触囊泡相关蛋白，研究可使用与其结合的示踪剂观察脑部信号。Chen 等使用 11C-UCB-J PET 比较10名具有AD相关病理的受试者和11名认知正常者。AD组包括5名遗忘型MCI与5名轻度痴呆者，不能把整个样本写成同一严重程度的患者。
 
-论文摘要报告海马结合参数在组间不同，并在部分容积校正后仍存在差异。这里需要特别小心：未校正与校正后的参数不是同一个数值体系，不能选择一个百分比后把它宣布为所有AD患者真实丢失的突触比例。影像结合参数需要通过模型和参照处理解释；它不是显微镜直接数出的全部功能连接。
+论文摘要报告海马结合参数在组间不同，其中SRTM2结果在部分容积校正后仍存在差异；不同模型的校正结果并非完全一致。这里需要特别小心：未校正与校正后的参数不是同一个数值体系，不能选择一个百分比后把它宣布为所有AD患者真实丢失的突触比例。影像结合参数需要通过模型和参照处理解释；它不是显微镜直接数出的全部功能连接。
 
 这是一项横断面比较，意味着在一个研究时间窗口比较不同人，而不是观察同一个人训练前后改变。它支持活体研究突触相关异常的可行性和组间差异，并没有测量游戏效果，更不能说明影像参数较低的人应该进行哪一种具体训练。
 
@@ -2667,13 +2667,13 @@ SV2A 是突触囊泡相关蛋白，研究可使用与其结合的示踪剂观察
 
 | 项目 | 认知正常组 | AD相关组 | 解释范围 |
 | --- | --- | --- | --- |
-| 人数 | 11 | 10 | 小样本横断面比较 |
+| 研究全样本人数 | 11 | 10 | SRTM2可用11/10；动脉输入模型仅8/9 |
 | 淀粉样状态 | 11人阴性 | 10人阳性 | 病理状态与临床组别同时不同 |
 | 临床构成 | 认知正常 | 5名遗忘型MCI；5名轻度痴呆 | 不能统称相同严重程度 |
 | 年龄均值（SD），岁 | 72.9（8.7） | 72.7（6.3） | 均值相近不能排除其他混杂 |
-| 海马BPND均值（SD），未校正 | 1.47（0.37） | 0.87（0.50） | 组间P=.005 |
-| 海马BPND均值（SD），部分容积校正 | 2.71（0.46） | 2.15（0.55） | 组间P=.02；勿混用两种分析 |
-| 全样本记忆复合分数关联 | R=.56；P=.01 | 与左列同一全样本结果 | 不是组内独立验证，也不是干预效果 |
+| SRTM2海马BPND均值（SD），未校正 | 1.47（0.37） | 0.87（0.50） | 组间P=.005 |
+| SRTM2海马BPND均值（SD），部分容积校正 | 2.71（0.46） | 2.15（0.55） | 组间P=.02；勿混用两种分析 |
+| SRTM2参数与全样本记忆分数关联 | R=.56；P=.01 | 与左列同一全样本结果 | 不是组内独立验证，也不是干预效果 |
 
 依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
 
@@ -2689,11 +2689,32 @@ SV2A 是突触囊泡相关蛋白，研究可使用与其结合的示踪剂观察
 
 ### 把原始数字放在方法旁边读
 
-摘要中未校正的海马 BPND 均值为认知正常组1.47、AD组0.87；部分容积校正后的均值分别为2.71和2.15。两组均值的方向一致，但数值变化说明组织萎缩与影像测量处理的重要性。读者不应把两个处理版本的百分比混用，也不应将组平均差异用作个人诊断阈值。
+全样本SRTM2模型中，未校正海马BPND均值为认知正常组1.47、AD组0.87；部分容积校正后分别2.71和2.15。它们不能与动脉输入模型的另一套数值混用，具体模型及分析人数见下表，也不能将组平均差用作个人诊断阈值。
 
 样本量很小，疾病状态与淀粉样状态也在本研究两组中同时不同。即使差异具有统计意义，也不能将疾病、年龄、结构及其他因素的作用完全分离。更大的重复研究、不同病程阶段和纵向数据，才能逐步回答这种信号如何随疾病发展以及是否能预测功能变化。
 
 从本研究抽取数据时，资料库记录单位应是“研究中的一组受试者和一种分析方法”。若未来加入更多SV2A研究，应并列记录示踪剂、脑区、参照区、校正方法、疾病定义和认知终点，不能简单把所有数字汇成一个突触减少百分比。
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 原文方法核查｜模型、分母与校正一起读
+
+原文用半卵圆中心作为参照区。动脉输入1TC模型与不需动脉输入的SRTM2，使用不同的可用资料；Table2不是全部21人的结果。
+
+| 分析 | 认知正常/AD人数 | 海马BPND：正常/AD | 原文P值 |
+| --- | --- | --- | --- |
+| 1TC，未校正 | 8/9 | 1.54/0.87 | 0.01 |
+| SRTM2，未校正 | 11/10 | 1.47/0.87 | 0.005 |
+| 1TC，部分容积校正 | 同动脉资料子样本 | 2.81/2.26 | 0.05；作者描述未显著 |
+| SRTM2，部分容积校正 | 全样本 | 2.71/2.15 | 0.02 |
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
+
+### 研究解读｜同一影像名下的测量并非可互换
+
+当影像处理、输入资料或参照模型不同，分析得到的参数也可能不同。比较论文或训练前后结果时，应先确认相同测量对象和处理流程。这里不能只挑最有利的模型或校正值，宣布每位患者丢失了固定比例的功能连接。
+
+统计意义和临床意义仍是不同问题。校正后某个比较保留差异，支持该分析条件下的组间观察；它并没有建立个人诊断界值，也没有证明改变这一参数就能降低未来AD发生。若用于游戏机制研究，还需要可靠的重复测量、适当对照和独立临床结局。
 
 依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/)
 
@@ -2748,7 +2769,7 @@ Hong等2016年的研究对象是小鼠模型。作者报告，明显斑块出现
 ### 该章原文来源
 
 - [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S83｜Guerreiro 等（2013）：TREM2 变异与阿尔茨海默病](https://pubmed.ncbi.nlm.nih.gov/23150934/) · 摘要及 PMC 原文入口。DOI 10.1056/NEJMoa1211851；遗传关联不等于抑制全部免疫反应有效。
 - [S08｜Hong 等：补体与小胶质细胞介导突触丢失](https://pubmed.ncbi.nlm.nih.gov/27033548/) · 摘要与研究概要。
 - [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
@@ -3379,7 +3400,7 @@ Engvig等研究随机分配45名健康中老年志愿者，训练为八周地点
 
 - [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S85｜Leng 等（2021）：选择性易损神经元的分子特征](https://www.nature.com/articles/s41593-020-00764-7) · 正文可访问部分及 PMC 入口。PMID 33432193；发现阶段10名男性APOE ε3/ε3供体；标志物不等于已证实的致病原因。
 - [S50｜Williamson 等：SPRINT-MIND 认知终点](https://pubmed.ncbi.nlm.nih.gov/30688979/) · 摘要。血压干预；MCI 和可能痴呆的统计结果不同。
 - [S49｜Moll van Charante 等：preDIVA 六年试验](https://pubmed.ncbi.nlm.nih.gov/27474376/) · 原始摘要及作者机构研究记录。六年全因痴呆结果；作者机构记录可核对样本与HR。全文和亚组审核待完成。
@@ -3482,7 +3503,7 @@ Chen研究使用SV2A相关示踪剂比较AD相关组与认知正常组。资料�
 - [S34｜Lecanemab：早期阿尔茨海默病试验](https://www.nejm.org/doi/full/10.1056/NEJMoa2212948) · 摘要与可访问正文。
 - [S77｜Selkoe 与 Hardy（2016）：淀粉样蛋白假说二十五年后的讨论](https://doi.org/10.15252/emmm.201606210) · 开放全文 · CC BY 4.0。讨论模型及反对意见；不是训练试验。
 - [S84｜Braak 与 Braak（1991）：阿尔茨海默病相关改变的神经病理分期](https://pubmed.ncbi.nlm.nih.gov/1759558/) · 摘要与出版商入口。DOI 10.1007/BF00308809；组织病理分期不等同于个人临床功能阶段。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
 
 ## 09｜血液与脑脊液：检测信号如何连接到疾病
@@ -3938,7 +3959,7 @@ Synapse影像子研究记录39名原项目参加者，在干预前后接受认�
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S91｜NIA：生物标志物如何帮助诊断痴呆](https://www.nia.nih.gov/health/alzheimers-symptoms-and-diagnosis/how-biomarkers-help-diagnose-dementia) · 官方页面。用于检查概念导读；2026为访问记录年份，不代表原始发表年；研究结论需另查原始文献。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S71｜Palmqvist 等：初级与专科诊疗中血液 AD 标志物](https://jamanetwork.com/journals/jama/fullarticle/2821669) · 摘要与可访问原文部分。1213 名有认知症状并接受评估的瑞典患者；不能直接推广为一般无症状筛查。
 - [S06｜Düzel 与 Kreutz：情景记忆网络失调](https://www.nature.com/articles/s41582-026-01189-9) · 摘要、正文可访问部分与参考文献。回路利用框架是理论提案，不能作为已验证游戏处方。
 - [S10｜Montagne 等：APOE4 与血脑屏障失调](https://www.nature.com/articles/s41586-020-2247-3) · 出版商摘要；作者机构原始稿Participants、主文部分、统计方法与图3文字说明已读；原图及完整补充模型待核。435总样本，DCE-MRI245、脑脊液350、两者172；纵向146。图3中位数分组仅展示，模型用连续预测量；部分分析未校正多重比较。作者稿使用条件不作为转载全文/图片许可。
@@ -4499,6 +4520,23 @@ Shankar的人脑材料与动物实验支持特定条件下的突触影响，不�
 
 依据：[S100](https://pubmed.ncbi.nlm.nih.gov/24005416/), [S118](https://pubmed.ncbi.nlm.nih.gov/20580844/), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/)
 
+### 把第三部分的脑变化，转为第四部分的训练问题
+
+下面的表格是本专题的研究连接图，不是已经证实的治疗靶点清单。左侧描述第三部分讨论的疾病变化；中间把这些变化转成可以检验的问题；右侧指出当前证据链还缺少什么。读者可以据此判断一项游戏研究究竟回应了疾病的哪一层，而不是只看它是否使用了“海马”“可塑性”等词语。
+
+需要同时保留两条路径：训练可能改善加工策略与生活功能，即使没有证实改变病理；训练也可能被提出为疾病修饰候选，但这个更强的主张需要额外的病理与临床验证。两条路径应分别设计研究、报告结果。一个研究在前一条路径上有价值，并不自动获得后一条路径的结论。
+
+| 第三部分：疾病变化 | 第四部分：可检验的训练问题 | 需要测量的结果 | 当前不能跨越的推论 |
+| --- | --- | --- | --- |
+| Aβ、Tau等疾病相关病理 | 训练是否在明确病理状态的人群中影响病理进展？ | 与疾病阶段适配的标志物及临床随访 | 任务成绩或脑电改变不能替代病理变化 |
+| 突触功能与神经元易损 | 训练是否改善独立认知表现，并伴随可靠的候选突触指标变化？ | 独立测验；经验证的指标、测量模型与重复性 | SV2A组间差异不是游戏能够恢复突触的证据 |
+| 海马及记忆回路变化 | 记忆策略或区分相似事件的练习能否迁移？ | 未训练材料、延迟测验、实际记忆活动 | 熟练记住游戏素材不能证明海马病变逆转 |
+| 注意与控制网络变化 | 多任务练习能否改善独立注意控制并保持？ | 独立任务、停止训练后随访及相关神经测量 | NeuroRacer的脑电结果没有回答AD发生是否减少 |
+| 区域萎缩及网络重组 | 训练后的结构或功能变化是否可靠，是否连接功能收益？ | 相同分析样本、可靠影像处理、多重比较与生活结局 | 局部MRI变化不能直接解释为新增神经元或疾病修复 |
+| 认知储备、补偿与临床表现 | 训练能否帮助维持日常独立性或推迟症状出现？ | 功能、症状及长期疾病发生；分别报告 | 补偿获益、全因痴呆下降与AD病理减轻不是同一终点 |
+
+依据：[S82](https://pubmed.ncbi.nlm.nih.gov/30014145/), [S100](https://pubmed.ncbi.nlm.nih.gov/24005416/), [S118](https://pubmed.ncbi.nlm.nih.gov/20580844/), [S16](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/), [S45](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life), [S46](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment)
+
 ### 对日常游戏的实际方向
 
 可以设计具有明确加工要求和可接受负担的任务，再通过独立结局验证收益。体验支持提高参与机会，不能替代疗效测量。
@@ -4520,7 +4558,7 @@ Shankar的人脑材料与动物实验支持特定条件下的突触影响，不�
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文XML、方法与Table 1—3；官方补充包s003的Table S4选定Fine–Gray单元格及S5计划，s004第一次加强、随机分配及历史随访/分析方案指定段落已读；全部模型与资格流程仍待审核。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 - [S118｜Engvig等（2010）：记忆训练与皮层厚度的短期变化](https://pubmed.ncbi.nlm.nih.gov/20580844/) · 原始论文PDF的Methods、Results及表1—2；补充材料未核。DOI 10.1016/j.neuroimage.2010.05.041；公开PDF为原论文，不在本库转载全文或图片；被动对照、短期结局；行为样本人数存在需核对的内部差异。
 
@@ -4618,7 +4656,7 @@ MCI计算机训练综述没有提供痴呆发生数据，说明这一层问题�
 - [S78｜Shankar 等（2008）：人脑来源 Aβ 二聚体的突触实验](https://pubmed.ncbi.nlm.nih.gov/18568035/) · 摘要、图注与 PMC 原文入口。PMID 18568035；DOI 10.1038/nm1782。
 - [S81｜Tzioras 等：阿尔茨海默病中的突触退变](https://pubmed.ncbi.nlm.nih.gov/36513730/) · 摘要及参考文献。DOI 10.1038/s41582-022-00749-z；在线发表于2022年。摘要关于疗法的表述具有发表时代背景。
 - [S48｜Andrieu 等：MAPT 三年随机试验](https://pubmed.ncbi.nlm.nih.gov/28359749/) · 原始论文摘要检索快照；全文待逐表审核。主要效应及调整P值已从PubMed原始摘要核对；亚组方案和补充分析待核。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 
 ## 06｜ACTIVE 五年：没有发现痴呆发生率差异
@@ -6133,7 +6171,7 @@ Synapse支持继续研究老年新技能学习的认知作用，不能证明所�
 ### 该章原文来源
 
 - [S52｜Park 等：Synapse 新技能学习项目](https://pubmed.ncbi.nlm.nih.gov/24214244/) · 原始摘要及PMC正文样本、对照、认知分析与多重校正已读取；补充表及效应量定义待审。不是 AD 发病试验；全文尚未提取。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 
 ## 18｜经典游戏与产品：不能借用其他任务的疗效
@@ -7079,7 +7117,7 @@ Git记录研究更新与纠正，网页服务多端阅读。暂不在线编辑�
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文XML、方法与Table 1—3；官方补充包s003的Table S4选定Fine–Gray单元格及S5计划，s004第一次加强、随机分配及历史随访/分析方案指定段落已读；全部模型与资格流程仍待审核。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
-- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
+- [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 出版商原文Methods、Table2、SRTM2及PVC结果段；补充全文和所有模型未完整审核。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 
 # 全文审核状态
 
