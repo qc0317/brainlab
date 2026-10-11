@@ -65,3 +65,8 @@
 知识章节以 `data/knowledge.json` 为正文来源；四步阅读顺序以 `data/alzheimer/program.json` 为准；逐篇对照字段以 `data/alzheimer/trial-extractions.json` 为准。修改这些文件后执行 `python3 scripts/build.py`，会依次重新计数、生成研究对照表、正文下载及离线包，再生成网页与检索索引。
 
 随后执行 `python3 scripts/validate.py` 检查链接、来源、检索目标、结构化字段及离线包完整性。离线包中的文件必须与当前资料逐字节一致，旧包会使校验失败。以上检查不替代科学和可读性审核。
+
+
+## 已嵌入材料的定向复核
+
+[图像与短引文记录](../../data/alzheimer/reuse-audit.json)保留两张现有原文图的来源、署名、裁剪说明、许可链接与文件哈希，以及一项明确双语摘引的范围。此记录只覆盖这些材料，不代表全部文献许可、第三方材料或科学事实已审核。

@@ -669,7 +669,22 @@
           "control": 18.66
         }
       },
-      "reported_direction_note": "Table 2某些平均改变差为负，但其标准化效应与区间为正；原图也如此，不能当OCR错误自动改符号。当前正式effects仅录两项方向明确的正向推理比较。"
+      "reported_direction_note": "Table 2某些平均改变差为负，但其标准化效应与区间为正；原图也如此，不能当OCR错误自动改符号。当前正式effects仅录两项方向明确的正向推理比较。",
+      "direction_audit": {
+        "source_location": "作者稿Table2第12页，列Experimental group2 vs Control；Data Analysis第6—7页",
+        "example": {
+          "endpoint": "言语短时记忆VSTM",
+          "raw_mean_change_difference": -0.186,
+          "reported_standardized_effect": 0.18,
+          "reported_99_ci": [
+            0.11,
+            0.24
+          ]
+        },
+        "interpretation": "原始变化差方向与标准化列符号不同；不能把正标准化值直接解释为训练优势",
+        "formula_status": "主文方法与表标题已重读，完整标准化分母/符号及区间算法仍待补充资料核验",
+        "not_correction": "保留作者原值，不擅自反转符号或声称作者采用绝对值公式"
+      }
     },
     {
       "id": "cochraneD",

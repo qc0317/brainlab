@@ -16,6 +16,7 @@ for part in p['parts']:
    if sec.get('source_ids'):lines+=['依据：'+', '.join('['+sid+']('+sources[sid]['url']+')' for sid in sec['source_ids']),'']
   for im in ([r['image']] if r.get('image') else [])+r.get('research_figures',[]):
    lines+=['### '+im.get('title','原文图'),'','!['+im['caption']+'](../../'+im['path']+')','',im['caption'],'','来源：['+im['source_id']+']('+sources[im['source_id']]['url']+')','']
+   if im.get('license_url'):lines+=['使用许可：['+im['license_url']+']('+im['license_url']+')','']
   lines+=['### 该章原文来源','']
   used_sources=list(dict.fromkeys(r['source_ids']+[sid for sec in r['sections'] for sid in sec.get('source_ids',[])]+[im['source_id'] for im in r.get('research_figures',[])]+([r['image']['source_id']] if r.get('image') else [])))
   for sid in used_sources:

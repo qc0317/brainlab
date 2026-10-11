@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 115157,
-  "visible_chars": 134779,
+  "counted_han_chars": 115385,
+  "visible_chars": 135062,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -291,8 +291,8 @@
     {
       "id": "ad-transfer",
       "title": "03｜任务学习、迁移与生活功能：怎样判断练习的收益",
-      "han_chars": 2487,
-      "visible_chars": 2850,
+      "han_chars": 2715,
+      "visible_chars": 3133,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

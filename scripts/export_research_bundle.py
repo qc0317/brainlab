@@ -4,7 +4,7 @@ import json,zipfile
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 db=json.loads((ROOT/'data/knowledge.json').read_text());program=json.loads((ROOT/'data/alzheimer/program.json').read_text());records=[r for r in db['records'] if r.get('research_program')==program['id']]
-files=['research-programs/alzheimer/DRAFT.md','research-programs/alzheimer/PROTOCOL.md','research-programs/alzheimer/TRIALS.md','data/alzheimer/program.json','data/alzheimer/word-count.json','data/alzheimer/trial-extractions.json','data/alzheimer/lampit-reanalysis.json','scripts/reproduce_lampit.py']
+files=['research-programs/alzheimer/DRAFT.md','research-programs/alzheimer/PROTOCOL.md','research-programs/alzheimer/TRIALS.md','data/alzheimer/program.json','data/alzheimer/word-count.json','data/alzheimer/trial-extractions.json','data/alzheimer/lampit-reanalysis.json','data/alzheimer/reuse-audit.json','scripts/reproduce_lampit.py']
 for r in records:
  for im in ([r['image']] if r.get('image') else [])+r.get('research_figures',[]):
   assert 'CC BY' in im['caption'], 'Figure permission must be explicit for this bundle'

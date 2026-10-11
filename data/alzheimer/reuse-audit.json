@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-11",
+  "scope": "Focused check of the two current embedded source figures and one explicit English excerpt, not all source/rights or full scientific audit",
+  "items": [
+    {
+      "type": "licensed_figure",
+      "path": "assets/research/howett-2019-figure1a.png",
+      "source_id": "S97",
+      "source_url": "https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution_and_modification": "Howett等（2019），Figure 1A，CC BY 4.0。由原文页面裁取A面板，其余面板省略。红箭头为引导外出路径，黄箭头为没有位置标记的返回路径。此图解释测量流程，不证明导航训练有效。",
+      "file_sha256": "fb594b0fca835f7cf8fceb6f9afb675e444fc0ed4f631306f44b9836b9a94363",
+      "scope": "Existing recorded source license and attribution checked; source figure already selected, no new full-paper reproduction"
+    },
+    {
+      "type": "licensed_figure",
+      "path": "assets/research/howett-2019-figure7.png",
+      "source_id": "S97",
+      "source_url": "https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution_and_modification": "Howett等，2019，Brain，Figure 7；CC BY 4.0。仅裁剪原PDF的图及原图注，未改变图中数据。A：全部MCI与健康对照；B：标志物阳性与阴性MCI。部分参考测试图例与正文AUC存在差异，见本章视觉核对说明。此图属于识别研究，不证明训练预防有效。",
+      "file_sha256": "4bbfc3b1fd9b441a252faa55d6ba4d88af589ef0bad308a2c42727a08c9e138c",
+      "scope": "Existing recorded source license and attribution checked; source figure already selected, no new full-paper reproduction"
+    },
+    {
+      "type": "short_quote_and_translation",
+      "record_id": "ad-evidence-lampit",
+      "source_id": "S44",
+      "word_count": 17,
+      "location": "Abstract Methods and Findings ending",
+      "license_in_source": "CC BY",
+      "scope": "One bounded bilingual excerpt; Chinese translation labeled, source attribution retained"
+    }
+  ],
+  "complete_all_licensing_audit": false
+}

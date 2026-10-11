@@ -97,7 +97,7 @@ for r in R.values():
  if r.get('demands'):
   b+='<section id="demands"><h2>游戏 × 能力需求</h2><p class="sub">● 主要需求　◐ 次要/条件性需求　— 未突出；依据规则分析，非疗效强度。</p><div class="labelrow">'+''.join(link(d['ability_id'],p,('● ' if d['level']==2 else '◐ ' if d['level']==1 else '— ')+R[d['ability_id']]['title']) for d in r['demands'])+'</div></section>'
  if r.get('image'):
-  im=r['image'];b+='<section id="interface"><h2>'+esc(im.get('title','界面样本与观察记录'))+'</h2><figure class="research-image"><img loading="lazy" width="'+str(im.get('width',1280))+'" height="'+str(im.get('height',720))+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+'</figcaption></figure></section>'
+  im=r['image'];license_link=(' · <a href="'+esc(im['license_url'])+'">使用许可</a>') if im.get('license_url') else '';b+='<section id="interface"><h2>'+esc(im.get('title','界面样本与观察记录'))+'</h2><figure class="research-image"><img loading="lazy" width="'+str(im.get('width',1280))+'" height="'+str(im.get('height',720))+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+license_link+'</figcaption></figure></section>'
  for fi,im in enumerate(r.get('research_figures',[])):
   assert im['source_id'] in S and im['license_url']
   b+='<section id="figure-'+str(fi)+'"><h2>'+esc(im['title'])+'</h2><figure class="research-image"><a href="'+href(im['path'],p)+'"><img loading="lazy" width="'+str(im['width'])+'" height="'+str(im['height'])+'" src="'+href(im['path'],p)+'" alt="'+esc(im['caption'])+'"></a><figcaption>'+esc(im['caption'])+' '+source_link(im['source_id'],p)+' · <a href="'+esc(im['license_url'])+'">使用许可</a></figcaption></figure></section>'
