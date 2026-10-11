@@ -729,6 +729,26 @@
             "interpretation": "不是随机剂量对照，不能定个人最佳频率或预防率",
             "pending": "直接剂量/支持比较、长期保持、功能和临床发生"
           }
+        ],
+        "tool": "RoB 2 + GRADE（训练元分析中原试验层映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "some_concerns",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "即刻独立认知终点，不是疾病发生"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
+          }
         ]
       }
     },
@@ -903,6 +923,26 @@
             "interpretation": "不同分析支持不同主张，不宜只挑最积极结果",
             "pending": "预设计划、完整补充表、多重比较及独立复制"
           }
+        ],
+        "tool": "RoB 2（小样本随机训练试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "some_concerns",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "任务成本和部分迁移终点，未测AD发生"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
+          }
         ]
       }
     },
@@ -948,6 +988,26 @@
             "evidence": "多年后游戏及EEG比较",
             "interpretation": "不能把全部后期差异归因首次训练",
             "pending": "额外训练、生活变化及完整分析"
+          }
+        ],
+        "tool": "RoB 2（原试验长期回访映射；尚未完成正式裁决）",
+        "overall_signal": "serious_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "some_concerns",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "回访选择和缺失使长期保持结果不等于疾病预防"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
           }
         ]
       }
@@ -1069,6 +1129,26 @@
         ],
         "source_ids": [
           "S108"
+        ],
+        "tool": "RoB 2（在线训练随机/完成者分析映射；尚未完成正式裁决）",
+        "overall_signal": "serious_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "some_concerns",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "完成条件和主动对照差异限制迁移解释"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
+          }
         ]
       }
     },
@@ -1143,6 +1223,26 @@
             "evidence": "认知SMD不直接等于生活收益",
             "interpretation": "低确定性和临床终点范围须保留",
             "pending": "逐结局确定性、功能、安全性及长期保持"
+          }
+        ],
+        "tool": "ROBIS + GRADE（痴呆患者训练综述；尚未完成正式裁决）",
+        "overall_signal": "low_or_very_low_certainty",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "some_concerns",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "治疗阶段认知结果不能回答健康人预防发病"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "unclear",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
           }
         ]
       }
@@ -2048,6 +2148,26 @@
             "evidence": "多中心随机、盲法评估者、UFOV vs计算机游戏",
             "interpretation": "设计允许未来检验临床结局，但尚不产生疗效证据",
             "pending": "结果论文、实际执行、失访、主要终点和分析计划版本"
+          }
+        ],
+        "tool": "方案完整性审查（不作疗效偏倚评级）",
+        "overall_signal": "protocol_only",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "design_or_selection",
+            "judgement": "unclear",
+            "reason": "设计、人群和分析集信息已部分提取，完整分配/选择流程仍需回到全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "not_applicable",
+            "reason": "只有设计、终点和注册信息，尚无结果"
+          },
+          {
+            "domain": "missing_or_selective_reporting",
+            "judgement": "not_applicable",
+            "reason": "完整补充材料、预设终点和缺失处理仍待审核"
           }
         ]
       }
