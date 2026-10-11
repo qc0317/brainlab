@@ -1,9 +1,9 @@
 {
   "package": "downloads/alzheimer-research-data-pack.zip",
   "scope": "结构化研究数据、逐篇提取、方法学协议、对照表和审核记录；不含完整HTML站点或DRAFT全文。",
-  "bytes": 93336,
-  "sha256": "af46efcc2227a779fa5d3fdb04cbe37731a9d744c6e346e104ac4d6d540f127a",
-  "public_blob_sha": "c24f5ca69397fe6a0b810eb819ab250c77bd9335",
-  "public_blob_bytes": 93336,
+  "bytes": 95978,
+  "sha256": "5e6acc9dd4d43e5eae13dcc882675bc2181f7bedaec20cb76aac867430714de3",
+  "public_blob_sha": "75394d77bba5bc27c86877d1cfe06d6390c9f62a",
+  "public_blob_bytes": 95978,
   "verified": "connector-uploaded-base64-and-local-sha"
 }
