@@ -14,8 +14,8 @@
     "claims_adrd": "行政理赔代理结局；不是临床或病理确认的AD发病。"
   },
   "full_zip": {
-    "local_sha256": "d9560bd555c6ce258ef025e5e9ca2ceed55f861a82bc11811e079892230457f5",
-    "local_bytes": 891160,
+    "local_sha256": "cfd58aca296b5aaf5f4da6b9bde1f09a19c05599fcb2705eaa1373c43a5a8f22",
+    "local_bytes": 892984,
     "public_binary_hash_verified": false
   }
 }
