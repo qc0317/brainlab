@@ -1692,6 +1692,40 @@
           }
         ]
       }
+    },
+    {
+      "id": "pact_design",
+      "source_id": "S120",
+      "record_id": "ad-synthesis",
+      "cohort_key": "PACT",
+      "population": "社区招募、认知正常、65岁及以上；MoCA >25",
+      "intervention": "UFOV计算机认知训练，计划45次、约2.5年",
+      "comparator": "计算机游戏对照",
+      "outcome": "三年认知筛查后，对下降者及随机子样本进行神经心理、临床诊断、MRI与血液标志物评估",
+      "outcome_level": "clinical_dementia_and_mci",
+      "effect_summary": "研究设计阶段；尚无最终疗效估计",
+      "limitations_and_pending": "方案/注册记录，不是结果论文；实际完成量、失访、主要终点、盲法执行和预注册版本需待结果核对",
+      "access_scope": "PubMed摘要与PMC全文入口；已读设计、终点、训练剂量、评估流程与注册号",
+      "audit_status": "protocol_only_no_results",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36341846/",
+      "intervention_role": "direct",
+      "effects": [],
+      "numeric_extraction_status": "not_applicable_protocol_only",
+      "numeric_missing_reason": "尚无结果数据；不填零效应",
+      "risk_of_bias_review": {
+        "status": "方案阶段，未进行结果偏倚裁决",
+        "source_ids": [
+          "S120"
+        ],
+        "domains": [
+          {
+            "domain": "研究设计",
+            "evidence": "多中心随机、盲法评估者、UFOV vs计算机游戏",
+            "interpretation": "设计允许未来检验临床结局，但尚不产生疗效证据",
+            "pending": "结果论文、实际执行、失访、主要终点和分析计划版本"
+          }
+        ]
+      }
     }
   ],
   "intervention_roles": {
