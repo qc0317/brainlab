@@ -39,8 +39,8 @@
     },
     {
       "requirement": "可下载研究材料",
-      "status": "local_package_verified_public_hash_pending",
-      "evidence": "完整站点ZIP本地通过完整性检查，12个成员、892984字节，正文与DRAFT逐字一致；其公网二进制仍待独立核验。另有核心研究包4个成员、26869字节，本地Git Blob b17f05f0f8932923a96cd28a8d83fabcb07a21ae与公开仓库一致，已完成核心包公网字节级同步核验。"
+      "status": "local_package_verified_public_binary_mismatch",
+      "evidence": "核心研究包已完成公开字节级同步；完整站点ZIP本地为892984字节，但当前公开Git tree downloads/alzheimer-research.zip blob为c1541558272437ac7a143c25425eed41e003bf5e、29856字节，未与本地包一致，需重新上传或明确分发路径。"
     }
   ],
   "chapter_count": 60,
@@ -178,7 +178,7 @@
         "path": "downloads/alzheimer-research.zip",
         "status": 200,
         "bytes": 865260,
-        "matches_published_commit": true
+        "matches_published_commit": false
       }
     ],
     "scope": "current audit: static build and public connector sync; full ZIP public binary hash still pending"
