@@ -2,6 +2,15 @@
   "schema_version": 1,
   "review_date": "2026-10-10",
   "complete": false,
+  "outcome_layer_definitions": {
+    "task_and_transfer": "任务层：训练任务及未训练但相近的认知测验；不能单独推出临床预防。",
+    "task_and_eeg": "任务层加神经生理测量：可描述任务表现与脑电关联；不能单独推出AD病程改变。",
+    "independent_cognition": "认知层：独立认知测验或复合分数；不等同于MCI、痴呆或AD发生率。",
+    "clinical_dementia": "临床结局层：全因痴呆发生；不等同于AD特异性病理结局。",
+    "clinical_dementia_algorithm": "临床结局层：按研究算法判定的痴呆事件；需核对判定组合，不能称为病理确认AD。",
+    "clinical_dementia_and_mci": "临床结局层：同时报告痴呆与MCI；两个终点必须分别解释。",
+    "claims_adrd": "行政理赔代理结局层：ADRD理赔记录；不是临床或病理确认的AD发病。"
+  },
   "notes": [
     "同一cohort_key的报告不能当作独立试验计数。",
     "review_multiple需继续映射原始试验；不得与原试验累加样本。",
