@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-12",
   "purpose": "将全文访问阻塞与可继续审查记录分开管理。",
   "blocked_count": 17,
   "blocked_records": [
@@ -191,8 +191,10 @@
       ]
     }
   ],
-  "next_review_count": 2,
-  "next_review_queue": [
+  "next_review_count": 0,
+  "next_review_queue": [],
+  "rule": "阻塞项保留在证据库，不得当作已完成正式评级；下一轮优先处理next_review_queue。",
+  "completed_structured_pre_review": [
     {
       "study_id": "pointer",
       "source_id": "S15",
@@ -203,6 +205,5 @@
       "source_id": "S49",
       "reason": "已有较完整结构化来源，可优先推进逐域审查"
     }
-  ],
-  "rule": "阻塞项保留在证据库，不得当作已完成正式评级；下一轮优先处理next_review_queue。"
+  ]
 }
