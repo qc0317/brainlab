@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-10-11",
+  "goal_complete": false,
+  "checks": [
+    {
+      "id": "substantive_word_count",
+      "requirement": "正文汉字不少于100000",
+      "pass": true,
+      "evidence": {
+        "counted_han_chars": 118668,
+        "chapters": 60
+      }
+    },
+    {
+      "id": "four_part_structure",
+      "requirement": "四部分、60章结构存在",
+      "pass": true,
+      "evidence": {
+        "chapter_count": 60,
+        "parts": [
+          {
+            "id": "understand",
+            "title": "第一部分｜什么是阿尔茨海默病",
+            "han_chars": 14652
+          },
+          {
+            "id": "causes",
+            "title": "第二部分｜分析疾病：原因、表现与发展",
+            "han_chars": 22995
+          },
+          {
+            "id": "brain",
+            "title": "第三部分｜大脑发生了什么变化 · 重点",
+            "han_chars": 30496
+          },
+          {
+            "id": "training",
+            "title": "第四部分｜训练的可能性与证据 · 重点",
+            "han_chars": 50525
+          }
+        ]
+      }
+    },
+    {
+      "id": "extraction_records",
+      "requirement": "逐篇证据提取记录存在",
+      "pass": true,
+      "evidence": {
+        "record_count": 18,
+        "complete_required_field_records": 18,
+        "verified_extraction_records": 0
+      }
+    },
+    {
+      "id": "outcome_layer_matrix",
+      "requirement": "结局层级综合矩阵存在",
+      "pass": true,
+      "evidence": {
+        "rows": 18,
+        "ad_specific_records": 0
+      }
+    },
+    {
+      "id": "static_validation",
+      "requirement": "静态链接、引用和关系验证通过",
+      "pass": true,
+      "evidence": "最近一次 scripts/validate.py: PASS"
+    },
+    {
+      "id": "structured_download",
+      "requirement": "结构化研究材料包具有本地与公网一致哈希",
+      "pass": true,
+      "evidence": {
+        "package": "downloads/alzheimer-research-data-pack.zip",
+        "scope": "结构化研究数据、逐篇提取、方法学协议、对照表和审核记录；不含完整HTML站点或DRAFT全文。",
+        "bytes": 93336,
+        "sha256": "af46efcc2227a779fa5d3fdb04cbe37731a9d744c6e346e104ac4d6d540f127a",
+        "public_blob_sha": "c24f5ca69397fe6a0b810eb819ab250c77bd9335",
+        "public_blob_bytes": 93336,
+        "verified": "connector-uploaded-base64-and-local-sha"
+      }
+    },
+    {
+      "id": "full_site_archive",
+      "requirement": "完整HTML站点ZIP公网哈希一致",
+      "pass": false,
+      "evidence": "当前未完成；公网完整ZIP与本地版本不一致"
+    },
+    {
+      "id": "formal_quality_ratings",
+      "requirement": "正式RoB2/ROBIS/ROBINS-I/GRADE裁决完成",
+      "pass": false,
+      "evidence": {
+        "verified_extraction_records": 0
+      }
+    }
+  ],
+  "notes": [
+    "清单按当前文件状态生成；pass不代表科学结论已证明，只表示交付条件的机器可核对证据存在。",
+    "完整HTML站点ZIP和正式质量裁决仍未完成，因此goal_complete保持false。"
+  ]
+}
