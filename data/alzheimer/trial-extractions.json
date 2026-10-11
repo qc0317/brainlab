@@ -288,7 +288,37 @@
         "source_ids": [
           "S43",
           "S16"
-        ]
+        ],
+        "tool": "RoB 2（长期次级终点映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "domain_judgement": [
+          {
+            "domain": "randomization_process",
+            "judgement": "some_concerns",
+            "reason": "随机和历史计算机分配有记录，但隐藏及长期分析集仍待核对"
+          },
+          {
+            "domain": "deviations_from_intervention",
+            "judgement": "some_concerns",
+            "reason": "课程次数关联不能替代随机剂量比较"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "some_concerns",
+            "reason": "有敏感性分析线索，完整流转和死亡处理未完成"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "操作性痴呆定义并非病理确认AD，测验可能参与阈值判定"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "十年分析不等同历史24个月方案，计划和多重比较待核"
+          }
+        ],
+        "not_a_final_rating": true
       }
     },
     {
@@ -514,7 +544,42 @@
             "interpretation": "不能静默改作者数值，也不能将同队列多模型作为独立复制",
             "pending": "对应计划、所有模型、多重比较与差异裁决"
           }
-        ]
+        ],
+        "tool": "ROBINS-I思路（长期理赔再分析；非正式裁决）",
+        "overall_signal": "serious_concerns",
+        "domain_judgement": [
+          {
+            "domain": "confounding",
+            "judgement": "serious_concerns",
+            "reason": "理赔连接、加强资格和完成路径可能造成选择与时间相关混杂"
+          },
+          {
+            "domain": "selection_of_participants",
+            "judgement": "serious_concerns",
+            "reason": "2021人分析范围小于原始连接样本，逐步覆盖和基线差异仍待核对"
+          },
+          {
+            "domain": "classification_of_intervention",
+            "judgement": "some_concerns",
+            "reason": "整体随机训练与加强路径、合资格组内比较不能混为单一干预"
+          },
+          {
+            "domain": "missing_data",
+            "judgement": "some_concerns",
+            "reason": "死亡竞争模型已提取，但删失、覆盖变化和敏感性仍待核对"
+          },
+          {
+            "domain": "measurement_of_outcome",
+            "judgement": "serious_concerns",
+            "reason": "CCW理赔ADRD算法不是逐人病理审定AD"
+          },
+          {
+            "domain": "selection_of_reported_result",
+            "judgement": "some_concerns",
+            "reason": "文字与表格数值存在差异，模型和多重比较需完整裁决"
+          }
+        ],
+        "not_a_final_rating": true
       }
     },
     {
