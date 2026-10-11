@@ -3,7 +3,7 @@
   "scope": "结构化研究数据、逐篇提取、方法学协议、对照表和审核记录；不含完整HTML站点或DRAFT全文。",
   "bytes": 319614,
   "sha256": "a998b30288f5bb8e37d50cd31badeeabf514181d682ab753a772d1471444a5a0",
-  "public_blob_sha": "pending_refresh",
-  "public_blob_bytes": null,
-  "verified": "local package rebuilt; public refresh pending"
+  "public_blob_sha": "6841ac89c54b97c752d7a67d1c568497dd37b247",
+  "public_blob_bytes": 319614,
+  "verified": "public blob uploaded; Pages refresh pending"
 }
