@@ -129,7 +129,7 @@ render(p,'游戏能力需求矩阵',b,'games')
 p='research/alzheimer/trials/index.html'
 EXTRACTS=json.loads((ROOT/'data/alzheimer/trial-extractions.json').read_text())
 b=crumb(p,title='核心训练研究对照')+intro('核心训练研究对照','逐项查看人群、对照和实际终点，再回到原文与详细解读。当前为第一批部分提取，完整数据与方法审核仍在进行。','Literature Comparison')
-b+='<div class="notice">同一试验的不同随访不是独立重复验证；综述与原始试验可能重叠。认知、任务、脑电及临床发生分别记录。</div><div class="actions"><a class="btn secondary" href="'+href('data/alzheimer/trial-extractions.json',p)+'" download>下载结构化数据 JSON</a><a class="btn secondary" href="'+href('research-programs/alzheimer/TRIALS.md',p)+'" download>下载研究对照表</a></div>'
+b+='<div class="notice">同一试验的不同随访不是独立重复验证；综述与原始试验可能重叠。认知、任务、脑电及临床发生分别记录。证据角色矩阵将任务、认知、功能和疾病终点分层，不能从近端结果直接推出AD预防。</div><div class="actions"><a class="btn secondary" href="'+href('data/alzheimer/trial-extractions.json',p)+'" download>下载结构化数据 JSON</a><a class="btn secondary" href="'+href('data/alzheimer/evidence-synthesis-matrix.json',p)+'" download>下载证据综合矩阵 JSON</a><a class="btn secondary" href="'+href('research-programs/alzheimer/TRIALS.md',p)+'" download>下载研究对照表</a></div>'
 b+='<nav class="reading-parts" aria-label="按研究跳转">'+''.join('<a href="#trial-'+esc(x['id'])+'">'+esc(x['id'])+'</a>' for x in EXTRACTS['studies'])+'</nav>'
 b+='<div class="grid">'
 for role,label in EXTRACTS['intervention_roles'].items():
