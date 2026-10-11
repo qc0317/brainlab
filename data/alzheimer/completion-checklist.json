@@ -96,7 +96,36 @@
       "requirement": "正式RoB2/ROBIS/ROBINS-I/GRADE裁决完成",
       "pass": false,
       "evidence": {
-        "verified_extraction_records": 0
+        "formal_ratings_complete": false,
+        "pending_record_count": 19,
+        "pending_record_ids": [
+          "active5",
+          "active10",
+          "active20",
+          "lampit",
+          "pointer",
+          "neuroracer",
+          "neuroracer6",
+          "owen",
+          "cochraneD",
+          "finger",
+          "mapt",
+          "prediva",
+          "sprint",
+          "achieve",
+          "synapse",
+          "cochraneHealthy",
+          "cochraneMCI",
+          "pact_design",
+          "start2024"
+        ],
+        "current_state": "已有工具映射和风险域预审；尚未完成全文/补充材料核对、独立双人裁决、分歧记录与GRADE汇总",
+        "required_next_steps": [
+          "逐篇确认全文与注册版本",
+          "两名审查者独立完成适用工具",
+          "记录分歧和裁决依据",
+          "按结局层级汇总GRADE确定性"
+        ]
       }
     }
   ],
