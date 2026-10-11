@@ -1464,9 +1464,9 @@
       "comparator": "常规照护",
       "outcome": "全因痴呆发生",
       "outcome_level": "clinical_dementia",
-      "effect_summary": "HR0.92；95%CI0.71至1.19；P0.54。事件121/1853与112/1601",
-      "limitations_and_pending": "诊所随机116家；不是认知游戏试验；随机人数不同于事件分析分母",
-      "access_scope": "原始摘要及作者机构研究记录",
+      "effect_summary": "原始试验HR0.92（95%CI0.71至1.19，P0.54）；扩展随访中位10.3年：干预217/1871（11.6%）vs对照192/1620（11.9%），HR0.99（95%CI0.89至1.10，P0.92）",
+      "limitations_and_pending": "诊所整群随机；非认知游戏试验；扩展随访是临床全因痴呆终点但不能证明脑部训练效果；原始Lancet全文及完整整群分析表待核对",
+      "access_scope": "PubMed摘要；JAMA Neurology开放网页Research Letter（扩展随访方法与结果可核对）；原始Lancet全文仍受访问限制",
       "audit_status": "partial_extraction_not_final",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/27474376/",
       "intervention_role": "background",
@@ -1484,10 +1484,24 @@
           "source_location": "原始摘要",
           "verification": "已有正文提取核对；完整统计审核进行中",
           "note": ""
+        },
+        {
+          "contrast": "扩展随访：血管照护 vs 常规照护",
+          "measure": "HR",
+          "estimate": 0.99,
+          "ci_lower": 0.89,
+          "ci_upper": 1.1,
+          "ci_level": 0.95,
+          "unit": "相对发生速率",
+          "endpoint": "全因痴呆",
+          "p_value": 0.92,
+          "source_location": "JAMA Neurology 2021 Research Letter Methods/Results",
+          "verification": "网页全文可核对；事件数与分母已提取",
+          "note": "中位随访10.3年；死亡竞争风险模型结果相近"
         }
       ],
       "numeric_extraction_status": "partial",
-      "numeric_missing_reason": "",
+      "numeric_missing_reason": "原始Lancet全文及完整整群分析表仍待核对",
       "risk_of_bias_review": {
         "status": "逐项方法记录，非正式完整偏倚或确定性裁决",
         "source_ids": [
@@ -1544,7 +1558,7 @@
           }
         ]
       },
-      "event_counts_status": "not_yet_extracted_full_text_or_supplement_pending"
+      "event_counts_status": "extended_followup_extracted_original_full_tables_pending"
     },
     {
       "id": "sprint",
