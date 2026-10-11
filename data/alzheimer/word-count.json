@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 111957,
-  "visible_chars": 130916,
+  "counted_han_chars": 112583,
+  "visible_chars": 131675,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -83,8 +83,8 @@
     {
       "id": "ad-reserve",
       "title": "13｜储备、维持与补偿：同样病理为何表现不同",
-      "han_chars": 1263,
-      "visible_chars": 1380,
+      "han_chars": 1889,
+      "visible_chars": 2139,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
