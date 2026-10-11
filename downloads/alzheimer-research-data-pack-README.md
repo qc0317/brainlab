@@ -20,3 +20,11 @@
 ## 解释边界
 
 材料包不包含完整 HTML 站点，也不把来源列表或代码计入十万字正文。当前逐篇记录多数仍是部分提取，正式 RoB2、ROBIS、ROBINS-I 和 GRADE 裁决仍在继续。任务或认知改善不能直接解释为阿尔茨海默病预防。
+
+## 完整 HTML 站点分片下载
+
+GitHub 单文件接口对大文件有限制，完整站点压缩包已拆为两个分片。下载 `alzheimer-research-archive-manifest.json` 后，按 `parts` 顺序合并，并核对 SHA-256：
+
+```bash
+cat alzheimer-research.zip.part-01 alzheimer-research.zip.part-02 > alzheimer-research.zip
+```
