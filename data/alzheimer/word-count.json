@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 116944,
-  "visible_chars": 136944,
+  "counted_han_chars": 118668,
+  "visible_chars": 138918,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -27,8 +27,8 @@
     {
       "id": "ad-amyloid-tau",
       "title": "01｜Aβ 与 Tau：从蛋白变化到疾病模型",
-      "han_chars": 2509,
-      "visible_chars": 2825,
+      "han_chars": 2849,
+      "visible_chars": 3222,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -147,8 +147,8 @@
     {
       "id": "ad-cause-risk",
       "title": "01｜原因、机制与风险：为何不能写成单一病因",
-      "han_chars": 1217,
-      "visible_chars": 1357,
+      "han_chars": 1527,
+      "visible_chars": 1712,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -203,8 +203,8 @@
     {
       "id": "ad-phenotypes",
       "title": "05｜记忆型与非典型表型：不是每个人都先忘事",
-      "han_chars": 1587,
-      "visible_chars": 1811,
+      "han_chars": 1839,
+      "visible_chars": 2100,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -483,8 +483,8 @@
     {
       "id": "ad-synthesis",
       "title": "23｜阶段性综合：哪些可能有效，哪些尚未证明",
-      "han_chars": 2624,
-      "visible_chars": 3325,
+      "han_chars": 3446,
+      "visible_chars": 4258,
       "excluded_repeated_han": 0,
       "status": "draft"
     }
