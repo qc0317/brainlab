@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-11",
+  "question": "脑部训练对于预防阿尔茨海默病可能有效吗？",
+  "scope_note": "这是证据分层矩阵，不是Meta分析或因果效应合并；所有记录目前均未被裁决为AD特异性预防证据。",
+  "summary_by_outcome_level": {
+    "clinical_dementia_algorithm": {
+      "records": 2,
+      "effect_entries": 6,
+      "risk_signals": {
+        "some_concerns": 2
+      }
+    },
+    "claims_adrd": {
+      "records": 1,
+      "effect_entries": 6,
+      "risk_signals": {
+        "serious_concerns": 1
+      }
+    },
+    "independent_cognition": {
+      "records": 9,
+      "effect_entries": 12,
+      "risk_signals": {
+        "some_concerns": 4,
+        "unclassified": 1,
+        "low_or_very_low_certainty": 3,
+        "serious_concerns": 1
+      }
+    },
+    "task_and_transfer": {
+      "records": 2,
+      "effect_entries": 2,
+      "risk_signals": {
+        "some_concerns": 1,
+        "serious_concerns": 1
+      }
+    },
+    "task_and_eeg": {
+      "records": 1,
+      "effect_entries": 0,
+      "risk_signals": {
+        "serious_concerns": 1
+      }
+    },
+    "clinical_dementia": {
+      "records": 1,
+      "effect_entries": 1,
+      "risk_signals": {
+        "some_concerns": 1
+      }
+    },
+    "clinical_dementia_and_mci": {
+      "records": 2,
+      "effect_entries": 2,
+      "risk_signals": {
+        "some_concerns": 1,
+        "protocol_only": 1
+      }
+    }
+  },
+  "rows": [
+    {
+      "id": "active5",
+      "source_id": "S42",
+      "outcome_level": "clinical_dementia_algorithm",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 5,
+      "risk_of_bias_tool": "RoB 2 (适用性映射；尚未完成正式裁决)",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可进入临床疾病发生层；AD特异性需额外诊断依据",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "次级分析；终点含机构化/接触拒绝；与十年及理赔版本须逐项对齐；PDF视觉、全方法及失访审核待完成"
+    },
+    {
+      "id": "active10",
+      "source_id": "S43",
+      "outcome_level": "clinical_dementia_algorithm",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 1,
+      "risk_of_bias_tool": "RoB 2（长期次级终点映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可进入临床疾病发生层；AD特异性需额外诊断依据",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "AD特异性发病未病理确认；区间删失Weibull模型及实际课程时变关联已读取。失访模式敏感性不能证明缺失无偏；完整补充表、模型假设、多重比较及资格分母仍待审核。"
+    },
+    {
+      "id": "active20",
+      "source_id": "S16",
+      "outcome_level": "claims_adrd",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 6,
+      "risk_of_bias_tool": "ROBINS-I思路（长期理赔再分析；非正式裁决）",
+      "risk_signal": "serious_concerns",
+      "core_question_role": "可进入临床疾病发生层；AD特异性需额外诊断依据",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "整体速度组区间含1；加强路径不能替代总体随机比较。文字表格差异、资格流程、亚组与多重比较仍待审。"
+    },
+    {
+      "id": "lampit",
+      "source_id": "S44",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "RoB 2 + GRADE（训练元分析中原试验层映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "即刻认知终点；亚组不是随机剂量比较。原图、Table S5与Dataset S1已查，8项视觉空间及总体52/51数据集已独立复算；摘要/正文视觉空间差异仍不能视作正式更正。原试验编码、结局合并、其余领域、统计软件实现及敏感性仍待审。"
+    },
+    {
+      "id": "pointer",
+      "source_id": "S15",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "multidomain",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 1,
+      "risk_of_bias_tool": null,
+      "risk_signal": null,
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "主动比较；游戏成分独立效果与临床发病未证明"
+    },
+    {
+      "id": "neuroracer",
+      "source_id": "S100",
+      "outcome_level": "task_and_transfer",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "RoB 2（小样本随机训练试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "只能支持任务/近端迁移层；不能支持痴呆预防",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "46人随机；六个月缺席多任务2、单任务2、无接触4；行为与EEG各分析分母不同。独立测验效应、补充表和完整多重比较待审；未测AD发病。"
+    },
+    {
+      "id": "neuroracer6",
+      "source_id": "S101",
+      "outcome_level": "task_and_eeg",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "RoB 2（原试验长期回访映射；尚未完成正式裁决）",
+      "risk_signal": "serious_concerns",
+      "core_question_role": "只能支持任务/近端迁移层；不能支持痴呆预防",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "不是独立重复试验；回访选择与缺失处理待审"
+    },
+    {
+      "id": "owen",
+      "source_id": "S108",
+      "outcome_level": "task_and_transfer",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "RoB 2（在线训练随机/完成者分析映射；尚未完成正式裁决）",
+      "risk_signal": "serious_concerns",
+      "core_question_role": "只能支持任务/近端迁移层；不能支持痴呆预防",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "主要分析以完成测验和至少两次课程者为条件；对照完成者更少、平均参与课程更少。原文ITT用语须结合该实际分析定义；完整初始组别人数、缺失结局与补充公式待核。个别测验差异不是广泛迁移或AD预防。"
+    },
+    {
+      "id": "cochraneD",
+      "source_id": "S106",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "ROBIS + GRADE（痴呆患者训练综述；尚未完成正式裁决）",
+      "risk_signal": "low_or_very_low_certainty",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "治疗阶段不是健康人发病预防；原试验重叠与偏倚待逐项审"
+    },
+    {
+      "id": "finger",
+      "source_id": "S47",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "multidomain",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 1,
+      "risk_of_bias_tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "综合方案，不能隔离游戏；退出153人，逐组缺失待核"
+    },
+    {
+      "id": "mapt",
+      "source_id": "S48",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "multidomain",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "原始CI与调整P不可替换；多重比较方法待核，总体未达到主要显著标准"
+    },
+    {
+      "id": "prediva",
+      "source_id": "S49",
+      "outcome_level": "clinical_dementia",
+      "intervention_role": "background",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 1,
+      "risk_of_bias_tool": "RoB 2（整群随机试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可进入临床疾病发生层；AD特异性需额外诊断依据",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "诊所随机116家；不是认知游戏试验；随机人数不同于事件分析分母"
+    },
+    {
+      "id": "sprint",
+      "source_id": "S50",
+      "outcome_level": "clinical_dementia_and_mci",
+      "intervention_role": "background",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "RoB 2（原随机试验认知结局映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可分别进入MCI和临床痴呆层；不得用MCI替代痴呆",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "MCI积极不能替代痴呆主要结果；血压不是游戏；后续随访待审"
+    },
+    {
+      "id": "achieve",
+      "source_id": "S51",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "background",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 1,
+      "risk_of_bias_tool": "RoB 2（主动对照随机试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "总体未显著；预设招募来源交互P0.010。精确亚组估计、多重比较及完整方法待核；不是游戏疗效。"
+    },
+    {
+      "id": "synapse",
+      "source_id": "S52",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "background",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "RoB 2（行为干预随机/偏好限制映射；尚未完成正式裁决）",
+      "risk_signal": "serious_concerns",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "完成者分析、偏好排除与对照差异待核；项目名称不等于生物突触测量"
+    },
+    {
+      "id": "cochraneHealthy",
+      "source_id": "S45",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 3,
+      "risk_of_bias_tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+      "risk_signal": "low_or_very_low_certainty",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "综述层级，须继续映射原始试验与重叠；低或非常低确定性；逐试验偏倚、效应方向及时间点待完整审核"
+    },
+    {
+      "id": "cochraneMCI",
+      "source_id": "S46",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+      "risk_signal": "low_or_very_low_certainty",
+      "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "综述层级，须继续映射原始试验与重叠；低或非常低确定性；逐试验偏倚、效应方向及时间点待完整审核"
+    },
+    {
+      "id": "pact_design",
+      "source_id": "S120",
+      "outcome_level": "clinical_dementia_and_mci",
+      "intervention_role": "direct",
+      "audit_status": "protocol_only_no_results",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "方案完整性审查（不作疗效偏倚评级）",
+      "risk_signal": "protocol_only",
+      "core_question_role": "可分别进入MCI和临床痴呆层；不得用MCI替代痴呆",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "方案/注册记录，不是结果论文；实际完成量、失访、主要终点、盲法执行和预注册版本需待结果核对"
+    }
+  ],
+  "interpretation": [
+    "任务和独立认知收益不能自动升级为临床痴呆预防。",
+    "临床痴呆或ADRD算法终点也不能自动升级为AD特异性，需核对诊断定义和病理/生物标志物。",
+    "综合生活方式、听力、血压和血管干预提供背景可行性或反证边界，不能拆分成游戏独立效果。",
+    "PACT目前是方案记录，待结果论文。"
+  ]
+}
