@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-12",
   "question": "脑部训练对于预防阿尔茨海默病可能有效吗？",
   "scope_note": "这是证据分层矩阵，不是Meta分析或因果效应合并；所有记录目前均未被裁决为AD特异性预防证据。",
   "summary_by_outcome_level": {
@@ -133,17 +133,17 @@
       "source_id": "S15",
       "outcome_level": "independent_cognition",
       "intervention_role": "multidomain",
-      "audit_status": "partial_extraction_not_final",
+      "audit_status": "structured_method_review_preliminary",
       "effect_entry_count": 1,
-      "risk_of_bias_tool": null,
-      "risk_signal": null,
+      "risk_of_bias_tool": "RoB 2（个体随机试验；结构化预审）",
+      "risk_signal": "some_concerns",
       "core_question_role": "可支持认知层的方向性证据；不能替代临床发病终点",
       "direct_ad_specific_prevention_evidence": false,
-      "why_not_or_pending": "主动比较；游戏成分独立效果与临床发病未证明",
+      "why_not_or_pending": "主动比较且为多领域干预；认知复合分数年变化0.029 SD（95%CI 0.008至0.050），不能单独归因游戏或推断临床发病；PMC全文当前需解决reCAPTCHA",
       "evidence_role": "间接（非游戏或综合/背景干预）",
       "claim_boundary": "该标签用于研究问题导航，不代表单条研究的最终因果判定；正式综合仍需全文、预注册和重复队列核对。",
       "event_counts_present": false,
-      "statistical_methods_present": false
+      "statistical_methods_present": true
     },
     {
       "id": "neuroracer",
@@ -252,17 +252,17 @@
       "source_id": "S49",
       "outcome_level": "clinical_dementia",
       "intervention_role": "background",
-      "audit_status": "partial_extraction_not_final",
-      "effect_entry_count": 1,
-      "risk_of_bias_tool": "RoB 2（整群随机试验映射；尚未完成正式裁决）",
+      "audit_status": "structured_method_review_preliminary",
+      "effect_entry_count": 2,
+      "risk_of_bias_tool": "RoB 2（整群随机试验；结构化预审）",
       "risk_signal": "some_concerns",
       "core_question_role": "可进入临床疾病发生层；AD特异性需额外诊断依据",
       "direct_ad_specific_prevention_evidence": false,
-      "why_not_or_pending": "诊所随机116家；不是认知游戏试验；随机人数不同于事件分析分母",
+      "why_not_or_pending": "长期全因痴呆扩展随访HR0.99（95%CI 0.89至1.10），无显著差异；不是认知游戏试验，AD特异性未单独判定；正式整群分析裁决待完成",
       "evidence_role": "反证/不确定（主要结果未显示明确疾病或总体认知优势）",
       "claim_boundary": "该标签用于研究问题导航，不代表单条研究的最终因果判定；正式综合仍需全文、预注册和重复队列核对。",
-      "event_counts_present": false,
-      "statistical_methods_present": false
+      "event_counts_present": true,
+      "statistical_methods_present": true
     },
     {
       "id": "sprint",
