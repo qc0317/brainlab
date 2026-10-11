@@ -157,7 +157,37 @@
             "interpretation": "没有明确差异不等于排除所有潜在效果",
             "pending": "全部模型、PDF表格与调整口径"
           }
-        ]
+        ],
+        "tool": "RoB 2 (适用性映射；尚未完成正式裁决)",
+        "overall_signal": "some_concerns",
+        "domain_judgement": [
+          {
+            "domain": "randomization_process",
+            "judgement": "some_concerns",
+            "reason": "当前记录确认次级分析与基线排除，但未完成原始随机序列、隐藏及分析集流转核对"
+          },
+          {
+            "domain": "deviations_from_intervention",
+            "judgement": "some_concerns",
+            "reason": "训练剂量和实际完成量尚未逐项与五年终点对齐"
+          },
+          {
+            "domain": "missing_outcome_data",
+            "judgement": "unclear",
+            "reason": "失访和接触拒绝的处理需要完整流程与敏感性分析"
+          },
+          {
+            "domain": "outcome_measurement",
+            "judgement": "some_concerns",
+            "reason": "研究定义痴呆包含算法/接触结果，非病理确认AD诊断"
+          },
+          {
+            "domain": "selective_reporting",
+            "judgement": "unclear",
+            "reason": "预设分析计划和全部终点尚未核对"
+          }
+        ],
+        "not_a_final_rating": true
       }
     },
     {
