@@ -1,8 +1,8 @@
 {
   "program": "alzheimer-rebuild-2026",
   "target_han_chars": 100000,
-  "counted_han_chars": 114449,
-  "visible_chars": 133911,
+  "counted_han_chars": 115157,
+  "visible_chars": 134779,
   "excluded_repeated_han": 0,
   "drafted_chapters": 60,
   "planned_chapters": 60,
@@ -163,8 +163,8 @@
     {
       "id": "ad-evidence-active10",
       "title": "07｜ACTIVE 十年：速度训练的积极信号",
-      "han_chars": 2517,
-      "visible_chars": 2987,
+      "han_chars": 2781,
+      "visible_chars": 3317,
       "excluded_repeated_han": 0,
       "status": "draft"
     },
@@ -475,8 +475,8 @@
     {
       "id": "ad-evidence-games",
       "title": "18｜经典游戏与产品：不能借用其他任务的疗效",
-      "han_chars": 3528,
-      "visible_chars": 4163,
+      "han_chars": 3972,
+      "visible_chars": 4701,
       "excluded_repeated_han": 0,
       "status": "draft"
     },

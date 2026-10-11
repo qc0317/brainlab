@@ -167,6 +167,17 @@
         "covariate_selection": "风险因素单变量P<0.05进入多变量并后退筛选",
         "attrition_sensitivity": "按五年前退出、五年后退出、十年完成者分组，检查每次课程关联；不等于全部缺失结局恢复",
         "source_location": "主文2.5、2.5.1、3.5.3；补充表尚未逐格审核"
+      },
+      "design_and_registration": {
+        "author_design_label": "多中心、单盲、四组随机试验",
+        "registry_id_in_article": "NCT00298558",
+        "registration_verification": "原文注册号已确认；2026-10-11尝试官方页只取得页面外壳，官方数据接口未返回内容。登记日期、历史版本及终点预设仍未核验，不据此判定前瞻或回顾注册。",
+        "population_scope": "65岁以上社区居住者；原文列出认知、功能、视力、疾病及沟通排除条件",
+        "initial_sessions": "十次，每次60—75分钟，五至六周，小组实施",
+        "booster_schedule_in_report": "11及35个月，各四次75分钟；文中说明至少80%初始训练完成资格",
+        "blinding_scope": "原文有单盲标签；具体谁被盲、分配隐藏及盲法执行仍需原方案核对",
+        "source_location": "十年原文2.1—2.3；不可由短设计段落填成全部低偏倚",
+        "registry_url": "https://clinicaltrials.gov/study/NCT00298558"
       }
     },
     {
@@ -509,7 +520,7 @@
       "source_id": "S100",
       "record_id": "ad-evidence-games",
       "cohort_key": "NeuroRacer2013",
-      "population": "60至85岁老年人",
+      "population": "主文报告46名60—85岁训练样本；Methods对实验2/3列60名老年参与者，完整分配与排除时序待流程图核验",
       "intervention": "自适应多任务游戏",
       "comparator": "单任务及无接触",
       "outcome": "任务成本及部分独立认知测试",
@@ -548,6 +559,23 @@
         },
         "source_location": "正文Results及Figure 2",
         "note": "描述性组内数值；不是组间净效应、错误率、年龄逆转或AD风险。"
+      },
+      "implementation_support": {
+        "source_location": "作者机构PDF第6页 NeuroRacer training and testing protocol",
+        "expectancy_instruction": "各组使用相同说明，告知方案旨在训练认知控制；此为设计措施，不证明期待等效",
+        "support": "设备教学、共享日程、按计划检查参与；每周邮件或电话联系，必要时居家帮助",
+        "experience_rating": "最终趣味性1—10评分：多任务6.5±2.2、单任务6.9±2.4；t0.65，P0.52",
+        "interpretation": "趣味性差异未显著，不是期待等效检验，也不是结局评估盲法证据",
+        "pending": "分配序列、隐藏、评估者盲法与期待直接测量继续核对"
+      },
+      "selection_scope": {
+        "source_location": "作者机构PDF第4页Methods Summary、第6页Participants；补充Figure9图像尚未核对",
+        "methods_older_participants": 60,
+        "main_reported_training_sample": 46,
+        "performance_exclusions_reported": "实验2追踪表现低于15%排除8人；误报率高于70%排除6人；条件可发生于访视或多次训练",
+        "timing_pending": "不可仅由60减46认定全部排除在随机前；逐组流程、重叠及时间仍待图9核对",
+        "clinical_scope": "正常/矫正视力，无所列神经/精神/血管病史及相关药物；每月游戏少于2小时的非玩家",
+        "interpretation": "筛选后任务适配者的结果不能自动推广至所有老年人或确诊AD人群"
       }
     },
     {

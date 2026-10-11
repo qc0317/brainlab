@@ -162,6 +162,15 @@ for x in EXTRACTS['studies']:
   for key in ('allocation_note','analysis_population_definition'):
    if f.get(key):b+='<p>'+esc(f[key])+'</p>'
   if f.get('sessions_mean_by_analysis_group'):b+=table([['完成分析组别','平均课程次数']]+[[labels.get(k,k),str(v)] for k,v in f['sessions_mean_by_analysis_group'].items()])
+ if x.get('selection_scope'):
+  f=x['selection_scope'];labels={'source_location':'原文位置','methods_older_participants':'方法中的老年参与者','main_reported_training_sample':'主文报告训练样本','performance_exclusions_reported':'任务表现排除条件','timing_pending':'时间与流向待核','clinical_scope':'临床适用条件','interpretation':'解释范围'}
+  b+='<h3>样本筛选与排除范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
+ if x.get('implementation_support'):
+  f=x['implementation_support'];labels={'source_location':'原文位置','expectancy_instruction':'期待说明措施','support':'实施支持','experience_rating':'体验评分','interpretation':'解释范围','pending':'待核'}
+  b+='<h3>实施支持与体验测量</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
+ if x.get('design_and_registration'):
+  f=x['design_and_registration'];labels={'author_design_label':'原文设计标签','registry_id_in_article':'论文所列注册号','registration_verification':'注册核验范围','population_scope':'人群范围','initial_sessions':'初始安排','booster_schedule_in_report':'论文中的加强安排','blinding_scope':'盲法核验范围','source_location':'原文位置'}
+  b+='<h3>设计、注册与盲法范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])
  if x.get('statistical_methods'):
   f=x['statistical_methods'];labels={'event_timing':'事件时间','model':'统计模型','randomized_contrast':'随机比较','sessions_analysis':'出席次数分析','covariate_selection':'调整变量选择','attrition_sensitivity':'失访敏感性','source_location':'原文位置'}
   b+='<h3>统计方法与解释范围</h3>'+table([['字段','原始提取说明']]+[[labels.get(k,k),str(v)] for k,v in f.items()])

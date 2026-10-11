@@ -2,7 +2,7 @@
 
 进行中 · 正文起草与数据审核并行。
 
-目前新版正文去重计数：114,449 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
+目前新版正文去重计数：115,157 汉字 / 目标至少 100,000 汉字；不是已完成十万字报告。
 
 新版正文汉字；排除代码、导航、来源列表、英文全文、计划标题和重复段落
 
@@ -2380,7 +2380,7 @@ MRI 提供脑部结构和病变相关资料。研究可观察萎缩模式、白�
 - [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
 - [S88｜Howett 等（2019）：使用虚拟现实导航区分轻度认知障碍](https://pubmed.ncbi.nlm.nih.gov/31121601/) · 摘要及 PMC 原文入口。正确DOI 10.1093/brain/awz116；45名MCI与41名对照，26名MCI有脑脊液标志物资料。不是训练试验。
 - [S97｜Howett2019导航研究：作者机构保存的开放PDF](https://www.mrc-cbu.cam.ac.uk/wp-content/uploads/www/sites/3/2019/07/HowettEtAl_B_19_VR_MCI.pdf) · 开放PDF · CC BY4.0。PDF首页核实CC BY 4.0，与S88同一研究。2026-10-10读取任务与盲法，视觉核对1753页平台阈值和1761页分类阈值；1757/1761页模型及AUC区间已提取。保留图7参考测试AUC与正文差异；外部验证与完整方法审核未完成。
-- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 
 ## 01｜Aβ 与 Tau：从蛋白变化到疾病模型
 
@@ -4374,7 +4374,7 @@ NeuroRacer与这项在线研究不能只按样本大小决定谁正确。需要�
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。8 项试验、660 人；无试验提供痴呆发生数据。
 - [S03｜Jack 等：修订诊断与分期标准](https://pmc.ncbi.nlm.nih.gov/articles/PMC11350039/) · 全文或正文。生物学定义框架；不是面向健康用户的筛查操作指南。
 - [S108｜Owen 2010｜Putting brain training to the test](https://pubmed.ncbi.nlm.nih.gov/20407435/) · 作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审。DOI 10.1038/nature09042；PMCID PMC2884087作者稿文本。登记52617与分析11430分开；99%CI；部分表格标准化效应方向与原始差方向需分开核对。
-- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 
 ## 04｜可塑性与疾病修饰：机制桥梁有多长
 
@@ -4507,7 +4507,7 @@ Shankar的人脑材料与动物实验支持特定条件下的突触影响，不�
 - [S16｜ACTIVE：20 年理赔数据随访](https://pmc.ncbi.nlm.nih.gov/articles/PMC12884427/) · 原文XML、方法与Table 1—3；官方补充包s003的Table S4选定Fine–Gray单元格及S5计划，s004第一次加强方案已读；全部模型与资格流程仍待审核。已发现文字与表格数值/人数差异，登记待核验。ADRD 理赔终点；合资格者有再次随机加强安排。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S82｜Chen 等（2018）：使用 SV2A PET 评估阿尔茨海默病突触密度](https://pubmed.ncbi.nlm.nih.gov/30014145/) · 摘要、图注及 PMC 原文入口。DOI 10.1001/jamaneurol.2018.1836；10名AD相关受试者与11名认知正常受试者，非训练试验。
-- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 - [S118｜Engvig等（2010）：记忆训练与皮层厚度的短期变化](https://pubmed.ncbi.nlm.nih.gov/20580844/) · 原始论文PDF的Methods、Results及表1—2；补充材料未核。DOI 10.1016/j.neuroimage.2010.05.041；公开PDF为原论文，不在本库转载全文或图片；被动对照、短期结局；行为样本人数存在需核对的内部差异。
 
 ## 05｜直接、间接与缺失证据：当前论证图
@@ -4698,6 +4698,16 @@ ACTIVE五年分析剔除基线符合研究痴呆标准的16人，分析2786人�
 ### 研究与原始结果
 
 2017 年十年分析报告 260 个痴呆事件。速度训练相对无接触对照的 HR 为 0.71（95% CI 0.50–0.998，p=0.049）；记忆与推理组均为约 0.79，区间分别为 0.57–1.11 和 0.56–1.10。终点由访谈与表现指标组合定义，并不是病理证实的 AD 特异性发生。
+
+依据：[S43](https://pubmed.ncbi.nlm.nih.gov/29201994/)
+
+### 设计资料｜随机标签之外还要记录什么
+
+十年论文2.1—2.3将ACTIVE描述为多中心、单盲、四组随机试验，列注册号NCT00298558；这次读取确认的是原文登记，不代表已核对注册历史及终点预设。样本为65岁以上社区居住者，并设置认知、功能、视力、疾病与沟通等排除条件。
+
+初始方案为五至六周内十次小组课程，每次60—75分钟；文中列11和35个月各四次75分钟加强安排，资格涉及完成至少80%的初始训练。其内容和实施条件与每天任意小游戏不同。
+
+研究解读：单盲一词本身不能告诉读者哪位人员被盲、是否一直保持盲态，也不能代替分配隐藏的证据。需要回到原始方案与实施资料，分别记录分配前能否预见组别、结局评估者是否知道组别，以及参加者是否知道训练内容。不同问题对应不同偏倚机制，不用一个随机试验标签统一回答。
 
 依据：[S43](https://pubmed.ncbi.nlm.nih.gov/29201994/)
 
@@ -6252,6 +6262,14 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 
 依据：[S100](https://pubmed.ncbi.nlm.nih.gov/24005416/)
 
+### 样本筛选｜46人之外还要检查哪些流程
+
+原文Methods列60名老年参与者，主文报告46人的训练样本。实验2有追踪表现低于15%的8人、误报率高于70%的6人被排除；排除条件涉及访视或多次训练。完整分组与排除时序仍需补充图9核对，不能仅由人数差断言全部在随机前排除。
+
+研究解读：依据任务表现筛选，可以帮助分析能完成该操作的人，却也可能改变样本代表性。若排除发生在分配之后，还需检查逐组原因、人数及对比较的影响。本库先保存作者报告和未解决流程，不把46人的结果推广为任何老年人都能获得同样收益。
+
+依据：[S100](https://pubmed.ncbi.nlm.nih.gov/24005416/)
+
 ### NeuroRacer原文｜怎样让任务难度可比较
 
 游戏结合目标标志识别与道路追踪。评估前分别调节单任务难度至约80%准确率，再进入同时执行条件；训练按每段三分钟的表现分别调整两种任务。奖励要求两项表现同时超过80%，意在维持双任务投入。
@@ -6275,6 +6293,16 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 若游戏中的一项表现改善、另一项变差，可能只是优先级改变。多任务研究应同时报告两项任务，而不能只选择改善的一项。将目标任务、追踪任务与综合成本一起保存，才可能观察这种权衡。
 
 这种设计为检验特定认知过程提供范例，尚不能说明每天更多地同时处理事情一定有益。现实活动还涉及安全、情境与个人能力，训练实验中的受控挑战不应直接转成日常多任务处方。
+
+依据：[S100](https://pubmed.ncbi.nlm.nih.gov/24005416/)
+
+### NeuroRacer实施｜期待说明与持续支持
+
+作者机构PDF第6页说明各组使用相同话术告知训练目标，提供设备教学、共享训练日程和每周邮件或电话联系，并检查参与情况。最终趣味性评分为多任务6.5±2.2、单任务6.9±2.4；t=0.65，P=0.52。
+
+研究解读：统一说明是减少期待差异的设计措施；趣味性未显著不同，不证明期待完全相同，也不能代替结局评估者盲法。随机分配序列、分配隐藏及盲法执行仍需具体资料核对，不能因一个评分就给全部偏倚问题作肯定判断。
+
+对产品研究，这提示应把任务本身与实施支持同时记录。若游戏缺少教学、安排与联系，即使规则相似，也可能面对不同的参与条件。可单独检验哪种支持改善理解与完成，再使用独立结局研究认知收益；不把趣味性或持续联系当作疾病预防效果。
 
 依据：[S100](https://pubmed.ncbi.nlm.nih.gov/24005416/)
 
@@ -6318,7 +6346,7 @@ Ballesteros等2015年的随访检查二十次、每次一小时非动作游戏�
 - [S44｜Lampit 等：正常老年人计算机认知训练元分析](https://pubmed.ncbi.nlm.nih.gov/25405755/) · 出版商正文与原始PDF主要结果；Table S5和Dataset S1已读取；本库独立复算视觉空间8行及总体52/51数据集；原试验重新编码与全方法审核待完成。51篇文章、52个数据集；CC BY，允许在署名与标注修改的条件下使用与翻译。
 - [S45｜Gates 等：正常老年人至少12周计算机训练](https://www.cochrane.org/evidence/CD012277_computerised-cognitive-training-maintaining-cognitive-function-cognitively-healthy-people-late-life) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。纳入时长限定影响适用范围；不能代表所有短期或长期训练。
 - [S46｜Gates 等：MCI 人群训练与痴呆预防](https://www.cochrane.org/evidence/CD012279_computerised-cognitive-training-preventing-dementia-people-mild-cognitive-impairment) · 官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核。8 项试验、660 人；无试验提供痴呆发生数据。
-- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 - [S101｜Anguera 2021｜Long-term maintenance of multitasking abilities following video game training in older adults](https://pubmed.ncbi.nlm.nih.gov/33789209/) · 原始元数据与出版商正文索引；全文表格待审。与2013研究关联，不能作为独立重复试验
 - [S102｜Ballesteros 2015｜Non-action video games: results of the 3-month follow-up](https://pubmed.ncbi.nlm.nih.gov/25926790/) · 原始摘要索引；全文效应量与流失表待审。训练后与停止训练后的结果分开；非AD发病终点
 - [S108｜Owen 2010｜Putting brain training to the test](https://pubmed.ncbi.nlm.nih.gov/20407435/) · 作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审。DOI 10.1038/nature09042；PMCID PMC2884087作者稿文本。登记52617与分析11430分开；99%CI；部分表格标准化效应方向与原始差方向需分开核对。
@@ -6871,7 +6899,7 @@ preDIVA直接观察全因痴呆主要结果未显著；SPRINT的MCI及可能痴�
 - [S10｜Montagne 等：APOE4 与血脑屏障失调](https://www.nature.com/articles/s41586-020-2247-3) · 出版商摘要；作者机构原始稿Participants、主文部分、统计方法与图3文字说明已读；原图及完整补充模型待核。435总样本，DCE-MRI245、脑脊液350、两者172；纵向146。图3中位数分组仅展示，模型用连续预测量；部分分析未校正多重比较。作者稿使用条件不作为转载全文/图片许可。
 - [S93｜Stern 等：认知储备、脑储备与脑维持白皮书](https://pubmed.ncbi.nlm.nih.gov/30222945/) · 摘要及 PMC 原文入口。DOI10.1016/j.jalz.2018.07.219；在线版本2018，正式卷期2020；共识框架不是训练疗效试验。
 - [S109｜Butler 2018｜Does Cognitive Training Prevent Cognitive Decline? A Systematic Review](https://pubmed.ncbi.nlm.nih.gov/29255842/) · 原始摘要与机构记录；完整证据表待审。检索至2017年7月，不能当作当前完整更新
-- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
+- [S100｜Anguera 2013｜Video game training enhances cognitive control in older adults](https://pubmed.ncbi.nlm.nih.gov/24005416/) · PMC作者稿主文、Methods、Figure 2–4已读取；补充材料与逐项效果计算待审核；作者机构PDF第6页实施、统一说明及趣味性评价已读，分配隐藏/评估盲法仍待核。作者机构原文入口：https://neuroscape.ucsf.edu/wp-content/uploads/publications/Anguera_Nature_2013-Video-game-training-enhances-cognitive-control-in-older-adults.pdf；2013 Macmillan版权所有，不公开镜像全文；PDF符号抽取需核对。
 - [S108｜Owen 2010｜Putting brain training to the test](https://pubmed.ncbi.nlm.nih.gov/20407435/) · 作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审。DOI 10.1038/nature09042；PMCID PMC2884087作者稿文本。登记52617与分析11430分开；99%CI；部分表格标准化效应方向与原始差方向需分开核对。
 - [S43｜Edwards 等：ACTIVE 十年速度训练与痴呆](https://pubmed.ncbi.nlm.nih.gov/29201994/) · 原文 XML、摘要与数据表。CC BY-NC-ND 4.0；原文可非商业分发但不据此公开全文翻译。数据审核继续。
 - [S102｜Ballesteros 2015｜Non-action video games: results of the 3-month follow-up](https://pubmed.ncbi.nlm.nih.gov/25926790/) · 原始摘要索引；全文效应量与流失表待审。训练后与停止训练后的结果分开；非AD发病终点
