@@ -35,7 +35,7 @@
     {
       "requirement": "Git同步与公网最新发布",
       "status": "git_and_pages_build_verified_public_content_partial",
-      "evidence": "当前公开main提交0edeb1edf54d7e1e10749d06972ebdb1468dfef8，GitHub Pages构建run 38139070803已成功；GitHub原始正文与本地计数一致（116944汉字、60章），并确认最新脑变化—训练桥接内容已公开。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。"
+      "evidence": "当前公开main提交e2de38bcc2d242e9540d162b626ac3e741ad9db7，GitHub Pages构建run 38140280758已成功；试验数据库公开Blob 0bc3e3a98600a60345a696b4ba95a3d85c96aee4与本地终点分层一致；GitHub原始正文与本地计数一致（116944汉字、60章）。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。"
     },
     {
       "requirement": "可下载研究材料",

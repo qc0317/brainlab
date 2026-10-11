@@ -10,7 +10,7 @@
 |支持、无效与反向证据综合|present_critical_review_pending|ad-synthesis、ad-transfer及各试验；临床终点与任务收益区分；关键主张仍需逐项复核|
 |许可、版本、读取范围|partially_audited|来源与literature-audit记录存在；部分许可、正式版本与更正数据待核对|
 |多级导航、检索、关联、响应式|static_pass_partial_runtime_verified|静态页面、引用、关联及锚点由scripts/validate.py逐次检查，以独立运行输出为准。真实界面已部分检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开；完整阅读及其余交互仍待审核，不能由静态检查推定全部运行行为。 2026-10-11新增方法表的浏览器验收尝试因会话重置和打开超时未完成；已有界面检查是历史部分范围，不能证明新增表格当前运行通过。|
-|Git同步与公网最新发布|git_and_pages_build_verified_public_content_partial|当前公开main提交0edeb1edf54d7e1e10749d06972ebdb1468dfef8，GitHub Pages构建run 38139070803已成功；GitHub原始正文与本地计数一致（116944汉字、60章），并确认最新脑变化—训练桥接内容已公开。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。|
+|Git同步与公网最新发布|git_and_pages_build_verified_public_content_partial|当前公开main提交e2de38bcc2d242e9540d162b626ac3e741ad9db7，GitHub Pages构建run 38140280758已成功；试验数据库公开Blob 0bc3e3a98600a60345a696b4ba95a3d85c96aee4与本地终点分层一致；GitHub原始正文与本地计数一致（116944汉字、60章）。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。|
 |可下载研究材料|local_package_verified_public_hash_pending|当前本地ZIP通过完整性检查，12个成员、890225字节，正文与DRAFT逐字一致；当前公网下载包的HTTP与SHA256尚未重新核验。旧检查点40的ZIP证据仅作为历史快照。|
 
 ## 四部分正文规模
