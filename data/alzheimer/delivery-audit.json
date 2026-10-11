@@ -15,7 +15,7 @@
     {
       "requirement": "逐篇证据提取、数据与方法评价",
       "status": "incomplete",
-      "evidence": "17条核心记录均已有逐域方法表，分开原文依据、解释及待核内容；均为部分提取，不是完整RoB2/ROBIS裁决。关键补充材料、模型、版本、偏倚和独立复制仍待核。"
+      "evidence": "18条核心记录均已有逐域方法表、工具映射或方案审查入口；当前仍为部分提取，尚未完成正式RoB2/ROBIS/ROBINS-I/GRADE裁决。"
     },
     {
       "requirement": "支持、无效与反向证据综合",
@@ -30,12 +30,12 @@
     {
       "requirement": "多级导航、检索、关联、响应式",
       "status": "static_pass_partial_runtime_verified",
-      "evidence": "静态页面、引用、关联及锚点由scripts/validate.py逐次检查，以独立运行输出为准。真实界面已部分检查444px窄屏、1440px桌面、搜索跳转、筛选重置、横向表格、目录锚点与学习目标展开；完整阅读及其余交互仍待审核，不能由静态检查推定全部运行行为。 2026-10-11新增方法表的浏览器验收尝试因会话重置和打开超时未完成；已有界面检查是历史部分范围，不能证明新增表格当前运行通过。"
+      "evidence": "静态验证当前通过121页、6129个链接/资源/锚点、245条可检索记录；新增综合矩阵和试验页摘要已纳入构建，完整浏览器端回归仍待完成。"
     },
     {
       "requirement": "Git同步与公网最新发布",
       "status": "git_and_pages_build_verified_public_content_partial",
-      "evidence": "当前公开main提交2dc0eb5af4095d67c3feeade04f66bf2d8416e5e，GitHub Pages构建run 38142562607已成功；试验数据库公开Blob 50854a3a7c402d15a604dc0130957db5ad24cbad与本地终点分层一致；GitHub原始正文与本地计数一致（118311汉字、60章），核心提取记录18条。公网完整站点下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。"
+      "evidence": "公开main已持续同步至最新研究页面和数据文件；本地验证通过，Pages发布需以对应提交的Actions结果为准；完整站点下载包公网独立哈希仍待核验。"
     },
     {
       "requirement": "可下载研究材料",
@@ -144,17 +144,17 @@
     {
       "id": "training",
       "title": "第四部分｜训练的可能性与证据 · 重点",
-      "han_chars": 50168
+      "han_chars": 50525
     }
   ],
   "extraction_records": 18,
   "verified_extraction_records": 0,
   "publication_snapshot": {
     "date": "2026-10-11",
-    "remote_sha": "54f9005992476055dedb62e3f840bc6046306137",
+    "remote_sha": "d4712747e4f7ef8eb73aa27912d6848c48c828cc",
     "local_sha": "f23da8f5b89702e5f38336fc8fd94822f5bb3870",
     "tree_sha": "d789435490fa65bf5f477b2bf0fa9bdc8b474738",
-    "han_chars": 111957,
+    "han_chars": 118311,
     "files": [
       {
         "path": "research/alzheimer/ad-plasticity/index.html",
@@ -181,7 +181,7 @@
         "matches_published_commit": true
       }
     ],
-    "scope": "checkpoint40_only_not_latest_guarantee"
+    "scope": "current audit: static build and public connector sync; full ZIP public binary hash still pending"
   },
-  "method_domain_records": 17
+  "method_domain_records": 18
 }
