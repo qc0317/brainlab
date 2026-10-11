@@ -35,7 +35,7 @@
     {
       "requirement": "Git同步与公网最新发布",
       "status": "git_and_pages_build_verified_public_content_partial",
-      "evidence": "当前公开main提交0c3eac9616be4e41b166791bbf1bda60da2ce99e，GitHub Pages构建run 38116990828已成功；GitHub原始正文与本地计数一致（116944汉字、60章），并确认最新脑变化—训练桥接内容已公开。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。"
+      "evidence": "当前公开main提交54f9005992476055dedb62e3f840bc6046306137，GitHub Pages构建run 38138777461已成功；GitHub原始正文与本地计数一致（116944汉字、60章），并确认最新脑变化—训练桥接内容已公开。公网下载包的独立哈希核验仍待完成。历史检查点40的HTTP/SHA记录保留为旧快照，不代表当前包。"
     },
     {
       "requirement": "可下载研究材料",
@@ -155,7 +155,7 @@
   "verified_extraction_records": 0,
   "publication_snapshot": {
     "date": "2026-10-11",
-    "remote_sha": "b3c954c4dea3ed9c7b27622f60e03f0542d0af69",
+    "remote_sha": "54f9005992476055dedb62e3f840bc6046306137",
     "local_sha": "f23da8f5b89702e5f38336fc8fd94822f5bb3870",
     "tree_sha": "d789435490fa65bf5f477b2bf0fa9bdc8b474738",
     "han_chars": 111957,
