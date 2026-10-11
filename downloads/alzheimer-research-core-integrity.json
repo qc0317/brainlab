@@ -1,0 +1,27 @@
+{
+  "package": "downloads/alzheimer-research-core-latest.zip",
+  "zip_bytes": 26869,
+  "zip_sha256": "c36fbb977e7aa7e22e89cbd688acd8d1097f8af726612738d7ec7c9c1d394c69",
+  "members": [
+    {
+      "path": "data/alzheimer/trial-extractions.json",
+      "bytes": 77204,
+      "sha256": "8d2d94eccd7fdadd7b424773de7ce081577dbc41f0b3d519d139bf156c074b41"
+    },
+    {
+      "path": "research-programs/alzheimer/PROTOCOL.md",
+      "bytes": 8192,
+      "sha256": "336b5485d093a9ce7082900d50b8c978a10176ab487cb3a9eec9a53ba1e900cf"
+    },
+    {
+      "path": "research-programs/alzheimer/DELIVERY-AUDIT.md",
+      "bytes": 3671,
+      "sha256": "a91a30073a3ff4ae62c2c3ad083a5757c658c7860a21338f6e4b414873c771ed"
+    },
+    {
+      "path": "downloads/alzheimer-research-latest-update.json",
+      "bytes": 1244,
+      "sha256": "3aa15c4766c9bc89f764c0cabc0b9910b96ef55701c11a5420acb55ad9ddf539"
+    }
+  ]
+}
