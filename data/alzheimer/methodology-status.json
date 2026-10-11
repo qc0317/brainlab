@@ -1,0 +1,669 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-11",
+  "purpose": "方法学审查状态索引；用于区分预审映射与正式质量评级。",
+  "formal_ratings_complete": false,
+  "tools": [
+    "RoB 2",
+    "ROBINS-I",
+    "ROBIS",
+    "GRADE"
+  ],
+  "records": [
+    {
+      "study_id": "active5",
+      "source_id": "S42",
+      "tool": "RoB 2 (适用性映射；尚未完成正式裁决)",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分析与人群",
+          "evidence": "次级分析，基线排除16人后2786人",
+          "interpretation": "不是原试验专门AD一级预防设计",
+          "pending": "原始预设、完整流转与缺失"
+        },
+        {
+          "domain": "终点与比较",
+          "evidence": "189事件；定义包含机构化及家庭拒绝接触",
+          "interpretation": "与十年终点不完全相同，不是病理AD诊断",
+          "pending": "全部判定组合、评估盲法和敏感性"
+        },
+        {
+          "domain": "估计与范围",
+          "evidence": "合并训练调整HR1.00，95%区间0.71—1.40",
+          "interpretation": "没有明确差异不等于排除所有潜在效果",
+          "pending": "全部模型、PDF表格与调整口径"
+        }
+      ],
+      "source_scope": "原始摘要；PMC索引提供Methods及Table 1—5文本；机构PDF下载超时，尚未视觉核对表格",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "active10",
+      "source_id": "S43",
+      "tool": "RoB 2（长期次级终点映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配",
+          "evidence": "原文随机四组；历史方案描述基线后计算机分配",
+          "interpretation": "支持分配设计的存在，不能单独证明隐藏和执行无偏",
+          "pending": "原始序列、隐藏、实施及长期分析选择"
+        },
+        {
+          "domain": "偏离方案",
+          "evidence": "实际课程次数与初始随机训练类型分别分析",
+          "interpretation": "次数关联包含依从性选择，不能直接作为随机剂量效应",
+          "pending": "逐组完成和偏离原因及对应分析目标"
+        },
+        {
+          "domain": "缺失结局",
+          "evidence": "按早退出/晚退出/完成者检验课程关联",
+          "interpretation": "敏感性检查提供信息，但不能证明所有缺失机制已被排除",
+          "pending": "完整流转、缺失及死亡处理"
+        },
+        {
+          "domain": "结局测量",
+          "evidence": "认知/功能、MMSE、报告诊断组成操作性终点",
+          "interpretation": "非AD病理审定；训练相关测验可能影响达到判定阈值",
+          "pending": "不同定义组合的完整结果及评估者盲法"
+        },
+        {
+          "domain": "结果选择",
+          "evidence": "原试验长期再分析，原始历史计划不等于十年痴呆计划",
+          "interpretation": "不能由注册号推定后续所有比较已预设",
+          "pending": "对应年份分析计划、多重比较、时间点与定义选择"
+        }
+      ],
+      "source_scope": "原文 XML、摘要与数据表",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "active20",
+      "source_id": "S16",
+      "tool": "ROBINS-I思路（长期理赔再分析；非正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "样本与资料连接",
+          "evidence": "原2802人连接2763人；最终理赔分析2021人",
+          "interpretation": "连接成功不等于进入分析；结果限于实际资料范围",
+          "pending": "逐步排除、覆盖变化、选择与基线差异"
+        },
+        {
+          "domain": "比较与资格",
+          "evidence": "整体训练、加强路径及合资格组内比较分开报告",
+          "interpretation": "整体区间含1，不能用路径结果代替整体；再次随机设计信息仍须保留",
+          "pending": "分配、资格、完成的逐人流程与原文人数差异"
+        },
+        {
+          "domain": "竞争事件与覆盖",
+          "evidence": "死亡比例77%；原因别模型及指定Fine–Gray比较已读",
+          "interpretation": "两类比值不是固定20年个人风险，死亡处理不修复其他偏倚",
+          "pending": "完整累计发生曲线、模型、删失与敏感性"
+        },
+        {
+          "domain": "终点测量",
+          "evidence": "CCW理赔ADRD算法，未逐人病理审定AD",
+          "interpretation": "诊断记录受服务、识别及编码影响，不代表AD特异性发生",
+          "pending": "算法适用时期、逐组诊断机会与误分类影响"
+        },
+        {
+          "domain": "分析与报告",
+          "evidence": "文字调整结果与Table2数值存在不同；补充指定模型已提取",
+          "interpretation": "不能静默改作者数值，也不能将同队列多模型作为独立复制",
+          "pending": "对应计划、所有模型、多重比较与差异裁决"
+        }
+      ],
+      "source_scope": "原文XML、Table 1–3；官方Europe PMC补充包中s003，Table S4选定单元格与S5统计计划",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "lampit",
+      "source_id": "S44",
+      "tool": "RoB 2 + GRADE（训练元分析中原试验层映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "纳入与单位",
+          "evidence": "51篇文章、52数据集；健康老年人即刻独立认知测试",
+          "interpretation": "文章、试验和数据集不能混算；不能外推MCI/AD及疾病发生",
+          "pending": "逐试验身份、共享样本与结局映射"
+        },
+        {
+          "domain": "聚合与假设",
+          "evidence": "相关性假设0.6/0.7；离群前后估计分别保存",
+          "interpretation": "合并平均不代表每一种任务；依赖编码及相关性处理",
+          "pending": "原结局合并、所有领域、作者软件完整实现"
+        },
+        {
+          "domain": "数据复核",
+          "evidence": "指定DL复算8视觉空间及总体52/51聚合效应",
+          "interpretation": "提高这些汇总数的可追溯性，不验证全部原试验或正式更正",
+          "pending": "视觉空间图/正文差异裁决及原数据重新编码"
+        },
+        {
+          "domain": "偏倚与选择",
+          "evidence": "作者盲法/ITT操作规则、漏斗及敏感性已部分读",
+          "interpretation": "一个评分或不显著偏倚检验不能排除全部偏倚",
+          "pending": "全部原试验结局层面的偏倚与选择报告"
+        },
+        {
+          "domain": "亚组与推广",
+          "evidence": "实施方式和频率为跨研究亚组",
+          "interpretation": "不是随机剂量对照，不能定个人最佳频率或预防率",
+          "pending": "直接剂量/支持比较、长期保持、功能和临床发生"
+        }
+      ],
+      "source_scope": "出版商主文、PDF图10、Table S5、Dataset S1；本库8项视觉空间与总体52/51聚合效应DL复算；完整逐试验及全方法审核尚未完成",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "pointer",
+      "source_id": "S15",
+      "tool": null,
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配与比较",
+          "evidence": "2111人随机1056/1055，结构化vs自主综合方案",
+          "interpretation": "主动方案之间的增量效果，不等于方案vs完全无活动",
+          "pending": "序列、隐藏、入组条件及全部流程"
+        },
+        {
+          "domain": "组成与参与",
+          "evidence": "多种生活方式组成和支持强度同时变化",
+          "interpretation": "不能单独归因游戏或某种打卡体验",
+          "pending": "各组成实际完成、支持接触及偏离"
+        },
+        {
+          "domain": "结局与缺失",
+          "evidence": "两年认知年变化差0.029SD，区间0.008—0.050",
+          "interpretation": "不代表临床AD预防；模型精度不消除测量和缺失问题",
+          "pending": "结局评估盲法、复合构成、失访及敏感性"
+        },
+        {
+          "domain": "亚组与多重比较",
+          "evidence": "APOE交互P0.95、基线认知交互P0.02；图4注明未多重调整",
+          "interpretation": "不显著不是等效，小P也不是已确定精准处方",
+          "pending": "全部比较、预设层级、区间及独立复制"
+        },
+        {
+          "domain": "安全性单位",
+          "evidence": "严重事件151/190、非严重1091/1225为事件数",
+          "interpretation": "不能当作发生事件的人数或直接游戏风险",
+          "pending": "重复事件、接触差异、采集与因果归属"
+        }
+      ],
+      "source_scope": "全文或正文",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "neuroracer",
+      "source_id": "S100",
+      "tool": "RoB 2（小样本随机训练试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配与排除",
+          "evidence": "主文46人训练样本；Methods另列60名老年参与者及任务表现排除规则",
+          "interpretation": "原文随机标签不自动解决排除时序与分析人群问题",
+          "pending": "补充图9的逐组流转、排除时间及分配隐藏"
+        },
+        {
+          "domain": "实施与对照",
+          "evidence": "单任务主动对照与无接触对照；统一说明、设备教学、日程和研究支持",
+          "interpretation": "主动对照有助于比较同时处理干扰的增量，但不能假定期待及所有接触完全相同",
+          "pending": "逐组参与、方案偏离及期待直接测量"
+        },
+        {
+          "domain": "缺失结果",
+          "evidence": "六个月缺席多任务2、单任务2、无接触4；两份EEG记录损坏",
+          "interpretation": "行为随访与EEG分析分母不同；不能用46作为全部结局样本",
+          "pending": "每项结局人数、缺失原因和敏感性分析"
+        },
+        {
+          "domain": "测量与推广",
+          "evidence": "自适应训练；固定诊断版本及独立认知/EEG比较",
+          "interpretation": "游戏成本、反应时间和theta变化不是AD发病或病理修复",
+          "pending": "评估者盲法、独立测验精确效应及全部比较"
+        },
+        {
+          "domain": "报告选择",
+          "evidence": "多个行为、脑电及相关分析",
+          "interpretation": "不同分析支持不同主张，不宜只挑最积极结果",
+          "pending": "预设计划、完整补充表、多重比较及独立复制"
+        }
+      ],
+      "source_scope": "原始PMC作者稿：主文、图2/3/4与Methods已读取；补充表和完整效应量计算待审",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "neuroracer6",
+      "source_id": "S101",
+      "tool": "RoB 2（原试验长期回访映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "队列与回访",
+          "evidence": "原NeuroRacer研究线六年随访",
+          "interpretation": "同队列延长观察不是独立复制",
+          "pending": "原组别流转、回访原因和缺失"
+        },
+        {
+          "domain": "筛选与终点",
+          "evidence": "原认知筛选标准符合资格比例",
+          "interpretation": "不能当成AD病例发生或预防率",
+          "pending": "全部筛选步骤、独立认知与临床结局"
+        },
+        {
+          "domain": "期间变化",
+          "evidence": "多年后游戏及EEG比较",
+          "interpretation": "不能把全部后期差异归因首次训练",
+          "pending": "额外训练、生活变化及完整分析"
+        }
+      ],
+      "source_scope": "原始元数据与出版商正文索引；全文表格待审",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "owen",
+      "source_id": "S108",
+      "tool": "RoB 2（在线训练随机/完成者分析映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配",
+          "evidence": "作者稿称登记时各组等量分配",
+          "interpretation": "完成者分母不能替代初始随机分母",
+          "pending": "完整初始人数、序列、隐藏和流程"
+        },
+        {
+          "domain": "缺失与纳入",
+          "evidence": "要求两次基准测验及至少两次课程；对照完成者较少",
+          "interpretation": "即使原文称ITT，实际完成条件仍会限制全体随机者的解释",
+          "pending": "逐组未完成原因、缺失敏感性及方案定义"
+        },
+        {
+          "domain": "对照与实施",
+          "evidence": "网络知识查找主动对照，课程参与量与训练组不同",
+          "interpretation": "控制部分活动接触，不保证期待或实际时间完全匹配",
+          "pending": "期待、参与与评估盲法"
+        },
+        {
+          "domain": "报告与方向",
+          "evidence": "Table2部分原始差为负，标准化列为正；使用99%区间",
+          "interpretation": "不能自动改符号或把全部正标准化值当作训练优势",
+          "pending": "标准化公式、区间算法与全部结局完整报告"
+        }
+      ],
+      "source_scope": "作者稿PDF主文、Methods、Table 1–3文本；Table 2第12页渲染图已查看；补充材料及完整效应公式待审",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "cochraneD",
+      "source_id": "S106",
+      "tool": "ROBIS + GRADE（痴呆患者训练综述；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "研究人群",
+          "evidence": "已患痴呆者训练综述",
+          "interpretation": "治疗/支持不是健康人初次发病预防",
+          "pending": "完整临床状态与逐试验"
+        },
+        {
+          "domain": "比较与单位",
+          "evidence": "对照及其他治疗结果分别报告",
+          "interpretation": "不同参照效应不能互换或叠加人数",
+          "pending": "试验重叠、接触、合并与偏倚"
+        },
+        {
+          "domain": "确定性与功能",
+          "evidence": "认知SMD不直接等于生活收益",
+          "interpretation": "低确定性和临床终点范围须保留",
+          "pending": "逐结局确定性、功能、安全性及长期保持"
+        }
+      ],
+      "source_scope": "原始摘要、官方综述与PMC结果索引；逐项偏倚表待审",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "finger",
+      "source_id": "S47",
+      "tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配与分析人群",
+          "evidence": "随机1260人，631/629；至少一次基线后评估进入分析591/599",
+          "interpretation": "修正ITT分母不是全部随机者，也不是全部两年完成者",
+          "pending": "序列、隐藏、逐组流转及未分析原因"
+        },
+        {
+          "domain": "综合组成与实施",
+          "evidence": "饮食、运动、认知训练及血管监测整体比较",
+          "interpretation": "随机比较支持整体方案，不能隔离游戏独立贡献",
+          "pending": "各组成剂量、完成、偏离及对照内容"
+        },
+        {
+          "domain": "缺失与安全性",
+          "evidence": "整体退出153；不良事件人数46/6，疼痛32/0",
+          "interpretation": "退出与未分析不同；安全事件属于整体方案而非某组成",
+          "pending": "逐组退出、模型缺失假设、事件严重度及归属"
+        },
+        {
+          "domain": "测量与报告",
+          "evidence": "NTB认知年变化差0.022；两年认知结果",
+          "interpretation": "不是AD发生率或病理变化，不能换算预防比例",
+          "pending": "评估盲法、复合构成、模型、功能与后续报告"
+        }
+      ],
+      "source_scope": "摘要与研究机构元数据",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "mapt",
+      "source_id": "S48",
+      "tool": "RoB 2（综合生活方式试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配与分析",
+          "evidence": "1680随机、1525修正ITT",
+          "interpretation": "差额155不能仅凭数字称作失访",
+          "pending": "逐组流程、纳入条件、隐藏与缺失"
+        },
+        {
+          "domain": "多重比较",
+          "evidence": "联合方案区间与调整P0.142并列",
+          "interpretation": "不能挑有利区间替代主要判断",
+          "pending": "完整校正方法、计划及亚组"
+        },
+        {
+          "domain": "干预与结局",
+          "evidence": "综合干预/补充剂，36个月认知",
+          "interpretation": "不是游戏独立贡献或AD病例减少",
+          "pending": "实际剂量、盲法、复合构成与长期结局"
+        }
+      ],
+      "source_scope": "原始论文摘要检索快照；全文待逐表审核",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "prediva",
+      "source_id": "S49",
+      "tool": "RoB 2（整群随机试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "整群分配",
+          "evidence": "116诊所、3526随机参加者",
+          "interpretation": "诊所内数据非完全独立，分配/分析单位需分开",
+          "pending": "整群随机、招募时点及聚类模型"
+        },
+        {
+          "domain": "对照与实施",
+          "evidence": "多领域血管照护vs通常照护",
+          "interpretation": "不显著不能自动归因对照太好",
+          "pending": "实际接触、风险变化、污染与依从性"
+        },
+        {
+          "domain": "终点与缺失",
+          "evidence": "全因痴呆HR0.92，区间0.71—1.19",
+          "interpretation": "不是AD特异发生，也不是游戏试验",
+          "pending": "判定盲法、死亡、缺失和后续同队列"
+        }
+      ],
+      "source_scope": "原始摘要及作者机构研究记录",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "sprint",
+      "source_id": "S50",
+      "tool": "RoB 2（原随机试验认知结局映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "研究问题",
+          "evidence": "强化vs标准血压管理",
+          "interpretation": "背景干预不能作为游戏疗效",
+          "pending": "完整资格、分配、实施及试验结束影响"
+        },
+        {
+          "domain": "终点层级",
+          "evidence": "可能痴呆HR0.83、MCI0.81",
+          "interpretation": "次要MCI积极不使痴呆主要结果自动阳性",
+          "pending": "判定、预设层级、多重比较与区间"
+        },
+        {
+          "domain": "长期观察",
+          "evidence": "老年随访包含退出及死亡",
+          "interpretation": "缺少诊断记录不能默认持续无病",
+          "pending": "事件流转、竞争死亡和后续报告"
+        }
+      ],
+      "source_scope": "摘要",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "achieve",
+      "source_id": "S51",
+      "tool": "RoB 2（主动对照随机试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "分配与来源",
+          "evidence": "977随机；ARIC238、新招募739",
+          "interpretation": "来源不是可直接推广的AD分期标签",
+          "pending": "序列、隐藏、完整入组及逐组流转"
+        },
+        {
+          "domain": "总体与亚组",
+          "evidence": "总体差0.002，交互P0.010",
+          "interpretation": "总体未显著和来源异质可并存",
+          "pending": "精确亚组、多重比较及独立复制"
+        },
+        {
+          "domain": "实施与测量",
+          "evidence": "听力服务vs健康教育，三年认知",
+          "interpretation": "输入改善、认知改变和AD预防不同",
+          "pending": "测验呈现、盲法、依从性、缺失及功能"
+        }
+      ],
+      "source_scope": "原文可访问部分与摘要",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "synapse",
+      "source_id": "S52",
+      "tool": "RoB 2（行为干预随机/偏好限制映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "偏好与分配",
+          "evidence": "允许排除一种不感兴趣活动；259入组、221完成",
+          "interpretation": "不能简化成所有人可等概率进入每项活动",
+          "pending": "分配操作、逐组初始人数与偏好处理"
+        },
+        {
+          "domain": "完成者与缺失",
+          "evidence": "主要呈现完成者数据及各活动分组",
+          "interpretation": "留下来者的结果未必等于向全部入组者提供活动的结果",
+          "pending": "退出原因、逐组比例、分析与敏感性"
+        },
+        {
+          "domain": "活动与对照",
+          "evidence": "摄影/拼布/双项目，社交、安慰及无干预条件不同",
+          "interpretation": "活动挑战、教师支持与接触未必被完全隔离；不能推广所有新技能",
+          "pending": "接触匹配、实施量、期待与盲法"
+        },
+        {
+          "domain": "统计与测量",
+          "evidence": "整体记忆交互；多重校正后摄影vs安慰保留；脚注定义净效应",
+          "interpretation": "校正前后比较分开；可靠变化比例不是防病比例",
+          "pending": "原始分数、效应区间、缺失显示公式与完整比较"
+        },
+        {
+          "domain": "终点直接性",
+          "evidence": "短期认知，新技能项目名为Synapse",
+          "interpretation": "没有直接测突触修复或AD发生；同队列影像并非独立复制",
+          "pending": "长期保持、功能与独立临床发生资料"
+        }
+      ],
+      "source_scope": "原始摘要及PMC正文样本、对照、认知分析与多重校正已读取；补充表及效应量定义待审",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "cochraneHealthy",
+      "source_id": "S45",
+      "tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "范围与版本",
+          "evidence": "健康老年人至少12周训练；官方技术摘要与部分结局已读",
+          "interpretation": "纳入时长及检索截止限制当前适用范围，不涵盖所有训练",
+          "pending": "更新版本、完整检索与所有排除理由"
+        },
+        {
+          "domain": "原试验与重叠",
+          "evidence": "综述可能与其他元分析共享试验",
+          "interpretation": "不能叠加综述人数当作独立证据",
+          "pending": "逐项原试验身份、队列与多报告映射"
+        },
+        {
+          "domain": "方向与精度",
+          "evidence": "正式效应、区间、方向及低确定性已记录",
+          "interpretation": "跨零不等于精确零效应；方向必须沿用对应定义",
+          "pending": "原始分析表、各结局偏倚与合并方法"
+        },
+        {
+          "domain": "临床结局",
+          "evidence": "疾病发生、功能、安全性等结局可缺失",
+          "interpretation": "未提供不能填成零事件或无害，也不能由认知结果补成防病",
+          "pending": "逐结局缺失、长期随访和直接疾病发生试验"
+        }
+      ],
+      "source_scope": "官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "cochraneMCI",
+      "source_id": "S46",
+      "tool": "ROBIS + GRADE（综述层；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "范围与版本",
+          "evidence": "MCI人群；官方技术摘要与部分结局已读",
+          "interpretation": "纳入时长及检索截止限制当前适用范围，不涵盖所有训练",
+          "pending": "更新版本、完整检索与所有排除理由"
+        },
+        {
+          "domain": "原试验与重叠",
+          "evidence": "综述可能与其他元分析共享试验",
+          "interpretation": "不能叠加综述人数当作独立证据",
+          "pending": "逐项原试验身份、队列与多报告映射"
+        },
+        {
+          "domain": "方向与精度",
+          "evidence": "正式效应、区间、方向及低确定性已记录",
+          "interpretation": "跨零不等于精确零效应；方向必须沿用对应定义",
+          "pending": "原始分析表、各结局偏倚与合并方法"
+        },
+        {
+          "domain": "临床结局",
+          "evidence": "疾病发生、功能、安全性等结局可缺失",
+          "interpretation": "未提供不能填成零事件或无害，也不能由认知结果补成防病",
+          "pending": "逐结局缺失、长期随访和直接疾病发生试验"
+        }
+      ],
+      "source_scope": "官方技术摘要、Main results与通俗说明；逐试验全文及风险偏倚表未完整审核",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "pact_design",
+      "source_id": "S120",
+      "tool": "方案完整性审查（不作疗效偏倚评级）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "研究设计",
+          "evidence": "多中心随机、盲法评估者、UFOV vs计算机游戏",
+          "interpretation": "设计允许未来检验临床结局，但尚不产生疗效证据",
+          "pending": "结果论文、实际执行、失访、主要终点和分析计划版本"
+        }
+      ],
+      "source_scope": "PubMed摘要与PMC全文入口；已读设计、终点、训练剂量、评估流程与注册号",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    },
+    {
+      "study_id": "start2024",
+      "source_id": "S121",
+      "tool": "RoB 2（远程随机认知训练试验映射；尚未完成正式裁决）",
+      "provisional_overall": null,
+      "formal_rating_status": "pending_final_adjudication",
+      "not_a_final_rating": true,
+      "domains_reviewed": [
+        {
+          "domain": "随机化与依从性",
+          "evidence": "远程双臂随机试验；6544人；摘要未给完整流转",
+          "interpretation": "随机设计支持比较框架，但远程完成条件可能影响分析集",
+          "pending": "序列、隐藏、完成率和主动对照执行"
+        },
+        {
+          "domain": "结局直接性",
+          "evidence": "执行功能、注意、记忆和综合认知",
+          "interpretation": "独立认知终点，不是临床痴呆或AD特异性终点",
+          "pending": "长期功能、疾病发生和生物标志物"
+        },
+        {
+          "domain": "缺失与报告",
+          "evidence": "摘要报告APOE4亚组方向，精确效应尚未提取",
+          "interpretation": "不能用摘要方向替代完整效应和预设分析",
+          "pending": "全文表格、缺失处理、多重比较与预注册"
+        }
+      ],
+      "source_scope": "PubMed摘要与Free article入口；设计与摘要结果已读，全文表格及补充材料待核。",
+      "next_step": "核对全文、补充材料、注册信息和预设终点后，由两名审查者独立裁决并记录分歧"
+    }
+  ],
+  "interpretation": "当前记录提供工具映射、风险域和待核项，不构成正式质量评级；任何训练收益仍按结局层级和访问范围解释。"
+}
