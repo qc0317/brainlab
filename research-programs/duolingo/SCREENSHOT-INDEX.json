@@ -1,1 +1,12 @@
-{"schema_version":1,"purpose":"多邻国界面研究截图索引；截图需合法获取并附来源、日期与许可备注。","assets":[],"planned_screens":["home","course-path","lesson","lesson-result","social","subscription"]}
+{
+  "schema_version": 1,
+  "purpose": "多邻国界面研究截图与官方视觉来源索引；用于个人研究和交互分析，不作为BrainLab产品素材直接复用。",
+  "assets": [
+    {"asset_id":"official-social-friend-streak","source_url":"https://blog.duolingo.com/friends-social-features/","source_type":"official_product_blog","screen_context":"好友连续学习与里程碑互动","interaction_question":"共同连续行为如何把个人回访转成关系承诺？","copyright_note":"官方文章中的产品截图；仅做研究引用，不重新发布原图。","reuse_permission":"分析引用；需获得授权后才可本地保存或再发布"},
+    {"asset_id":"official-leaderboards","source_url":"https://blog.duolingo.com/duolingo-leagues-leaderboards/","source_type":"official_product_blog","screen_context":"排行榜与联赛晋级","interaction_question":"周周期竞争如何影响目标、反馈和压力？","copyright_note":"官方产品说明与界面示例；不复制品牌视觉资产。","reuse_permission":"分析引用；需获得授权后才可本地保存或再发布"},
+    {"asset_id":"official-friends-quests","source_url":"https://blog.duolingo.com/friends-quests/","source_type":"official_product_blog","screen_context":"好友任务与协作目标","interaction_question":"协作目标如何降低陌生社交的表达成本？","copyright_note":"官方产品文章；保留来源和访问日期。","reuse_permission":"分析引用；需获得授权后才可本地保存或再发布"},
+    {"asset_id":"official-course-onboarding","source_url":"https://blog.duolingo.com/duolingo-101-how-to-learn-a-language-on-duolingo/","source_type":"official_product_blog","screen_context":"课程路径、每日目标和订阅权益","interaction_question":"首次使用如何把价值承诺转成下一步行动？","copyright_note":"官方教学文章；截图和文案仅用于研究分析。","reuse_permission":"分析引用；需获得授权后才可本地保存或再发布"}
+  ],
+  "capture_policy": {"captured_at":"2026-10-12","local_files":false,"note":"当前先登记官方可追溯来源；若后续保存截图，必须补充文件哈希、裁剪范围、许可状态和访问日期。"},
+  "planned_screens":["home","course-path","lesson","lesson-result","social","subscription"]
+}
