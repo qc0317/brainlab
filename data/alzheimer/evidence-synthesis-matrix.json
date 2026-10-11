@@ -365,6 +365,23 @@
       "claim_boundary": "该标签用于研究问题导航，不代表单条研究的最终因果判定；正式综合仍需全文、预注册和重复队列核对。",
       "event_counts_present": false,
       "statistical_methods_present": false
+    },
+    {
+      "id": "start2024",
+      "source_id": "S121",
+      "outcome_level": "independent_cognition",
+      "intervention_role": "direct",
+      "audit_status": "partial_extraction_not_final",
+      "effect_entry_count": 0,
+      "risk_of_bias_tool": "RoB 2（远程随机认知训练试验映射；尚未完成正式裁决）",
+      "risk_signal": "some_concerns",
+      "core_question_role": "间接（认知终点）",
+      "direct_ad_specific_prevention_evidence": false,
+      "why_not_or_pending": "短期认知终点；未提供痴呆发生或AD特异性病理终点。",
+      "evidence_role": "间接（认知终点）",
+      "claim_boundary": "该标签用于研究问题导航，不代表单条研究的最终因果判定。",
+      "event_counts_present": false,
+      "statistical_methods_present": false
     }
   ],
   "interpretation": [

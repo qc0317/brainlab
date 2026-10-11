@@ -14,8 +14,8 @@
 ## 完整性
 
 - 文件：`alzheimer-research-data-pack.zip`
-- 大小：96,123 字节
-- SHA-256：`baaf3a464502186609c5fa5345946ac57f2bb66ef1f9ce15b7cf70d8892351b4`
+- 大小：97,382 字节
+- SHA-256：`4c528581eacfddb14292b30c36098d3c2b61de5f48a52703349d811cb730a5c9`
 
 ## 解释边界
 

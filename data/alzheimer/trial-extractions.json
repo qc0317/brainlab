@@ -2177,6 +2177,72 @@
         ]
       },
       "event_counts_status": "not_applicable_protocol_only_no_results"
+    },
+    {
+      "id": "start2024",
+      "source_id": "S121",
+      "record_id": "ad-synthesis",
+      "cohort_key": "START",
+      "population": "50岁以上、无痴呆；6544人远程随机试验，含APOE4风险分层",
+      "intervention": "3分钟计算机认知训练（START）",
+      "comparator": "安慰/主动对照",
+      "outcome": "执行功能主要终点；注意、记忆和综合认知为次要终点",
+      "outcome_level": "independent_cognition",
+      "effect_summary": "摘要报告执行功能、注意、记忆和综合认知收益，包括APOE4亚组；精确效应量需全文表格核对。",
+      "limitations_and_pending": "短期认知终点；未提供痴呆发生或AD特异性病理终点；远程完成条件、主动对照和完整效应区间待核对。",
+      "access_scope": "PubMed摘要与Free article入口；设计与摘要结果已读，全文表格及补充材料待核。",
+      "audit_status": "partial_extraction_not_final",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38642588/",
+      "intervention_role": "direct",
+      "effects": [],
+      "numeric_extraction_status": "not_yet_extracted_full_text_pending",
+      "numeric_missing_reason": "摘要未列精确效应区间；当前不填零值。",
+      "risk_of_bias_review": {
+        "status": "逐项方法记录，非正式RoB2裁决",
+        "tool": "RoB 2（远程随机认知训练试验映射；尚未完成正式裁决）",
+        "overall_signal": "some_concerns",
+        "not_a_final_rating": true,
+        "domain_judgement": [
+          {
+            "domain": "randomization_and_adherence",
+            "judgement": "unclear",
+            "reason": "随机设计已知，远程完成和对照执行细节待全文核对"
+          },
+          {
+            "domain": "outcome_directness",
+            "judgement": "some_concerns",
+            "reason": "认知终点，不是临床痴呆或AD特异性终点"
+          },
+          {
+            "domain": "missing_and_selective_reporting",
+            "judgement": "unclear",
+            "reason": "精确效应、缺失和预设终点待全文/补充材料核对"
+          }
+        ],
+        "domains": [
+          {
+            "domain": "随机化与依从性",
+            "evidence": "远程双臂随机试验；6544人；摘要未给完整流转",
+            "interpretation": "随机设计支持比较框架，但远程完成条件可能影响分析集",
+            "pending": "序列、隐藏、完成率和主动对照执行"
+          },
+          {
+            "domain": "结局直接性",
+            "evidence": "执行功能、注意、记忆和综合认知",
+            "interpretation": "独立认知终点，不是临床痴呆或AD特异性终点",
+            "pending": "长期功能、疾病发生和生物标志物"
+          },
+          {
+            "domain": "缺失与报告",
+            "evidence": "摘要报告APOE4亚组方向，精确效应尚未提取",
+            "interpretation": "不能用摘要方向替代完整效应和预设分析",
+            "pending": "全文表格、缺失处理、多重比较与预注册"
+          }
+        ],
+        "source_ids": [
+          "S121"
+        ]
+      }
     }
   ],
   "intervention_roles": {

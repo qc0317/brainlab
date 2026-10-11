@@ -2,15 +2,15 @@
   "schema_version": "1.0",
   "generated_at": "2026-10-11",
   "purpose": "记录逐篇证据提取的覆盖与未完成边界；不是质量评级或疗效汇总。",
-  "record_count": 18,
-  "complete_required_field_records": 18,
+  "record_count": 19,
+  "complete_required_field_records": 19,
   "verified_extraction_records": 0,
   "protocol_only_records": 1,
-  "partial_records": 17,
+  "partial_records": 18,
   "outcome_layers": {
     "clinical_dementia_algorithm": 2,
     "claims_adrd": 1,
-    "independent_cognition": 9,
+    "independent_cognition": 10,
     "task_and_transfer": 2,
     "task_and_eeg": 1,
     "clinical_dementia": 1,
@@ -322,6 +322,17 @@
       "design_registration_present": false,
       "bias_review_present": true,
       "source_access_scope": "PubMed摘要与PMC全文入口；已读设计、终点、训练剂量、评估流程与注册号"
+    },
+    {
+      "id": "start2024",
+      "record_id": "ad-synthesis",
+      "source_id": "S121",
+      "outcome_level": "independent_cognition",
+      "audit_status": "partial_extraction_not_final",
+      "numeric_extraction_status": "not_yet_extracted_full_text_pending",
+      "required_fields_present": true,
+      "missing_required_fields": [],
+      "risk_of_bias_status": "逐项方法记录，非正式RoB2裁决"
     }
   ],
   "interpretation": [
