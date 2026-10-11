@@ -188,7 +188,8 @@
           }
         ],
         "not_a_final_rating": true
-      }
+      },
+      "event_counts_status": "extracted_from_accessed_source_but_full_flow_still_pending"
     },
     {
       "id": "active10",
@@ -319,7 +320,8 @@
           }
         ],
         "not_a_final_rating": true
-      }
+      },
+      "event_counts_status": "not_yet_extracted_full_text_or_supplement_pending"
     },
     {
       "id": "active20",
@@ -580,7 +582,8 @@
           }
         ],
         "not_a_final_rating": true
-      }
+      },
+      "event_counts_status": "extracted_from_accessed_source_but_full_flow_still_pending"
     },
     {
       "id": "lampit",
@@ -1540,7 +1543,8 @@
             "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
           }
         ]
-      }
+      },
+      "event_counts_status": "not_yet_extracted_full_text_or_supplement_pending"
     },
     {
       "id": "sprint",
@@ -1645,7 +1649,8 @@
             "reason": "完整预设终点、亚组、多重比较和后续报告仍待核对"
           }
         ]
-      }
+      },
+      "event_counts_status": "not_reported_or_not_yet_extracted_from_accessed_summary"
     },
     {
       "id": "achieve",
@@ -2170,7 +2175,8 @@
             "reason": "完整补充材料、预设终点和缺失处理仍待审核"
           }
         ]
-      }
+      },
+      "event_counts_status": "not_applicable_protocol_only_no_results"
     }
   ],
   "intervention_roles": {
