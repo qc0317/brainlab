@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "purpose": "多邻国产品逆向工程表面地图，记录功能、状态、数据和待验证问题。",
+  "layers": [
+    {"id":"course","label":"课程主干","nodes":["course","section","unit","level","lesson","exercise"]},
+    {"id":"daily","label":"每日行为","nodes":["daily_goal","streak","xp","score","review"]},
+    {"id":"seasonal","label":"限时内容","nodes":["monthly_quest","daily_quest","friends_quest","side_quest","collaboration"]},
+    {"id":"social","label":"社交关系","nodes":["friends","friend_streak","feed","league","tournament"]},
+    {"id":"identity","label":"个人身份","nodes":["profile","avatar","achievements","badges","personal_records"]},
+    {"id":"economy","label":"资源与商业化","nodes":["hearts","energy","gems","shop","subscription","ads"]},
+    {"id":"surface","label":"外部触点","nodes":["notifications","widget","app_icon","campaign","deep_link"]}
+  ],
+  "research_record_fields": ["version_date","platform","locale","entry_point","visible_state","user_goal","action","feedback","exit_or_recovery","event_hypothesis","evidence_level","source_url"]
+}
