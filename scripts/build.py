@@ -65,7 +65,7 @@ for k,c in C.items():
  elif k=='games':b+='<div class="actions"><a class="btn" href="matrix.html">查看游戏 × 能力矩阵</a><a class="btn secondary" href="'+href('abilities/index.html',p)+'">认知能力目录</a></div><div class="notice hub-note">任务需求依据明确规则判断；不是疗效排行榜。黑白翻转、堆叠水果采用暂定规则；密室逃脱仍需指定作品与关卡。</div>'
  if k=='alzheimer' and PROGRAM:
   b+='<div class="research-progress"><div><span class="eyebrow">个人研究 · 持续审核</span><h2>脑部训练对于预防阿尔茨海默病，可能有效吗？</h2><p>按疾病、原因与表现、脑部变化、训练证据四条主线阅读。假设需要检验，支持、无差异和反对证据均保留。</p></div><div class="progress-count"><b>'+format(WORD_COUNT['counted_han_chars'],',')+'</b><span> / 100,000 正文汉字</span><small>'+str(WORD_COUNT['drafted_chapters'])+' / '+str(WORD_COUNT['planned_chapters'])+' 章已起草 · 科学与页面审核持续</small></div></div>'
-  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DELIVERY-AUDIT.md',p)+'">交付审核与剩余工作</a><a class="btn secondary" href="'+href('data/alzheimer/completion-checklist.json',p)+'">查看机器验收清单</a><a class="btn secondary" href="'+href('research/alzheimer/trials/index.html',p)+'">核心研究对照表</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-core-latest.zip',p)+'" download>下载最新核心研究包</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-data-pack.zip',p)+'" download>下载结构化研究材料包</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-data-pack-README.md',p)+'">材料包说明</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
+  b+='<div class="actions"><a class="btn" href="'+href(path('ad-foundations'),p)+'">先从“疾病是什么”开始</a><a class="btn secondary" href="'+href('research-programs/alzheimer/PROTOCOL.md',p)+'">研究方案与计数口径</a><a class="btn secondary" href="../../research/alzheimer-docs/index.html">进入详细资料 Web 阅读版</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DELIVERY-AUDIT.md',p)+'">交付审核与剩余工作</a><a class="btn secondary" href="'+href('data/alzheimer/completion-checklist.json',p)+'">查看机器验收清单</a><a class="btn secondary" href="'+href('research/alzheimer/trials/index.html',p)+'">核心研究对照表</a><a class="btn secondary" href="'+href('data/alzheimer/word-count.json',p)+'">查看实际字数</a><a class="btn secondary" href="'+href('research-programs/alzheimer/DRAFT.md',p)+'">下载当前正文</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-core-latest.zip',p)+'" download>下载最新核心研究包</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-data-pack.zip',p)+'" download>下载结构化研究材料包</a><a class="btn secondary" href="'+href('downloads/alzheimer-research-data-pack-README.md',p)+'">材料包说明</a></div><nav class="reading-parts" aria-label="专题阅读主线">'+''.join('<a href="#part-'+x['id']+'">'+esc(x['title'])+'</a>' for x in PROGRAM['parts'])+'</nav>'
   b+='<section class="section"><h2>这一专题怎样展开</h2><p>'+esc(PROGRAM.get('reading_logic',''))+'</p><p>第3部分解释大脑变化与认知受影响的联系，第4部分据此检验训练可能性。机制基础与临床效应分别记录，并通过具体研究连接。</p></section>'
   written=set(PROGRAM['drafted_record_ids'])
   for part in PROGRAM['parts']:
@@ -81,6 +81,7 @@ for k,c in C.items():
    b+='<section class="section"><h2>先认识多邻国</h2><p>多邻国是一款以短时练习、课程路径和游戏化反馈组织语言学习的移动与 Web 产品。它把“学习一门语言”拆成每天可以开始的一小节：用户选择或接受一个目标，完成听、说、读、写等练习，得到即时纠错与经验反馈，再回到课程路径和下一次回访。</p><p>它同时是教育产品、习惯产品和社交产品。课程内容决定练什么，界面决定下一步是否清楚，奖励决定完成感，好友与排行榜决定学习行为是否被看见。研究多邻国时，必须把这些层次分开，否则容易把“使用时间长”误认为“学得更好”。</p></section><section class="section"><h2>成绩、进度与反馈：先看懂它们代表什么</h2><div class="grid two"><div class="card"><span class="tag">过程指标</span><h3>经验值与课程进度</h3><p>经验值通常表示完成了多少产品内活动；课程路径、单元和关卡表示内容推进。它们可以反映参与和练习量，不能单独证明语言能力或长期迁移。</p></div><div class="card"><span class="tag">习惯指标</span><h3>连续天数与每日目标</h3><p>连续天数记录是否按产品规则保持每日行为，每日目标记录当天承诺。它们适合分析回访和节奏，不应被解释为学习质量或健康效果。</p></div><div class="card"><span class="tag">反馈指标</span><h3>正确率、错误与复习</h3><p>题目正确率、错误类型、提示使用和复习安排可以帮助理解学习过程。单次成绩会受题型熟悉、设备、网络和输入速度影响，需要结合多次表现。</p></div><div class="card"><span class="tag">社交指标</span><h3>任务、排名与好友活动</h3><p>好友任务完成和联赛位置描述社交参与或竞争位置，不等于能力排名。压力、隐私和退出意愿也应作为体验结果记录。</p></div></div><div class="notice hub-note"><strong>阅读边界：</strong>本专题不把经验值、连续天数、排行榜或打开率当作“学习有效”的替代证据；它们首先是产品行为指标，真正的学习结果需要独立测验和长期研究。</div></section><section class="section"><h2>接下来强化的几个特征</h2><div class="grid two"><a class="card" href="duolingo-concept/index.html"><span class="tag">01 · Concept</span><h3>把长期目标变成每日开始</h3><p>研究价值承诺、低门槛任务和第一次成功。</p></a><a class="card" href="duolingo-framework/index.html"><span class="tag">02 · Framework</span><h3>路径、复习与信息架构</h3><p>研究课程结构、下一步决策和进度可见性。</p></a><a class="card" href="duolingo-detail/index.html"><span class="tag">03 · Detail</span><h3>界面、反馈与错误成本</h3><p>研究 GUI、题型状态、视觉层级和恢复设计。</p></a><a class="card" href="duolingo-experience/index.html"><span class="tag">04 · Experience</span><h3>留存、社交与持续体验</h3><p>研究连续性、通知、好友关系、排行榜和压力边界。</p></a></div></section>'
   b+=cards(ids,p,'two' if k in ['duolingo','keep'] else '')
   if k=='duolingo':
+   b+='<div class="actions"><a class="btn" href="../../research/duolingo-docs/index.html">进入详细资料 Web 阅读版 →</a></div>'
    b+='<section class="section"><h2>研究资料附件</h2><p class="sub">这些资料与上方四层核心条目同步维护，用于界面、旅程、留存、社交和截图来源复盘。</p><div class="grid two"><a class="card" href="../../research-programs/duolingo/README.md"><span class="tag">专题目录 · 首入口</span><h3>多邻国专题研究目录</h3><p>给出推荐阅读顺序、文件关系、证据状态和 BrainLab 迁移边界。</p></a><a class="card" href="../../research-programs/duolingo/COURSE-ENTRY-LIST.json"><span class="tag">结构数据 · 实时入口</span><h3>当前公开课程入口清单</h3><p>记录中文官网实时列出的课程入口、URL、类型和待观察字段。</p></a><a class="card" href="../../research-programs/duolingo/LIVE-WEB-OBSERVATION.md"><span class="tag">实时观察 · 官方网页</span><h3>官方中文官网实时观察</h3><p>记录未登录状态下首页公开承诺、导航和可确认范围。</p></a><a class="card" href="../../research-programs/duolingo/VERSION-TIMELINE.md"><span class="tag">版本演化 · 时间线</span><h3>产品版本与功能演化</h3><p>按公开日期梳理排行榜、连胜、好友任务、徽章、课程、标签和活动系统的叠加过程。</p></a><a class="card" href="../../research-programs/duolingo/VERSION-EVIDENCE.md"><span class="tag">版本证据 · 边界</span><h3>版本证据与观察边界</h3><p>区分官方公开事实、当前版本实测和仍需验证的产品陈述。</p></a><a class="card" href="../../research-programs/duolingo/SCREENSHOT-WORKBOOK.md"><span class="tag">截图工作簿 · 证据</span><h3>界面截图观察工作簿</h3><p>按界面类别、版本、状态和交互问题记录截图资源。</p></a><a class="card" href="../../research-programs/duolingo/FEATURE-CATALOG.md"><span class="tag">功能百科 · 逐项复盘</span><h3>功能与逆向设计卡</h3><p>把月度任务、排行、消息、档案、徽章、连胜、资源、活动、通知和订阅逐项拆开。</p></a><a class="card" href="../../research-programs/duolingo/COURSE-CATALOG.md"><span class="tag">课程百科 · 首读</span><h3>课程与内容百科</h3><p>从课程族、Section、Unit、Level、Lesson 到 Exercise，并说明每日任务怎样连接课程树。</p></a><a class="card" href="../../research-programs/duolingo/PRODUCT-ATLAS.md"><span class="tag">产品百科 · 首读</span><h3>多邻国产品全景图</h3><p>从课程、每日任务、月度活动、排行榜、Feed、Profile、徽章、连胜、Hearts、Gems 到联动活动的完整产品地图。</p></a><a class="card" href="../../research-programs/duolingo/INTERACTION-STATE-MATRIX.md"><span class="tag">状态矩阵 · 复盘</span><h3>交互状态矩阵</h3><p>按进入、进行中、完成、失败、恢复和退出记录每个产品系统。</p></a><a class="card" href="../../research-programs/duolingo/PRODUCT-SURFACE-MAP.json"><span class="tag">结构数据</span><h3>产品表面地图</h3><p>把课程主干、每日行为、限时内容、社交、身份、经济系统和外部触点转成可扩展数据。</p></a><a class="card" href="../../research-programs/duolingo/RESEARCH.md"><span class="tag">研究正文</span><h3>多邻国产品设计深度研究</h3><p>完整 Concept–Framework–Detail–Experience 研究正文。</p></a><a class="card" href="../../research-programs/duolingo/INTERFACE-RESEARCH.md"><span class="tag">界面研究</span><h3>界面交互设计与视觉资源</h3><p>界面状态、交互反馈、视觉层级和截图使用规则。</p></a><a class="card" href="../../research-programs/duolingo/JOURNEY-MAP.md"><span class="tag">体验地图</span><h3>用户旅程地图</h3><p>首次使用、日常回访、中断恢复和社交入口。</p></a><a class="card" href="../../research-programs/duolingo/RETENTION.md"><span class="tag">留存研究</span><h3>个人留存机制</h3><p>连续性、召回、恢复和实验指标。</p></a><a class="card" href="../../research-programs/duolingo/SOCIAL.md"><span class="tag">社交研究</span><h3>社交关系机制</h3><p>好友任务、轻互动、协作与竞争边界。</p></a><a class="card" href="../../research-programs/duolingo/SCREENSHOT-INDEX.json"><span class="tag">资源索引</span><h3>截图与官方来源索引</h3><p>官方截图来源、交互问题、版权说明和后续采集字段。</p></a></div></section>'
  render(p,c['title'],b,k,c['description'])
 for r in R.values():
@@ -207,6 +208,51 @@ for x in EXTRACTS['studies']:
   ed=x['effect_definition'];b+='<details class="learning"><summary>效应量计算口径</summary><p>'+esc(ed['numerator'])+'</p><p>'+esc(ed['denominator'])+'</p><p>'+esc(ed['source_location']+'；'+ed['ci_status'])+'</p></details>'
  b+='<div class="actions"><a class="btn" href="'+href(path(x['record_id']),p)+'">阅读详细章节</a><a class="btn secondary" href="'+esc(x['source_url'])+'" target="_blank" rel="noopener">查看原始文献 ↗</a></div>'+cite([x['source_id']],p)+'</section>'
 render(p,'核心训练研究对照',b,'alzheimer')
+
+# Render the detailed research-program Markdown files as navigable web reading pages.
+def md_web_html(text):
+ lines=text.splitlines();out=[];in_code=False;para=[];ul=False
+ def flush_para():
+  nonlocal para
+  if para:
+   out.append('<p>'+esc(' '.join(para))+'</p>');para=[]
+ for line in lines:
+  if line.startswith('```'):
+   flush_para()
+   if not in_code: out.append('<pre><code>');in_code=True
+   else: out.append('</code></pre>');in_code=False
+   continue
+  if in_code: out.append(esc(line)+'\n');continue
+  if line.startswith('#'):
+   flush_para();
+   if ul: out.append('</ul>');ul=False
+   n=min(len(line)-len(line.lstrip('#')),3);n=max(n,2);out.append('<h'+str(n)+'>'+esc(line[len(line)-len(line.lstrip('#')):].strip())+'</h'+str(n)+'>');continue
+  if line.startswith('- ') or line.startswith('* '):
+   flush_para()
+   if not ul:out.append('<ul>');ul=True
+   out.append('<li>'+esc(line[2:].strip())+'</li>');continue
+  if not line.strip():
+   flush_para()
+   if ul:out.append('</ul>');ul=False
+  else: para.append(line.strip())
+ flush_para()
+ if ul:out.append('</ul>')
+ if in_code:out.append('</code></pre>')
+ return ''.join(out)
+def render_program_pages(collection,files,title):
+ index=collection+'/index.html';cards_html=[]
+ for rel in files:
+  src=ROOT/rel;slug=src.stem.lower().replace('_','-');page=collection+'/'+slug+'/index.html'
+  raw=src.read_text(encoding='utf-8');display=src.stem.replace('-',' ').replace('_',' ')
+  body=crumb(page,title=display)+intro(display,'详细研究资料的网页呈现。原始 Markdown、结构数据和来源说明继续保留在 GitHub。','Research Document',rel)+ '<div class="layout"><article class="content">'+md_web_html(raw)+'</article><aside class="toc"><strong>研究资料</strong><nav><a href="'+href(index,page)+'">返回专题资料目录</a></nav><div class="aside-note"><span class="tag">Web 阅读版</span><small>本页由研究资料自动生成；结论条件和版本边界以正文标注为准。</small></div></aside></div>'
+  render(page,display,body,'',display)
+  cards_html.append('<a class="card" href="'+href(page,index)+'"><span class="tag">Web 阅读版</span><h3>'+esc(display)+'</h3><p>详细研究资料的网页呈现。</p></a>')
+ b=crumb(index,title=title)+intro(title,'详细研究资料的网页阅读目录。','Research Documents',str(len(files))+' 份详细资料')+'<div class="notice hub-note"><strong>阅读说明：</strong>以下页面将研究 Markdown 和结构数据转换为可导航的网页；GitHub 原始文件仍作为版本来源保留。</div><div class="grid two">'+''.join(cards_html)+'</div>'
+ render(index,title,b)
+duo_docs=['research-programs/duolingo/'+x for x in ['README.md','COURSE-CATALOG.md','COURSE-ENTRY-LIST.json','FEATURE-CATALOG.md','INTERACTION-STATE-MATRIX.md','INTERFACE-RESEARCH.md','JOURNEY-MAP.md','LIVE-WEB-OBSERVATION.md','PRODUCT-ATLAS.md','PRODUCT-SURFACE-MAP.json','RESEARCH.md','RETENTION.md','SCREENSHOT-INDEX.json','SCREENSHOT-WORKBOOK.md','SOCIAL.md','VERSION-EVIDENCE.md','VERSION-TIMELINE.md']]
+alz_docs=['research-programs/alzheimer/'+x for x in ['DRAFT.md','PROTOCOL.md','TRIALS.md','AUDIT.md','DELIVERY-AUDIT.md','PRODUCT-RESEARCH-BRIEF.md','M1-ATTENTION-SPEED-PROTOCOL.md','EDITORIAL.md']]
+render_program_pages('research/duolingo-docs',duo_docs,'多邻国详细研究资料')
+render_program_pages('research/alzheimer-docs',alz_docs,'阿尔茨海默详细研究资料')
 
 # Search index embeds all authored text for offline browsing; URLs relative to root.
 search=[dict(id=r['id'],title=r['title'],summary=r['summary'],collection=r['collection'],category=C[r['collection']]['title'],status=r['status'],url=path(r['id']),text=' '.join([r['title'],r['summary'],*r.get('aliases',[]),json.dumps(r['sections'],ensure_ascii=False)])) for r in R.values()]
