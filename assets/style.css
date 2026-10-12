@@ -11,3 +11,7 @@
 .toc nav a.toc-level-3{padding-left:25px;font-size:12px;border-left-color:#e7eeee}.toc nav a.toc-level-2{font-weight:650;color:var(--ink)}
 .topic-nav .nav-group{padding:3px 0 4px}.topic-nav .nav-group small{display:block;padding:0 0 3px 12px;color:var(--muted);font-size:11px;line-height:1.5}.topic-nav .nav-group>a{font-weight:650}.topic-nav nav> a{font-weight:650}
 @media(max-width:760px){.topic-nav .nav-group small{display:none}}
+/* Detailed reading pages: chapter TOC on the left, independently scrollable. */
+.layout{grid-template-columns:255px minmax(0,1fr);gap:50px}.layout>.toc{grid-column:1;grid-row:1;max-height:calc(100vh - 125px);overflow-y:auto;padding-right:10px}.layout>.content{grid-column:2;grid-row:1}.layout>.toc nav{max-height:calc(100vh - 220px);overflow-y:auto}
+@media(max-width:1050px){.layout{grid-template-columns:220px minmax(0,1fr);gap:25px}.layout>.toc{top:126px}}
+@media(max-width:760px){.layout{display:flex;flex-direction:column;gap:15px}.layout>.toc{order:0;max-height:none;overflow:visible;padding-right:0}.layout>.content{order:1}.layout>.toc nav{max-height:none;overflow-x:auto;overflow-y:hidden}}
