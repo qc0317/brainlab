@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Build BrainLab's static knowledge base from normalized JSON (stdlib only)."""
-import json,html,posixpath,hashlib,subprocess,sys
+import json,html,posixpath,hashlib,subprocess,sys,re
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 if (ROOT/'data/alzheimer/program.json').exists():subprocess.run([sys.executable,str(ROOT/'scripts/count_research.py')],check=True)
@@ -232,7 +232,7 @@ def md_web_html(text):
   if line.startswith('#'):
    flush_para();
    if ul: out.append('</ul>');ul=False
-   n=min(len(line)-len(line.lstrip('#')),3);n=max(n,2);out.append('<h'+str(n)+'>'+esc(line[len(line)-len(line.lstrip('#')):].strip())+'</h'+str(n)+'>');continue
+   n=min(len(line)-len(line.lstrip('#')),3);n=max(n,2);heading=line[len(line)-len(line.lstrip('#')):].strip(); slug='doc-'+str(len([x for x in out if x.startswith('<h')]))+'-'+re.sub(r'[^a-z0-9一-龥]+','-',heading.lower()).strip('-');out.append('<h'+str(n)+' id="'+slug+'">'+esc(heading)+'</h'+str(n)+'>');continue
   if line.startswith('- ') or line.startswith('* '):
    flush_para()
    if not ul:out.append('<ul>');ul=True
@@ -251,7 +251,9 @@ def render_program_pages(collection,files,title,topic_key):
   src=ROOT/rel;slug=src.stem.lower().replace('_','-');page=collection+'/'+slug+'/index.html'
   raw=src.read_text(encoding='utf-8');display=src.stem.replace('-',' ').replace('_',' ')
   topic_path=C[topic_key]['path']+'/index.html'
-  body=crumb(page,topic_key,display)+intro(display,'BrainLab '+C[topic_key]['title']+'专题的详细正文。原始 Markdown、结构数据和来源说明继续保留在 GitHub。','BrainLab Research Document',rel)+ '<div class="layout"><article class="content">'+md_web_html(raw)+'</article><aside class="toc"><strong>BrainLab '+esc(C[topic_key]['title'])+'专题</strong><nav><a href="'+href(topic_path,page)+'">返回专题首页</a><a href="'+href(index,page)+'">查看专题正文目录</a></nav><div class="aside-note"><span class="tag">专题正文层</span><small>本页与专题首页、源文件和结构数据属于同一个 BrainLab 研究系统。</small></div></aside></div>'
+  rendered=md_web_html(raw); headings=re.findall(r'<h([23]) id="([^"]+)">([^<]+)</h\1>',rendered)
+  toc=''.join('<a class="toc-level-'+h[0]+'" href="#'+h[1]+'">'+esc(h[2])+'</a>' for h in headings)
+  body=crumb(page,topic_key,display)+intro(display,'BrainLab '+C[topic_key]['title']+'专题的详细正文。原始 Markdown、结构数据和来源说明继续保留在 GitHub。','BrainLab Research Document',rel)+ '<div class="layout"><article class="content">'+rendered+'</article><aside class="toc"><strong>本章目录</strong><nav><a href="'+href(topic_path,page)+'">返回专题首页</a><a href="'+href(index,page)+'">查看专题正文目录</a>'+toc+'</nav><div class="aside-note"><span class="tag">专题正文层</span><small>本页与专题首页、源文件和结构数据属于同一个 BrainLab 研究系统。</small></div></aside></div>'
   render(page,display,body,'',display)
   cards_html.append('<a class="card" href="'+href(page,index)+'"><span class="tag">Web 阅读版</span><h3>'+esc(display)+'</h3><p>详细研究资料的网页呈现。</p></a>')
  b=crumb(index,topic_key,title)+intro(title,'BrainLab '+C[topic_key]['title']+'专题的详细正文目录。','BrainLab Research Documents',str(len(files))+' 份详细资料')+'<div class="notice hub-note"><strong>阅读说明：</strong>以下页面是专题正文层，不是独立站点；研究 Markdown、结构数据和网页呈现由同一套 BrainLab 资料生成。</div><div class="grid two">'+''.join(cards_html)+'</div>'
