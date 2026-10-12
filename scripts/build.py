@@ -256,10 +256,11 @@ def render_program_pages(collection,files,title,topic_key):
   body=crumb(page,topic_key,display)+intro(display,'BrainLab '+C[topic_key]['title']+'专题的详细正文。原始 Markdown、结构数据和来源说明继续保留在 GitHub。','BrainLab Research Document',rel)+ '<div class="layout"><article class="content">'+rendered+'</article><aside class="toc"><strong>本章目录</strong><nav><a href="'+href(topic_path,page)+'">返回专题首页</a><a href="'+href(index,page)+'">查看专题正文目录</a>'+toc+'</nav><div class="aside-note"><span class="tag">专题正文层</span><small>本页与专题首页、源文件和结构数据属于同一个 BrainLab 研究系统。</small></div></aside></div>'
   render(page,display,body,'',display)
   cards_html.append('<a class="card" href="'+href(page,index)+'"><span class="tag">Web 阅读版</span><h3>'+esc(display)+'</h3><p>详细研究资料的网页呈现。</p></a>')
- b=crumb(index,topic_key,title)+intro(title,'BrainLab '+C[topic_key]['title']+'专题的详细正文目录。','BrainLab Research Documents',str(len(files))+' 份详细资料')+'<div class="notice hub-note"><strong>阅读说明：</strong>以下页面是专题正文层，不是独立站点；研究 Markdown、结构数据和网页呈现由同一套 BrainLab 资料生成。</div><div class="grid two">'+''.join(cards_html)+'</div>'
+ logic='先定义问题，再建立事实，随后解释机制，最后讨论证据与可迁移的设计边界。' if topic_key=='alzheimer' else '先说明产品承诺，再拆解内容与行为系统，随后分析留存、社交和界面体验，最后提炼可迁移的设计原则。'
+ b=crumb(index,topic_key,title)+intro(title,'BrainLab '+C[topic_key]['title']+'专题的详细正文目录。','BrainLab Research Documents',str(len(files))+' 份详细资料')+'<div class="notice hub-note"><strong>论证路径：</strong>'+logic+'以下页面是专题正文层，不是独立站点；研究 Markdown、结构数据和网页呈现由同一套 BrainLab 资料生成。</div><div class="grid two">'+''.join(cards_html)+'</div>'
  render(index,title,b)
-duo_docs=['research-programs/duolingo/'+x for x in ['README.md','COURSE-CATALOG.md','COURSE-ENTRY-LIST.json','FEATURE-CATALOG.md','INTERACTION-STATE-MATRIX.md','INTERFACE-RESEARCH.md','JOURNEY-MAP.md','LIVE-WEB-OBSERVATION.md','PRODUCT-ATLAS.md','PRODUCT-SURFACE-MAP.json','RESEARCH.md','RETENTION.md','SCREENSHOT-INDEX.json','SCREENSHOT-WORKBOOK.md','SOCIAL.md','VERSION-EVIDENCE.md','VERSION-TIMELINE.md']]
-alz_docs=['research-programs/alzheimer/'+x for x in ['DRAFT.md','PROTOCOL.md','TRIALS.md','AUDIT.md','DELIVERY-AUDIT.md','PRODUCT-RESEARCH-BRIEF.md','M1-ATTENTION-SPEED-PROTOCOL.md','EDITORIAL.md']]
+duo_docs=['research-programs/duolingo/'+x for x in ['README.md','COURSE-CATALOG.md','PRODUCT-ATLAS.md','FEATURE-CATALOG.md','PRODUCT-SURFACE-MAP.json','COURSE-ENTRY-LIST.json','JOURNEY-MAP.md','RETENTION.md','SOCIAL.md','INTERFACE-RESEARCH.md','INTERACTION-STATE-MATRIX.md','SCREENSHOT-WORKBOOK.md','SCREENSHOT-INDEX.json','VERSION-TIMELINE.md','VERSION-EVIDENCE.md','LIVE-WEB-OBSERVATION.md','RESEARCH.md']]
+alz_docs=['research-programs/alzheimer/'+x for x in ['PROTOCOL.md','DRAFT.md','PRODUCT-RESEARCH-BRIEF.md','TRIALS.md','M1-ATTENTION-SPEED-PROTOCOL.md','EDITORIAL.md','AUDIT.md','DELIVERY-AUDIT.md']]
 render_program_pages('research/duolingo-docs',duo_docs,'多邻国详细研究资料','duolingo')
 render_program_pages('research/alzheimer-docs',alz_docs,'阿尔茨海默详细研究资料','alzheimer')
 
