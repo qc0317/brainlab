@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-12",
+  "source_url": "https://www.duolingo.com/",
+  "locale": "zh-CN",
+  "platform": "desktop-web",
+  "login_state": "logged_out",
+  "scope_note": "公开首页列出的入口，不等于所有地区、平台和账号可用的完整课程目录。",
+  "entries": [
+    {"id":"english","label":"英语","type":"language","url":"https://www.duolingo.com/course/en/zh/%E5%AD%A6%E4%B9%A0-%E8%8B%B1%E8%AF%AD","course_tree_observed":false},
+    {"id":"chess","label":"国际象棋","type":"subject","url":"https://www.duolingo.com/chess","course_tree_observed":false},
+    {"id":"spanish","label":"西班牙语","type":"language","url":"https://www.duolingo.com/course/es/zh/%E5%AD%A6%E4%B9%A0-%E8%A5%BF%E7%8F%AD%E7%89%99%E8%AF%AD","course_tree_observed":false},
+    {"id":"french","label":"法语","type":"language","url":"https://www.duolingo.com/course/fr/zh/%E5%AD%A6%E4%B9%A0-%E6%B3%95%E8%AF%AD","course_tree_observed":false},
+    {"id":"german","label":"德语","type":"language","url":"https://www.duolingo.com/course/de/zh/%E5%AD%A6%E4%B9%A0-%E5%BE%B7%E8%AF%AD","course_tree_observed":false},
+    {"id":"italian","label":"意大利语","type":"language","url":"https://www.duolingo.com/course/it/zh/%E5%AD%A6%E4%B9%A0-%E6%84%8F%E5%A4%A7%E5%88%A9%E8%AF%AD","course_tree_observed":false},
+    {"id":"portuguese","label":"葡萄牙语","type":"language","url":"https://www.duolingo.com/course/pt/zh/%E5%AD%A6%E4%B9%A0-%E8%91%A1%E8%90%84%E7%89%99%E8%AF%AD","course_tree_observed":false},
+    {"id":"japanese","label":"日语","type":"language","url":"https://www.duolingo.com/course/ja/zh/%E5%AD%A6%E4%B9%A0-%E6%97%A5%E8%AF%AD","course_tree_observed":false},
+    {"id":"korean","label":"韩语","type":"language","url":"https://www.duolingo.com/course/ko/zh/%E5%AD%A6%E4%B9%A0-%E9%9F%A9%E8%AF%AD","course_tree_observed":false},
+    {"id":"cantonese","label":"中文（粤语）","type":"language","url":"https://www.duolingo.com/course/zh-HK/zh/%E5%AD%A6%E4%B9%A0-%E4%B8%AD%E6%96%87%EF%BC%88%E7%B2%A4%E8%AF%AD%EF%BC%89","course_tree_observed":false}
+  ],
+  "next_observation": ["platform","region","source_language","section_count","unit_count","score_definition","lesson_types","daily_task_mapping"]
+}
